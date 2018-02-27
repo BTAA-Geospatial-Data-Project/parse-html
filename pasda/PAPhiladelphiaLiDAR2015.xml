@@ -1,6 +1,252 @@
-<metadata><idinfo><citation><citeinfo><origin>City of Philadelphia</origin><origin>Pictometry International Corp.</origin><pubdate>20150831</pubdate><title>2015 City of Philadelphia Classified LiDAR LAS and Derivative Products</title></citeinfo></citation><descript><abstract>Abstract: Classified LiDAR LAS and Derivative Products This dataset is lidar point cloud data covering the City of Philadelphia, PA, approximately 196 sq miles total. The dataset consists of 1024 lidar point cloud LAS files. Each LAS file contains lidar point information, which has been calibrated, controlled, and classified. The data was collected at a nominal point spacing of 0.70m using Pictometry's Riegl LMS-Q680i LiDAR system over 4 mission days on April 18th, 19th, 22nd, and 25th, 2015. At the time of capture ground condiitons were leaf-off, snow free, and water was at normal levels. Data Development: GPS/INS Processing: During the flight, GPS and INS data was logged on board the aircraft. Simultaneously, GPS data was logged by a stationary reference station network on the ground. After completion of the flight, this data was post-processed using Applanix POSPac v7.1 to generate a smoothed best estimate trajectory (SBET). DashMap/TerraSolid: The raw laser range data was combined with the SBET to create the raw point cloud using Optech's DashMap software package. Once the LAS point cloud is created, TerraSolid's TerraMatch software is used to measure and apply small adjustments to the system's orientation angles in order to ensure proper alignment of data between flight lines. Data Classification: A series of automated algorithms were applied using TerraSolid to classify ground points. The results of these algorithms were reviewed using models created in TerraModeler to ensure the quality of the classification results. Key attribute field names and descriptions: LiDAR Classification Categories: 0 Created Not Classified 1 Unclassified 2 Ground 3 Low vegetation 4 Vegetation 5 High vegetation 6 Building 7 Low point 8 Model keypoint 9 Water 10 Bridge 11 Trimmed 12 Overlap 13 Atmospheric Coordinate system: North American Datum 1983, State Plane Pennsylvania South (FIPS 3702), US Survey Feet Thematic mapping: Use the LiDAR Classification Categories for thematic mapping and labeling. Other Information: Source: Pictometry International Corp. Date: 2015</abstract><purpose>Classified LiDAR LAS files covering the City of Philadelphia. Features updated: 08/31/2015 Attributes updated: 08/31/2015 Metadata updated: 08/31/2015 Update Frequency: None Planned Public = N</purpose></descript><timeperd><timeinfo><rngdates><begdate>20150418</begdate><enddate>20150425</enddate></rngdates></timeinfo><current>ground condition</current></timeperd><status><progress>Complete</progress><update>Unknown</update></status><spdom><bounding><westbc>-75.322236</westbc><eastbc>-74.951563</eastbc><northbc>40.141140</northbc><southbc>39.823133</southbc></bounding></spdom><keywords><theme><themekey>City of Philadelphia</themekey><themekey>2015</themekey><themekey>LAS</themekey><themekey>Pictometry</themekey><themekey>LiDAR</themekey></theme></keywords><accconst>None</accconst><useconst>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Philadelphia</origin>
+        <origin>Pictometry International Corp.</origin>
+        <pubdate>20150831</pubdate>
+        <title>2015 City of Philadelphia Classified LiDAR LAS and Derivative Products</title>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20150418</begdate>
+          <enddate>20150425</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.322236</westbc>
+        <eastbc>-74.951563</eastbc>
+        <northbc>40.141140</northbc>
+        <southbc>39.823133</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>City of Philadelphia</themekey>
+        <themekey>2015</themekey>
+        <themekey>LAS</themekey>
+        <themekey>Pictometry</themekey>
+        <themekey>LiDAR</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>
 		The City of Philadelphia reserves all rights in the GIS database and any data contained therein, and the end user’s use of the data does not constitute a transfer of, nor does the end user receive, any title or interest in the database or any other City data. The City of Philadelphia makes no representation about the accuracy of any specific information in this GIS data and is provided “as is” and without Warranty of any kind. The user of this data will assume complete responsibility for any and all occurrences resulting from its use or display and will hold the City of Philadelphia harmless from any and all claims, demands, liabilities, obligations, damages, suits, judgments or settlements, including reasonable costs and attorneys' fees that arise from use of this data.Access and Use of this dataset is constrained by the license agreements between Pictometry International and the City of Philadelphia, PA.
-	</useconst><datacred>Pictometry International Corp. 100 Town Centre Drive, Suite A Rochester, NY 14623 888-771-9714</datacred></idinfo><metainfo><metd>20150831</metd><metc><cntinfo><cntorgp><cntorg>Pictometry International Corp.</cntorg><cntper>Jim Kanaley</cntper></cntorgp><cntpos>Project Manager</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>100 Town Centre Drive</address><address>Suite A</address><city>Rochester</city><state>New York</state><postal>14623</postal><country>USA</country></cntaddr><cntvoice>585-486-0093</cntvoice><cntfax>585-486-0098</cntfax><hours>0900-1700 EST</hours></cntinfo></metc><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc></metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>Jim Kanaley</rpIndName><rpOrgName>Pictometry International Corp.</rpOrgName><rpPosName>Project Manager</rpPosName><rpCntInfo><cntPhone><voiceNum>585-486-0093</voiceNum><faxNum>585-486-0098</faxNum></cntPhone><cntAddress addressType="both"><delPoint>Suite A</delPoint><delPoint>100 Town Centre Drive</delPoint><city>Rochester</city><adminArea>New York</adminArea><postCode>14623</postCode><country>US</country></cntAddress><cntHours>0900-1700 EST</cntHours></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20150831</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 8792</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>115 Land and Water Building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>(814) 865 8792</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont></distributor></distInfo><dataIdInfo><idCitation><resTitle>2015 City of Philadelphia Classified LiDAR LAS and Derivative Products</resTitle><date><pubDate>2015-08-31</pubDate></date><citRespParty><rpOrgName>Pictometry International Corp.</rpOrgName><role><RoleCd value="006"/></role></citRespParty><citRespParty><rpOrgName>City of Philadelphia</rpOrgName><role><RoleCd value="006"/></role></citRespParty></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Abstract: Classified LiDAR LAS and Derivative Products This dataset is lidar point cloud data covering the City of Philadelphia, PA, approximately 196 sq miles total. The dataset consists of 1024 lidar point cloud LAS files. Each LAS file contains lidar point information, which has been calibrated, controlled, and classified. The data was collected at a nominal point spacing of 0.70m using Pictometry's Riegl LMS-Q680i LiDAR system over 4 mission days on April 18th, 19th, 22nd, and 25th, 2015. At the time of capture ground condiitons were leaf-off, snow free, and water was at normal levels. Data Development: GPS/INS Processing: During the flight, GPS and INS data was logged on board the aircraft. Simultaneously, GPS data was logged by a stationary reference station network on the ground. After completion of the flight, this data was post-processed using Applanix POSPac v7.1 to generate a smoothed best estimate trajectory (SBET). DashMap/TerraSolid: The raw laser range data was combined with the SBET to create the raw point cloud using Optech's DashMap software package. Once the LAS point cloud is created, TerraSolid's TerraMatch software is used to measure and apply small adjustments to the system's orientation angles in order to ensure proper alignment of data between flight lines. Data Classification: A series of automated algorithms were applied using TerraSolid to classify ground points. The results of these algorithms were reviewed using models created in TerraModeler to ensure the quality of the classification results. Key attribute field names and descriptions: LiDAR Classification Categories: 0 Created Not Classified 1 Unclassified 2 Ground 3 Low vegetation 4 Vegetation 5 High vegetation 6 Building 7 Low point 8 Model keypoint 9 Water 10 Bridge 11 Trimmed 12 Overlap 13 Atmospheric Coordinate system: North American Datum 1983, State Plane Pennsylvania South (FIPS 3702), US Survey Feet Thematic mapping: Use the LiDAR Classification Categories for thematic mapping and labeling. Other Information: Source: Pictometry International Corp. Date: 2015&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>Classified LiDAR LAS files covering the City of Philadelphia. Features updated: 08/31/2015 Attributes updated: 08/31/2015 Metadata updated: 08/31/2015 Update Frequency: None Planned Public = N</idPurp><idCredit>Pictometry International Corp. 100 Town Centre Drive, Suite A Rochester, NY 14623 888-771-9714</idCredit><idStatus><ProgCd value="001"/></idStatus><resMaint><maintFreq><MaintFreqCd value="012"/></maintFreq></resMaint><themeKeys><keyword>City of Philadelphia</keyword><keyword>2015</keyword><keyword>LAS</keyword><keyword>Pictometry</keyword><keyword>LiDAR</keyword></themeKeys><searchKeys><keyword>City of Philadelphia</keyword><keyword>2015</keyword><keyword>LAS</keyword><keyword>Pictometry</keyword><keyword>LiDAR</keyword></searchKeys><resConst><LegConsts><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The City of Philadelphia reserves all rights in the GIS database and any data contained therein, and the end user’s use of the data does not constitute a transfer of, nor does the end user receive, any title or interest in the database or any other City data. The City of Philadelphia makes no representation about the accuracy of any specific information in this GIS data and is provided “as is” and without Warranty of any kind. The user of this data will assume complete responsibility for any and all occurrences resulting from its use or display and will hold the City of Philadelphia harmless from any and all claims, demands, liabilities, obligations, damages, suits, judgments or settlements, including reasonable costs and attorneys' fees that arise from use of this data.Access and Use of this dataset is constrained by the license agreements between Pictometry International and the City of Philadelphia, PA.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><dataLang><languageCode value="eng"/></dataLang><dataExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Period><tmBegin>2015-04-18</tmBegin><tmEnd>2015-04-25</tmEnd></TM_Period></exTemp></TempExtent></tempEle></dataExt><dataExt><geoEle><GeoBndBox><westBL>-75.322236</westBL><eastBL>-74.951563</eastBL><southBL>39.823133</southBL><northBL>40.14114</northBL></GeoBndBox></geoEle></dataExt></dataIdInfo><Esri><CreaDate>20180208</CreaDate><CreaTime>10463700</CreaTime><ArcGISFormat>1.0</ArcGISFormat><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>FGDC</ArcGISProfile></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="11f24966b7247fb368fc6bb192d05e29" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+	</useconst>
+    <datacred>Pictometry International Corp. 100 Town Centre Drive, Suite A Rochester, NY 14623 888-771-9714</datacred>
+    <descript>
+      <abstract>PAPhiladelphiaLiDAR2015</abstract>
+    </descript>
+  </idinfo>
+  <metainfo>
+    <metd>20150831</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pictometry International Corp.</cntorg>
+          <cntper>Jim Kanaley</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>100 Town Centre Drive</address>
+          <address>Suite A</address>
+          <city>Rochester</city>
+          <state>New York</state>
+          <postal>14623</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>585-486-0093</cntvoice>
+        <cntfax>585-486-0098</cntfax>
+        <hours>0900-1700 EST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Jim Kanaley</rpIndName>
+    <rpOrgName>Pictometry International Corp.</rpOrgName>
+    <rpPosName>Project Manager</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>585-486-0093</voiceNum>
+        <faxNum>585-486-0098</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>Suite A</delPoint>
+        <delPoint>100 Town Centre Drive</delPoint>
+        <city>Rochester</city>
+        <adminArea>New York</adminArea>
+        <postCode>14623</postCode>
+        <country>US</country>
+      </cntAddress>
+      <cntHours>0900-1700 EST</cntHours>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20150831</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water Building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>(814) 865 8792</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>2015 City of Philadelphia Classified LiDAR LAS and Derivative Products</resTitle>
+      <date>
+        <pubDate>2015-08-31</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pictometry International Corp.</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>City of Philadelphia</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Abstract: Classified LiDAR LAS and Derivative Products This dataset is lidar point cloud data covering the City of Philadelphia, PA, approximately 196 sq miles total. The dataset consists of 1024 lidar point cloud LAS files. Each LAS file contains lidar point information, which has been calibrated, controlled, and classified. The data was collected at a nominal point spacing of 0.70m using Pictometry's Riegl LMS-Q680i LiDAR system over 4 mission days on April 18th, 19th, 22nd, and 25th, 2015. At the time of capture ground condiitons were leaf-off, snow free, and water was at normal levels. Data Development: GPS/INS Processing: During the flight, GPS and INS data was logged on board the aircraft. Simultaneously, GPS data was logged by a stationary reference station network on the ground. After completion of the flight, this data was post-processed using Applanix POSPac v7.1 to generate a smoothed best estimate trajectory (SBET). DashMap/TerraSolid: The raw laser range data was combined with the SBET to create the raw point cloud using Optech's DashMap software package. Once the LAS point cloud is created, TerraSolid's TerraMatch software is used to measure and apply small adjustments to the system's orientation angles in order to ensure proper alignment of data between flight lines. Data Classification: A series of automated algorithms were applied using TerraSolid to classify ground points. The results of these algorithms were reviewed using models created in TerraModeler to ensure the quality of the classification results. Key attribute field names and descriptions: LiDAR Classification Categories: 0 Created Not Classified 1 Unclassified 2 Ground 3 Low vegetation 4 Vegetation 5 High vegetation 6 Building 7 Low point 8 Model keypoint 9 Water 10 Bridge 11 Trimmed 12 Overlap 13 Atmospheric Coordinate system: North American Datum 1983, State Plane Pennsylvania South (FIPS 3702), US Survey Feet Thematic mapping: Use the LiDAR Classification Categories for thematic mapping and labeling. Other Information: Source: Pictometry International Corp. Date: 2015&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>Classified LiDAR LAS files covering the City of Philadelphia. Features updated: 08/31/2015 Attributes updated: 08/31/2015 Metadata updated: 08/31/2015 Update Frequency: None Planned Public = N</idPurp>
+    <idCredit>Pictometry International Corp. 100 Town Centre Drive, Suite A Rochester, NY 14623 888-771-9714</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="012" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>City of Philadelphia</keyword>
+      <keyword>2015</keyword>
+      <keyword>LAS</keyword>
+      <keyword>Pictometry</keyword>
+      <keyword>LiDAR</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>City of Philadelphia</keyword>
+      <keyword>2015</keyword>
+      <keyword>LAS</keyword>
+      <keyword>Pictometry</keyword>
+      <keyword>LiDAR</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The City of Philadelphia reserves all rights in the GIS database and any data contained therein, and the end user’s use of the data does not constitute a transfer of, nor does the end user receive, any title or interest in the database or any other City data. The City of Philadelphia makes no representation about the accuracy of any specific information in this GIS data and is provided “as is” and without Warranty of any kind. The user of this data will assume complete responsibility for any and all occurrences resulting from its use or display and will hold the City of Philadelphia harmless from any and all claims, demands, liabilities, obligations, damages, suits, judgments or settlements, including reasonable costs and attorneys' fees that arise from use of this data.Access and Use of this dataset is constrained by the license agreements between Pictometry International and the City of Philadelphia, PA.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Period>
+              <tmBegin>2015-04-18</tmBegin>
+              <tmEnd>2015-04-25</tmEnd>
+            </TM_Period>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-75.322236</westBL>
+          <eastBL>-74.951563</eastBL>
+          <southBL>39.823133</southBL>
+          <northBL>40.14114</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <Esri>
+    <CreaDate>20180208</CreaDate>
+    <CreaTime>10463700</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="11f24966b7247fb368fc6bb192d05e29" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 Q2l0eSBvZiBQaGlsYWRlbHBoaWE8L29yaWdpbj4NCiAgICAgICAgPG9yaWdpbj5QaWN0b21ldHJ5
 IEludGVybmF0aW9uYWwgQ29ycC48L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNTA4MzE8
@@ -132,4 +378,23 @@ cGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBkZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9m
 IHRoaXMgZGF0YSB3aWxsIG5vdCBiZSBsaWFibGUgZm9yIGFueSBkaXJlY3QsIGluZGlyZWN0LCBz
 cGVjaWFsLCBpbmNpZGVudGFsLCBvciBjb25zZXF1ZW50aWFsIGRhbWFnZXMgYXJpc2luZyBvdXQg
 b2YgdGhlIHVzZSBvciBpbmFiaWxpdHkgdG8gdXNlIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55
-aW5nIGRvY3VtZW50YXRpb24uPC9kaXN0bGlhYj4NCiAgPC9kaXN0aW5mbz4NCjwvbWV0YWRhdGE+</Data></Enclosure></Binary><spref><horizsys><cordsysn><projcsn>State Plane Pennsylvania South (FIPS 3702) North American Datum 1983</projcsn></cordsysn><geodetic><horizdn>North American Datum of 1983</horizdn></geodetic></horizsys><vertdef><altsys><altdatum>North American Datum of 1988 US Survey Feet</altdatum><altunits>feet</altunits></altsys></vertdef></spref></metadata>
+aW5nIGRvY3VtZW50YXRpb24uPC9kaXN0bGlhYj4NCiAgPC9kaXN0aW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <projcsn>State Plane Pennsylvania South (FIPS 3702) North American Datum 1983</projcsn>
+      </cordsysn>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Datum of 1988 US Survey Feet</altdatum>
+        <altunits>feet</altunits>
+      </altsys>
+    </vertdef>
+  </spref>
+</metadata>

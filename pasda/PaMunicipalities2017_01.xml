@@ -1,9 +1,60 @@
-<metadata><idinfo><citation><citeinfo><origin>Pennsylvania Department of Transportation, Bureau of Planning and Research, Cartographic Information Division</origin><pubdate>201701</pubdate><title>PennDOT - Pennsylvania Municipality boundaries</title><geoform>vector digital data</geoform><pubinfo><pubplace>Harrisburg, PA</pubplace><publish>Pennsylvania Department of Transportation</publish></pubinfo><onlink>http://www.pasda.psu.edu</onlink></citeinfo></citation><descript><abstract>Boundaries of municipalities within Pennsylvania as delineated for the PennDOT Type 10 general highway maps.  Additional information comes from the Pennsylvania Bureau of Municipal Services.  This layer contains all classifications of municipality including first and second class townships, boroughs, cities and the town.
-			The shape file reflects a name change from Osborne borough to Glen Osborne borough in Allegheny county and a name change from Abington Township to Waverly Township in Lackawanna county. The shape file also reflects various municipal boundary line tweaks that have occurred since the 2011_01 update.</abstract><purpose>Public information and support for transportation planning, design and development.</purpose><supplinf>This data is intended for use at 1:24,000 or smaller scale.  This layer supercedes and replaces previous versions of padot-borough, padot-city-town, and padot-township.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>201701</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>Bi-annual</update></status><spdom><bounding><westbc>
--80.519349</westbc><eastbc>
--74.689583</eastbc><northbc>
-42.269479</northbc><southbc>
-39.719860</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>boundaries</themekey><themekey>congressional</themekey><themekey>municipal boundaries</themekey><themekey>township</themekey><themekey>borough</themekey><themekey>city</themekey><themekey>town</themekey></theme><place><placekt>None</placekt><placekey>Pennsylvania</placekey></place></keywords><accconst>None.</accconst><useconst>The user shall indemnify, save harmless, and, if requested, defend the COMMONWEALTH, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Department of Transportation, Bureau of Planning and Research, Cartographic Information Division</origin>
+        <pubdate>201701</pubdate>
+        <title>PennDOT - Pennsylvania Municipality boundaries</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Department of Transportation</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201701</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Bi-annual</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.519349</westbc>
+        <eastbc>
+-74.689583</eastbc>
+        <northbc>
+42.269479</northbc>
+        <southbc>
+39.719860</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>congressional</themekey>
+        <themekey>municipal boundaries</themekey>
+        <themekey>township</themekey>
+        <themekey>borough</themekey>
+        <themekey>city</themekey>
+        <themekey>town</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The user shall indemnify, save harmless, and, if requested, defend the COMMONWEALTH, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation.
 
 The COMMONWEALTH excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose.
 
@@ -19,7 +70,631 @@ THIS IS NOT A PENNSYLVANIA DEPARTMENT OF TRANSPORTATION APPROVED FILE. THE DEPAR
 
 THE USER AGREES AND UNDERSTANDS THAT IT MAY NOT FURTHER DISTRIBUTE THE FILES TO A THIRD PARTY.
 
-If you have any questions or problems, contact the ORGANIZATION where you acquired the data.</useconst><ptcontac><cntinfo><cntorgp><cntorg>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</cntorg></cntorgp><cntaddr><addrtype>mailing address</addrtype><address>P.O. Box 3654</address><city>Harrisburg</city><state>PA</state><postal>17101-3654</postal><country>USA</country></cntaddr><cntvoice>(717) 772-3305</cntvoice></cntinfo></ptcontac><native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native></idinfo><dataqual><attracc><attraccr>Verified visually by comparison against source materials from the Bureau of Municipal Services.</attraccr></attracc><logic>Topology exists</logic><complete>Contains all officially recognized boroughs in the Commonwealth.</complete><posacc><horizpa><horizpar>Digitized from sources conforming to National Mapping Accuracy Standards for 1:24,000 scale maps.</horizpar><qhorizpa><horizpav>100</horizpav><horizpae>Estimated accuracy is +/- 100 Feet.</horizpae></qhorizpa></horizpa></posacc><lineage><srcinfo><srccite><citeinfo><origin>Pennsylvania Department of Transportation</origin><pubdate>1999</pubdate><title>Type 10 general highway map</title><geoform>map</geoform><pubinfo><pubplace>Harrisburg, PA</pubplace><publish>Pennsylvania Dept. of Transportation</publish></pubinfo></citeinfo></srccite><srcscale>24000</srcscale><typesrc>stable-base material</typesrc><srctime><timeinfo><sngdate><caldate>1999</caldate></sngdate></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>Type 10 maps</srccitea><srccontr>features for digitization</srccontr></srcinfo><procstep><procdesc>Digitized to Bentley Microstation format from maps from local municipalities, and the Type 10 General Highway Series (GHS) maps.  Converted to ESRI Shapefile format for distribution.  Additional information was added as obtained from the Bureau of Municipal Services.</procdesc><srcused>Type 10 maps</srcused><procdate>2005</procdate></procstep><procstep><procdesc>Metadata imported.</procdesc></procstep><procstep><procdesc>Metadata imported.</procdesc></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused/></procstep><procstep><procdesc>Metadata imported.</procdesc><srcused>D:\PA_DOT_Data_Updates\Data_on_PASDA_10-19-2005\boundary_layers\padot-municipalities_2005\PaMunicipalities2005.xml</srcused></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused/></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">D:\PennDOT\PaMunicipalities2015</srcused><procdate Sync="TRUE">2015</procdate><proctime Sync="TRUE">10025200</proctime></procstep></lineage></dataqual><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype><ptvctcnt>2574</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><geograph><latres>0.000000</latres><longres>0.000000</longres><geogunit>Decimal degrees</geogunit></geograph><geodetic><horizdn>North American Datum of 1983</horizdn><ellips>Geodetic Reference System 80</ellips><semiaxis>6378137.000000</semiaxis><denflat>298.257222</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>PA_MUNICIPAL_201701</enttypl><enttypd>Incorporated municipality</enttypd><enttypds>Pennsylvania Municipality Planning Code</enttypds></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>MSLINK</attrlabl></attr><attr><attrlabl>MAPID</attrlabl><attrdef>MGE Map ID</attrdef></attr><attr><attrlabl>COUNTY</attrlabl><attrdef>Two digit county code</attrdef><attrdefs>PADOT - see table below</attrdefs></attr><attr><attrlabl>MUNICIPAL_</attrlabl><attrdef>Municipality id (non-unique, combine with county code to create unique code)</attrdef><attrdefs>padot</attrdefs></attr><attr><attrlabl>MUNICIPAL1</attrlabl><attrdef>Municipality name</attrdef><attrdefs>PA Bureau of Municipal Services</attrdefs></attr><attr><attrlabl>FIPS_MUN_C</attrlabl><attrdef>Municipality from Federal Information Processing Standard (FIPS)</attrdef><attrdefs>National Institute of Standards and Technology</attrdefs></attr><attr><attrlabl>FED_AID_UR</attrlabl><attrdef>Federal Urban Aid Code</attrdef><attrdomv><edom><edomv>1</edomv><edomvd>RURAL</edomvd></edom><edom><edomv>2</edomv><edomvd>Small Urban (pop.5,000-49,999)</edomvd></edom><edom><edomv>3</edomv><edomvd>Urbanized (pop. 50,000-199,999)</edomvd></edom><edom><edomv>4</edomv><edomvd>Urbanized (pop greater than 200,000)</edomvd></edom></attrdomv></attr><attr><attrlabl>FIPS_COUNT</attrlabl><attrdef>County Code from Federal Information Processing Standard (FIPS)</attrdef><attrdefs>National Institute of Standards and Technology</attrdefs></attr><attr><attrlabl>FIPS_AREA_</attrlabl><attrdef>Metropolitan Statistical Area (MSA) code from Federal Information Processing Standard (FIPS)</attrdef><attrdefs>National Institute for Standards and Technology</attrdefs></attr><attr><attrlabl>FIPS_NAME</attrlabl><attrdef>FIPS MSA Name</attrdef><attrdefs>National Institute for Standards and Technology</attrdefs></attr><attr><attrlabl>FIPS_SQ_MI</attrlabl></attr><attr><attrlabl>FIPS_MUN_P</attrlabl><attrdef>US Census 1996 population estimate</attrdef><attrdefs>US Census</attrdefs></attr><attr><attrlabl>FED_ID_NUM</attrlabl><attrdef>Federal ID Number</attrdef></attr><attr><attrlabl>CLASS_OF_M</attrlabl><attrdef>Classification of Municipality</attrdef><attrdefs>Bureau of Municipal Services</attrdefs><attrdomv><edom><edomv>1TWP</edomv><edomvd>First class township - Municipal corporation differing from boroughs, cities and towns primarily by the historical situation surrounding incorporation, pop densiity greater than 300 persons/sq. mile</edomvd><edomvds>PA. Bureau of Municipal Services</edomvds></edom><edom><edomv>2TWP</edomv><edomvd>First class township - Municipal corporation differing from boroughs, cities and towns primarily by the historical situation surrounding incorporation, pop less than 300 persons/sq. mile</edomvd><edomvds>PA. Bureau of Municipal Services</edomvds></edom><edom><edomv>BORO</edomv><edomvd>Borough - Incorporated village with population less than 10,000</edomvd><edomvds>PA Bureau of Municipal Services</edomvds></edom><edom><edomv>CITY</edomv><edomvd>City - Incorporated village with population greater than 10,000</edomvd><edomvds>PA Bureau of Municipal Services</edomvds></edom></attrdomv></attr></detailed></eainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing address</addrtype><address>Land and Water Building</address><city>University Park</city><state>PA</state><postal>16802</postal><country>USA</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><resdesc>downloadabledata</resdesc><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern>3.x</formvern><filedec>Zip compression</filedec><transize>7.779</transize></digtinfo><digtopt><onlinopt><computer><networka/></computer><accinstr>http://www.pasda.psu.edu</accinstr></onlinopt></digtopt></digform><fees>none</fees></stdorder></distinfo><metainfo><metd>201701</metd><metc><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg><cntper>Metadata Coordinator</cntper></cntorgp><cntpos>Metadata Coordinator</cntpos><cntaddr><addrtype>mailing address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>PA</state><postal>16802</postal><country>USA</country></cntaddr><cntvoice>814-865-8792</cntvoice><cntfax>814-865-3378</cntfax><cntemail>pasda@psu.edu</cntemail></cntinfo></metc><metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc><metextns><onlink>http://www.esri.com/metadata/esriprof80.html</onlink><metprof>ESRI Metadata Profile</metprof></metextns></metainfo><Esri><ModDate>201203</ModDate><ModTime>14562300</ModTime><ArcGISFormat>1.0</ArcGISFormat><scaleRange><minScale>50000</minScale><maxScale>5000</maxScale></scaleRange></Esri><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>Metadata Coordinator</rpIndName><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpPosName>Metadata Coordinator</rpPosName><rpCntInfo><cntPhone><voiceNum>814-865-8792</voiceNum><faxNum>814-865-3378</faxNum></cntPhone><cntAddress addressType="postal"><delPoint>115 Land and Water Building</delPoint><city>University Park</city><adminArea>PA</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20170101</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="postal"><delPoint>Land and Water Building</delPoint><city>University Park</city><adminArea>PA</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont><distorOrdPrc><resFees>none</resFees></distorOrdPrc><distorFormat><formatName>ArcView Shapefile</formatName><formatVer>3.x</formatVer><fileDecmTech>Zip compression</fileDecmTech></distorFormat><distorTran><onLineSrc><orDesc>downloadabledata</orDesc></onLineSrc></distorTran></distributor><distTranOps><onLineSrc><linkage>http://www.pasda.psu.edu</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>PennDOT - Pennsylvania Municipality boundaries</resTitle><date><pubDate>2017-01-01</pubDate></date><citRespParty><rpOrgName>Pennsylvania Department of Transportation</rpOrgName><rpCntInfo><cntAddress><delPoint>Harrisburg, PA</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty><rpOrgName>Pennsylvania Department of Transportation, Bureau of Planning and Research, Cartographic Information Division</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>Boundaries of municipalities within Pennsylvania as delineated for the PennDOT Type 10 general highway maps. Additional information comes from the Pennsylvania Bureau of Municipal Services. This layer contains all classifications of municipality including first and second class townships, boroughs, cities and the town. The shape file reflects a name change from Osborne borough to Glen Osborne borough in Allegheny county and a name change from Abington Township to Waverly Township in Lackawanna county. The shape file also reflects various municipal boundary line tweaks that have occurred since the 2011_01 update.</idAbs><idPurp>Public information and support for transportation planning, design and development.</idPurp><idStatus><ProgCd value="001"/></idStatus><idPoC><rpOrgName>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</rpOrgName><rpCntInfo><cntPhone><voiceNum>(717) 772-3305</voiceNum></cntPhone><cntAddress addressType="postal"><delPoint>P.O. Box 3654</delPoint><city>Harrisburg</city><adminArea>PA</adminArea><postCode>17101-3654</postCode><country>US</country></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint/><placeKeys><keyword>Pennsylvania</keyword></placeKeys><themeKeys><keyword>boundaries</keyword><keyword>borough</keyword><keyword>township</keyword><keyword>municipal boundaries</keyword><keyword>congressional</keyword><keyword>town</keyword><keyword>city</keyword><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName></themeKeys><searchKeys><keyword>boundaries</keyword><keyword>borough</keyword><keyword>Pennsylvania</keyword><keyword>township</keyword><keyword>municipal boundaries</keyword><keyword>congressional</keyword><keyword>town</keyword><keyword>city</keyword></searchKeys><resConst><LegConsts><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>The user shall indemnify, save harmless, and, if requested, defend the COMMONWEALTH, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. The COMMONWEALTH excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose. The COMMONWEALTH makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. The COMMONWEALTH will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation. The USER is granted permission to translate and add value to the FILES for the use of the FILES on its computer hardware; provided, however, that the USER annually notify the UNIVERSITY / COMMONWEALTH of any customizing or value-adding work done. Any customized or value added versions of the files will contain the following disclaimer: THIS IS NOT A PENNSYLVANIA DEPARTMENT OF TRANSPORTATION APPROVED FILE. THE DEPARTMENT OF TRANSPORTATION RETAINS THE MASTER FILES. THE USER AGREES AND UNDERSTANDS THAT IT MAY NOT FURTHER DISTRIBUTE THE FILES TO A THIRD PARTY. If you have any questions or problems, contact the ORGANIZATION where you acquired the data.</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="003"/></tpCat><envirDesc>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-80.519349</westBL><eastBL>-74.689583</eastBL><southBL>39.71986</southBL><northBL>42.269479</northBL></GeoBndBox></geoEle></dataExt><dataExt><exDesc>publication date</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2017-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt><suppInfo>This data is intended for use at 1:24,000 or smaller scale. This layer supercedes and replaces previous versions of padot-borough, padot-city-town, and padot-township.</suppInfo></dataIdInfo><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQConcConsis"><measDesc>Topology exists</measDesc></report><report type="DQCompOm"><measDesc>Contains all officially recognized boroughs in the Commonwealth.</measDesc></report><report type="DQQuanAttAcc"><measDesc>Verified visually by comparison against source materials from the Bureau of Municipal Services.</measDesc></report><report type="DQAbsExtPosAcc" dimension="horizontal"><measDesc>Digitized from sources conforming to National Mapping Accuracy Standards for 1:24,000 scale maps.</measDesc><evalMethDesc>Estimated accuracy is +/- 100 Feet.</evalMethDesc><measResult><QuanResult><quanVal>100</quanVal></QuanResult></measResult></report><dataLineage><prcStep><stepDesc>Digitized to Bentley Microstation format from maps from local municipalities, and the Type 10 General Highway Series (GHS) maps. Converted to ESRI Shapefile format for distribution. Additional information was added as obtained from the Bureau of Municipal Services.</stepDesc><stepDateTm>2005-01-01</stepDateTm><stepSrc type="used"><srcCitatn><resAltTitle>Type 10 maps</resAltTitle></srcCitatn></stepSrc></prcStep><dataSource><srcDesc>features for digitization</srcDesc><srcMedName><MedNameCd value="028"/></srcMedName><srcScale><rfDenom>24000</rfDenom></srcScale><srcCitatn><resTitle>Type 10 general highway map</resTitle><resAltTitle>Type 10 maps</resAltTitle><date><pubDate>1999-01-01</pubDate></date><citRespParty><rpOrgName>Pennsylvania Dept. of Transportation</rpOrgName><rpCntInfo><cntAddress><delPoint>Harrisburg, PA</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty><rpOrgName>Pennsylvania Department of Transportation</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="006"/></presForm><presForm><fgdcGeoform>map</fgdcGeoform></presForm></srcCitatn><srcExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>1999-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></srcExt></dataSource></dataLineage></dqInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="001"/></geoObjTyp><geoObjCnt>2574</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="8452c523100d41618eb371bf985e0029" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+If you have any questions or problems, contact the ORGANIZATION where you acquired the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 3654</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17101-3654</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 772-3305</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>PaMunicipalities2017_01</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Verified visually by comparison against source materials from the Bureau of Municipal Services.</attraccr>
+    </attracc>
+    <logic>Topology exists</logic>
+    <complete>Contains all officially recognized boroughs in the Commonwealth.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized from sources conforming to National Mapping Accuracy Standards for 1:24,000 scale maps.</horizpar>
+        <qhorizpa>
+          <horizpav>100</horizpav>
+          <horizpae>Estimated accuracy is +/- 100 Feet.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania Department of Transportation</origin>
+            <pubdate>1999</pubdate>
+            <title>Type 10 general highway map</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Dept. of Transportation</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Type 10 maps</srccitea>
+        <srccontr>features for digitization</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digitized to Bentley Microstation format from maps from local municipalities, and the Type 10 General Highway Series (GHS) maps.  Converted to ESRI Shapefile format for distribution.  Additional information was added as obtained from the Bureau of Municipal Services.</procdesc>
+        <srcused>Type 10 maps</srcused>
+        <procdate>2005</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused />
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>D:\PA_DOT_Data_Updates\Data_on_PASDA_10-19-2005\boundary_layers\padot-municipalities_2005\PaMunicipalities2005.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused />
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">D:\PennDOT\PaMunicipalities2015</srcused>
+        <procdate Sync="TRUE">2015</procdate>
+        <proctime Sync="TRUE">10025200</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>2574</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000000</latres>
+        <longres>0.000000</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PA_MUNICIPAL_201701</enttypl>
+        <enttypd>Incorporated municipality</enttypd>
+        <enttypds>Pennsylvania Municipality Planning Code</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MSLINK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MAPID</attrlabl>
+        <attrdef>MGE Map ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Two digit county code</attrdef>
+        <attrdefs>PADOT - see table below</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPAL_</attrlabl>
+        <attrdef>Municipality id (non-unique, combine with county code to create unique code)</attrdef>
+        <attrdefs>padot</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPAL1</attrlabl>
+        <attrdef>Municipality name</attrdef>
+        <attrdefs>PA Bureau of Municipal Services</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FIPS_MUN_C</attrlabl>
+        <attrdef>Municipality from Federal Information Processing Standard (FIPS)</attrdef>
+        <attrdefs>National Institute of Standards and Technology</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FED_AID_UR</attrlabl>
+        <attrdef>Federal Urban Aid Code</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>RURAL</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Small Urban (pop.5,000-49,999)</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Urbanized (pop. 50,000-199,999)</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Urbanized (pop greater than 200,000)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS_COUNT</attrlabl>
+        <attrdef>County Code from Federal Information Processing Standard (FIPS)</attrdef>
+        <attrdefs>National Institute of Standards and Technology</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FIPS_AREA_</attrlabl>
+        <attrdef>Metropolitan Statistical Area (MSA) code from Federal Information Processing Standard (FIPS)</attrdef>
+        <attrdefs>National Institute for Standards and Technology</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FIPS_NAME</attrlabl>
+        <attrdef>FIPS MSA Name</attrdef>
+        <attrdefs>National Institute for Standards and Technology</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FIPS_SQ_MI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIPS_MUN_P</attrlabl>
+        <attrdef>US Census 1996 population estimate</attrdef>
+        <attrdefs>US Census</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FED_ID_NUM</attrlabl>
+        <attrdef>Federal ID Number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CLASS_OF_M</attrlabl>
+        <attrdef>Classification of Municipality</attrdef>
+        <attrdefs>Bureau of Municipal Services</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1TWP</edomv>
+            <edomvd>First class township - Municipal corporation differing from boroughs, cities and towns primarily by the historical situation surrounding incorporation, pop densiity greater than 300 persons/sq. mile</edomvd>
+            <edomvds>PA. Bureau of Municipal Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>2TWP</edomv>
+            <edomvd>First class township - Municipal corporation differing from boroughs, cities and towns primarily by the historical situation surrounding incorporation, pop less than 300 persons/sq. mile</edomvd>
+            <edomvds>PA. Bureau of Municipal Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>BORO</edomv>
+            <edomvd>Borough - Incorporated village with population less than 10,000</edomvd>
+            <edomvds>PA Bureau of Municipal Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>CITY</edomv>
+            <edomvd>City - Incorporated village with population greater than 10,000</edomvd>
+            <edomvds>PA Bureau of Municipal Services</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>3.x</formvern>
+          <filedec>Zip compression</filedec>
+          <transize>7.779</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka />
+            </computer>
+            <accinstr>http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201701</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+          <cntper>Metadata Coordinator</cntper>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>201203</ModDate>
+    <ModTime>14562300</ModTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>50000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Metadata Coordinator</rpIndName>
+    <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+    <rpPosName>Metadata Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>814-865-8792</voiceNum>
+        <faxNum>814-865-3378</faxNum>
+      </cntPhone>
+      <cntAddress addressType="postal">
+        <delPoint>115 Land and Water Building</delPoint>
+        <city>University Park</city>
+        <adminArea>PA</adminArea>
+        <postCode>16802</postCode>
+        <country>US</country>
+        <eMailAdd>pasda@psu.edu</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170101</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="postal">
+            <delPoint>Land and Water Building</delPoint>
+            <city>University Park</city>
+            <adminArea>PA</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc>
+        <resFees>none</resFees>
+      </distorOrdPrc>
+      <distorFormat>
+        <formatName>ArcView Shapefile</formatName>
+        <formatVer>3.x</formatVer>
+        <fileDecmTech>Zip compression</fileDecmTech>
+      </distorFormat>
+      <distorTran>
+        <onLineSrc>
+          <orDesc>downloadabledata</orDesc>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>PennDOT - Pennsylvania Municipality boundaries</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Department of Transportation</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>Harrisburg, PA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010" />
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Department of Transportation, Bureau of Planning and Research, Cartographic Information Division</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Boundaries of municipalities within Pennsylvania as delineated for the PennDOT Type 10 general highway maps. Additional information comes from the Pennsylvania Bureau of Municipal Services. This layer contains all classifications of municipality including first and second class townships, boroughs, cities and the town. The shape file reflects a name change from Osborne borough to Glen Osborne borough in Allegheny county and a name change from Abington Township to Waverly Township in Lackawanna county. The shape file also reflects various municipal boundary line tweaks that have occurred since the 2011_01 update.</idAbs>
+    <idPurp>Public information and support for transportation planning, design and development.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(717) 772-3305</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="postal">
+          <delPoint>P.O. Box 3654</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>PA</adminArea>
+          <postCode>17101-3654</postCode>
+          <country>US</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint />
+    <placeKeys>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>boundaries</keyword>
+      <keyword>borough</keyword>
+      <keyword>township</keyword>
+      <keyword>municipal boundaries</keyword>
+      <keyword>congressional</keyword>
+      <keyword>town</keyword>
+      <keyword>city</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>boundaries</keyword>
+      <keyword>borough</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>township</keyword>
+      <keyword>municipal boundaries</keyword>
+      <keyword>congressional</keyword>
+      <keyword>town</keyword>
+      <keyword>city</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>The user shall indemnify, save harmless, and, if requested, defend the COMMONWEALTH, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. The COMMONWEALTH excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose. The COMMONWEALTH makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. The COMMONWEALTH will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation. The USER is granted permission to translate and add value to the FILES for the use of the FILES on its computer hardware; provided, however, that the USER annually notify the UNIVERSITY / COMMONWEALTH of any customizing or value-adding work done. Any customized or value added versions of the files will contain the following disclaimer: THIS IS NOT A PENNSYLVANIA DEPARTMENT OF TRANSPORTATION APPROVED FILE. THE DEPARTMENT OF TRANSPORTATION RETAINS THE MASTER FILES. THE USER AGREES AND UNDERSTANDS THAT IT MAY NOT FURTHER DISTRIBUTE THE FILES TO A THIRD PARTY. If you have any questions or problems, contact the ORGANIZATION where you acquired the data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="003" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.519349</westBL>
+          <eastBL>-74.689583</eastBL>
+          <southBL>39.71986</southBL>
+          <northBL>42.269479</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>This data is intended for use at 1:24,000 or smaller scale. This layer supercedes and replaces previous versions of padot-borough, padot-city-town, and padot-township.</suppInfo>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Topology exists</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Contains all officially recognized boroughs in the Commonwealth.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Verified visually by comparison against source materials from the Bureau of Municipal Services.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Digitized from sources conforming to National Mapping Accuracy Standards for 1:24,000 scale maps.</measDesc>
+      <evalMethDesc>Estimated accuracy is +/- 100 Feet.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>100</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Digitized to Bentley Microstation format from maps from local municipalities, and the Type 10 General Highway Series (GHS) maps. Converted to ESRI Shapefile format for distribution. Additional information was added as obtained from the Bureau of Municipal Services.</stepDesc>
+        <stepDateTm>2005-01-01</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Type 10 maps</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <dataSource>
+        <srcDesc>features for digitization</srcDesc>
+        <srcMedName>
+          <MedNameCd value="028" />
+        </srcMedName>
+        <srcScale>
+          <rfDenom>24000</rfDenom>
+        </srcScale>
+        <srcCitatn>
+          <resTitle>Type 10 general highway map</resTitle>
+          <resAltTitle>Type 10 maps</resAltTitle>
+          <date>
+            <pubDate>1999-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Pennsylvania Dept. of Transportation</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Harrisburg, PA</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Pennsylvania Department of Transportation</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="006" />
+          </presForm>
+          <presForm>
+            <fgdcGeoform>map</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>1999-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="001" />
+        </geoObjTyp>
+        <geoObjCnt>2574</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="8452c523100d41618eb371bf985e0029" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 UGVubnN5bHZhbmlhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIEJ1cmVhdSBvZiBQbGFu
 bmluZyBhbmQgUmVzZWFyY2gsIENhcnRvZ3JhcGhpYyBJbmZvcm1hdGlvbiBEaXZpc2lvbjwvb3Jp
@@ -307,4 +982,7 @@ ZXh0bnM+DQogICAgICA8b25saW5rPmh0dHA6Ly93d3cuZXNyaS5jb20vbWV0YWRhdGEvZXNyaXBy
 b2Y4MC5odG1sPC9vbmxpbms+DQogICAgICA8bWV0cHJvZj5FU1JJIE1ldGFkYXRhIFByb2ZpbGU8
 L21ldHByb2Y+DQogICAgPC9tZXRleHRucz4NCiAgPC9tZXRhaW5mbz4NCiAgPEVzcmk+DQogICAg
 PE1vZERhdGU+MjAxMjAzPC9Nb2REYXRlPg0KICAgIDxNb2RUaW1lPjE0NTYyMzAwPC9Nb2RUaW1l
-Pg0KICA8L0Vzcmk+DQo8L21ldGFkYXRhPg==</Data></Enclosure></Binary></metadata>
+Pg0KICA8L0Vzcmk+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

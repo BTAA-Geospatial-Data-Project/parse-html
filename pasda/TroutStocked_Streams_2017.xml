@@ -1,4 +1,1305 @@
-<metadata><idinfo><citation><citeinfo><origin>Pennsylvania Fish and Boat Commission</origin><pubdate>2017</pubdate><geoform Sync="TRUE">vector digital data</geoform><onlink>http://www.pasda.psu.edu/</onlink><title>Trout Stocked Sections</title><ftname Sync="TRUE">PFBC_GIS.DBO.Fisheries_AllSections</ftname></citeinfo></citation><descript><langdata>English</langdata><abstract>This layer contains flowing waters from the Pennsylvania Fish and Boat Commission Fisheries Resource Database that will be stocked with trout in 2017. </abstract><purpose>Mapping and analysis of flowing waters that are stocked in Pennsylvania.  Promotion of fishing opportunities in Pennsylvania.</purpose><supplinf>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database.  The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography.  Tools in ArcMap were used to generate the stream sections from these values.  Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary.  The current 1:24000 National Hydrography Dataset (NHD) flowing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2017</caldate></sngdate></timeinfo><current>ground condition</current></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc Sync="TRUE">-80.522230</westbc><eastbc Sync="TRUE">-74.689450</eastbc><northbc Sync="TRUE">42.264260</northbc><southbc Sync="TRUE">39.703258</southbc></bounding><lboundng><leftbc Sync="TRUE">-80.522230</leftbc><rightbc Sync="TRUE">-74.689450</rightbc><bottombc Sync="TRUE">39.703258</bottombc><topbc Sync="TRUE">42.264260</topbc></lboundng></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>Stocking</themekey><themekey>Special Regulation</themekey><themekey>Fishing</themekey><themekey>Streams</themekey><themekey>inlandWaters</themekey></theme><place><placekey>Pennsylvania</placekey></place></keywords><accconst>None</accconst><useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state.  If modifications are made to the data set, users are obligated to describe the types of modifications they have made.  Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst><ptcontac><cntinfo><cntperp><cntorg>PA Fish and Boat Commission</cntorg></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><addrtype>physical address</addrtype><address>1601 Elmerton Ave</address><city>Harrisburg</city><state>PA</state><postal>17110-9299</postal><country>USA</country></cntaddr><cntaddr><addrtype>mailing address</addrtype><address>P O Box 67000</address><city>Harrisburg</city><state>PA</state><postal>17106-7000</postal><country>USA</country></cntaddr><cntvoice>717-705-7909</cntvoice><cntfax>717-705-7901</cntfax><hours>8:00-4:00</hours></cntinfo></ptcontac><datacred>Pennsylvania Fish and Boat Commission</datacred><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native><natvform Sync="TRUE">SDE Feature Class</natvform></idinfo><dataqual><lineage><procstep><srcused>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</srcused><proccont><cntinfo><cntperp><cntper/><cntorg>PA Fish and Boat Commission</cntorg></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><addrtype>physical address</addrtype><address>1601 Elmerton Ave</address><city>Harrisburg</city><state>PA</state><postal>17110-9299</postal><country>USA</country></cntaddr><cntaddr><addrtype>mailing address</addrtype><address>P O Box 67000</address><city>Harrisburg</city><state>PA</state><postal>17106-7000</postal><country>USA</country></cntaddr><cntvoice>717-705-7909</cntvoice><cntfax>717-705-7901</cntfax><cntemail>mbialousz@state.pa.us</cntemail></cntinfo></proccont><procdesc>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database.  The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography.  Tools in ArcMap were used to generate the stream sections from these values.  Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary.  The current 1:24000 National Hydrography Dataset (NHD) flwoing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</procdesc><procsv>ArcGIS 9.1</procsv><procdate>2006</procdate></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Temp\Reg_HQ.xml</srcused><date Sync="TRUE">20070130</date><time Sync="TRUE">09333600</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">K:\Projects\General_GIS\metadata_template.xml</srcused><date Sync="TRUE">20070213</date><time Sync="TRUE">16173000</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\WorkSpace\Exports_4_Metadata\Streams_PFBCManaged.shp.xml</srcused><date Sync="TRUE">20070214</date><time Sync="TRUE">11441000</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"/><date Sync="TRUE">20070222</date><time Sync="TRUE">17264100</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS_new.mdb</srcused><date Sync="TRUE">20080122</date><time Sync="TRUE">16123400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS.mdb</srcused><procdate Sync="TRUE">20081230</procdate><proctime Sync="TRUE">16490500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=FBHBGISDEV02; Service=5151/tcp; Database=PFBC_GIS; Version=dbo.DEFAULT</srcused><procdate Sync="TRUE">20090126</procdate><proctime Sync="TRUE">09423500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=FBHBGISDEV02; Service=5151/tcp; Database=PFBC_GIS; Version=dbo.DEFAULT</srcused><procdate Sync="TRUE">20090129</procdate><proctime Sync="TRUE">00273200</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"/><procdate Sync="TRUE">20090415</procdate><proctime Sync="TRUE">08565500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=fbhbgisdev02; Service=5151/tcp; Database=PFBC_GIS; User=sa; Version=dbo.DEFAULT</srcused><procdate Sync="TRUE">2017</procdate><proctime Sync="TRUE">13474500</proctime></procstep></lineage><posacc><horizpa><qhorizpa><horizpav>24000</horizpav><horizpae>Layer is based on the National Hydrography Dataset (NHD) flowing water layer.</horizpae></qhorizpa></horizpa></posacc></dataqual><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="TroutStocked_Sections_2017"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">3</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1105</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">TRUE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><geodetic><horizdn Sync="TRUE">North American Datum of 1983</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys><vertdef><altsys><altres Sync="TRUE">1.000000</altres><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc></altsys></vertdef></spref><eainfo><detailed Name="TroutStocked_Sections_2017"><enttyp><enttypl Sync="TRUE">TroutStocked_Sections_2017</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1105</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">WRDS</attrlabl><attalias Sync="TRUE">WRDS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Water Resources Data System unique stream identifier</attrdef><attrdefs>Pennsylvania Department of Environmental Protection</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WtrLatLon</attrlabl><attalias Sync="TRUE">WtrLatLon</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef>PFBC stream unique identifier (consists of latitude/longitude of the mouth)</attrdef><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WtrLatDD</attrlabl><attalias Sync="TRUE">WtrLatDD</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Stream mouth latitude in decimal degrees</attrdef><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">WtrLonDD</attrlabl><attalias Sync="TRUE">WtrLonDD</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Stream mouth longitude in decimal degrees</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">WtrName</attrlabl><attalias Sync="TRUE">WtrName</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Stream name</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SecNum</attrlabl><attalias Sync="TRUE">SecNum</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">10</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>PFBC Fisheries Management stream section number</attrdef><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SecDate</attrlabl><attalias Sync="TRUE">SecDate</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Date the section was established</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SecUpLimLa</attrlabl><attalias Sync="TRUE">SecUpLimLa</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Latitude of the upper limit of the stream section</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">SecUpLimLo</attrlabl><attalias Sync="TRUE">SecUpLimLo</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Longitude of the upper limit of the stream section</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">SecUpperLi</attrlabl><attalias Sync="TRUE">SecUpperLi</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>River Mile (uncorrected) of the upper limit of the stream section</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">SecUpper_1</attrlabl><attalias Sync="TRUE">SecUpper_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Section upper limit description</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SecLwLimLa</attrlabl><attalias Sync="TRUE">SecLwLimLa</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Latitude of the lower limit of the stream section</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">SecLwLimLo</attrlabl><attalias Sync="TRUE">SecLwLimLo</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Longitude of the lower limit of the stream section</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">SecLowerLi</attrlabl><attalias Sync="TRUE">SecLowerLi</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>River Mile (uncorrected) of the lower limit of the stream section</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">WWCWStk_06</attrlabl><attalias Sync="TRUE">WWCWStk_06</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Whether the section was stocked with warmwater/coolwater species in 2006</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TrtStk_06</attrlabl><attalias Sync="TRUE">TrtStk_06</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Whether the section was stocked with trout in 2006</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">UpperRM_Ne</attrlabl><attalias Sync="TRUE">UpperRM_Ne</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Adjusted section upper limit river mile (NHD based)</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">LowerRM_Ne</attrlabl><attalias Sync="TRUE">LowerRM_Ne</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Adjusted section lower limit river mile (NHD based)</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">GIS_Key</attrlabl><attalias Sync="TRUE">GIS_Key</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Unique identifier for the stream section used in GIS (combo of stream ID and section number)</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SecLower_1</attrlabl><attalias Sync="TRUE">SecLower_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs><attrdef>Section lower limit description</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Length_FT_</attrlabl><attalias Sync="TRUE">Length_FT_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Length of the section in feet calculated by GIS</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">Length_MI_</attrlabl><attalias Sync="TRUE">Length_MI_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Length of the section in miles calculated by GIS</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">SpecReg_Ma</attrlabl><attalias Sync="TRUE">SpecReg_Ma</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>The Special Regulation Map ID used on PFBC Regional and County Guide Maps if the section is under a fishing special regulation</attrdef><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TrtStk_07</attrlabl><attalias Sync="TRUE">TrtStk_07</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef>Whether the section was stocked with trout in 2007</attrdef><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Fing_TrtSt</attrlabl><attalias Sync="TRUE">Fing_TrtSt</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef>Whether the section was stocked with fingerling sized trout in 2007</attrdef><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LL_Lat_GIS</attrlabl><attalias Sync="TRUE">LL_Lat_GIS</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Lower Limit Latitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">LL_Long_GI</attrlabl><attalias Sync="TRUE">LL_Long_GI</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Lower Limit Longitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">WWCWStk_07</attrlabl><attalias Sync="TRUE">WWCWStk_07</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Whether the section will be stocked with warmwater/coolwater species in 2007</attrdef><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TrtStk_08</attrlabl><attalias Sync="TRUE">TrtStk_08</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Whether the section was stocked with trout in 2008</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Fing_Trt_1</attrlabl><attalias Sync="TRUE">Fing_Trt_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Whether the section was stocked with fingerling sized trout in 2008</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WWCWStk_08</attrlabl><attalias Sync="TRUE">WWCWStk_08</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Whether the section will be stocked with warmwater/coolwater species in 2008</attrdef><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">UL_Lat_GIS</attrlabl><attalias Sync="TRUE">UL_Lat_GIS</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Upper Limit Latitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">UL_Long_GI</attrlabl><attalias Sync="TRUE">UL_Long_GI</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Upper Limit Longitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">TrtStk_09</attrlabl><attalias Sync="TRUE">TrtStk_09</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Whether the section will be stocked with trout in 2009</attrdef><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Fing_Trt_2</attrlabl><attalias Sync="TRUE">Fing_Trt_2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Whether the section was stocked with fingerling sized trout in 2009</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WWCWStk_20</attrlabl><attalias Sync="TRUE">WWCWStk_20</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdefs>Pennsylvania Fish and Boat Commission</attrdefs><attrdef>Whether the section will be stocked with warmwater/coolwater species in 2009</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Rem_Sec</attrlabl><attalias Sync="TRUE">Rem_Sec</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ClassA</attrlabl><attalias Sync="TRUE">ClassA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WildTrt</attrlabl><attalias Sync="TRUE">WildTrt</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WWCW_Fish</attrlabl><attalias Sync="TRUE">WWCW_Fish</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">GlobalID</attrlabl><attalias Sync="TRUE">GlobalID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">38</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SpecReg</attrlabl><attalias Sync="TRUE">SpecReg</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TrtStk_10</attrlabl><attalias Sync="TRUE">TrtStk_10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Fing_Trt_3</attrlabl><attalias Sync="TRUE">Fing_Trt_3</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TrtStk_11</attrlabl><attalias Sync="TRUE">TrtStk_11</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Fing_Trt_4</attrlabl><attalias Sync="TRUE">Fing_Trt_4</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_len</attrlabl><attalias Sync="TRUE">Shape_len</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed><detailed Name="PFBC_GIS.DBO.Stream_Trout_Stocking_2009"><enttyp><enttypl Sync="TRUE">PFBC_GIS.DBO.Stream_Trout_Stocking_2009</enttypl><enttypt Sync="TRUE">Relationship</enttypt></enttyp><attr><atnumdec/></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr><atnumdec/></attr><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr><atnumdec/></attr><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr><atnumdec/></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr/><attr/><attr/></detailed><detailed Name="Streams_WWCW_Stocking_2008"><enttyp><enttypl Sync="TRUE">Streams_WWCW_Stocking_2008</enttypl><enttypt Sync="TRUE">Relationship</enttypt></enttyp><attr><atnumdec/></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr><atnumdec/></attr><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr><atnumdec/></attr><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr><atnumdec/></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr/><attr/><attr/></detailed><detailed Name="Streams_WWCW_Actual_Stocked_2008"><enttyp><enttypl Sync="TRUE">Streams_WWCW_Actual_Stocked_2008</enttypl><enttypt Sync="TRUE">Relationship</enttypt></enttyp><attr><atnumdec/></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr><atnumdec/></attr><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr><atnumdec/></attr><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr><atnumdec/></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr/><attr/><attr/><attr/><attr/><attr/></detailed></eainfo><distinfo><resdesc>Downloadable Data</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">31.307</transize><dssize Sync="TRUE">31.307</dssize></digtinfo></digform></stdorder><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntperp><cntaddr><addrtype>mailing address</addrtype><address>115 Land and Water building </address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo><metainfo><metd Sync="TRUE">2017</metd><metfrd>As needed</metfrd><metc><cntinfo><cntperp><cntorg>PA Fish and Boat Commission</cntorg></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><addrtype>physical address</addrtype><address>1601 Elmerton Ave</address><address>P O Box 67000</address><city>Harrisburg</city><state>PA</state><postal>17110-9299</postal><country>USA</country></cntaddr><cntaddr><addrtype>mailing address</addrtype><address>P O Box 67000</address><city>Harrisburg</city><state>PA</state><postal>17106-7000</postal><country>USA</country></cntaddr><cntvoice>717-705-7909</cntvoice><cntfax>717-705-7901</cntfax><hours>8:00-4:00</hours></cntinfo></metc><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metac>None</metac><metuc>None</metuc><metextns><onlink>http://www.esri.com/metadata/esriprof80.html</onlink><metprof>ESRI Metadata Profile</metprof></metextns><langmeta>English</langmeta></metainfo><Esri><CreaDate>2017</CreaDate><CreaTime>13474500</CreaTime><SyncOnce>FALSE</SyncOnce><ModDate>2017</ModDate><ModTime>14382400</ModTime><SyncDate>2017</SyncDate><SyncTime>14382400</SyncTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20070214" Time="111013">CopyFeatures K:\PFBC_GIS\Geodatabase\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006 C:\WorkSpace\Exports_4_Metadata\Streams_PFBCManaged_2006_1.shp # 0 0 0</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070222" Time="155239">FeatureClassToFeatureClass K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006 "K:\Projects\Fisheries\Fish_Management\Coldwater_Unit\Stocking_2007\New Folder" Streams_PFBCManaged_2007.shp # "WRDS WRDS true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WRDS,-1,-1;WtrLatLon WtrLatLon true true false 12 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLatLon,-1,-1;WtrLatDD WtrLatDD true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLatDD,-1,-1;WtrLonDD WtrLonDD true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLonDD,-1,-1;WtrName WtrName true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrName,-1,-1;SecNum SecNum true true false 2 Short 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecNum,-1,-1;SecDate SecDate true true false 8 Date 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecDate,-1,-1;SecUpLimLa SecUpLimLa true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpLimLa,-1,-1;SecUpLimLo SecUpLimLo true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpLimLo,-1,-1;SecUpperLi SecUpperLi true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpperLi,-1,-1;SecUpper_1 SecUpper_1 true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpper_1,-1,-1;SecLwLimLa SecLwLimLa true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLwLimLa,-1,-1;SecLwLimLo SecLwLimLo true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLwLimLo,-1,-1;SecLowerLi SecLowerLi true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLowerLi,-1,-1;SecLower_1 SecLower_1 true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLower_1,-1,-1;GIS_Key GIS_Key true true false 16 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,GIS_Key,-1,-1;LowerRM_Ne LowerRM_Ne true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,LowerRM_Ne,-1,-1;UpperRM_Ne UpperRM_Ne true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,UpperRM_Ne,-1,-1;Shape_Leng Shape_Length false true true 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Shape_Length,-1,-1;TrtStk_06 TrtStk_06 true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,TrtStk_06,-1,-1;WWCWStk_06 WWCWStk_06 true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WWCWStk_06,-1,-1;Spec_Reg Spec_Reg true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Spec_Reg,-1,-1;Length_FT_ Length_FT_ true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Length_FT_GIS,-1,-1;Length_MI_ Length_MI_ true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Length_MI_GIS,-1,-1;SpecReg_Ma SpecReg_Ma true true false 2 Short 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SpecReg_MapID,-1,-1" # "K:\Projects\Fisheries\Fish_Management\Coldwater_Unit\Stocking_2007\New Folder\Streams_PFBCManaged_2007.shp"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20081230" Time="171457">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams'</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20090126" Time="094757">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2009" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2009"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090813" Time="084934">FeatureClassToFeatureClass K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping" Fisheries_AllSections # "WRDS 'WRDS' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WRDS,-1,-1;WtrLatLon 'WtrLatLon' true true false 12 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLatLon,-1,-1;WtrLatDD 'WtrLatDD' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLatDD,-1,-1;WtrLonDD 'WtrLonDD' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLonDD,-1,-1;WtrName 'WtrName' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrName,-1,-1;SecNum 'SecNum' true true false 5 Long 0 5 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecNum,-1,-1;SecDate 'SecDate' true true false 8 Date 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecDate,-1,-1;SecUpLimLa 'SecUpLimLa' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpLimLa,-1,-1;SecUpLimLo 'SecUpLimLo' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpLimLo,-1,-1;SecUpperLi 'SecUpperLi' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpperLi,-1,-1;SecUpper_1 'SecUpper_1' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpper_1,-1,-1;SecLwLimLa 'SecLwLimLa' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLwLimLa,-1,-1;SecLwLimLo 'SecLwLimLo' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLwLimLo,-1,-1;SecLowerLi 'SecLowerLi' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLowerLi,-1,-1;SecLower_1 'SecLower_1' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLower_1,-1,-1;GIS_Key 'GIS_Key' true true false 16 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,GIS_Key,-1,-1;LowerRM_Ne 'LowerRM_Ne' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LowerRM_Ne,-1,-1;UpperRM_Ne 'UpperRM_Ne' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UpperRM_Ne,-1,-1;TrtStk_06 'TrtStk_06' true true false 8 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_06,-1,-1;WWCWStk_06 'WWCWStk_06' true true false 8 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_06,-1,-1;Length_FT_ 'Length_FT_' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Length_FT_,-1,-1;Length_MI_ 'Length_MI_' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Length_MI_,-1,-1;SpecReg_Ma 'SpecReg_Ma' true true false 5 Long 0 5 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SpecReg_Ma,-1,-1;TrtStk_07 'TrtStk_07' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_07,-1,-1;Fing_TrtSt 'Fing_TrtSt' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_TrtSt,-1,-1;WWCWStk_07 'WWCWStk_07' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_07,-1,-1;LL_Long_GI 'LL_Long_GI' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LL_Long_GI,-1,-1;LL_Lat_GIS 'LL_Lat_GIS' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LL_Lat_GIS,-1,-1;Reg_Name 'Reg_Name' true true false 40 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Reg_Name,-1,-1;Reg_Link 'Reg_Link' true true false 70 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Reg_Link,-1,-1;TrtStk_08 'TrtStk_08' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_08,-1,-1;Fing_Trt_1 'Fing_Trt_1' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_Trt_1,-1,-1;WWCWStk_08 'WWCWStk_08' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_08,-1,-1;UL_Lat_GIS 'UL_Lat_GIS' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UL_Lat_GIS,-1,-1;UL_Long_GI 'UL_Long_GI' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UL_Long_GI,-1,-1;TrtStk_09 'TrtStk_09' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_09,-1,-1;Fing_Trt_2 'Fing_Trt_2' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_Trt_2,-1,-1;WWCWStk_20 'WWCWStk_20' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_20,-1,-1;Rem_Sec 'Rem_Sec' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Rem_Sec,-1,-1;ClassA 'ClassA' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,ClassA,-1,-1;WildTrt 'WildTrt' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WildTrt,-1,-1;WWCW_Fish 'WWCW_Fish' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCW_Fish,-1,-1;SpecReg 'SpecReg' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SpecReg,-1,-1" # "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20090813" Time="085055">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections'</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20090813" Time="085123">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\UnregisterAsVersioned" Date="20090813" Time="091848">UnregisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_Sections" NO_KEEP_EDIT NO_COMPRESS_DEFAULT "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_Sections"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20091216" Time="093900">FeatureClassToFeatureClass "Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections" "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping" Fisheries_AllSections_new # "WRDS 'WRDS' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WRDS,-1,-1;WtrLatLon 'WtrLatLon' true true false 12 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLatLon,-1,-1;WtrLatDD 'WtrLatDD' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLatDD,-1,-1;WtrLonDD 'WtrLonDD' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLonDD,-1,-1;WtrName 'WtrName' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrName,-1,-1;SecNum 'SecNum' true true false 4 Long 0 10 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecNum,-1,-1;SecDate 'SecDate' true true false 36 Date 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecDate,-1,-1;SecUpLimLa 'SecUpLimLa' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpLimLa,-1,-1;SecUpLimLo 'SecUpLimLo' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpLimLo,-1,-1;SecUpperLi 'SecUpperLi' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpperLi,-1,-1;SecUpper_1 'SecUpper_1' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpper_1,-1,-1;SecLwLimLa 'SecLwLimLa' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLwLimLa,-1,-1;SecLwLimLo 'SecLwLimLo' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLwLimLo,-1,-1;SecLowerLi 'SecLowerLi' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLowerLi,-1,-1;SecLower_1 'SecLower_1' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLower_1,-1,-1;GIS_Key 'GIS_Key' true true false 16 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,GIS_Key,-1,-1;LowerRM_Ne 'LowerRM_Ne' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LowerRM_Ne,-1,-1;UpperRM_Ne 'UpperRM_Ne' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UpperRM_Ne,-1,-1;TrtStk_06 'TrtStk_06' true true false 8 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_06,-1,-1;WWCWStk_06 'WWCWStk_06' true true false 8 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_06,-1,-1;Length_FT_ 'Length_FT_' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Length_FT_,-1,-1;Length_MI_ 'Length_MI_' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Length_MI_,-1,-1;SpecReg_Ma 'SpecReg_Ma' true true false 4 Long 0 10 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SpecReg_Ma,-1,-1;TrtStk_07 'TrtStk_07' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_07,-1,-1;Fing_TrtSt 'Fing_TrtSt' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_TrtSt,-1,-1;WWCWStk_07 'WWCWStk_07' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_07,-1,-1;LL_Long_GI 'LL_Long_GI' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LL_Long_GI,-1,-1;LL_Lat_GIS 'LL_Lat_GIS' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LL_Lat_GIS,-1,-1;Reg_Name 'Reg_Name' true true false 40 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Reg_Name,-1,-1;Reg_Link 'Reg_Link' true true false 70 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Reg_Link,-1,-1;TrtStk_08 'TrtStk_08' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_08,-1,-1;Fing_Trt_1 'Fing_Trt_1' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_Trt_1,-1,-1;WWCWStk_08 'WWCWStk_08' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_08,-1,-1;UL_Lat_GIS 'UL_Lat_GIS' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UL_Lat_GIS,-1,-1;UL_Long_GI 'UL_Long_GI' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UL_Long_GI,-1,-1;TrtStk_09 'TrtStk_09' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_09,-1,-1;Fing_Trt_2 'Fing_Trt_2' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_Trt_2,-1,-1;WWCWStk_20 'WWCWStk_20' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_20,-1,-1;Rem_Sec 'Rem_Sec' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Rem_Sec,-1,-1;ClassA 'ClassA' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,ClassA,-1,-1;WildTrt 'WildTrt' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WildTrt,-1,-1;WWCW_Fish 'WWCW_Fish' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCW_Fish,-1,-1;SpecReg 'SpecReg' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SpecReg,-1,-1;GlobalID 'GlobalID' false false true 38 Long 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,GlobalID,-1,-1;Shape_len 'Shape_len' false false true 0 Double 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Shape.len,-1,-1" # "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20091216" Time="094251">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new'</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20091216" Time="094306">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new"</Process></lineage><itemProps><itemName Sync="TRUE">TroutStocked_Sections_2017</itemName><nativeExtBox><westBL Sync="TRUE">-213549.484996</westBL><eastBL Sync="TRUE">274052.885730</eastBL><southBL Sync="TRUE">80481.579606</southBL><northBL Sync="TRUE">362884.039832</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">7.125</itemSize><itemLocation><linkage Sync="TRUE">file://\\PC-36\D\PFBC\TroutStocked_Sections_2017.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><imsContentType>002</imsContentType></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;USA_Contiguous_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-78.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,40.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,39.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-16085300&lt;/XOrigin&gt;&lt;YOrigin&gt;-8515400&lt;/YOrigin&gt;&lt;XYScale&gt;279982320.96202713&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-939.69696972978568&lt;/MOrigin&gt;&lt;MScale&gt;4194304001953.124&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><MetaID>{9D7290F3-AB42-4294-B7F4-50D677BB030A}</MetaID><ArcGISFormat>1.0</ArcGISFormat></Esri><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpOrgName>PA Fish and Boat Commission</rpOrgName><rpPosName>GIS Coordinator</rpPosName><rpCntInfo><cntPhone><voiceNum>717-705-7909</voiceNum><faxNum>717-705-7901</faxNum></cntPhone><cntAddress addressType="postal"><delPoint>P O Box 67000</delPoint><city>Harrisburg</city><adminArea>PA</adminArea><postCode>17106-7000</postCode><country>US</country></cntAddress><cntHours>8:00-4:00</cntHours></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="postal"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont></distributor><distTranOps><onLineSrc><linkage>http://www.pasda.psu.edu/</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>Trout Stocked Sections</resTitle><date><pubDate>2017-01-01</pubDate></date><citRespParty><rpOrgName>Pennsylvania Fish and Boat Commission</rpOrgName><role><RoleCd value="006"/></role></citRespParty></idCitation><idAbs>This layer contains flowing waters from the Pennsylvania Fish and Boat Commission Fisheries Resource Database that will be stocked with trout in 2017.</idAbs><idPurp>Mapping and analysis of flowing waters that are stocked in Pennsylvania. Promotion of fishing opportunities in Pennsylvania.</idPurp><idCredit>Pennsylvania Fish and Boat Commission</idCredit><idStatus><ProgCd value="001"/></idStatus><idPoC><rpOrgName>PA Fish and Boat Commission</rpOrgName><rpPosName>GIS Coordinator</rpPosName><rpCntInfo><cntPhone><voiceNum>717-705-7909</voiceNum><faxNum>717-705-7901</faxNum></cntPhone><cntAddress addressType="physical"><delPoint>1601 Elmerton Ave</delPoint><city>Harrisburg</city><adminArea>PA</adminArea><postCode>17110-9299</postCode><country>US</country></cntAddress><cntHours>8:00-4:00</cntHours></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><placeKeys><keyword>Pennsylvania</keyword></placeKeys><themeKeys><keyword>Streams</keyword><keyword>Stocking</keyword><keyword>inlandWaters</keyword><keyword>Fishing</keyword><keyword>Special Regulation</keyword><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName></themeKeys><searchKeys><keyword>Streams</keyword><keyword>Stocking</keyword><keyword>inlandWaters</keyword><keyword>Fishing</keyword><keyword>Pennsylvania</keyword><keyword>Special Regulation</keyword></searchKeys><resConst><LegConsts><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useLimit></Consts></resConst><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="012"/></tpCat><dataExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2017-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt><suppInfo>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database. The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography. Tools in ArcMap were used to generate the stream sections from these values. Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary. The current 1:24000 National Hydrography Dataset (NHD) flowing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</suppInfo></dataIdInfo><mdMaint><maintFreq><MaintFreqCd value="012"/></maintFreq><dateNext/></mdMaint><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQAbsExtPosAcc" dimension="horizontal"><evalMethDesc>Layer is based on the National Hydrography Dataset (NHD) flowing water layer.</evalMethDesc><measResult><QuanResult><quanVal>24000</quanVal></QuanResult></measResult></report><dataLineage><prcStep><stepDesc>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database. The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography. Tools in ArcMap were used to generate the stream sections from these values. Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary. The current 1:24000 National Hydrography Dataset (NHD) flwoing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</stepDesc><stepDateTm>2006-01-01</stepDateTm><stepProc><rpOrgName>PA Fish and Boat Commission</rpOrgName><rpPosName>GIS Coordinator</rpPosName><rpCntInfo><cntPhone><voiceNum>717-705-7909</voiceNum><faxNum>717-705-7901</faxNum></cntPhone><cntAddress addressType="postal"><delPoint>P O Box 67000</delPoint><city>Harrisburg</city><adminArea>PA</adminArea><postCode>17106-7000</postCode><country>US</country><eMailAdd>mbialousz@state.pa.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</resAltTitle></srcCitatn></stepSrc></prcStep></dataLineage></dqInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="a00d85f8bc1209dcf7584dc7494bd2ab" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Fish and Boat Commission</origin>
+        <pubdate>2017</pubdate>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <title>Trout Stocked Sections</title>
+        <ftname Sync="TRUE">PFBC_GIS.DBO.Fisheries_AllSections</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.522230</westbc>
+        <eastbc Sync="TRUE">-74.689450</eastbc>
+        <northbc Sync="TRUE">42.264260</northbc>
+        <southbc Sync="TRUE">39.703258</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-80.522230</leftbc>
+        <rightbc Sync="TRUE">-74.689450</rightbc>
+        <bottombc Sync="TRUE">39.703258</bottombc>
+        <topbc Sync="TRUE">42.264260</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Stocking</themekey>
+        <themekey>Special Regulation</themekey>
+        <themekey>Fishing</themekey>
+        <themekey>Streams</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state.  If modifications are made to the data set, users are obligated to describe the types of modifications they have made.  Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <hours>8:00-4:00</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Pennsylvania Fish and Boat Commission</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <natvform Sync="TRUE">SDE Feature Class</natvform>
+    <descript>
+      <abstract>TroutStocked_Streams_2017</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <srcused>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper />
+              <cntorg>PA Fish and Boat Commission</cntorg>
+            </cntperp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>physical address</addrtype>
+              <address>1601 Elmerton Ave</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17110-9299</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>P O Box 67000</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17106-7000</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>717-705-7909</cntvoice>
+            <cntfax>717-705-7901</cntfax>
+            <cntemail>mbialousz@state.pa.us</cntemail>
+          </cntinfo>
+        </proccont>
+        <procdesc>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database.  The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography.  Tools in ArcMap were used to generate the stream sections from these values.  Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary.  The current 1:24000 National Hydrography Dataset (NHD) flwoing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</procdesc>
+        <procsv>ArcGIS 9.1</procsv>
+        <procdate>2006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\Temp\Reg_HQ.xml</srcused>
+        <date Sync="TRUE">20070130</date>
+        <time Sync="TRUE">09333600</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">K:\Projects\General_GIS\metadata_template.xml</srcused>
+        <date Sync="TRUE">20070213</date>
+        <time Sync="TRUE">16173000</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\WorkSpace\Exports_4_Metadata\Streams_PFBCManaged.shp.xml</srcused>
+        <date Sync="TRUE">20070214</date>
+        <time Sync="TRUE">11441000</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE" />
+        <date Sync="TRUE">20070222</date>
+        <time Sync="TRUE">17264100</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS_new.mdb</srcused>
+        <date Sync="TRUE">20080122</date>
+        <time Sync="TRUE">16123400</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <procdate Sync="TRUE">20081230</procdate>
+        <proctime Sync="TRUE">16490500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=FBHBGISDEV02; Service=5151/tcp; Database=PFBC_GIS; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">20090126</procdate>
+        <proctime Sync="TRUE">09423500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=FBHBGISDEV02; Service=5151/tcp; Database=PFBC_GIS; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">20090129</procdate>
+        <proctime Sync="TRUE">00273200</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE" />
+        <procdate Sync="TRUE">20090415</procdate>
+        <proctime Sync="TRUE">08565500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=fbhbgisdev02; Service=5151/tcp; Database=PFBC_GIS; User=sa; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">2017</procdate>
+        <proctime Sync="TRUE">13474500</proctime>
+      </procstep>
+    </lineage>
+    <posacc>
+      <horizpa>
+        <qhorizpa>
+          <horizpav>24000</horizpav>
+          <horizpae>Layer is based on the National Hydrography Dataset (NHD) flowing water layer.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="TroutStocked_Sections_2017">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">3</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1105</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">TRUE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres Sync="TRUE">1.000000</altres>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="TroutStocked_Sections_2017">
+      <enttyp>
+        <enttypl Sync="TRUE">TroutStocked_Sections_2017</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1105</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WRDS</attrlabl>
+        <attalias Sync="TRUE">WRDS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdef>Water Resources Data System unique stream identifier</attrdef>
+        <attrdefs>Pennsylvania Department of Environmental Protection</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrLatLon</attrlabl>
+        <attalias Sync="TRUE">WtrLatLon</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <attrdef>PFBC stream unique identifier (consists of latitude/longitude of the mouth)</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrLatDD</attrlabl>
+        <attalias Sync="TRUE">WtrLatDD</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Stream mouth latitude in decimal degrees</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrLonDD</attrlabl>
+        <attalias Sync="TRUE">WtrLonDD</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Stream mouth longitude in decimal degrees</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrName</attrlabl>
+        <attalias Sync="TRUE">WtrName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Stream name</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecNum</attrlabl>
+        <attalias Sync="TRUE">SecNum</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>PFBC Fisheries Management stream section number</attrdef>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecDate</attrlabl>
+        <attalias Sync="TRUE">SecDate</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Date the section was established</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpLimLa</attrlabl>
+        <attalias Sync="TRUE">SecUpLimLa</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Latitude of the upper limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpLimLo</attrlabl>
+        <attalias Sync="TRUE">SecUpLimLo</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Longitude of the upper limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpperLi</attrlabl>
+        <attalias Sync="TRUE">SecUpperLi</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>River Mile (uncorrected) of the upper limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpper_1</attrlabl>
+        <attalias Sync="TRUE">SecUpper_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Section upper limit description</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLwLimLa</attrlabl>
+        <attalias Sync="TRUE">SecLwLimLa</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Latitude of the lower limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLwLimLo</attrlabl>
+        <attalias Sync="TRUE">SecLwLimLo</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Longitude of the lower limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLowerLi</attrlabl>
+        <attalias Sync="TRUE">SecLowerLi</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>River Mile (uncorrected) of the lower limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_06</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_06</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with warmwater/coolwater species in 2006</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_06</attrlabl>
+        <attalias Sync="TRUE">TrtStk_06</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with trout in 2006</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UpperRM_Ne</attrlabl>
+        <attalias Sync="TRUE">UpperRM_Ne</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Adjusted section upper limit river mile (NHD based)</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LowerRM_Ne</attrlabl>
+        <attalias Sync="TRUE">LowerRM_Ne</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Adjusted section lower limit river mile (NHD based)</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GIS_Key</attrlabl>
+        <attalias Sync="TRUE">GIS_Key</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Unique identifier for the stream section used in GIS (combo of stream ID and section number)</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLower_1</attrlabl>
+        <attalias Sync="TRUE">SecLower_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Section lower limit description</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Length_FT_</attrlabl>
+        <attalias Sync="TRUE">Length_FT_</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Length of the section in feet calculated by GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Length_MI_</attrlabl>
+        <attalias Sync="TRUE">Length_MI_</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Length of the section in miles calculated by GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SpecReg_Ma</attrlabl>
+        <attalias Sync="TRUE">SpecReg_Ma</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <attrdef>The Special Regulation Map ID used on PFBC Regional and County Guide Maps if the section is under a fishing special regulation</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_07</attrlabl>
+        <attalias Sync="TRUE">TrtStk_07</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdef>Whether the section was stocked with trout in 2007</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_TrtSt</attrlabl>
+        <attalias Sync="TRUE">Fing_TrtSt</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdef>Whether the section was stocked with fingerling sized trout in 2007</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LL_Lat_GIS</attrlabl>
+        <attalias Sync="TRUE">LL_Lat_GIS</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Lower Limit Latitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LL_Long_GI</attrlabl>
+        <attalias Sync="TRUE">LL_Long_GI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Lower Limit Longitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_07</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_07</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdef>Whether the section will be stocked with warmwater/coolwater species in 2007</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_08</attrlabl>
+        <attalias Sync="TRUE">TrtStk_08</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with trout in 2008</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_1</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with fingerling sized trout in 2008</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_08</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_08</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdef>Whether the section will be stocked with warmwater/coolwater species in 2008</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UL_Lat_GIS</attrlabl>
+        <attalias Sync="TRUE">UL_Lat_GIS</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Upper Limit Latitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UL_Long_GI</attrlabl>
+        <attalias Sync="TRUE">UL_Long_GI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Upper Limit Longitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_09</attrlabl>
+        <attalias Sync="TRUE">TrtStk_09</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <attrdef>Whether the section will be stocked with trout in 2009</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_2</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_2</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with fingerling sized trout in 2009</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_20</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_20</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section will be stocked with warmwater/coolwater species in 2009</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Rem_Sec</attrlabl>
+        <attalias Sync="TRUE">Rem_Sec</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ClassA</attrlabl>
+        <attalias Sync="TRUE">ClassA</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WildTrt</attrlabl>
+        <attalias Sync="TRUE">WildTrt</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCW_Fish</attrlabl>
+        <attalias Sync="TRUE">WWCW_Fish</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GlobalID</attrlabl>
+        <attalias Sync="TRUE">GlobalID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">38</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SpecReg</attrlabl>
+        <attalias Sync="TRUE">SpecReg</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_10</attrlabl>
+        <attalias Sync="TRUE">TrtStk_10</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_3</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_3</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_11</attrlabl>
+        <attalias Sync="TRUE">TrtStk_11</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_4</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_4</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_len</attrlabl>
+        <attalias Sync="TRUE">Shape_len</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+    <detailed Name="PFBC_GIS.DBO.Stream_Trout_Stocking_2009">
+      <enttyp>
+        <enttypl Sync="TRUE">PFBC_GIS.DBO.Stream_Trout_Stocking_2009</enttypl>
+        <enttypt Sync="TRUE">Relationship</enttypt>
+      </enttyp>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+    </detailed>
+    <detailed Name="Streams_WWCW_Stocking_2008">
+      <enttyp>
+        <enttypl Sync="TRUE">Streams_WWCW_Stocking_2008</enttypl>
+        <enttypt Sync="TRUE">Relationship</enttypt>
+      </enttyp>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+    </detailed>
+    <detailed Name="Streams_WWCW_Actual_Stocked_2008">
+      <enttyp>
+        <enttypl Sync="TRUE">Streams_WWCW_Actual_Stocked_2008</enttypl>
+        <enttypt Sync="TRUE">Relationship</enttypt>
+      </enttyp>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">31.307</transize>
+          <dssize Sync="TRUE">31.307</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building </address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">2017</metd>
+    <metfrd>As needed</metfrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <hours>8:00-4:00</hours>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta>English</langmeta>
+  </metainfo>
+  <Esri>
+    <CreaDate>2017</CreaDate>
+    <CreaTime>13474500</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ModDate>2017</ModDate>
+    <ModTime>14382400</ModTime>
+    <SyncDate>2017</SyncDate>
+    <SyncTime>14382400</SyncTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20070214" Time="111013">CopyFeatures K:\PFBC_GIS\Geodatabase\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006 C:\WorkSpace\Exports_4_Metadata\Streams_PFBCManaged_2006_1.shp # 0 0 0</Process>
+        <Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070222" Time="155239">FeatureClassToFeatureClass K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006 "K:\Projects\Fisheries\Fish_Management\Coldwater_Unit\Stocking_2007\New Folder" Streams_PFBCManaged_2007.shp # "WRDS WRDS true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WRDS,-1,-1;WtrLatLon WtrLatLon true true false 12 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLatLon,-1,-1;WtrLatDD WtrLatDD true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLatDD,-1,-1;WtrLonDD WtrLonDD true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLonDD,-1,-1;WtrName WtrName true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrName,-1,-1;SecNum SecNum true true false 2 Short 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecNum,-1,-1;SecDate SecDate true true false 8 Date 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecDate,-1,-1;SecUpLimLa SecUpLimLa true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpLimLa,-1,-1;SecUpLimLo SecUpLimLo true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpLimLo,-1,-1;SecUpperLi SecUpperLi true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpperLi,-1,-1;SecUpper_1 SecUpper_1 true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpper_1,-1,-1;SecLwLimLa SecLwLimLa true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLwLimLa,-1,-1;SecLwLimLo SecLwLimLo true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLwLimLo,-1,-1;SecLowerLi SecLowerLi true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLowerLi,-1,-1;SecLower_1 SecLower_1 true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLower_1,-1,-1;GIS_Key GIS_Key true true false 16 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,GIS_Key,-1,-1;LowerRM_Ne LowerRM_Ne true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,LowerRM_Ne,-1,-1;UpperRM_Ne UpperRM_Ne true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,UpperRM_Ne,-1,-1;Shape_Leng Shape_Length false true true 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Shape_Length,-1,-1;TrtStk_06 TrtStk_06 true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,TrtStk_06,-1,-1;WWCWStk_06 WWCWStk_06 true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WWCWStk_06,-1,-1;Spec_Reg Spec_Reg true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Spec_Reg,-1,-1;Length_FT_ Length_FT_ true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Length_FT_GIS,-1,-1;Length_MI_ Length_MI_ true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Length_MI_GIS,-1,-1;SpecReg_Ma SpecReg_Ma true true false 2 Short 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SpecReg_MapID,-1,-1" # "K:\Projects\Fisheries\Fish_Management\Coldwater_Unit\Stocking_2007\New Folder\Streams_PFBCManaged_2007.shp"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20081230" Time="171457">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams'</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20090126" Time="094757">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2009" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2009"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090813" Time="084934">FeatureClassToFeatureClass K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping" Fisheries_AllSections # "WRDS 'WRDS' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WRDS,-1,-1;WtrLatLon 'WtrLatLon' true true false 12 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLatLon,-1,-1;WtrLatDD 'WtrLatDD' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLatDD,-1,-1;WtrLonDD 'WtrLonDD' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLonDD,-1,-1;WtrName 'WtrName' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrName,-1,-1;SecNum 'SecNum' true true false 5 Long 0 5 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecNum,-1,-1;SecDate 'SecDate' true true false 8 Date 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecDate,-1,-1;SecUpLimLa 'SecUpLimLa' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpLimLa,-1,-1;SecUpLimLo 'SecUpLimLo' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpLimLo,-1,-1;SecUpperLi 'SecUpperLi' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpperLi,-1,-1;SecUpper_1 'SecUpper_1' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpper_1,-1,-1;SecLwLimLa 'SecLwLimLa' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLwLimLa,-1,-1;SecLwLimLo 'SecLwLimLo' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLwLimLo,-1,-1;SecLowerLi 'SecLowerLi' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLowerLi,-1,-1;SecLower_1 'SecLower_1' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLower_1,-1,-1;GIS_Key 'GIS_Key' true true false 16 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,GIS_Key,-1,-1;LowerRM_Ne 'LowerRM_Ne' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LowerRM_Ne,-1,-1;UpperRM_Ne 'UpperRM_Ne' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UpperRM_Ne,-1,-1;TrtStk_06 'TrtStk_06' true true false 8 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_06,-1,-1;WWCWStk_06 'WWCWStk_06' true true false 8 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_06,-1,-1;Length_FT_ 'Length_FT_' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Length_FT_,-1,-1;Length_MI_ 'Length_MI_' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Length_MI_,-1,-1;SpecReg_Ma 'SpecReg_Ma' true true false 5 Long 0 5 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SpecReg_Ma,-1,-1;TrtStk_07 'TrtStk_07' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_07,-1,-1;Fing_TrtSt 'Fing_TrtSt' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_TrtSt,-1,-1;WWCWStk_07 'WWCWStk_07' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_07,-1,-1;LL_Long_GI 'LL_Long_GI' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LL_Long_GI,-1,-1;LL_Lat_GIS 'LL_Lat_GIS' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LL_Lat_GIS,-1,-1;Reg_Name 'Reg_Name' true true false 40 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Reg_Name,-1,-1;Reg_Link 'Reg_Link' true true false 70 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Reg_Link,-1,-1;TrtStk_08 'TrtStk_08' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_08,-1,-1;Fing_Trt_1 'Fing_Trt_1' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_Trt_1,-1,-1;WWCWStk_08 'WWCWStk_08' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_08,-1,-1;UL_Lat_GIS 'UL_Lat_GIS' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UL_Lat_GIS,-1,-1;UL_Long_GI 'UL_Long_GI' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UL_Long_GI,-1,-1;TrtStk_09 'TrtStk_09' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_09,-1,-1;Fing_Trt_2 'Fing_Trt_2' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_Trt_2,-1,-1;WWCWStk_20 'WWCWStk_20' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_20,-1,-1;Rem_Sec 'Rem_Sec' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Rem_Sec,-1,-1;ClassA 'ClassA' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,ClassA,-1,-1;WildTrt 'WildTrt' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WildTrt,-1,-1;WWCW_Fish 'WWCW_Fish' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCW_Fish,-1,-1;SpecReg 'SpecReg' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SpecReg,-1,-1" # "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20090813" Time="085055">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections'</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20090813" Time="085123">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\UnregisterAsVersioned" Date="20090813" Time="091848">UnregisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_Sections" NO_KEEP_EDIT NO_COMPRESS_DEFAULT "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_Sections"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20091216" Time="093900">FeatureClassToFeatureClass "Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections" "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping" Fisheries_AllSections_new # "WRDS 'WRDS' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WRDS,-1,-1;WtrLatLon 'WtrLatLon' true true false 12 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLatLon,-1,-1;WtrLatDD 'WtrLatDD' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLatDD,-1,-1;WtrLonDD 'WtrLonDD' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLonDD,-1,-1;WtrName 'WtrName' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrName,-1,-1;SecNum 'SecNum' true true false 4 Long 0 10 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecNum,-1,-1;SecDate 'SecDate' true true false 36 Date 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecDate,-1,-1;SecUpLimLa 'SecUpLimLa' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpLimLa,-1,-1;SecUpLimLo 'SecUpLimLo' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpLimLo,-1,-1;SecUpperLi 'SecUpperLi' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpperLi,-1,-1;SecUpper_1 'SecUpper_1' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpper_1,-1,-1;SecLwLimLa 'SecLwLimLa' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLwLimLa,-1,-1;SecLwLimLo 'SecLwLimLo' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLwLimLo,-1,-1;SecLowerLi 'SecLowerLi' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLowerLi,-1,-1;SecLower_1 'SecLower_1' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLower_1,-1,-1;GIS_Key 'GIS_Key' true true false 16 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,GIS_Key,-1,-1;LowerRM_Ne 'LowerRM_Ne' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LowerRM_Ne,-1,-1;UpperRM_Ne 'UpperRM_Ne' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UpperRM_Ne,-1,-1;TrtStk_06 'TrtStk_06' true true false 8 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_06,-1,-1;WWCWStk_06 'WWCWStk_06' true true false 8 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_06,-1,-1;Length_FT_ 'Length_FT_' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Length_FT_,-1,-1;Length_MI_ 'Length_MI_' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Length_MI_,-1,-1;SpecReg_Ma 'SpecReg_Ma' true true false 4 Long 0 10 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SpecReg_Ma,-1,-1;TrtStk_07 'TrtStk_07' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_07,-1,-1;Fing_TrtSt 'Fing_TrtSt' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_TrtSt,-1,-1;WWCWStk_07 'WWCWStk_07' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_07,-1,-1;LL_Long_GI 'LL_Long_GI' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LL_Long_GI,-1,-1;LL_Lat_GIS 'LL_Lat_GIS' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LL_Lat_GIS,-1,-1;Reg_Name 'Reg_Name' true true false 40 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Reg_Name,-1,-1;Reg_Link 'Reg_Link' true true false 70 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Reg_Link,-1,-1;TrtStk_08 'TrtStk_08' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_08,-1,-1;Fing_Trt_1 'Fing_Trt_1' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_Trt_1,-1,-1;WWCWStk_08 'WWCWStk_08' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_08,-1,-1;UL_Lat_GIS 'UL_Lat_GIS' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UL_Lat_GIS,-1,-1;UL_Long_GI 'UL_Long_GI' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UL_Long_GI,-1,-1;TrtStk_09 'TrtStk_09' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_09,-1,-1;Fing_Trt_2 'Fing_Trt_2' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_Trt_2,-1,-1;WWCWStk_20 'WWCWStk_20' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_20,-1,-1;Rem_Sec 'Rem_Sec' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Rem_Sec,-1,-1;ClassA 'ClassA' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,ClassA,-1,-1;WildTrt 'WildTrt' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WildTrt,-1,-1;WWCW_Fish 'WWCW_Fish' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCW_Fish,-1,-1;SpecReg 'SpecReg' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SpecReg,-1,-1;GlobalID 'GlobalID' false false true 38 Long 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,GlobalID,-1,-1;Shape_len 'Shape_len' false false true 0 Double 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Shape.len,-1,-1" # "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20091216" Time="094251">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new'</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20091216" Time="094306">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new"</Process>
+      </lineage>
+      <itemProps>
+        <itemName Sync="TRUE">TroutStocked_Sections_2017</itemName>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-213549.484996</westBL>
+          <eastBL Sync="TRUE">274052.885730</eastBL>
+          <southBL Sync="TRUE">80481.579606</southBL>
+          <northBL Sync="TRUE">362884.039832</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemSize Sync="TRUE">7.125</itemSize>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\PC-36\D\PFBC\TroutStocked_Sections_2017.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <imsContentType>002</imsContentType>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;USA_Contiguous_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-78.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,40.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,39.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-16085300&lt;/XOrigin&gt;&lt;YOrigin&gt;-8515400&lt;/YOrigin&gt;&lt;XYScale&gt;279982320.96202713&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-939.69696972978568&lt;/MOrigin&gt;&lt;MScale&gt;4194304001953.124&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <MetaID>{9D7290F3-AB42-4294-B7F4-50D677BB030A}</MetaID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-705-7909</voiceNum>
+        <faxNum>717-705-7901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="postal">
+        <delPoint>P O Box 67000</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>PA</adminArea>
+        <postCode>17106-7000</postCode>
+        <country>US</country>
+      </cntAddress>
+      <cntHours>8:00-4:00</cntHours>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="postal">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Trout Stocked Sections</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Fish and Boat Commission</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>This layer contains flowing waters from the Pennsylvania Fish and Boat Commission Fisheries Resource Database that will be stocked with trout in 2017.</idAbs>
+    <idPurp>Mapping and analysis of flowing waters that are stocked in Pennsylvania. Promotion of fishing opportunities in Pennsylvania.</idPurp>
+    <idCredit>Pennsylvania Fish and Boat Commission</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-705-7909</voiceNum>
+          <faxNum>717-705-7901</faxNum>
+        </cntPhone>
+        <cntAddress addressType="physical">
+          <delPoint>1601 Elmerton Ave</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>PA</adminArea>
+          <postCode>17110-9299</postCode>
+          <country>US</country>
+        </cntAddress>
+        <cntHours>8:00-4:00</cntHours>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Streams</keyword>
+      <keyword>Stocking</keyword>
+      <keyword>inlandWaters</keyword>
+      <keyword>Fishing</keyword>
+      <keyword>Special Regulation</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Streams</keyword>
+      <keyword>Stocking</keyword>
+      <keyword>inlandWaters</keyword>
+      <keyword>Fishing</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Special Regulation</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="012" />
+    </tpCat>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database. The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography. Tools in ArcMap were used to generate the stream sections from these values. Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary. The current 1:24000 National Hydrography Dataset (NHD) flowing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</suppInfo>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012" />
+    </maintFreq>
+    <dateNext />
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <evalMethDesc>Layer is based on the National Hydrography Dataset (NHD) flowing water layer.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>24000</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database. The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography. Tools in ArcMap were used to generate the stream sections from these values. Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary. The current 1:24000 National Hydrography Dataset (NHD) flwoing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</stepDesc>
+        <stepDateTm>2006-01-01</stepDateTm>
+        <stepProc>
+          <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+          <rpPosName>GIS Coordinator</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>717-705-7909</voiceNum>
+              <faxNum>717-705-7901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="postal">
+              <delPoint>P O Box 67000</delPoint>
+              <city>Harrisburg</city>
+              <adminArea>PA</adminArea>
+              <postCode>17106-7000</postCode>
+              <country>US</country>
+              <eMailAdd>mbialousz@state.pa.us</eMailAdd>
+            </cntAddress>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="a00d85f8bc1209dcf7584dc7494bd2ab" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvb3JpZ2luPg0KICAgICAgICA8
 cHViZGF0ZT4yMDE3PC9wdWJkYXRlPg0KICAgICAgICA8b25saW5rPmh0dHA6Ly93d3cucGFzZGEu
@@ -1212,4 +2513,7 @@ ICAgIDwvbGluZWFnZT4NCiAgICA8L0RhdGFQcm9wZXJ0aWVzPg0KICAgIDxNZXRhSUQ+ezlENzI5
 MEYzLUFCNDItNDI5NC1CN0Y0LTUwRDY3N0JCMDMwQX08L01ldGFJRD4NCiAgPC9Fc3JpPg0KICA8
 ZGF0YUlkSW5mbz4NCiAgICA8ZGVzY0tleXM+DQogICAgICA8dGhlc2FOYW1lIHV1aWRyZWY9Ijcy
 M2Y2OTk4LTA1OGUtMTFkYy04MzE0LTA4MDAyMDBjOWE2NiIgLz4NCiAgICA8L2Rlc2NLZXlzPg0K
-ICA8L2RhdGFJZEluZm8+DQo8L21ldGFkYXRhPg==</Data></Enclosure></Binary></metadata>
+ICA8L2RhdGFJZEluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

@@ -1,104 +1,159 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd">
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
 <metadata>
-	<idinfo>
-		<citation>
-			<citeinfo>
-				<pubinfo>
-				</pubinfo>
-				<origin>Penn State Institutes of Energy and the Environment</origin><pubdate>2004</pubdate><title>Pennsylvania Breeding Bird Atlas 2 - Regions</title><onlink>http://www.carnegiemnh.org/atlas/home.htm</onlink><onlink>http://www.pasda.psu.edu/</onlink></citeinfo>
-		</citation>
-		<descript>
-			<abstract>This Website provides an interface for PA Breeding Bird Atlas staff and volunteers to find survey blocks, enter their findings and view results. I developed the component with which users can view a map of a block and print a high-quality PDF map. To print a map, enter the site and click the "Register" link on the left side of the window. Then click the "View Regions &amp; Blocks" link, select a block, click its "Block Map" tab and choose whether to print an air photo or a topo map.
-
-This site can be used to help you find the particular 2nd PBBA block where you live or where you make any of your breeding bird observations. You can zoom directly to a point by entering a latitude and longitude. Be sure to use decimal degree format and always include a minus (-) sign before the longitude. Or, you can type in a street address. Be sure to enter both the address and the associated zip code. When you click "Refresh Map," the point or address you entered will be shown as a yellow circle on the map within the Atlas block, which is outlined with green lines and identified with a small number, such as 62B43. The ability to locate 2nd PBBA blocks for a specific lat/long is very helpful, for example, if you have been hiking or boating through an area covering several Atlas blocks, all the while collecting waypoints to go along with breeding bird sightings that you make. It can even help if you're completely lost somewhere in the state but not too panic-stricken to keep atlassing! 
-
-</abstract>
-			<purpose>The 2nd Pennsylvania Breeding Bird Atlas Project is a cooperative, volunteer-based survey conducted from 2004 - 2008. As part of the Gap Project, the Atlas provides the most comprehensive survey of nesting birds in Pennsylvania's history.</purpose></descript>
-		<timeperd>
-			<timeinfo>
-				<sngdate>
-					<caldate>2004</caldate></sngdate>
-			</timeinfo>
-			<current>publication date</current>
-		</timeperd>
-		<status>
-			<progress>In work</progress>
-			<update>Irregular</update>
-		</status>
-		<spdom>
-			<bounding>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme><themekey>biota</themekey><themekey>birds</themekey><themekey>bird</themekey><themekey>BBA</themekey><themekey>breeding</themekey><themekt>ISO 19115 Topic Categories</themekt><themekey>blocks</themekey></theme><place><placekey>Pennsylvania</placekey></place></keywords>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Penn State Institutes of the Environment </cntorg><cntper>Ryan Baxter</cntper></cntorgp>
-				<cntaddr><addrtype>mailing address</addrtype><address>115 Land and Water building</address><city>Universtiy Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntemail>datacommons@psu.edu</cntemail></cntinfo>
-		</ptcontac>
-	</idinfo>
-	<dataqual>
-		<attracc>
-		</attracc>
-		<posacc>
-			<horizpa>
-				<qhorizpa>
-				</qhorizpa>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<pubinfo>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srctime>
-					<timeinfo>
-						<rngdates>
-						</rngdates>
-					</timeinfo>
-				</srctime>
-			</srcinfo>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<ptvctinf>
-			<sdtsterm>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-			</geograph>
-			<geodetic>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<overview>
-		</overview>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Penn State Data Commons</cntorg></cntorgp>
-				<cntaddr><addrtype>mailing address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>datacommons@psu.edu</cntemail></cntinfo>
-		</distrib>
-		<resdesc>application</resdesc></distinfo>
-	<metainfo>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Penn State Data Commons</cntorg><cntper>James Spayd</cntper></cntorgp>
-				<cntaddr><addrtype>mailing address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>datacommons@psu.edu</cntemail></cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<metd Sync="TRUE">20100608</metd></metainfo>
-	<Esri><ModDate>20100608</ModDate><ModTime>09565800</ModTime></Esri><mdDateSt Sync="TRUE">20100608</mdDateSt></metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubinfo>
+        </pubinfo>
+        <origin>Penn State Institutes of Energy and the Environment</origin>
+        <pubdate>2004</pubdate>
+        <title>Pennsylvania Breeding Bird Atlas 2 - Regions</title>
+        <onlink>http://www.carnegiemnh.org/atlas/home.htm</onlink>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2004</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>biota</themekey>
+        <themekey>birds</themekey>
+        <themekey>bird</themekey>
+        <themekey>BBA</themekey>
+        <themekey>breeding</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>blocks</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Penn State Institutes of the Environment </cntorg>
+          <cntper>Ryan Baxter</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>Universtiy Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntemail>datacommons@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>BBA_appRegions</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+    </attracc>
+    <posacc>
+      <horizpa>
+        <qhorizpa>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubinfo>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+            </rngdates>
+          </timeinfo>
+        </srctime>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <ptvctinf>
+      <sdtsterm>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+      </geograph>
+      <geodetic>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Penn State Data Commons</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>datacommons@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>application</resdesc>
+  </distinfo>
+  <metainfo>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Penn State Data Commons</cntorg>
+          <cntper>James Spayd</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>datacommons@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metd Sync="TRUE">20100608</metd>
+  </metainfo>
+  <Esri>
+    <ModDate>20100608</ModDate>
+    <ModTime>09565800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20100608</mdDateSt>
+</metadata>

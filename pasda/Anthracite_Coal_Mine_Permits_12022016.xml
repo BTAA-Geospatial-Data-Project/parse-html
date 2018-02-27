@@ -1,4 +1,643 @@
-<metadata GROUP="'coal'"><idinfo><citation><citeinfo><origin>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs (BMP)</origin><pubdate>12/02/2016</pubdate><pubinfo><pubplace>Harrisburg, PA</pubplace><publish>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs</publish></pubinfo><onlink>http://www.pasda.psu.edu/</onlink><title>Anthracite_Coal_Mine_Permits_12022016</title><ftname Sync="TRUE">Anthracite_coal_mine_permits_update_020811</ftname><geoform Sync="TRUE">vector digital data</geoform></citeinfo></citation><descript GROUP="'coal'"><purpose>The purpose of this data set is to provide DEP staff and other environmental professionals with a spatially referenced inventory of active and historical coal mine permit area boundaries located in Pennsylvania.</purpose><langdata Sync="TRUE">en</langdata><abstract>Pennsylvania state law requires those who wish to conduct mining activities within the Commonwealth to apply for permits issued by the Pennsylvania Department of Environmental Protection (DEP). This data set indicates the approximate location of permit area boundaries of active and historical coal mining operations derived from location maps included with the permit applications submitted by the mine operators. Each polygon represents an area where coal removal, reclamation, and/or related supporting activities have been authorized to occur.</abstract></descript><timeperd GROUP="'coal'"><timeinfo><sngdate><caldate>12/02/2016</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc Sync="TRUE">-76.649616</westbc><eastbc Sync="TRUE">-76.027413</eastbc><northbc Sync="TRUE">40.846739</northbc><southbc Sync="TRUE">40.578533</southbc></bounding><lboundng><leftbc Sync="TRUE">114301.469758</leftbc><rightbc Sync="TRUE">166331.444102</rightbc><bottombc Sync="TRUE">177118.983621</bottombc><topbc Sync="TRUE">205923.074170</topbc></lboundng></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>geology geo geologic geological</themekey><themekey>mining</themekey><themekey>coal</themekey><themekey>Anthracite</themekey><themekey>Geoscientific Information</themekey></theme><place><placekt>none</placekt></place></keywords><accconst>none</accconst><useconst GROUP="'coal'">THE ENCLOSED REPRODUCTIONS OF HISTORICAL MINE RECORDS ARE PROVIDED SOLELY FOR INFORMATIONAL PURPOSES AND ARE NOT INTENDED FOR USE IN MINERAL EXPLORATION OR CONSTRUCTION OF ANY KIND.  THE DEPARTMENT OF ENVIRONMENTAL PROTECTION MAKES NO CLAIM, EXPRESSED OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS OR DEGREE OF IMAGE DISTORTION OF SAID INFORMATION.</useconst><ptcontac GROUP="'coal'"><cntinfo><cntperp><cntper>Keith Previc</cntper><cntorg>Pennsylvania Bureau of Mining and Reclamation</cntorg></cntperp><cntaddr><addrtype>mailing address</addrtype><address>Department of Environmental Protection, Bureau of Mining and Reclamation, Division of Environmental Analysis and Support</address><address>P.O. Box 8461</address><city>Harrisburg</city><state>PA</state><postal>17105-8461</postal><country>USA</country></cntaddr><cntvoice>717-783-9585</cntvoice><cntemail>kprevic@state.pa.us</cntemail></cntinfo></ptcontac><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.1.0.722</native><natvform Sync="TRUE">Shapefile</natvform></idinfo><dataqual GROUP="'coal'"><logic>Polygon topology present.</logic><lineage><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">\\Mirror\share\pa_anthracite_Template.xml</srcused><date Sync="TRUE">20110209</date><time Sync="TRUE">12484700</time></procstep></lineage></dataqual><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="Anthracite_coal_mine_permits_update_020811"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">210</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="Anthracite_coal_mine_permits_update_020811"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">210</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><planci><plance Sync="TRUE">coordinate pair</plance><coordrep><absres Sync="TRUE">0.000128</absres><ordres Sync="TRUE">0.000128</ordres></coordrep><plandu Sync="TRUE">meters</plandu></planci><mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">40.000000</stdparll><stdparll Sync="TRUE">42.000000</stdparll><longcm Sync="TRUE">-78.000000</longcm><latprjo Sync="TRUE">39.000000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></albers></mapproj></planar><geodetic><horizdn Sync="TRUE">North American Datum of 1983</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">PA_Albers_Equal_Area_Conic</projcsn></cordsysn></horizsys></spref><eainfo GROUP="'coal'"><detailed Name="Anthracite_coal_mine_permits_update_020811" xmlns=""><enttyp><enttypl>Anthracite_Coal_Mine_Permits_12022016</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">210</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">INDEX_NO</attrlabl><attalias Sync="TRUE">INDEX_NO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">PERMIT_NO</attrlabl><attalias Sync="TRUE">PERMIT_NO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr><attr><attrlabl Sync="TRUE">COAL_SEAM</attrlabl><attalias Sync="TRUE">COAL_SEAM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">SHAPE_LENG</attrlabl><attalias Sync="TRUE">SHAPE_LENG</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_AREA</attrlabl><attalias Sync="TRUE">SHAPE_AREA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">QUAD_NAME</attrlabl><attalias Sync="TRUE">QUAD_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">19</attwidth></attr><attr><attrlabl Sync="TRUE">QUAD__</attrlabl><attalias Sync="TRUE">QUAD__</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">TOPO__</attrlabl><attalias Sync="TRUE">TOPO__</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">INDEX_NO_1</attrlabl><attalias Sync="TRUE">INDEX_NO_1</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">ZONE</attrlabl><attalias Sync="TRUE">ZONE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">MISC</attrlabl><attalias Sync="TRUE">MISC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">39</attwidth></attr><attr><attrlabl Sync="TRUE">DATE_ISSUE</attrlabl><attalias Sync="TRUE">DATE_ISSUE</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">MUNICIPALI</attrlabl><attalias Sync="TRUE">MUNICIPALI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">34</attwidth></attr><attr><attrlabl Sync="TRUE">COUNTY</attrlabl><attalias Sync="TRUE">COUNTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">19</attwidth></attr><attr><attrlabl Sync="TRUE">COMPANY</attrlabl><attalias Sync="TRUE">COMPANY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">52</attwidth></attr><attr><attrlabl Sync="TRUE">STREET1</attrlabl><attalias Sync="TRUE">STREET1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">39</attwidth></attr><attr><attrlabl Sync="TRUE">STREET2</attrlabl><attalias Sync="TRUE">STREET2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr><attr><attrlabl Sync="TRUE">CITY</attrlabl><attalias Sync="TRUE">CITY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">21</attwidth></attr><attr><attrlabl Sync="TRUE">STATE</attrlabl><attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">ZIP</attrlabl><attalias Sync="TRUE">ZIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">MINE_NAME</attrlabl><attalias Sync="TRUE">MINE_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">46</attwidth></attr><attr><attrlabl Sync="TRUE">PERMIT_TYP</attrlabl><attalias Sync="TRUE">PERMIT_TYP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">82</attwidth></attr><attr><attrlabl Sync="TRUE">MINERAL</attrlabl><attalias Sync="TRUE">MINERAL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">76</attwidth></attr><attr><attrlabl Sync="TRUE">PRIMARY_FA</attrlabl><attalias Sync="TRUE">PRIMARY_FA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">24</attwidth></attr><attr><attrlabl Sync="TRUE">COAL_SEAM_</attrlabl><attalias Sync="TRUE">COAL_SEAM_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">240</attwidth></attr></detailed></eainfo><distinfo GROUP="'coal'"><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>Land and Water Building</address><city>University Park</city><state>PA</state><postal>16802</postal><country>USA</country></cntaddr><cntemail>pasda@psu.edu</cntemail><cntinst>Contact via email</cntinst></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab><stdorder><digform><digtinfo><formname>ARCE (ARC/INFO Export)</formname><formvern>7.1.1</formvern><filedec>zip</filedec><transize Sync="TRUE">0.136</transize><dssize Sync="TRUE">0.136</dssize></digtinfo><digtopt><onlinopt><computer><networka><networkr>see Online Linkage in Identification information section of metadata</networkr></networka></computer></onlinopt></digtopt></digform><fees>none</fees></stdorder><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo><metainfo GROUP="'coal'"><metc><cntinfo><cntpos>Metadata Specialist</cntpos><cntaddr><addrtype>mailing address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>PA</state><postal>16802</postal><country>USA</country></cntaddr><cntvoice>814-865-8792</cntvoice><cntemail>pasda@psu.edu</cntemail><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp></cntinfo></metc><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><metd>12/02/2016</metd><langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo><Esri><ModDate>20161209</ModDate><ModTime>15421000</ModTime><CreaDate>20161209</CreaDate><CreaTime>14451400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110209</SyncDate><SyncTime>12545400</SyncTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\EPMPCOW01\D$\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\DEP_Mining_Updated_Layers_Dec2016\Anthracite_Coal_Mine_Permits_12022016</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><imsContentType export="False"/></itemProps><copyHistory><copy source="D:\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\Anthracite_Coal_Mine_Permits_12022016" dest="\\EPMPCOW01\D$\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\DEP_Mining_Updated_Layers_Dec2016\Anthracite_Coal_Mine_Permits_12022016" date="20161209" time="16384200"/></copyHistory></DataProperties><ArcGISProfile>FGDC</ArcGISProfile><ArcGISFormat>1.0</ArcGISFormat><scaleRange><minScale>625000</minScale><maxScale>50000</maxScale></scaleRange></Esri><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact xmlns=""><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpPosName>Metadata Specialist</rpPosName><rpCntInfo><cntPhone><voiceNum>814-865-8792</voiceNum></cntPhone><cntAddress addressType="postal"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>PA</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20161209</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo xmlns=""><distributor xmlns=""><distorCont xmlns=""><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntAddress addressType="both"><delPoint>Land and Water Building</delPoint><city>University Park</city><adminArea>PA</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress><cntInstr>Contact via email</cntInstr></rpCntInfo><role><RoleCd value="005"/></role></distorCont><distorOrdPrc xmlns=""><resFees units="">none</resFees></distorOrdPrc><distorFormat xmlns=""><formatName>Shapefile</formatName><fileDecmTech>zip</fileDecmTech></distorFormat><distorTran xmlns=""><onLineSrc xmlns=""><linkage>see Online Linkage in Identification information section of metadata</linkage></onLineSrc></distorTran></distributor><distTranOps xmlns=""><onLineSrc xmlns=""><linkage>http://www.pasda.psu.edu/</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation xmlns=""><resTitle>Anthracite_Coal_Mine_Permits_12022016</resTitle><date><pubDate>2016-12-02T00:00:00</pubDate></date><citRespParty xmlns=""><rpOrgName>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs</rpOrgName><rpCntInfo xmlns=""><cntAddress addressType=""><delPoint>Harrisburg, PA</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty xmlns=""><rpOrgName>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs (BMP)</rpOrgName><role><RoleCd value="006"/></role></citRespParty></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Pennsylvania state law requires those who wish to conduct mining activities within the Commonwealth to apply for permits issued by the Pennsylvania Department of Environmental Protection (DEP). This data set indicates the approximate location of permit area boundaries of active and historical coal mining operations derived from location maps included with the permit applications submitted by the mine operators. Each polygon represents an area where coal removal, reclamation, and/or related supporting activities have been authorized to occur.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>The purpose of this data set is to provide DEP staff and other environmental professionals with a spatially referenced inventory of active and historical coal mine permit area boundaries located in Pennsylvania.</idPurp><idStatus><ProgCd value="001"/></idStatus><idPoC xmlns=""><rpIndName>Keith Previc</rpIndName><rpOrgName>Pennsylvania Bureau of Mining Programs</rpOrgName><rpCntInfo xmlns=""><cntPhone><voiceNum tddtty="">717-783-9585</voiceNum></cntPhone><cntAddress addressType="postal"><delPoint>P.O. Box 8461</delPoint><delPoint>Department of Environmental Protection, Bureau of Mining Programs, Division of Environmental Analysis and Support</delPoint><city>Harrisburg</city><adminArea>PA</adminArea><postCode>17105-8461</postCode><country>US</country><eMailAdd>kprevic@state.pa.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint xmlns=""><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><themeKeys xmlns=""><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName><keyword>Geoscientific Information</keyword><keyword>mining</keyword><keyword>geology geo geologic geological</keyword><keyword>Anthracite</keyword><keyword>coal</keyword></themeKeys><searchKeys><keyword>Geoscientific Information</keyword><keyword>mining</keyword><keyword>geology geo geologic geological</keyword><keyword>Anthracite</keyword><keyword>coal</keyword></searchKeys><resConst><LegConsts xmlns=""><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit></LegConsts></resConst><resConst><Consts xmlns=""><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;THE ENCLOSED REPRODUCTIONS OF HISTORICAL MINE RECORDS ARE PROVIDED SOLELY FOR INFORMATIONAL PURPOSES AND ARE NOT INTENDED FOR USE IN MINERAL EXPLORATION OR CONSTRUCTION OF ANY KIND. THE DEPARTMENT OF ENVIRONMENTAL PROTECTION MAKES NO CLAIM, EXPRESSED OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS OR DEGREE OF IMAGE DISTORTION OF SAID INFORMATION.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><dataLang><languageCode value="eng"/></dataLang><dataExt xmlns=""><exDesc>publication date</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2016-12-02T00:00:00</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt><dataExt xmlns=""><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode>0</exTypeCode></GeoBndBox></geoEle></dataExt><dataChar><CharSetCd value="004"/></dataChar><tpCat><TopicCatCd value="008"/></tpCat></dataIdInfo><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQTopConsis"><evalMethDesc>Polygon topology present.</evalMethDesc></report><report type="DQConcConsis"><measDesc>Polygon topology present.</measDesc></report></dqInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="79a8c105551f2b4059b011834d66bf" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSBHUk9VUD0i
+<metadata GROUP="'coal'">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs (BMP)</origin>
+        <pubdate>12/02/2016</pubdate>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <title>Anthracite_Coal_Mine_Permits_12022016</title>
+        <ftname Sync="TRUE">Anthracite_coal_mine_permits_update_020811</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <timeperd GROUP="'coal'">
+      <timeinfo>
+        <sngdate>
+          <caldate>12/02/2016</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-76.649616</westbc>
+        <eastbc Sync="TRUE">-76.027413</eastbc>
+        <northbc Sync="TRUE">40.846739</northbc>
+        <southbc Sync="TRUE">40.578533</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">114301.469758</leftbc>
+        <rightbc Sync="TRUE">166331.444102</rightbc>
+        <bottombc Sync="TRUE">177118.983621</bottombc>
+        <topbc Sync="TRUE">205923.074170</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geology geo geologic geological</themekey>
+        <themekey>mining</themekey>
+        <themekey>coal</themekey>
+        <themekey>Anthracite</themekey>
+        <themekey>Geoscientific Information</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst GROUP="'coal'">THE ENCLOSED REPRODUCTIONS OF HISTORICAL MINE RECORDS ARE PROVIDED SOLELY FOR INFORMATIONAL PURPOSES AND ARE NOT INTENDED FOR USE IN MINERAL EXPLORATION OR CONSTRUCTION OF ANY KIND.  THE DEPARTMENT OF ENVIRONMENTAL PROTECTION MAKES NO CLAIM, EXPRESSED OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS OR DEGREE OF IMAGE DISTORTION OF SAID INFORMATION.</useconst>
+    <ptcontac GROUP="'coal'">
+      <cntinfo>
+        <cntperp>
+          <cntper>Keith Previc</cntper>
+          <cntorg>Pennsylvania Bureau of Mining and Reclamation</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Department of Environmental Protection, Bureau of Mining and Reclamation, Division of Environmental Analysis and Support</address>
+          <address>P.O. Box 8461</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17105-8461</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-783-9585</cntvoice>
+        <cntemail>kprevic@state.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.1.0.722</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>Anthracite_Coal_Mine_Permits_12022016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual GROUP="'coal'">
+    <logic>Polygon topology present.</logic>
+    <lineage>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">\\Mirror\share\pa_anthracite_Template.xml</srcused>
+        <date Sync="TRUE">20110209</date>
+        <time Sync="TRUE">12484700</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Anthracite_coal_mine_permits_update_020811">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">210</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="Anthracite_coal_mine_permits_update_020811">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">210</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <coordrep>
+            <absres Sync="TRUE">0.000128</absres>
+            <ordres Sync="TRUE">0.000128</ordres>
+          </coordrep>
+          <plandu Sync="TRUE">meters</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll Sync="TRUE">40.000000</stdparll>
+            <stdparll Sync="TRUE">42.000000</stdparll>
+            <longcm Sync="TRUE">-78.000000</longcm>
+            <latprjo Sync="TRUE">39.000000</latprjo>
+            <feast Sync="TRUE">0.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </albers>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">PA_Albers_Equal_Area_Conic</projcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo GROUP="'coal'">
+    <detailed Name="Anthracite_coal_mine_permits_update_020811" xmlns="">
+      <enttyp>
+        <enttypl>Anthracite_Coal_Mine_Permits_12022016</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">210</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INDEX_NO</attrlabl>
+        <attalias Sync="TRUE">INDEX_NO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERMIT_NO</attrlabl>
+        <attalias Sync="TRUE">PERMIT_NO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COAL_SEAM</attrlabl>
+        <attalias Sync="TRUE">COAL_SEAM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_LENG</attrlabl>
+        <attalias Sync="TRUE">SHAPE_LENG</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_AREA</attrlabl>
+        <attalias Sync="TRUE">SHAPE_AREA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">QUAD_NAME</attrlabl>
+        <attalias Sync="TRUE">QUAD_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">QUAD__</attrlabl>
+        <attalias Sync="TRUE">QUAD__</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TOPO__</attrlabl>
+        <attalias Sync="TRUE">TOPO__</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INDEX_NO_1</attrlabl>
+        <attalias Sync="TRUE">INDEX_NO_1</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ZONE</attrlabl>
+        <attalias Sync="TRUE">ZONE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MISC</attrlabl>
+        <attalias Sync="TRUE">MISC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">39</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DATE_ISSUE</attrlabl>
+        <attalias Sync="TRUE">DATE_ISSUE</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MUNICIPALI</attrlabl>
+        <attalias Sync="TRUE">MUNICIPALI</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">34</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COMPANY</attrlabl>
+        <attalias Sync="TRUE">COMPANY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">52</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STREET1</attrlabl>
+        <attalias Sync="TRUE">STREET1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">39</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STREET2</attrlabl>
+        <attalias Sync="TRUE">STREET2</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CITY</attrlabl>
+        <attalias Sync="TRUE">CITY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">21</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATE</attrlabl>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ZIP</attrlabl>
+        <attalias Sync="TRUE">ZIP</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MINE_NAME</attrlabl>
+        <attalias Sync="TRUE">MINE_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">46</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERMIT_TYP</attrlabl>
+        <attalias Sync="TRUE">PERMIT_TYP</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">82</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MINERAL</attrlabl>
+        <attalias Sync="TRUE">MINERAL</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">76</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PRIMARY_FA</attrlabl>
+        <attalias Sync="TRUE">PRIMARY_FA</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">24</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COAL_SEAM_</attrlabl>
+        <attalias Sync="TRUE">COAL_SEAM_</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">240</attwidth>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo GROUP="'coal'">
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntinst>Contact via email</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARCE (ARC/INFO Export)</formname>
+          <formvern>7.1.1</formvern>
+          <filedec>zip</filedec>
+          <transize Sync="TRUE">0.136</transize>
+          <dssize Sync="TRUE">0.136</dssize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>see Online Linkage in Identification information section of metadata</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+  </distinfo>
+  <metainfo GROUP="'coal'">
+    <metc>
+      <cntinfo>
+        <cntpos>Metadata Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <metd>12/02/2016</metd>
+    <langmeta Sync="TRUE">en</langmeta>
+    <mettc Sync="TRUE">local time</mettc>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20161209</ModDate>
+    <ModTime>15421000</ModTime>
+    <CreaDate>20161209</CreaDate>
+    <CreaTime>14451400</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110209</SyncDate>
+    <SyncTime>12545400</SyncTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\EPMPCOW01\D$\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\DEP_Mining_Updated_Layers_Dec2016\Anthracite_Coal_Mine_Permits_12022016</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <imsContentType export="False" />
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\Anthracite_Coal_Mine_Permits_12022016" dest="\\EPMPCOW01\D$\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\DEP_Mining_Updated_Layers_Dec2016\Anthracite_Coal_Mine_Permits_12022016" date="20161209" time="16384200" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>625000</minScale>
+      <maxScale>50000</maxScale>
+    </scaleRange>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact xmlns="">
+    <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+    <rpPosName>Metadata Specialist</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>814-865-8792</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="postal">
+        <delPoint>115 Land and Water building</delPoint>
+        <city>University Park</city>
+        <adminArea>PA</adminArea>
+        <postCode>16802</postCode>
+        <country>US</country>
+        <eMailAdd>pasda@psu.edu</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20161209</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo xmlns="">
+    <distributor xmlns="">
+      <distorCont xmlns="">
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntAddress addressType="both">
+            <delPoint>Land and Water Building</delPoint>
+            <city>University Park</city>
+            <adminArea>PA</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+          <cntInstr>Contact via email</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc xmlns="">
+        <resFees units="">none</resFees>
+      </distorOrdPrc>
+      <distorFormat xmlns="">
+        <formatName>Shapefile</formatName>
+        <fileDecmTech>zip</fileDecmTech>
+      </distorFormat>
+      <distorTran xmlns="">
+        <onLineSrc xmlns="">
+          <linkage>see Online Linkage in Identification information section of metadata</linkage>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+    <distTranOps xmlns="">
+      <onLineSrc xmlns="">
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation xmlns="">
+      <resTitle>Anthracite_Coal_Mine_Permits_12022016</resTitle>
+      <date>
+        <pubDate>2016-12-02T00:00:00</pubDate>
+      </date>
+      <citRespParty xmlns="">
+        <rpOrgName>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs</rpOrgName>
+        <rpCntInfo xmlns="">
+          <cntAddress addressType="">
+            <delPoint>Harrisburg, PA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010" />
+        </role>
+      </citRespParty>
+      <citRespParty xmlns="">
+        <rpOrgName>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs (BMP)</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Pennsylvania state law requires those who wish to conduct mining activities within the Commonwealth to apply for permits issued by the Pennsylvania Department of Environmental Protection (DEP). This data set indicates the approximate location of permit area boundaries of active and historical coal mining operations derived from location maps included with the permit applications submitted by the mine operators. Each polygon represents an area where coal removal, reclamation, and/or related supporting activities have been authorized to occur.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>The purpose of this data set is to provide DEP staff and other environmental professionals with a spatially referenced inventory of active and historical coal mine permit area boundaries located in Pennsylvania.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC xmlns="">
+      <rpIndName>Keith Previc</rpIndName>
+      <rpOrgName>Pennsylvania Bureau of Mining Programs</rpOrgName>
+      <rpCntInfo xmlns="">
+        <cntPhone>
+          <voiceNum tddtty="">717-783-9585</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="postal">
+          <delPoint>P.O. Box 8461</delPoint>
+          <delPoint>Department of Environmental Protection, Bureau of Mining Programs, Division of Environmental Analysis and Support</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>PA</adminArea>
+          <postCode>17105-8461</postCode>
+          <country>US</country>
+          <eMailAdd>kprevic@state.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint xmlns="">
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys xmlns="">
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+      <keyword>Geoscientific Information</keyword>
+      <keyword>mining</keyword>
+      <keyword>geology geo geologic geological</keyword>
+      <keyword>Anthracite</keyword>
+      <keyword>coal</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Geoscientific Information</keyword>
+      <keyword>mining</keyword>
+      <keyword>geology geo geologic geological</keyword>
+      <keyword>Anthracite</keyword>
+      <keyword>coal</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts xmlns="">
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts xmlns="">
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;THE ENCLOSED REPRODUCTIONS OF HISTORICAL MINE RECORDS ARE PROVIDED SOLELY FOR INFORMATIONAL PURPOSES AND ARE NOT INTENDED FOR USE IN MINERAL EXPLORATION OR CONSTRUCTION OF ANY KIND. THE DEPARTMENT OF ENVIRONMENTAL PROTECTION MAKES NO CLAIM, EXPRESSED OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS OR DEGREE OF IMAGE DISTORTION OF SAID INFORMATION.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <dataExt xmlns="">
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2016-12-02T00:00:00</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt xmlns="">
+      <geoEle xmlns="">
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode>0</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataChar>
+      <CharSetCd value="004" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="008" />
+    </tpCat>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQTopConsis">
+      <evalMethDesc>Polygon topology present.</evalMethDesc>
+    </report>
+    <report type="DQConcConsis">
+      <measDesc>Polygon topology present.</measDesc>
+    </report>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="79a8c105551f2b4059b011834d66bf" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSBHUk9VUD0i
 J2NvYWwnIj4NCiAgPGlkaW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQog
 ICAgICAgIDxvcmlnaW4+UGVubnN5bHZhbmlhIERlcHQuIG9mIEVudmlyb25tZW50YWwgUHJvdGVj
 dGlvbiwgQnVyZWF1IG9mIE1pbmluZyBhbmQgUmVjbGFtYXRpb24gKEJNUik8L29yaWdpbj4NCiAg
@@ -292,4 +931,7 @@ Uk9OTUVOVEFMIFBST1RFQ1RJT04gTUFLRVMgTk8gQ0xBSU0sIEVYUFJFU1NFRCBPUiBJTVBMSUVE
 LCBSRUdBUkRJTkcgVEhFIEFDQ1VSQUNZLCBDT01QTEVURU5FU1MgT1IgREVHUkVFIE9GIElNQUdF
 IERJU1RPUlRJT04gT0YgU0FJRCBJTkZPUk1BVElPTi4mbHQ7L1NQQU4mZ3Q7Jmx0Oy9QJmd0OyZs
 dDsvRElWJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OzwvdXNlTGltaXQ+DQogICAgICA8L0Nv
-bnN0cz4NCiAgICA8L3Jlc0NvbnN0Pg0KICA8L2RhdGFJZEluZm8+DQo8L21ldGFkYXRhPg==</Data></Enclosure></Binary></metadata>
+bnN0cz4NCiAgICA8L3Jlc0NvbnN0Pg0KICA8L2RhdGFJZEluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

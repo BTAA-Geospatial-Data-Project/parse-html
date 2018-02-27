@@ -6,17 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Abstract:Big Belly brand waste baskets maintained/collected by the City of Philadelphia.Data Development:Big Belly baskets location information was captured with a GPS as the baskets were placed and is maintained by the Big Belly corporation for the CLEAN website used in the maintenance of these baskets. This data is based on periodic snapshots of the data given to us by Big Belly.Key attribute field names and descriptions:SERIALNUM – Serial NumberDescription – corner and address as captured by Big BellyRecycler – Whether Big Belly unit is only trash can (no) or has an attached recycler (yes)Coordinate system:Lambert Conformal Conic, NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet Thematic mapping:The field DESCRIPTION can be used for labels.</abstract>
-      <purpose>Big Belly brand waste baskets maintained/collected by the City of Philadelphia.
-
-Features updated:  03/26/2015
-Attributes updated: 03/26/2015
-Metadata updated: 03/26/2015
-Update frequency: Yearly
-Public = Y 
-</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.272407</westbc>
@@ -37,6 +26,9 @@ Philadelphia, PA 19102
 
 Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov</datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyStreets_WasteBaskets_Big_Belly</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -114,5 +106,25 @@ Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov</datacred>
     <metd>20160523</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

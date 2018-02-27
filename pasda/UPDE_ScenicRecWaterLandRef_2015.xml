@@ -15,10 +15,6 @@
         <onlink>http://www.pasda.psu.edu/</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>These ESRI shape files are of National Park Service tract and boundary data that was created by the Land Resources Division. Tracts are numbered and created by the regional cartographic staff at the Land Resources Program Centers and are associated to the Land Status Maps. This data should be used to display properties that NPS owns and properties that NPS may have some type of interest such as scenic easements or right of ways. Spatial data contained herein represent the administrative boundary of the Upper Delaware Scenic &amp; Recreational River (UPDE) as defined in the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan. The data are intended for general GIS analysis, display, planning, and reference purposes only. The spatial data contained herein are a digital representation of the Upper Delaware Scenic &amp; Recreational River's administrative boundary. These digital data were derived from the official version of the boundary as represented in hard-copy form in the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan, as approved in the 1987 Record of Decision. The plan boundary, which was established to meet the resource protection requirements set forth in the Wild and Scenic Rvers Act and in the Special Statutory Provisions for the Upper Delaware, was delineated so as to encompass "lands from which runoff drains directly into the river and tributary drainages upstream to the first prominent topographic feature" (River Management Plan, 1986). The authoritative area of the boundary as given in the 1986 River Management Plan is 55,574.5 acres. At present, the National Park Service owns approximately 31 acres within the boundary, and the remaining land is mostly privately owned, with some state and local government holdings. The boundary was digitized based on the eight pages of maps from the River Management Plan georeferenced to 7.5 minute quadrangle topo maps from the USGS Historical Topographic Map Collection. National Park Service, Upper Delaware Scenic &amp; Recreational River . Credits: Shannon L. Thol - Graduate Certificate in GIS, Master of Geographic Information Systems - Under contract by National Park Service, Upper Delaware Scenic &amp; Recreational River to complete task of digitizing Upper Delaware Scenic &amp; Recreational River's administrative boundary.</abstract>
-      <purpose>This data is intended to keep a record of ownership information. Tracts can represent several types of interest like fee and scenic easement, and can be under several types of ownership like NPS owned, private, other federal, state or county. This data set provides accurate and reliable ownership data for park management and acquisition priorities. These data were produced July 2015 based on maps from the November 1986 River Management Plan. Questions related to the laws and/or processes regarding UPDE should be directed the UPDE Superintendent: 274 River Road, Beach Lake, PA., 18405 or by phone at 570.729.8251.</purpose>
-    </descript>
     <timeperd>
       <timeinfo>
         <rngdates>
@@ -97,6 +93,9 @@
       </cntinfo>
     </ptcontac>
     <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+    <descript>
+      <abstract>UPDE_ScenicRecWaterLandRef_2015</abstract>
+    </descript>
   </idinfo>
   <dataqual>
     <attracc>
@@ -354,5 +353,25 @@
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
-  </metainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land &amp; Water Research Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

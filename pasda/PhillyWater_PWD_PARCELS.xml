@@ -7,12 +7,6 @@
         <onlink>Server=pwdgis4; Service=sde:sqlserver:pwdgis4; Database=GISDATA; User=gisad; Version=sde.DEFAULT</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>The City of Philadelphia has migrated metadata for this data set to the City-wide Metadata Catalog. For any questions about the migration and administration of the Metadata Catalog, please contact maps@phila.gov. To view the metadata for this layer, please visit:http://metadata.phila.gov/#home/datasetdetails/5543864620583086178c4e7a/representationdetails/55438a829b989a05172d0cfa/</abstract>
-      <purpose>The primary purpose of PWD_PARCEL layer is to calculate parcel-based stormwater charges for PWD customers under the new parcel-based stormwater billing program.  The layer was created from the DOR_PARCELS layer in 2005 after it was decided that none of the other City parcel layers could meet the needs of PWD's stormwater billing program.  Those needs are generally that the parcel delineations match up to what people actually own, that there is an accurate assessment of the impervious area on the parcel, and that there is owner information associated with the parcel.  Over the past 5 years, PWD has made corrections based off deeds on file with DOR, BRT information, and other City records.  PWD also matched up each DOR parcel to a corresponding BRT record that contained the owner information for that parcel.
-
-</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>2660580.333403</westbc>
@@ -23,6 +17,9 @@
     </spdom>
     <keywords />
     <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3300</native>
+    <descript>
+      <abstract>PhillyWater_PWD_PARCELS</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -154,5 +151,25 @@
     <metd>20140308</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

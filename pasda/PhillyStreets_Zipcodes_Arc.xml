@@ -6,21 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Abstract:Zip code boundaries expressed as a line feature class for the City of Philadelphia.Data Development:Several data sets and sources were used to create the most accurate representation of the zip code boundaries. Starting with a previous iteration of zip code border data, existing borders were compared to data from the US Census Bureau (Zip Code Tabulation Areas). This data was then reconciled with current Zip code information from the United States Postal Service (the authority on zip codes) to get the most current data possible. Several borders were modified to account for changes or cartographic considerations.Key attribute field names and descriptions:CODE: Zip code for each polygon.Coordinate system:Lambert Conformal Conic, NAD83, PA South Stateplane coordinates, US Foot.Thematic mapping:Use the CODE field for thematic mapping and labeling.Other InformationZip Code Tabulation Areas were developed by the US Census Bureau to overcome difficulties in precisely defining the land area covered by each Zip Code. The ZCTAs are generalized area representation of the USPS Zip code service areas, but are not the same as Zip codes. There is no correlation between ZIP codes and Census Bureau geography. In addition, the USPS frequently realigns, merges or splits ZIP codes to meet changing needs. ZCTAs are constructed by aggregating the Census 2000 blocks whose addresses use a given ZIP code. The census bureau took the ZIP code used by the majority of addresses in each census unit at the time the data was compiled. As a result, some addresses end up with a ZCTA code that is different from their ZIP code.</abstract>
-      <purpose>The purpose of this dataset is to represent the Zip Code areas for the City of Philadelphia.  The edges of Zip Codes are slightly modified for logical and cartographic purposes.
-
-The arc layer contains data signifying information relating it to the polygon layer. It can tell you if both sides of the arc belong to one of the bounding polygons.  All the arcs, including those with no boundary info, have naming attributes for labeling the polygon borders.  Contact the Streets GIS unit for public consumption.  
-
-Features updated: 12/11/2013
-Attributes updated: 12/11/2013
-Metadata updated: 6/5/2015
-Update Frequency:  As needed
-Public = Y
-
-NOTE:  This layer is used by a ULRS Service Area.  Do not remove without permission from OIT.  
-</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.284151</westbc>
@@ -45,6 +30,9 @@ Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov
 
 </datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyStreets_Zipcodes_Arc</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -139,5 +127,25 @@ Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

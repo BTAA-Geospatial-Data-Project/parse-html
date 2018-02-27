@@ -7,20 +7,6 @@
         <onlink>Server=GEODB2.phila.gov; Service=esri_sde; User=gis_streets; Version=SDE.DEFAULT</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>ABSTRACT:This layer identifies the three district boundaries for the Traffic Division of the City of Philadelphia Streets Department. These are the largest operational jurisdictions used by the Philadelphia Streets Department Traffic Division. DATA DEVELOPMENT:Boundary Polygon Data was constructed by Streets GIS staff under the direction of the Traffic Engineering Divison and created using the most current composite layer in ArcGIS Desktop. (See update dates in summary)KEY ATTRIBUTE FIELDS:DISTRICT: Unique identifierCOORDINATE SYSTEM:Lambert Conformal Conic, NAD83, PA South Stateplane coordinates, US Foot.THEMATIC MAPPING:Use the DISTRICT field for thematic mapping and labeling.OTHER INFORMATION:N/A</abstract>
-      <purpose>This layer was developed to aid the Traffic Division in planning, organizing, and maintaining traffic flow within the City of Philadelphia.  Examples include:  the maintenance and placing of stop signs and signals and monitoring street travel direction. 
-
-This polygon layer has an accompanying arc layer. Certain arcs in the arc layer contain data signifying information relating it to the polygon layer. It can tell you if both sides of the arc belong to one of the bounding polygons.  All the arcs, including those with no boundary info, have naming attributes for labeling the polygon borders.  Contact the Streets GIS unit for public consumption of the corresponding arc layer.  
-
-Features updated: 3/9/2009 
-Attributes updated: 3/9/2009 
-Metadata updated: 6/5/2015
-Update frequency: As need basis
-Public = Y
-
-NOTE:  This layer is used by a ULRS Service Area.  Do not remove without permission from OIT.</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.284167</westbc>
@@ -42,6 +28,9 @@ Philadelphia, PA 19102
 Contact: Dominick Cassise 215-686-5185, dominick.cassise@phila.gov
 </datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyStreets_Traffic_Districts</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -138,5 +127,25 @@ Contact: Dominick Cassise 215-686-5185, dominick.cassise@phila.gov
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

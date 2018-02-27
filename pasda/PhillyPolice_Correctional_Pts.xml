@@ -1,4 +1,4 @@
-﻿<metadata>
+<metadata>
   <idinfo>
     <citation>
       <citeinfo>
@@ -6,10 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>The City of Philadelphia has migrated metadata for this data set to the City-wide Metadata Catalog. For any questions about the migration and administration of the Metadata Catalog, please contact maps@phila.gov. To view the metadata for this layer, please visit: http://metadata.phila.gov/#home/datasetdetails/55774240220d94f32b2107a6/representationdetails/557743e40095de8a30db4090/</abstract>
-      <purpose>This feature class contains points that represent 10 correctional facilities in the City, administered by Philadelphia Prisons System.</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.198128</westbc>
@@ -20,6 +16,9 @@
     </spdom>
     <keywords />
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyPolice_Correctional_Pts</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>

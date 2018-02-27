@@ -1,4 +1,4 @@
-﻿<metadata>
+<metadata>
   <idinfo>
     <citation>
       <citeinfo>
@@ -6,10 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>The City of Philadelphia has migrated metadata for this data set to the City-wide Metadata Catalog. For any questions about the migration and administration of the Metadata Catalog, please contact maps@phila.gov. To view the metadata for this layer, please visit: http://metadata.phila.gov/#home/datasetdetails/5543866120583086178c4eeb/representationdetails/561804f9f061d8707502e475/</abstract>
-      <purpose>Rain Barrel installation locations prior to RainCheck.</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.761753</westbc>
@@ -29,6 +25,9 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+    <descript>
+      <abstract>PhillyWatersheds_RainBarrel_Installed</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>

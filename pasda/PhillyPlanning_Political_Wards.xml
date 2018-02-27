@@ -7,16 +7,6 @@
         <onlink>file://\\pcpcsrv.pcpc.gov\gisshare\latest\shapes\PoliticalDists\wards_polygon.shp</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Abstract:Each ward contains no fewer than 10 and no more than 50 divisions. Ward leaders are elected by their party's committeepeople. Learn more about Democratic Ward Leaders and Committeepeople : http://www.seventy.org/Resources_Ward_Leaders_and_Committeepeople.aspxData Development:N/AKey Attribute Fields:WARD_NUM: Ward NumberCoordinate System:GCS_North_American_1983, Datum: D_North_American_1983, Greenwich, DegreeThematic Mapping:Use WARD_NUM for thematic mapping and labeling.Other Information:N/A</abstract>
-      <purpose>A Political Ward contains no fewer than 10 and no more than 50 divisions. The Ward_Num field is used to identify and label Wards.
-
-- Features updated:   
-- Attributes updated:  3/31/2014
-- Metadata updated:   3/19/2015
-- Update Frequency: as needed
-- Public = Y</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.284151</westbc>
@@ -33,6 +23,9 @@
 GIS Manager: Darshna Patel (215) 683-4611 and darshna.patel@phila.gov
 </datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyPlanning_Political_Wards</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -123,5 +116,25 @@ GIS Manager: Darshna Patel (215) 683-4611 and darshna.patel@phila.gov
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

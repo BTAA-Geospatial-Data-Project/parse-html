@@ -1,4 +1,4 @@
-﻿<metadata>
+<metadata>
   <idinfo>
     <citation>
       <citeinfo>
@@ -6,10 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>The City of Philadelphia has migrated metadata for this data set to the City-wide Metadata Catalog. For any questions about the migration and administration of the Metadata Catalog, please contact maps@phila.gov. To view the metadata for this layer, please visit: http://metadata.phila.gov/#home/datasetdetails/5589c611d2b75b7a58b238fa/representationdetails/55438ac69b989a05172d0d75/</abstract>
-      <purpose>Hydrographic polygon features included in Philadelphia Hydrology Map. This map was officially adopted by City Council as the official map of Philadelphia Watercoures Designated for Protection on September 13th, 2012. The geographic data depicts watercourses within Philadelphia County as they appear on the map and will not be edited or updated.</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.284143</westbc>
@@ -38,6 +34,9 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+    <descript>
+      <abstract>PhillyWatersheds_Zoning_Hydrology_Line_2012</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>

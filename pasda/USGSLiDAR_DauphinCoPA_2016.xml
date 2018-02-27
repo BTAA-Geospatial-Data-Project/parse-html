@@ -1,70 +1,1263 @@
-<metadata><idinfo><citation><citeinfo><origin>Quantum Spatial</origin><pubdate>20161205</pubdate><title>USGS QL2 LiDAR for Dauphin County, PA 2016 </title><geoform>Lidar point cloud</geoform><onlink> http://www.pasda.psu.edu/</onlink></citeinfo></citation><descript><abstract>Geographic Extent: Dauphin County, Pennsylvania, covering approximately 555 square miles. 
-Dataset Description: The Dauphin County, PA 2016 QL2 LiDAR project called for the planning, acquisition, processing and derivative products of LIDAR data to be collected  at a nominal pulse spacing (NPS) of 0.7 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet; NAVD1988 (Geoid 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 711 individual 5,000-foot x 5,000-foot tiles. Tile names use the following naming schema: "YYYYXXXXPAd" where YYYY is the first 3 characters of the tile's upper left corner Y-coordinate, XXXX - the first 4 characters of the tile's upper left corner X-coordinate, PA = Pennsylvania, and d = 'N' for North or 'S' for South. Corresponding 2.5-foot gridded hydro-flattened bare earth raster tiled DEM files and intensity image files were created using the same 5,000-foot x 5,000-foot schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. Continuous 2-foot contours were produced in Esri file geodatabase format.
-			Ground Conditions: LiDAR collection began in Spring 2016, while no snow was on the ground and rivers were at or below normal levels.  In order to post process the LiDAR data to meet task order specifications, Quantum Spatial established a total of 84 control points (24 calibration control points and 60 QC checkpoints). These were used to calibrate the LIDAR to known ground locations established throughout the project area.</abstract><purpose>
-			Classified LAS files are used to show the manually reviewed bare earth surface.  This allows the user to create breaklines and raster DEMs. 
-			The purpose of these lidar data was to produce high accuracy 3D hydro-flattened digital elevation model (DEM) with a 2.5-foot cell size.
-			These raw lidar point cloud data were used to create classified lidar LAS files, intensity images, 3D breaklines, hydro-flattened DEMs, and contours as necessary.
-		</purpose><lidar><ldrinfo><ldrspec>USGS-NGP Base Specification v1.2</ldrspec><ldrsens>Leica_ALS_70</ldrsens><ldrmaxnr>3</ldrmaxnr><ldrnps>0.67</ldrnps><ldrdens>2.26</ldrdens><ldranps>0.67</ldranps><ldradens>2.26</ldradens><ldrfltht>2075</ldrfltht><ldrfltsp>150</ldrfltsp><ldrscana>40</ldrscana><ldrscanr>53.4</ldrscanr><ldrpulsr>263.4</ldrpulsr><ldrpulsd>4</ldrpulsd><ldrpulsw>0.47</ldrpulsw><ldrwavel>1064</ldrwavel><ldrmpia>1</ldrmpia><ldrbmdiv>0.25</ldrbmdiv><ldrswatw>1510.48</ldrswatw><ldrswato>12.34</ldrswato><ldrgeoid>g2012bu0.bin</ldrgeoid></ldrinfo><ldrinfo_7161><ldrspec>USGS-NGP Base Specification v1.2</ldrspec><ldrsens>Leica_ALS_70</ldrsens><ldrmaxnr>3</ldrmaxnr><ldrnps>0.68</ldrnps><ldrdens>2.14</ldrdens><ldranps>0.68</ldranps><ldradens>2.14</ldradens><ldrfltht>2100</ldrfltht><ldrfltsp>155</ldrfltsp><ldrscana>40</ldrscana><ldrscanr>53.4</ldrscanr><ldrpulsr>260.4</ldrpulsr><ldrpulsd>4</ldrpulsd><ldrpulsw>0.48</ldrpulsw><ldrwavel>1064</ldrwavel><ldrmpia>1</ldrmpia><ldrbmdiv>0.25</ldrbmdiv><ldrswatw>1528.67</ldrswatw><ldrswato>10.72</ldrswato><ldrgeoid>g2012bu0.bin</ldrgeoid></ldrinfo_7161><ldraccur><ldrchacc>0.196</ldrchacc><rawnva>0.059</rawnva><rawnvan>35</rawnvan><clsnva>0.053</clsnva><clsnvan>35</clsnvan><clsvva>0.078</clsvva><clsvvan>25</clsvvan></ldraccur><lasinfo><lasver>1.4</lasver><lasprf>6</lasprf><laswheld>Withheld (ignore) points were identified in these files using the standard LAS Withheld bit</laswheld><lasolap>Swath "overage" points were identified in these files using the standard LAS overlap bit</lasolap><lasintr>16</lasintr><lasclass><clascode>1</clascode><clasitem>Processed, but unclassified</clasitem></lasclass><lasclass><clascode>2</clascode><clasitem>Bare-earth ground</clasitem></lasclass><lasclass><clascode>7</clascode><clasitem>Low noise</clasitem></lasclass><lasclass><clascode>8</clascode><clasitem>Model Key</clasitem></lasclass><lasclass><clascode>9</clascode><clasitem>Water</clasitem></lasclass><lasclass><clascode>10</clascode><clasitem>Ignored Ground</clasitem></lasclass><lasclass><clascode>17</clascode><clasitem>Bridge Decks</clasitem></lasclass><lasclass><clascode>18</clascode><clasitem>High noise</clasitem></lasclass></lasinfo></lidar><supplinf>
-			USGS Contract: G10PC00016  Task Order Number: G16PD00443
-			CONTRACTOR: Quantum Spatial
-			Lidar data were acquired and calibrated by Quantum Spatial.
-			All follow-on processing was completed by the prime contractor.
-			A four-tile area around Three Mile Island required a re-flight. Steam plumes over the area limited the amount of points returned, resulting in voids in the data set. Data falling within the following tiles was re-acquired on November 22, 2016: 30502250PAS, 30502255PAS, 30002250PAS, and 30002255PAS.
-		</supplinf></descript><timeperd><timeinfo><rngdates><begdate>20160324</begdate><enddate>20161122</enddate></rngdates></timeinfo><current>ground condition</current></timeperd><status><progress>Complete</progress><update>None planned</update></status><spdom><bounding><westbc>-77.0447212896727</westbc><eastbc>-76.5208427032109</eastbc><northbc>40.6738130223421</northbc><southbc>40.1109641653215</southbc></bounding><lboundng><leftbc>2165000.000000</leftbc><rightbc>2310000.000000</rightbc><topbc>490000.000000</topbc><bottombc>285000.000000</bottombc></lboundng></spdom><keywords><theme><themekt>None</themekt><themekey>Elevation data</themekey><themekey>Lidar</themekey><themekey>Hydrology</themekey></theme><place><placekt>None</placekt><placekey>United States</placekey><placekey>US</placekey><placekey>Pennsylvania</placekey><placekey>PA</placekey><placekey>Dauphin County</placekey></place></keywords><accconst>No restrictions apply to this data.</accconst><useconst>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Quantum Spatial</origin>
+        <pubdate>20161205</pubdate>
+        <title>USGS QL2 LiDAR for Dauphin County, PA 2016 </title>
+        <geoform>Lidar point cloud</geoform>
+        <onlink> http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20160324</begdate>
+          <enddate>20161122</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.0447212896727</westbc>
+        <eastbc>-76.5208427032109</eastbc>
+        <northbc>40.6738130223421</northbc>
+        <southbc>40.1109641653215</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc>2165000.000000</leftbc>
+        <rightbc>2310000.000000</rightbc>
+        <topbc>490000.000000</topbc>
+        <bottombc>285000.000000</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Elevation data</themekey>
+        <themekey>Lidar</themekey>
+        <themekey>Hydrology</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>US</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>PA</placekey>
+        <placekey>Dauphin County</placekey>
+      </place>
+    </keywords>
+    <accconst>No restrictions apply to this data.</accconst>
+    <useconst>
 			None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.
-		</useconst><ptcontac><cntinfo><cntorgp><cntorg>Quantum Spatial, Data Acquisition Department</cntorg><cntper>Chris Holder</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>cholder@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></ptcontac><native>
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Data Acquisition Department</cntorg>
+          <cntper>Chris Holder</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>cholder@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
 			MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; Esri ArcGIS 10; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System
 			\\PSIHQ_NX3200\Projects\Projects\28552_USGS_Dauphin_Co 1.11 GB and \\matrix\matrix\LIDAR\28552_USGS_Dauphin_Co_PA_3DEP_BAA 816 GB
-		</native></idinfo><dataqual><logic>Data cover the entire area specified for this project.</logic><complete>
+		</native>
+    <descript>
+      <abstract>USGSLiDAR_DauphinCoPA_2016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Data cover the entire area specified for this project.</logic>
+    <complete>
 			These raw LAS data files include all data points collected.
 		    No points have been removed or excluded.
 		    A visual qualitative assessment was performed to ensure data completeness.
 		    No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.
-		</complete><posacc><vertacc><vertaccr>
+		</complete>
+    <posacc>
+      <vertacc>
+        <vertaccr>
 					The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
 					The specifications require that Nonvegetated Vertical Accuracy (NVA) be computed for DEM files. The NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
 					The specifications require that Vegetated Vertical Accuracy (VVA) be computed for DEM files. The VVA was tested with 35 independent survey points distributed throughout the project area and located in vegetated terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the VVA be 29.4 cm or better at the 95th percentile.
-				</vertaccr><qvertpa><vertaccv>0.059</vertaccv><vertacce>
+				</vertaccr>
+        <qvertpa>
+          <vertaccv>0.059</vertaccv>
+          <vertacce>
 						The raw NVA was tested using 35 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.099 meters (0.030 feet) and AccuracyZ to be 0.193 meters (0.059 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
-					</vertacce></qvertpa><qvertpa><vertaccv>0.053</vertaccv><vertacce>
+					</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.053</vertaccv>
+          <vertacce>
 						The NVA was tested using 35 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the DEM surface were measured for the x,y location of each check point. Elevations interpolated from the DEM surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.089 meters (0.027 feet) and AccuracyZ to be 0.174 meters (0.053 feet). This meets the required AccuracyZ value of 19.6 cm NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
-					</vertacce></qvertpa><qvertpa><vertaccv>0.078</vertaccv><vertacce>
+					</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.078</vertaccv>
+          <vertacce>
 						The VVA was tested using 25 independent survey points located in vegetated terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the DEM surface were measured for the x,y location of each check point. Elevations interpolated from the DEM surface were then compared to the elevation values of the surveyed control. The VVA was computed to be 0.257 meters (0.078 feet). This meets the required value of 29.4 cm VVA at 95th percentile level using the 95th percentile of the absolute value of all vertical errors in all combined vegetation classes as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
-					</vertacce></qvertpa></vertacc></posacc><lineage><srcinfo><srccite><citeinfo><origin>Quantum Spatial</origin><pubdate>20161205</pubdate><title>Survey Report of LiDAR Ground Control Points: Dauphin County, PA LiDAR Task Order</title><pubinfo><pubplace>Lexington, KY</pubplace><publish>Quantum Spatial</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2016</caldate></sngdate></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srccitea><srccontr>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Quantum Spatial</origin><pubdate>20161205</pubdate><title>Lidar RAW Data for Dauphin County, PA QL2 2016</title><geoform>lidar data</geoform><pubinfo><pubplace>Quantum Spatial</pubplace><publish>2016</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><rngdates><begdate>20160324</begdate><enddate>20161122</enddate></rngdates></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>PA_DauphinCounty_QL2_2016_LiDAR_Data</srccitea><srccontr>This data source was used to populate the lidar point cloud data.</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Quantum Spatial</origin><pubdate>20161205</pubdate><title>Control Survey Report of LiDAR Quality Control Points: Dauphin County, PA Lidar Task Order</title><pubinfo><pubplace>Lexington, KY</pubplace><publish>Quantum Spatial</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2016</caldate></sngdate></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srccitea><srccontr>This data source was used to QC and vertically adjust the lidar point cloud data.</srccontr></srcinfo><procstep><procdesc>
+					</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>20161205</pubdate>
+            <title>Survey Report of LiDAR Ground Control Points: Dauphin County, PA LiDAR Task Order</title>
+            <pubinfo>
+              <pubplace>Lexington, KY</pubplace>
+              <publish>Quantum Spatial</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srccitea>
+        <srccontr>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>20161205</pubdate>
+            <title>Lidar RAW Data for Dauphin County, PA QL2 2016</title>
+            <geoform>lidar data</geoform>
+            <pubinfo>
+              <pubplace>Quantum Spatial</pubplace>
+              <publish>2016</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20160324</begdate>
+              <enddate>20161122</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_DauphinCounty_QL2_2016_LiDAR_Data</srccitea>
+        <srccontr>This data source was used to populate the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>20161205</pubdate>
+            <title>Control Survey Report of LiDAR Quality Control Points: Dauphin County, PA Lidar Task Order</title>
+            <pubinfo>
+              <pubplace>Lexington, KY</pubplace>
+              <publish>Quantum Spatial</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srccitea>
+        <srccontr>This data source was used to QC and vertically adjust the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
 					Lidar Pre-Processing:
 					Airborne GPS and IMU data were merged to develop a Single Best Estimate (SBET) of the lidar system trajectory for each lift. Lidar ranging data were initially calibrated using previous best parameters for this instrument and aircraft. Relative calibration was evaluated using advanced plane-matching analysis and parameter corrections derived. This was repeated iteratively until residual errors between overlapping swaths, across all project lifts, was reduced to acceptable levels. Data were then block adjusted to match surveyed calibration control. Raw data NVA were checked using independently surveyed checkpoints. Swath overage points were identified and tagged within each swath file. The results of the final calibration, NVA accuracy assessments and the "raw" swaths were forwarded to the client to obtain a Notice To Proceed on classification and derivative product generation.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srcused><procdate>2016</procdate><srcprod>LiDAR datasets with USGS classifications</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep><procstep><procdesc>
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srcused>
+        <procdate>2016</procdate>
+        <srcprod>LiDAR datasets with USGS classifications</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 				    Lidar Post-Processing:
 				    The calibrated and controlled lidar swaths were processed using automatic point classification routines in proprietary software. These routines operate against the entire collection (all swaths, all lifts), eliminating character differences between files. Data were then distributed as virtual tiles to experienced lidar analysts for localized automatic classification, manual editing, and peer-based QC checks. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area.
 				    All classification tags are stored in the original swath files.
 				    After completion of classification and final QC approval, the NVA and VVA for the project are calculated. Sample areas for each land cover type present in the project area were extracted and forwarded to the client, along with the results of the accuracy tests. Upon acceptance, the complete classified lidar swath files were delivered to the client.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srcused><srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused><procdate>2016</procdate><srcprod>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep><procstep><procdesc>
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 				    Classified LAS Creation:
 				    The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points.  After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization.
 				    All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10).  All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed.  All bridge decks were classified to Class 17.
 				    All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS.  The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications.
 				    All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler.  Global Mapper was used as a final check of the bare earth dataset.  GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth.  Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused><srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused><procdate>2016</procdate><srcprod>Classified LAS</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep><procstep><procdesc>
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Classified LAS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 				    Hydro-Flattened Breakline Creation: 
 				    Class 2 LiDAR was used to create a bare earth surface model.  The surface model was then used to heads-up digitize 2D breaklines of inland streams and rivers with a 100 foot nominal width and Inland Ponds and Lakes of 2 acres or greater surface area.
 				    Elevation values were assigned to all Inland Ponds and Lakes, Inland Pond and Lake Islands, Inland Stream and River Islands, using TerraModeler functionality.
 				    Elevation values were assigned to all Inland streams and rivers using Quantum Spatial proprietary software.
 				    All ground (ASPRS Class 2) LiDAR data inside of the collected inland breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 3 feet was also used around each hydro-flattened feature.  These points were moved from ground (ASPRS Class 2) to Ignored Ground (ASPRS Class 10).
 				    The continuous breakline files were then translated to Esri file geodatabase format using Esri conversion tools.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused><srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused><procdate>2016</procdate><srcprod>Hydro-Flattened Breaklines</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep><procstep><procdesc>
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Hydro-Flattened Breaklines</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 				    Hydro-Flattened Bare-Earth Raster DEM Creation: 
 				    Class 2 LiDAR in conjunction with the hydro breaklines were used to create a 2.5-foot raster DEM.  Using automated scripting routines within ArcMap, an ERDAS Imagine .IMG file was created for each tile.  Each surface is reviewed using Global Mapper to check for any surface anomalies or incorrect elevations found within the surface.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused><srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused><procdate>2016</procdate><srcprod>Hydro-Flattened Bare-Earth Raster DEMs</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep><procstep><procdesc>
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Hydro-Flattened Bare-Earth Raster DEMs</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 					Intensity Image Creation:
 					GeoCue software was used to create the deliverable intensity images with a 2.5-foot cell size.  All overlap classes were ignored during this process.  This helps to ensure a more aesthetically pleasing image.
 					The GeoCue software was then used to verify full project coverage as well.  TIF/TWF files were then provided as the deliverable for this dataset requirement.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused><srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused><procdate>2016</procdate><srcprod>Intensity Images</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep><procstep><procdesc>
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Intensity Images</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 					Contour Creation:
 					Using automated scripting routines within ArcMap, a terrain surface was created using the ground (ASPRS Class 2) LiDAR data as well as the hydro-flattening breaklines.  This surface was then used to generate the final 2-foot continuous contour dataset in Esri file geodatabase format.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused><srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused><procdate>2016</procdate><srcprod>Contours</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep><procstep><procdesc>
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Contours</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 					Esri Terrain Dataset Creation:
 					Class 2 LiDAR along with the hydro-flattened breaklines were used to produce a multi-resolution, triangulated irregular network (TIN)-based surface. Each LAS file, overall hydro-flattened breakline file, and AOI was stored as a feature class in a feature dataset within an Esri file geodatabase.
-				</procdesc><srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused><srcused>Breaklines</srcused><procdate>2016</procdate><srcprod>Esri Terrain Dataset</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep></lineage></dataqual><spdoinfo><direct>Point</direct><ptvctinf><sdtsterm><sdtstype>Point</sdtstype></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><gridsys><gridsysn>State Plane Coordinate System</gridsysn><spcs><spcszone>3702</spcszone><lambertc><stdparll>39.93333333333333</stdparll><stdparll>40.96666666666667</stdparll><longcm>-77.75</longcm><latprjo>39.33333333333334</latprjo><feast>1968500.0</feast><fnorth>0.0</fnorth></lambertc></spcs></gridsys><planci><plance>coordinate pair</plance><coordrep><absres>0.01</absres><ordres>0.01</ordres></coordrep><plandu>survey feet</plandu></planci></planar><geodetic><horizdn>North American Datum of 1983 (2011)</horizdn><ellips>Geodetic Reference System 80</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys><vertdef><altsys><altdatum>North American Vertical Datum of 1988 (Geoid 12B)</altdatum><altres>0.01</altres><altunits>feet</altunits><altenc>Explicit elevation coordinate included with horizontal coordinates</altenc></altsys></vertdef></spref><metainfo><metd>20161205</metd><metc><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Sarah Zibart</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>szibart@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></metc><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><metac>None.</metac><metuc>None.</metuc><metsi><metscs>None.</metscs><metsc>Unclassified</metsc><metshd>NONE</metshd></metsi></metainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo><Esri><CreaDate>20170301</CreaDate><CreaTime>14565000</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\ALCES\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata (1)</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="D:\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata" dest="\\ALCES\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata (1)" date="20170301" time="14565000"/></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>Sarah Zibart</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>szibart@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20161205</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont></distributor><distTranOps><onLineSrc><linkage>http://www.pasda.psu.edu/</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>USGS QL2 LiDAR for Dauphin County, PA 2016</resTitle><date><pubDate>2016-12-05</pubDate></date><citRespParty><rpOrgName>Quantum Spatial</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><fgdcGeoform>Lidar point cloud</fgdcGeoform></presForm></idCitation><idAbs>Geographic Extent: Dauphin County, Pennsylvania, covering approximately 555 square miles. Dataset Description: The Dauphin County, PA 2016 QL2 LiDAR project called for the planning, acquisition, processing and derivative products of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet; NAVD1988 (Geoid 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 711 individual 5,000-foot x 5,000-foot tiles. Tile names use the following naming schema: "YYYYXXXXPAd" where YYYY is the first 3 characters of the tile's upper left corner Y-coordinate, XXXX - the first 4 characters of the tile's upper left corner X-coordinate, PA = Pennsylvania, and d = 'N' for North or 'S' for South. Corresponding 2.5-foot gridded hydro-flattened bare earth raster tiled DEM files and intensity image files were created using the same 5,000-foot x 5,000-foot schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. Continuous 2-foot contours were produced in Esri file geodatabase format. Ground Conditions: LiDAR collection began in Spring 2016, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, Quantum Spatial established a total of 84 control points (24 calibration control points and 60 QC checkpoints). These were used to calibrate the LIDAR to known ground locations established throughout the project area.</idAbs><idPurp>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create breaklines and raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened digital elevation model (DEM) with a 2.5-foot cell size. These raw lidar point cloud data were used to create classified lidar LAS files, intensity images, 3D breaklines, hydro-flattened DEMs, and contours as necessary.</idPurp><idStatus><ProgCd value="001"/></idStatus><idPoC><rpIndName>Chris Holder</rpIndName><rpOrgName>Quantum Spatial, Data Acquisition Department</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>cholder@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="011"/></maintFreq></resMaint><placeKeys><keyword>US</keyword><keyword>Dauphin County</keyword><keyword>United States</keyword><keyword>PA</keyword><keyword>Pennsylvania</keyword></placeKeys><themeKeys><keyword>Hydrology</keyword><keyword>Lidar</keyword><keyword>Elevation data</keyword></themeKeys><searchKeys><keyword>US</keyword><keyword>Dauphin County</keyword><keyword>Hydrology</keyword><keyword>United States</keyword><keyword>PA</keyword><keyword>Lidar</keyword><keyword>Pennsylvania</keyword><keyword>Elevation data</keyword></searchKeys><resConst><LegConsts><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit><othConsts>No restrictions apply to this data.</othConsts></LegConsts></resConst><resConst><Consts><useLimit>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="006"/></tpCat><envirDesc>MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; Esri ArcGIS 10; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System \\PSIHQ_NX3200\Projects\Projects\28552_USGS_Dauphin_Co 1.11 GB and \\matrix\matrix\LIDAR\28552_USGS_Dauphin_Co_PA_3DEP_BAA 816 GB</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-77.0447212896727</westBL><eastBL>-76.5208427032109</eastBL><southBL>40.1109641653215</southBL><northBL>40.6738130223421</northBL></GeoBndBox></geoEle></dataExt><dataExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Period><tmBegin>2016-03-24</tmBegin><tmEnd>2016-11-22</tmEnd></TM_Period></exTemp></TempExtent></tempEle></dataExt><suppInfo>USGS Contract: G10PC00016 Task Order Number: G16PD00443 CONTRACTOR: Quantum Spatial Lidar data were acquired and calibrated by Quantum Spatial. All follow-on processing was completed by the prime contractor. A four-tile area around Three Mile Island required a re-flight. Steam plumes over the area limited the amount of points returned, resulting in voids in the data set. Data falling within the following tiles was re-acquired on November 22, 2016: 30502250PAS, 30502255PAS, 30002250PAS, and 30002255PAS.</suppInfo></dataIdInfo><mdConst><SecConsts><class><ClasscationCd value="001"/></class><classSys>None.</classSys><handDesc>NONE</handDesc></SecConsts></mdConst><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQConcConsis"><measDesc>Data cover the entire area specified for this project.</measDesc></report><report type="DQCompOm"><measDesc>These raw LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.</measDesc></report><report type="DQAbsExtPosAcc" dimension="vertical"><measDesc>The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level. The specifications require that Nonvegetated Vertical Accuracy (NVA) be computed for DEM files. The NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level. The specifications require that Vegetated Vertical Accuracy (VVA) be computed for DEM files. The VVA was tested with 35 independent survey points distributed throughout the project area and located in vegetated terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the VVA be 29.4 cm or better at the 95th percentile.</measDesc><evalMethDesc>The raw NVA was tested using 35 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.099 meters (0.030 feet) and AccuracyZ to be 0.193 meters (0.059 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</evalMethDesc><measResult><QuanResult><quanVal>0.059</quanVal></QuanResult></measResult></report><dataLineage><prcStep><stepDesc>Hydro-Flattened Bare-Earth Raster DEM Creation: Class 2 LiDAR in conjunction with the hydro breaklines were used to create a 2.5-foot raster DEM. Using automated scripting routines within ArcMap, an ERDAS Imagine .IMG file was created for each tile. Each surface is reviewed using Global Mapper to check for any surface anomalies or incorrect elevations found within the surface.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>Hydro-Flattened Bare-Earth Raster DEMs</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Esri Terrain Dataset Creation: Class 2 LiDAR along with the hydro-flattened breaklines were used to produce a multi-resolution, triangulated irregular network (TIN)-based surface. Each LAS file, overall hydro-flattened breakline file, and AOI was stored as a feature class in a feature dataset within an Esri file geodatabase.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>Breaklines</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>Esri Terrain Dataset</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Intensity Image Creation: GeoCue software was used to create the deliverable intensity images with a 2.5-foot cell size. All overlap classes were ignored during this process. This helps to ensure a more aesthetically pleasing image. The GeoCue software was then used to verify full project coverage as well. TIF/TWF files were then provided as the deliverable for this dataset requirement.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>Intensity Images</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Lidar Post-Processing: The calibrated and controlled lidar swaths were processed using automatic point classification routines in proprietary software. These routines operate against the entire collection (all swaths, all lifts), eliminating character differences between files. Data were then distributed as virtual tiles to experienced lidar analysts for localized automatic classification, manual editing, and peer-based QC checks. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area. All classification tags are stored in the original swath files. After completion of classification and final QC approval, the NVA and VVA for the project are calculated. Sample areas for each land cover type present in the project area were extracted and forwarded to the client, along with the results of the accuracy tests. Upon acceptance, the complete classified lidar swath files were delivered to the client.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Lidar Pre-Processing: Airborne GPS and IMU data were merged to develop a Single Best Estimate (SBET) of the lidar system trajectory for each lift. Lidar ranging data were initially calibrated using previous best parameters for this instrument and aircraft. Relative calibration was evaluated using advanced plane-matching analysis and parameter corrections derived. This was repeated iteratively until residual errors between overlapping swaths, across all project lifts, was reduced to acceptable levels. Data were then block adjusted to match surveyed calibration control. Raw data NVA were checked using independently surveyed checkpoints. Swath overage points were identified and tagged within each swath file. The results of the final calibration, NVA accuracy assessments and the "raw" swaths were forwarded to the client to obtain a Notice To Proceed on classification and derivative product generation.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>LiDAR datasets with USGS classifications</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Hydro-Flattened Breakline Creation: Class 2 LiDAR was used to create a bare earth surface model. The surface model was then used to heads-up digitize 2D breaklines of inland streams and rivers with a 100 foot nominal width and Inland Ponds and Lakes of 2 acres or greater surface area. Elevation values were assigned to all Inland Ponds and Lakes, Inland Pond and Lake Islands, Inland Stream and River Islands, using TerraModeler functionality. Elevation values were assigned to all Inland streams and rivers using Quantum Spatial proprietary software. All ground (ASPRS Class 2) LiDAR data inside of the collected inland breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature. These points were moved from ground (ASPRS Class 2) to Ignored Ground (ASPRS Class 10). The continuous breakline files were then translated to Esri file geodatabase format using Esri conversion tools.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>Hydro-Flattened Breaklines</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Classified LAS Creation: The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points. After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization. All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10). All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed. All bridge decks were classified to Class 17. All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS. The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications. All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler. Global Mapper was used as a final check of the bare earth dataset. GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth. Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>Classified LAS</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Contour Creation: Using automated scripting routines within ArcMap, a terrain surface was created using the ground (ASPRS Class 2) LiDAR data as well as the hydro-flattening breaklines. This surface was then used to generate the final 2-foot continuous contour dataset in Esri file geodatabase format.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>Contours</resAltTitle></srcCitatn></stepSrc></prcStep><dataSource><srcDesc>This data source was used to QC and vertically adjust the lidar point cloud data.</srcDesc><srcMedName><MedNameCd value="015"/></srcMedName><srcCitatn><resTitle>Control Survey Report of LiDAR Quality Control Points: Dauphin County, PA Lidar Task Order</resTitle><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle><date><pubDate>2016-12-05</pubDate></date><citRespParty><rpOrgName>Quantum Spatial</rpOrgName><role><RoleCd value="006"/></role></citRespParty><citRespParty><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntAddress><delPoint>Lexington, KY</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty></srcCitatn><srcExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2016-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></srcExt></dataSource><dataSource><srcDesc>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srcDesc><srcMedName><MedNameCd value="015"/></srcMedName><srcCitatn><resTitle>Survey Report of LiDAR Ground Control Points: Dauphin County, PA LiDAR Task Order</resTitle><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle><date><pubDate>2016-12-05</pubDate></date><citRespParty><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntAddress><delPoint>Lexington, KY</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty><rpOrgName>Quantum Spatial</rpOrgName><role><RoleCd value="006"/></role></citRespParty></srcCitatn><srcExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2016-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></srcExt></dataSource><dataSource><srcDesc>This data source was used to populate the lidar point cloud data.</srcDesc><srcMedName><MedNameCd value="015"/></srcMedName><srcCitatn><resTitle>Lidar RAW Data for Dauphin County, PA QL2 2016</resTitle><resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle><date><pubDate>2016-12-05</pubDate></date><citRespParty><rpOrgName>2016</rpOrgName><rpCntInfo><cntAddress><delPoint>Quantum Spatial</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty><rpOrgName>Quantum Spatial</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><fgdcGeoform>lidar data</fgdcGeoform></presForm></srcCitatn><srcExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Period><tmBegin>2016-03-24</tmBegin><tmEnd>2016-11-22</tmEnd></TM_Period></exTemp></TempExtent></tempEle></srcExt></dataSource></dataLineage></dqInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="004"/></geoObjTyp></geometObjs></VectSpatRep></spatRepInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="3430ed0389fc82a4668e40cfef4fc7e0" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <srcused>Breaklines</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Esri Terrain Dataset</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.93333333333333</stdparll>
+              <stdparll>40.96666666666667</stdparll>
+              <longcm>-77.75</longcm>
+              <latprjo>39.33333333333334</latprjo>
+              <feast>1968500.0</feast>
+              <fnorth>0.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.01</absres>
+            <ordres>0.01</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (2011)</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988 (Geoid 12B)</altdatum>
+        <altres>0.01</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <metainfo>
+    <metd>20161205</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial</cntorg>
+          <cntper>Sarah Zibart</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>szibart@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None.</metac>
+    <metuc>None.</metuc>
+    <metsi>
+      <metscs>None.</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>NONE</metshd>
+    </metsi>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <Esri>
+    <CreaDate>20170301</CreaDate>
+    <CreaTime>14565000</CreaTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata (1)</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata" dest="\\ALCES\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata (1)" date="20170301" time="14565000" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Sarah Zibart</rpIndName>
+    <rpOrgName>Quantum Spatial</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>859-277-8700</voiceNum>
+        <faxNum>859-277-8901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>523 Wellington Way</delPoint>
+        <city>Lexington</city>
+        <adminArea>KY</adminArea>
+        <postCode>40503</postCode>
+        <country>US</country>
+        <eMailAdd>szibart@quantumspatial.com</eMailAdd>
+      </cntAddress>
+      <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+      <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20161205</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>USGS QL2 LiDAR for Dauphin County, PA 2016</resTitle>
+      <date>
+        <pubDate>2016-12-05</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Quantum Spatial</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Geographic Extent: Dauphin County, Pennsylvania, covering approximately 555 square miles. Dataset Description: The Dauphin County, PA 2016 QL2 LiDAR project called for the planning, acquisition, processing and derivative products of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet; NAVD1988 (Geoid 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 711 individual 5,000-foot x 5,000-foot tiles. Tile names use the following naming schema: "YYYYXXXXPAd" where YYYY is the first 3 characters of the tile's upper left corner Y-coordinate, XXXX - the first 4 characters of the tile's upper left corner X-coordinate, PA = Pennsylvania, and d = 'N' for North or 'S' for South. Corresponding 2.5-foot gridded hydro-flattened bare earth raster tiled DEM files and intensity image files were created using the same 5,000-foot x 5,000-foot schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. Continuous 2-foot contours were produced in Esri file geodatabase format. Ground Conditions: LiDAR collection began in Spring 2016, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, Quantum Spatial established a total of 84 control points (24 calibration control points and 60 QC checkpoints). These were used to calibrate the LIDAR to known ground locations established throughout the project area.</idAbs>
+    <idPurp>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create breaklines and raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened digital elevation model (DEM) with a 2.5-foot cell size. These raw lidar point cloud data were used to create classified lidar LAS files, intensity images, 3D breaklines, hydro-flattened DEMs, and contours as necessary.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Chris Holder</rpIndName>
+      <rpOrgName>Quantum Spatial, Data Acquisition Department</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>859-277-8700</voiceNum>
+          <faxNum>859-277-8901</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>523 Wellington Way</delPoint>
+          <city>Lexington</city>
+          <adminArea>KY</adminArea>
+          <postCode>40503</postCode>
+          <country>US</country>
+          <eMailAdd>cholder@quantumspatial.com</eMailAdd>
+        </cntAddress>
+        <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+        <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>US</keyword>
+      <keyword>Dauphin County</keyword>
+      <keyword>United States</keyword>
+      <keyword>PA</keyword>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Hydrology</keyword>
+      <keyword>Lidar</keyword>
+      <keyword>Elevation data</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>US</keyword>
+      <keyword>Dauphin County</keyword>
+      <keyword>Hydrology</keyword>
+      <keyword>United States</keyword>
+      <keyword>PA</keyword>
+      <keyword>Lidar</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Elevation data</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+        <othConsts>No restrictions apply to this data.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="006" />
+    </tpCat>
+    <envirDesc>MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; Esri ArcGIS 10; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System \\PSIHQ_NX3200\Projects\Projects\28552_USGS_Dauphin_Co 1.11 GB and \\matrix\matrix\LIDAR\28552_USGS_Dauphin_Co_PA_3DEP_BAA 816 GB</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-77.0447212896727</westBL>
+          <eastBL>-76.5208427032109</eastBL>
+          <southBL>40.1109641653215</southBL>
+          <northBL>40.6738130223421</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Period>
+              <tmBegin>2016-03-24</tmBegin>
+              <tmEnd>2016-11-22</tmEnd>
+            </TM_Period>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>USGS Contract: G10PC00016 Task Order Number: G16PD00443 CONTRACTOR: Quantum Spatial Lidar data were acquired and calibrated by Quantum Spatial. All follow-on processing was completed by the prime contractor. A four-tile area around Three Mile Island required a re-flight. Steam plumes over the area limited the amount of points returned, resulting in voids in the data set. Data falling within the following tiles was re-acquired on November 22, 2016: 30502250PAS, 30502255PAS, 30002250PAS, and 30002255PAS.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="001" />
+      </class>
+      <classSys>None.</classSys>
+      <handDesc>NONE</handDesc>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Data cover the entire area specified for this project.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>These raw LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="vertical">
+      <measDesc>The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level. The specifications require that Nonvegetated Vertical Accuracy (NVA) be computed for DEM files. The NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level. The specifications require that Vegetated Vertical Accuracy (VVA) be computed for DEM files. The VVA was tested with 35 independent survey points distributed throughout the project area and located in vegetated terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the VVA be 29.4 cm or better at the 95th percentile.</measDesc>
+      <evalMethDesc>The raw NVA was tested using 35 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.099 meters (0.030 feet) and AccuracyZ to be 0.193 meters (0.059 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>0.059</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Hydro-Flattened Bare-Earth Raster DEM Creation: Class 2 LiDAR in conjunction with the hydro breaklines were used to create a 2.5-foot raster DEM. Using automated scripting routines within ArcMap, an ERDAS Imagine .IMG file was created for each tile. Each surface is reviewed using Global Mapper to check for any surface anomalies or incorrect elevations found within the surface.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Hydro-Flattened Bare-Earth Raster DEMs</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Esri Terrain Dataset Creation: Class 2 LiDAR along with the hydro-flattened breaklines were used to produce a multi-resolution, triangulated irregular network (TIN)-based surface. Each LAS file, overall hydro-flattened breakline file, and AOI was stored as a feature class in a feature dataset within an Esri file geodatabase.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Breaklines</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Esri Terrain Dataset</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Intensity Image Creation: GeoCue software was used to create the deliverable intensity images with a 2.5-foot cell size. All overlap classes were ignored during this process. This helps to ensure a more aesthetically pleasing image. The GeoCue software was then used to verify full project coverage as well. TIF/TWF files were then provided as the deliverable for this dataset requirement.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Intensity Images</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Lidar Post-Processing: The calibrated and controlled lidar swaths were processed using automatic point classification routines in proprietary software. These routines operate against the entire collection (all swaths, all lifts), eliminating character differences between files. Data were then distributed as virtual tiles to experienced lidar analysts for localized automatic classification, manual editing, and peer-based QC checks. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area. All classification tags are stored in the original swath files. After completion of classification and final QC approval, the NVA and VVA for the project are calculated. Sample areas for each land cover type present in the project area were extracted and forwarded to the client, along with the results of the accuracy tests. Upon acceptance, the complete classified lidar swath files were delivered to the client.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Lidar Pre-Processing: Airborne GPS and IMU data were merged to develop a Single Best Estimate (SBET) of the lidar system trajectory for each lift. Lidar ranging data were initially calibrated using previous best parameters for this instrument and aircraft. Relative calibration was evaluated using advanced plane-matching analysis and parameter corrections derived. This was repeated iteratively until residual errors between overlapping swaths, across all project lifts, was reduced to acceptable levels. Data were then block adjusted to match surveyed calibration control. Raw data NVA were checked using independently surveyed checkpoints. Swath overage points were identified and tagged within each swath file. The results of the final calibration, NVA accuracy assessments and the "raw" swaths were forwarded to the client to obtain a Notice To Proceed on classification and derivative product generation.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>LiDAR datasets with USGS classifications</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Hydro-Flattened Breakline Creation: Class 2 LiDAR was used to create a bare earth surface model. The surface model was then used to heads-up digitize 2D breaklines of inland streams and rivers with a 100 foot nominal width and Inland Ponds and Lakes of 2 acres or greater surface area. Elevation values were assigned to all Inland Ponds and Lakes, Inland Pond and Lake Islands, Inland Stream and River Islands, using TerraModeler functionality. Elevation values were assigned to all Inland streams and rivers using Quantum Spatial proprietary software. All ground (ASPRS Class 2) LiDAR data inside of the collected inland breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature. These points were moved from ground (ASPRS Class 2) to Ignored Ground (ASPRS Class 10). The continuous breakline files were then translated to Esri file geodatabase format using Esri conversion tools.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Hydro-Flattened Breaklines</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Classified LAS Creation: The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points. After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization. All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10). All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed. All bridge decks were classified to Class 17. All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS. The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications. All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler. Global Mapper was used as a final check of the bare earth dataset. GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth. Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Classified LAS</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Contour Creation: Using automated scripting routines within ArcMap, a terrain surface was created using the ground (ASPRS Class 2) LiDAR data as well as the hydro-flattening breaklines. This surface was then used to generate the final 2-foot continuous contour dataset in Esri file geodatabase format.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Contours</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <dataSource>
+        <srcDesc>This data source was used to QC and vertically adjust the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Control Survey Report of LiDAR Quality Control Points: Dauphin County, PA Lidar Task Order</resTitle>
+          <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-12-05</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Lexington, KY</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Survey Report of LiDAR Ground Control Points: Dauphin County, PA LiDAR Task Order</resTitle>
+          <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-12-05</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Lexington, KY</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used to populate the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Lidar RAW Data for Dauphin County, PA QL2 2016</resTitle>
+          <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          <date>
+            <pubDate>2016-12-05</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>2016</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Quantum Spatial</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>lidar data</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Period>
+                  <tmBegin>2016-03-24</tmBegin>
+                  <tmEnd>2016-11-22</tmEnd>
+                </TM_Period>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="004" />
+        </geoObjTyp>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="3430ed0389fc82a4668e40cfef4fc7e0" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 UXVhbnR1bSBTcGF0aWFsPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTYxMjA1PC9wdWJk
 YXRlPg0KICAgICAgICA8dGl0bGU+VVNHUyBRTDIgTGlEQVIgZm9yIERhdXBoaW4gQ291bnR5LCBQ
@@ -737,4 +1930,7 @@ cHlIaXN0b3J5Pg0KICAgICAgICA8Y29weSBzb3VyY2U9IkQ6XERBVEFcZGF1cGhpblwyODU1Ml9E
 YXVwaGluQ29QQV9Qcm9qZWN0TGV2ZWxfTWV0YWRhdGEiIGRlc3Q9IlxcQUxDRVNcREFUQVxkYXVw
 aGluXDI4NTUyX0RhdXBoaW5Db1BBX1Byb2plY3RMZXZlbF9NZXRhZGF0YSAoMSkiIGRhdGU9IjIw
 MTcwMzAxIiB0aW1lPSIxNDU2NTAwMCIgLz4NCiAgICAgIDwvY29weUhpc3Rvcnk+DQogICAgPC9E
-YXRhUHJvcGVydGllcz4NCiAgPC9Fc3JpPg0KPC9tZXRhZGF0YT4=</Data></Enclosure></Binary></metadata>
+YXRhUHJvcGVydGllcz4NCiAgPC9Fc3JpPg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

@@ -1,4 +1,458 @@
-<metadata><idinfo><citation><citeinfo><title>Lancaster County Urban Growth Area - Polygon</title><geoform>vector digital data</geoform><origin>County of Lancaster</origin><pubdate>201712</pubdate><onlink>http://www.pasda.psu.edu/</onlink></citeinfo></citation><descript><abstract>This a county-wide coverage that contains polygons showing the urban and village growth boundaries in the county. Growth boundaries are split along municipal boundaries.</abstract><purpose>Data created for Lancaster County planning. Intended for illustration and demonstration purposes only.</purpose></descript><status><update>As needed</update></status><spdom><bounding><westbc>-76.667304</westbc><eastbc>-75.954501</eastbc><northbc>40.281346</northbc><southbc>39.734068</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>urban growth boundaries</themekey><themekey>village growth boundaries</themekey><themekey>municipal boundaries</themekey><themekey>planningCadastre</themekey></theme></keywords><accconst>None</accconst><useconst>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst><ptcontac><cntinfo><cntorgp><cntorg>County of Lancaster</cntorg><cntper>IT/GIS</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>150 N Queen St., Suite 322</address><city>Lancaster</city><state>PA</state><postal>17603</postal></cntaddr><cntvoice>717-391-7550</cntvoice><cntemail>ithelpdesk@co.lancaster.pa.us</cntemail></cntinfo></ptcontac><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native><timeperd><timeinfo><sngdate><caldate>201712</caldate></sngdate></timeinfo></timeperd></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>GT-polygon composed of chains</sdtstype><ptvctcnt>174</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><mapproj><mapprojn>Lambert Conformal Conic</mapprojn><lambertc><stdparll>39.93333333333333</stdparll><stdparll>40.96666666666667</stdparll><longcm>-77.75</longcm><latprjo>39.33333333333334</latprjo><feast>1968500.0</feast><fnorth>0.0</fnorth></lambertc></mapproj><planci><plance>coordinate pair</plance><coordrep><absres>0.000000026907964745248598</absres><ordres>0.000000026907964745248598</ordres></coordrep></planci></planar><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>Lancaster County UGA_poly</enttypl></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>TYPE</attrlabl><attrdef>type of growth boundary</attrdef><attrdefs>Lancaster County Planning</attrdefs><attrdomv><edom><edomv>UGB</edomv><edomvd>Urban Growth Boundary</edomvd></edom><edom><edomv>VGB</edomv><edomvd>Village Growth Boundary</edomvd></edom></attrdomv></attr><attr><attrlabl>MUNICIPAL_</attrlabl></attr><attr><attrlabl>ADOPTED</attrlabl><attrdef>current status of growth area</attrdef><attrdomv><edom><edomv>Y</edomv><edomvd>Adopted</edomvd></edom><edom><edomv>N</edomv><edomvd>Draft</edomvd></edom><edom><edomv>A</edomv></edom></attrdomv></attr><attr><attrlabl>MUNI_ID</attrlabl><attrdef>municipal district number</attrdef></attr><attr><attrlabl>MUNI_NAME</attrlabl><attrdef>Name of Municipality</attrdef></attr><attr><attrlabl>UGB_NAME</attrlabl><attrdef>Name of growth zone enclosing the polygon </attrdef></attr><attr><attrlabl>ACREAGE</attrlabl><attrdef>Calculated acreage of Polygon</attrdef></attr><attr><attrlabl>TYPE_STAT</attrlabl><attrdef>Type and status of growth boundary combined</attrdef><attrdefs>Lancaster County Planning</attrdefs><attrdomv><edom><edomv>AU</edomv><edomvd>Abopted UGB</edomvd></edom><edom><edomv>AV</edomv><edomvd>Adopted VGB</edomvd></edom><edom><edomv>DU</edomv><edomvd>Draft UGB</edomvd></edom><edom><edomv>DV</edomv><edomvd>Draft VGB </edomvd></edom></attrdomv></attr><attr><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>SHAPE_area</attrlabl><attrdef>Area of feature in internal units squared.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>SHAPE_len</attrlabl></attr></detailed></eainfo><distinfo><distliab>See access and use constraints information.</distliab><stdorder><digform><digtinfo><formname>SDE Feature Class</formname></digtinfo><digtopt/></digform></stdorder></distinfo><metainfo><metd>201712</metd><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc><metc><cntinfo><cntorgp><cntorg>County of Lancaster</cntorg><cntper>IT/GIS</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>150 N. Queen St., Suite 322</address><city>Lancaster</city><state>PA</state><postal>17603</postal><country>United States</country></cntaddr><cntvoice>717-391-7550</cntvoice><cntemail>ithelpdesk@co.lancaster.pa.us</cntemail></cntinfo></metc></metainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>IT/GIS</rpIndName><rpOrgName>County of Lancaster</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-391-7550</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>150 N. Queen St., Suite 322</delPoint><city>Lancaster</city><adminArea>PA</adminArea><postCode>17603</postCode><country>US</country><eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20171201</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont></distributor><distributor><distorOrdPrc/><distorFormat><formatName>SDE Feature Class</formatName></distorFormat></distributor><distTranOps><onLineSrc><linkage>http://www.pasda.psu.edu/</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>Lancaster County Urban Growth Area - Polygon</resTitle><date><pubDate>2017-03</pubDate></date><citRespParty><rpOrgName>County of Lancaster</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>This a county-wide coverage that contains polygons showing the urban and village growth boundaries in the county. Growth boundaries are split along municipal boundaries.</idAbs><idPurp>Data created for Lancaster County planning. Intended for illustration and demonstration purposes only.</idPurp><idPoC><rpIndName>IT/GIS</rpIndName><rpOrgName>County of Lancaster</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-391-7550</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>150 N Queen St., Suite 322</delPoint><city>Lancaster</city><adminArea>PA</adminArea><postCode>17603</postCode><eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><themeKeys><keyword>planningCadastre</keyword><keyword>municipal boundaries</keyword><keyword>village growth boundaries</keyword><keyword>urban growth boundaries</keyword><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName></themeKeys><searchKeys><keyword>planningCadastre</keyword><keyword>municipal boundaries</keyword><keyword>village growth boundaries</keyword><keyword>urban growth boundaries</keyword></searchKeys><resConst><LegConsts><useLimit>See access and use constraints information.</useLimit><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="015"/></tpCat><tpCat><TopicCatCd value="003"/></tpCat><envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-76.667304</westBL><eastBL>-75.954501</eastBL><southBL>39.734068</southBL><northBL>40.281346</northBL></GeoBndBox></geoEle></dataExt><dataExt><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2017-03</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt></dataIdInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="001"/></geoObjTyp><geoObjCnt>174</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Esri><CreaDate>20171223</CreaDate><CreaTime>10482700</CreaTime><ArcGISFormat>1.0</ArcGISFormat></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b7cc849d61138bb38dfdcf73cd4d81f" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Lancaster County Urban Growth Area - Polygon</title>
+        <geoform>vector digital data</geoform>
+        <origin>County of Lancaster</origin>
+        <pubdate>201712</pubdate>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.667304</westbc>
+        <eastbc>-75.954501</eastbc>
+        <northbc>40.281346</northbc>
+        <southbc>39.734068</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>urban growth boundaries</themekey>
+        <themekey>village growth boundaries</themekey>
+        <themekey>municipal boundaries</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>150 N Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201712</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <descript>
+      <abstract>LancasterCountyUga_poly201712</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>174</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Lancaster County UGA_poly</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>type of growth boundary</attrdef>
+        <attrdefs>Lancaster County Planning</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>UGB</edomv>
+            <edomvd>Urban Growth Boundary</edomvd>
+          </edom>
+          <edom>
+            <edomv>VGB</edomv>
+            <edomvd>Village Growth Boundary</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPAL_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADOPTED</attrlabl>
+        <attrdef>current status of growth area</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Adopted</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Draft</edomvd>
+          </edom>
+          <edom>
+            <edomv>A</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_ID</attrlabl>
+        <attrdef>municipal district number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_NAME</attrlabl>
+        <attrdef>Name of Municipality</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UGB_NAME</attrlabl>
+        <attrdef>Name of growth zone enclosing the polygon </attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACREAGE</attrlabl>
+        <attrdef>Calculated acreage of Polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TYPE_STAT</attrlabl>
+        <attrdef>Type and status of growth boundary combined</attrdef>
+        <attrdefs>Lancaster County Planning</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AU</edomv>
+            <edomvd>Abopted UGB</edomvd>
+          </edom>
+          <edom>
+            <edomv>AV</edomv>
+            <edomvd>Adopted VGB</edomvd>
+          </edom>
+          <edom>
+            <edomv>DU</edomv>
+            <edomvd>Draft UGB</edomvd>
+          </edom>
+          <edom>
+            <edomv>DV</edomv>
+            <edomvd>Draft VGB </edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_len</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201712</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>IT/GIS</rpIndName>
+    <rpOrgName>County of Lancaster</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-391-7550</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>150 N. Queen St., Suite 322</delPoint>
+        <city>Lancaster</city>
+        <adminArea>PA</adminArea>
+        <postCode>17603</postCode>
+        <country>US</country>
+        <eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20171201</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distributor>
+      <distorOrdPrc />
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Lancaster County Urban Growth Area - Polygon</resTitle>
+      <date>
+        <pubDate>2017-03</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>County of Lancaster</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>This a county-wide coverage that contains polygons showing the urban and village growth boundaries in the county. Growth boundaries are split along municipal boundaries.</idAbs>
+    <idPurp>Data created for Lancaster County planning. Intended for illustration and demonstration purposes only.</idPurp>
+    <idPoC>
+      <rpIndName>IT/GIS</rpIndName>
+      <rpOrgName>County of Lancaster</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-391-7550</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>150 N Queen St., Suite 322</delPoint>
+          <city>Lancaster</city>
+          <adminArea>PA</adminArea>
+          <postCode>17603</postCode>
+          <eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>planningCadastre</keyword>
+      <keyword>municipal boundaries</keyword>
+      <keyword>village growth boundaries</keyword>
+      <keyword>urban growth boundaries</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>planningCadastre</keyword>
+      <keyword>municipal boundaries</keyword>
+      <keyword>village growth boundaries</keyword>
+      <keyword>urban growth boundaries</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>See access and use constraints information.</useLimit>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="015" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="003" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-76.667304</westBL>
+          <eastBL>-75.954501</eastBL>
+          <southBL>39.734068</southBL>
+          <northBL>40.281346</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-03</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="001" />
+        </geoObjTyp>
+        <geoObjCnt>174</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20171223</CreaDate>
+    <CreaTime>10482700</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b7cc849d61138bb38dfdcf73cd4d81f" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDx0aXRsZT5M
 YW5jYXN0ZXIgQ291bnR5IFVyYmFuIEdyb3d0aCBBcmVhIC0gUG9seWdvbjwvdGl0bGU+DQogICAg
 ICAgIDxnZW9mb3JtPnZlY3RvciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICAgIDxvcmln
@@ -177,4 +631,7 @@ ZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSB3aWxsIG5vdCBiZSBsaWFi
 bGUgZm9yIGFueSBkaXJlY3QsIGluZGlyZWN0LCBzcGVjaWFsLCBpbmNpZGVudGFsLCBvciBjb25z
 ZXF1ZW50aWFsIGRhbWFnZXMgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBvciBpbmFiaWxpdHkgdG8g
 dXNlIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24uPC9kaXN0bGlh
-Yj4NCiAgPC9kaXN0aW5mbz4NCjwvbWV0YWRhdGE+</Data></Enclosure></Binary></metadata>
+Yj4NCiAgPC9kaXN0aW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

@@ -9,10 +9,6 @@
         <geoform>raster digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>High-resolution land cover dataset for the Commonwealth of Pennsylvania. Twelve land cover classes were mapped:0 - Background1 - Water2 - Emergent Wetlands3 - Tree Canopy4 - Scrub/Shrub5 - Low Vegetation6 - Barren7 - Structures8 - Other Impervious Surfaces9 - Roads10 - Tree Canopy over Structures11 - Tree Canopy over Other Impervious Surfaces12 - Tree Canopy over RoadsThe complete class definitions and standards can be viewed at the link below.http://goo.gl/THacggThe primary sources used to derive this land-cover layer were 2006-2008 leaf-off LiDAR data, 2005-2008 leaf-off orthoimagery, and 2013 leaf-on orthoimagery. Ancillary data sources such as LiDAR-derived breaklines for roads and hydrology were used to augment the land-cover mapping. This land-cover dataset is considered current based on data of acquisition for the leaf-on orthoimagery. Land-cover class assignment was accomplished using a rule-based expert system embedded within an object-based framework. Object-based image analysis techniques (OBIA) work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets. Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process. A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. Following the automated OBIA mapping a detailed manual review of the dataset was carried out at a scale of 1:3000 and all observable errors were corrected.This dataset was developed to support land-cover mapping and modeling initiatives in the Chesapeake Bay Watershed and Delaware River Basin. At the time of its publication, it represented the most accurate and detailed land cover map for the Pennsylvania portion of the Chesapeake Bay Watershed</abstract>
-      <purpose>This dataset was developed to support land-cover mapping and modeling initiatives in the Chesapeake Bay Watershed and Delaware River Basin. At the time of its publication, it represented the most accurate and detailed land cover map for the Pennsylvania portions of the Chesapeake Bay Watershed and Delaware River Basin.</purpose>
-    </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
@@ -103,6 +99,9 @@
     </ptcontac>
     <datacred>This land-cover dataset was developed by the University of Vermont Spatial Analysis Laboratory. The original development of the algorithms used for this project was done in collaboration with the United States Forest Service. Funding for the Delaware River Basin portion was provided by the William Penn Foundation under a collaborative grant with Shippensburg University. Funding for the Chesapeake Bay Watershed portion was provided by the National Park Service and Environmental Protection Agency under a collaborative grant with the Chesapeake Conservancy.</datacred>
     <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+    <descript>
+      <abstract>landcover_2013_pennsylvania_chb_drb</abstract>
+    </descript>
   </idinfo>
   <dataqual>
     <attracc>
@@ -340,5 +339,25 @@
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>
     <metuc>The organizations responsible for generating and funding this dataset make no representations of any kind including, but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.Although every effort has been made to ensure the accuracy of information, errors may be reflected in data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other condition. Secondary distribution must be accompanied by this documentation. Credit should always be given to the data source when this data is transferred, altered, or used for analysis.</metuc>
-  </metainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land &amp; Water Research Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

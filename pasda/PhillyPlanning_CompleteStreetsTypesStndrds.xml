@@ -6,16 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Data Development:The Street Types (street_typ) are developed, identified, and mapped by the City Planning Commission and refrence street Center lines. The Street Types take into account, traditional levels of service for automobiles, pedestrian activity and land use. Upwards of thirty columns (from street_typ to stormwater) are populated according to the Complete Streets Handbook, as managed by the Streets Department and the Mayor’s Office of Transportation and utitilies. The Pedestrian and Bicycle Plan, as well as the Complete Streets Handbook both serve as the refrenes for this shapefile. Key attribute field names and descriptionsstreet_typ – Street Type as established by the PCPCSidewlk_Wd – Recommended Sidewalk WidthWlk_Zn – Recommended Walking Zone WidthCrb_Rmps –Curb Ramps installation priorityPd_Priorty - Shared/Pedestrian Priority Street development priorityFest_St - Festival (Curbless) Street development priorityBlding_Zn - Recommended Building Zone WidthFurn_Zn - Recommended Furnishing Zone WidthBike_Parki Bicycle Parking installation priorityLighting – Lighting installation priorityBenches - Benches &amp; Street Furniture installation prioritySidewlk_Ca - Sidewalk Cafes installation priorityStreet_Tre - Street Trees installation priorityPlanters – Planters installation priorityStrmwtr_Pl - Stormwater Planters installation priorityStreet_Fur - Street Furniture installation priorityNewsstands – Newsstands installation priorityVendors – Vendors installation priorityArch_Featu - Architectural Features design priorityBike_Lane - Conventional Bike Laneinstallation priorityLeft_Side_ - Left-Side Bike Lane installation priorityBuff_Bike_ - Buffered Bike Lane installation priorityCntra_Flow - Contra-Flow Bike Lane installation priorityClimbng_Bi - Climbing Bike Lane installation priorityCycle_Trac - Cycle Trackinstallation priorityShared_Use - Shared-Use Path development priorityBike_Frien - Bicycle-Friendly Street development priorityMarked_Sha Marked Shared Lane installation priorityGreen_Pave Green Colored Pavement installation priorityBike_Signs - Bike Route Signs installation priorityOn_St_Park - On-Street Parking development priorityInSt_Bike_ - In-Street Bicycle Parking installation priorityLay_By_Lan - Lay-By Lanes development priorityLoading_Zn - Loading Zones installation priorityTransit_St - Transit Stops installation priorityAltUses_Pa - Alternative Uses of Parking Lanes development priorityLane_Width - Lane Width development prioritySpeed_Redu - Raised Speed Reducers installation priorityMedians – Medians development priorityChicanes – Chicanes development priorityBus_Lanes - Bus Lanes development priorityDriveways – Driveway placement priorityUtilities – Utilities installation priorityConstructi- Construction Disruption managementStormwater - Stormwater Management installation priorityCoordinate systemProjected Coordinate System:NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_FeetProjection: Lambert_Conformal_ConicGeographic Coordinate System: GCS_North_American_1983Datum: D_North_American_1983Unit of Measurement: US FootThematic mapping Use the street_typfield for thematic mapping and labeling.</abstract>
-      <purpose>The Complete Streets Layer combines the Street Types developed by the City Planning Commission’s Pedestrian and Bicycle Plan, with the Complete Streets Handbook of the Mayor’s Office of Transportation and Utilities.  It allows developers, planners, engineers and community groups to easily identify their street type and associated pedestrian, bicycle and other travel priorities to be included during the planning of new streets or large developments.
-- Features updated:  24/12/2012
-- Attributes updated: 24/12/2012
-- Metadata updated  24/12/2012
-- Update Frequency:  as needed
-- Public = Y
-</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.284688</westbc>
@@ -32,6 +22,9 @@ Mayor’s Office of Transportation and Utilities
 1401 JFK Blvd, Suite 1430, Philadelphia PA 19102
 ariel.ben-amos@phila.gov | 215-686-9001</datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyPlanning_CompleteStreetsTypesStndrds</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -321,5 +314,25 @@ ariel.ben-amos@phila.gov | 215-686-9001</datacred>
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

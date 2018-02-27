@@ -6,16 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Abstract:Polygon boundaries of Zoning Base Districts based on existing City zoning districts with revised codes applied per enactment of the new Zoning Code of December 2011, made effective August 22, 2012. District boundaries unchanged from previous zoning with the exception of certain CMX2 / CMX2.5 splits.Data Development:Key attribute fields and descriptions:CODE – Zoning code without the dash (often used for labeling maps at small scales)LONG_CODE – The Zoning code with the dash includedZONING GROUP – generalized group of zoning codes (i.e. Residential Multi-Family, Residential/Residential Mixed-Use, Commercial/Commercial Mixed-Use...)Coordinate system:Lambert_Conformal_Conic, NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_FeetThematic mapping:CODE – Zoning code without the dash (often used for labeling maps at small scales)LONG_CODE – The Zoning code with the dash includedZONIN_ GROUP – generalized group of zoning codes (i.e. Residential Multi-Family, Residential/Residential Mixed-Use, Commercial/Commercial Mixed-Use...)To obtain a Zoning Base District layer file, please contact Darshna Patel (darshna.patel@phila.gov, (215) 683-4611) or Pauline Loughlin (pauline.loughlin@phila.gov, (215) 683 - 4662).Other InformationThis layer has two related tables. These related tables are great assets for quickly executing zoning-related queries (i.e. all zoning districts categorized as Residential Single Family Detached, all zoning districts falling within the Residential Multi-Family generalized group, or all districts categorized as Auot-Oriented Commercial 1 and 2...)Zoning_Descriptions- This table names the detailed zoning description for each zoning code (i.e. Residential Single Family Detached-3, Residential Mixed-Use-2, Industrial Commercial Mixed-Use...)Zoning_Generalized_Groups- Generalized group of zoning codes (i.e. Residential Multi-Family, Residential/Residential Mixed-Use, Commercial/Commercial Mixed-Use...)Philadelphia Zoning-Related Websites:Zoning Code -- http://www.amlegal.com/library/pa/philadelphia.shtml and navigate to Title 14Zonng Map -- http://www.phila.gov/map On pop-up menu scroll down to 'Zoning'Zoning Administration Manual -- http://www.phila.gov/CityPlanning/projectreviews/Pages/Zoning.aspx</abstract>
-      <purpose>Boundaries of the City of Philadelphia Zoning Base Districts enacted December 15, 2011 and made effective August 22, 2012.  Data updates are on-going.
-
-- Features updated:  12/10/2015
-- Attributes updated: 12/10/2015
-- Metadata updated:  12/10/2015
-- Update Frequency:  As called for by Zoning Bills.  Edits are made once Bills are out of Rules (noted as pending) and also once they are signed by the Mayor.
-- Public = Y</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.283955</westbc>
@@ -35,6 +25,9 @@ GIS Manager: Darshna Patel
 darshna.patel@phila.gov, (215) 683-4611
 </datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyPlanning_Zoning_BaseDistricts</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -140,5 +133,25 @@ darshna.patel@phila.gov, (215) 683-4611
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

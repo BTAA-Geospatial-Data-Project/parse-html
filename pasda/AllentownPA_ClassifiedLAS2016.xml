@@ -1,27 +1,691 @@
-<metadata><idinfo><citation><citeinfo><origin>Quantum Spatial</origin><pubdate>2016</pubdate><title>USGS QL1 LiDAR for Allentown, PA 2016 - Classified LAS</title><geoform>Lidar point cloud</geoform><onlink>http://www.pasda.psu.edu</onlink></citeinfo></citation><descript><abstract>Geographic Extent: Allentown, Pennsylvania, covering approximately 20 square miles in eastern Pennsylvania. Dataset Description: Allentown, Pennsylvania 2016 QL1 LiDAR project called for the planning, acquisition, processing, and production of products derivative of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.35 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet and vertical datum of NAVD1988 (GEOID 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 129 individual 2,500-foot X 2,500-foot tiles, 1-foot hydro-flattened bare-earth raster DEMs in ERDAS .IMG format and intensity images in GeoTIFF format, tiled to the same 2,500-foot X 2,500-foot tile schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. A mosaic of the hydro-flattened bare-earth raster DEMs was produced in ERDAS .IMG format. Ground Conditions: LiDAR was collected in spring of 2016, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, A total of 18 calibration control points in order to calibrate the LIDAR to known ground locations established throughout the project area. The accuracy of the data was checked with 20 NVA points and 5 VVA points (25 total QC checkpoints).</abstract><purpose>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create Breaklines and Raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened Digital Elevation Model (DEM) with a 1-foot cell size. These raw lidar point cloud data were used to create classified lidar LAS files, 3D breaklines, and hydro-flattened DEMs as necessary.</purpose><lidar><ldrinfo><ldrspec>USGS-NGP Base Lidar Specification v1.2</ldrspec><ldrsens>Riegl LMS 680i</ldrsens><ldrmaxnr>2</ldrmaxnr><ldrnps>0.35</ldrnps><ldrdens>8.00</ldrdens><ldranps>0.35</ldranps><ldradens>8.00</ldradens><ldrfltht>487.68</ldrfltht><ldrfltsp>125</ldrfltsp><ldrscana>60</ldrscana><ldrscanr>400</ldrscanr><ldrpulsr>400</ldrpulsr><ldrpulsd>4</ldrpulsd><ldrpulsw>0.24</ldrpulsw><ldrwavel>1550</ldrwavel><ldrmpia>1</ldrmpia><ldrbmdiv>0.5</ldrbmdiv><ldrswatw>563.12</ldrswatw><ldrswato>35</ldrswato><ldrgeoid>g2012bu0.bin</ldrgeoid></ldrinfo><ldraccur><ldrchacc>0.196</ldrchacc><rawnva>0.016</rawnva><rawnvan>20</rawnvan><clsnva>0.017</clsnva><clsnvan>20</clsnvan><clsvva>0.045</clsvva><clsvvan>5</clsvvan></ldraccur><lasinfo><lasver>1.4</lasver><lasprf>6</lasprf><laswheld>Withheld (ignore) points were identified in these files using the standard LAS Withheld bit</laswheld><lasolap>Swath "overage" points were identified in these files using the standard LAS overlap bit</lasolap><lasintr>16-bit</lasintr><lasclass><clascode>1</clascode><clasitem>Processed but unclassified</clasitem></lasclass><lasclass><clascode>2</clascode><clasitem>Bare earth ground</clasitem></lasclass><lasclass><clascode>7</clascode><clasitem>Low noise</clasitem></lasclass><lasclass><clascode>9</clascode><clasitem>Water</clasitem></lasclass><lasclass><clascode>10</clascode><clasitem>Ignored Ground</clasitem></lasclass><lasclass><clascode>17</clascode><clasitem>Bridge Decks</clasitem></lasclass><lasclass><clascode>18</clascode><clasitem>High noise</clasitem></lasclass></lasinfo></lidar><supplinf>
-				USGS Contract: G16PC00016  Task Order Number: G16PD00442
-			    CONTRACTOR: Quantum Spatial
-			    Quantum Spatial used LiDAR data acquired by Richard Crouse, and Associates with control collected by Herbert, Rowland, and Grubic, Inc. 
-			    All follow-on processing was completed by the prime contractor.
-			</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20160823</caldate></sngdate></timeinfo><current>ground condition</current></timeperd><status><progress>Complete</progress><update>None planned</update></status><spdom><bounding><westbc>-75.557001119897</westbc><eastbc>-75.4113585764082</eastbc><northbc>40.6416381950144</northbc><southbc>40.5461340160323</southbc></bounding><lboundng><leftbc>2577499.99179171</leftbc><rightbc>2617499.99180565</rightbc><topbc>484999.984121652</topbc><bottombc>449999.984109487</bottombc></lboundng></spdom><keywords><place><placekt>None</placekt><placekey>United States</placekey><placekey>US</placekey><placekey>Pennsylvania</placekey><placekey>PA</placekey><placekey>Lehigh County</placekey><placekey>Allentown</placekey></place><theme><themekey>Lidar</themekey><themekey>Elevation data</themekey><themekey>Hydrology</themekey><themekt>ISO 19115 Category</themekt><themekey>imageryBaseMapsEarthCover</themekey></theme></keywords><accconst>No restrictions apply to this data.</accconst><useconst>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</useconst><ptcontac><cntinfo><cntorgp><cntorg>Quantum Spatial, Data Acquisition Department</cntorg><cntper>Chris Holder</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>cholder@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></ptcontac><native>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Quantum Spatial</origin>
+        <pubdate>2016</pubdate>
+        <title>USGS QL1 LiDAR for Allentown, PA 2016 - Classified LAS</title>
+        <geoform>Lidar point cloud</geoform>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20160823</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.557001119897</westbc>
+        <eastbc>-75.4113585764082</eastbc>
+        <northbc>40.6416381950144</northbc>
+        <southbc>40.5461340160323</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc>2577499.99179171</leftbc>
+        <rightbc>2617499.99180565</rightbc>
+        <topbc>484999.984121652</topbc>
+        <bottombc>449999.984109487</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>US</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>PA</placekey>
+        <placekey>Lehigh County</placekey>
+        <placekey>Allentown</placekey>
+      </place>
+      <theme>
+        <themekey>Lidar</themekey>
+        <themekey>Elevation data</themekey>
+        <themekey>Hydrology</themekey>
+        <themekt>ISO 19115 Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+    </keywords>
+    <accconst>No restrictions apply to this data.</accconst>
+    <useconst>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Data Acquisition Department</cntorg>
+          <cntper>Chris Holder</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>cholder@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
 		    MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; ESRI ArcGIS 10.2; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System 
 		    \\PSIHQ_NX3200\Projects\Projects\27136_Allentown_USGS 3.65 GB and \\matrix\matrix\LIDAR\27136_USGS_Allentown_LiDAR_from_RCA 138 GB
-		</native></idinfo><dataqual><logic>Data cover the entire area specified for this project.</logic><complete>
+		</native>
+    <descript>
+      <abstract>AllentownPA_ClassifiedLAS2016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Data cover the entire area specified for this project.</logic>
+    <complete>
 			These raw LAS data files include all data points collected.
 		    No points have been removed or excluded.
 		    A visual qualitative assessment was performed to ensure data completeness.
 		    No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.
-		</complete><posacc><vertacc><vertaccr>
+		</complete>
+    <posacc>
+      <vertacc>
+        <vertaccr>
 					The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 20 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
-				</vertaccr><qvertpa><vertaccv>0.03</vertaccv><vertacce>
+				</vertaccr>
+        <qvertpa>
+          <vertaccv>0.03</vertaccv>
+          <vertacce>
 						The raw NVA was tested using 20 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.016 meters (0.051 feet) and AccuracyZ to be 0.030 meters (0.100 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
-					</vertacce></qvertpa></vertacc></posacc><lineage><srcinfo><srccite><citeinfo><origin>Herbert, Rowland, and Grubic, Inc.</origin><pubdate>2016</pubdate><title>Control Survey Report: Allentown, PA</title><geoform>Lidar point cloud</geoform><pubinfo><pubplace>Harrisburg, PA</pubplace><publish>Herbert, Rowland, and Grubic, Inc.</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2016</caldate></sngdate></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>PA_Allentown_2016_LiDAR_gnd_ctrl</srccitea><srccontr>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Richard Crouse and Associates</origin><pubdate>2016</pubdate><title>Lidar RAW Data for Delaware Valley 2015</title><geoform>Lidar point cloud</geoform><pubinfo><pubplace>Frederick, MD</pubplace><publish>Richard Crouse and Associates</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>20160326</caldate></sngdate></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>PA_Allentown_2016_LiDAR_Data</srccitea><srccontr>This data source was used to populate the lidar point cloud data.</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Herbert, Rowland, and Grubic, Inc.</origin><pubdate>2016</pubdate><title>Control Survey Report: Allentown, PA</title><geoform>Lidar point cloud</geoform><pubinfo><pubplace>Harrisburg, PA</pubplace><publish>Herbert, Rowland, and Grubic, Inc.</publish></pubinfo></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>2016</caldate></sngdate></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>PA_Allentown_2016_LiDAR_qc_ctrl</srccitea><srccontr>This data source was used to QC and vertically adjust the lidar point cloud data.</srccontr></srcinfo><procstep><procdesc>
+					</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Herbert, Rowland, and Grubic, Inc.</origin>
+            <pubdate>2016</pubdate>
+            <title>Control Survey Report: Allentown, PA</title>
+            <geoform>Lidar point cloud</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Herbert, Rowland, and Grubic, Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_Allentown_2016_LiDAR_gnd_ctrl</srccitea>
+        <srccontr>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Richard Crouse and Associates</origin>
+            <pubdate>2016</pubdate>
+            <title>Lidar RAW Data for Delaware Valley 2015</title>
+            <geoform>Lidar point cloud</geoform>
+            <pubinfo>
+              <pubplace>Frederick, MD</pubplace>
+              <publish>Richard Crouse and Associates</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160326</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_Allentown_2016_LiDAR_Data</srccitea>
+        <srccontr>This data source was used to populate the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Herbert, Rowland, and Grubic, Inc.</origin>
+            <pubdate>2016</pubdate>
+            <title>Control Survey Report: Allentown, PA</title>
+            <geoform>Lidar point cloud</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Herbert, Rowland, and Grubic, Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_Allentown_2016_LiDAR_qc_ctrl</srccitea>
+        <srccontr>This data source was used to QC and vertically adjust the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
 					Classified LAS Processing:
 					The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points.  After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization.
 					All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10).  All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed.  All bridge decks were classified to Class 17.
 					All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS.  The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications.
 					All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler.  Global Mapper us used as a final check of the bare earth dataset.  GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth.  Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.
-				</procdesc><srcused>PA_Allentown_2016_LiDAR_ctrl</srcused><srcused>PA_Allentown_2016_LiDAR_Data</srcused><procdate>2016</procdate><srcprod>Classified LAS</srcprod><proccont><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Ryan Griffin</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>rgriffin@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></proccont></procstep></lineage></dataqual><spdoinfo><direct>Point</direct><ptvctinf><sdtsterm><sdtstype>Point</sdtstype></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><gridsys><gridsysn>State Plane Coordinate System</gridsysn><spcs><spcszone>3702</spcszone><lambertc><stdparll>39.93333333333333</stdparll><longcm>-77.75</longcm><latprjo>39.33333333333334</latprjo><feast>1968500.0</feast><fnorth>0.0</fnorth></lambertc></spcs></gridsys><planci><plance>coordinate pair</plance><coordrep><absres>0.01</absres><ordres>0.01</ordres></coordrep><plandu>survey feet</plandu></planci></planar><geodetic><horizdn>North American Datum of 1983 (2011)</horizdn><ellips>Geodetic Reference System 80</ellips><semiaxis>6378137</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys><vertdef><altsys><altdatum>North American Vertical Datum of 1988 (Geoid 12B)</altdatum><altres>0.01</altres><altunits>feet</altunits><altenc>Explicit elevation coordinate included with horizontal coordinates</altenc></altsys></vertdef></spref><metainfo><metd>20160826</metd><metc><cntinfo><cntorgp><cntorg>Quantum Spatial</cntorg><cntper>Sarah Zibart</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>523 Wellington Way</address><city>Lexington</city><state>KY</state><postal>40503</postal><country>USA</country></cntaddr><cntvoice>859-277-8700</cntvoice><cntfax>859-277-8901</cntfax><cntemail>szibart@quantumspatial.com</cntemail><hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours><cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst></cntinfo></metc><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><metac>None.</metac><metuc>None.</metuc><metsi><metscs>None.</metscs><metsc>Unclassified</metsc><metshd>NONE</metshd></metsi></metainfo><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>Sarah Zibart</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>szibart@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20160826</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><dataIdInfo><idCitation><resTitle>USGS QL1 LiDAR for Allentown, PA 2016 - Classified LAS</resTitle><date><pubDate>2016-01-01</pubDate></date><citRespParty><rpOrgName>Quantum Spatial</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><fgdcGeoform>Lidar point cloud</fgdcGeoform></presForm></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Geographic Extent: Allentown, Pennsylvania, covering approximately 20 square miles in eastern Pennsylvania. Dataset Description: Allentown, Pennsylvania 2016 QL1 LiDAR project called for the planning, acquisition, processing, and production of products derivative of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.35 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet and vertical datum of NAVD1988 (GEOID 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 129 individual 2,500-foot X 2,500-foot tiles, 1-foot hydro-flattened bare-earth raster DEMs in ERDAS .IMG format and intensity images in GeoTIFF format, tiled to the same 2,500-foot X 2,500-foot tile schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. A mosaic of the hydro-flattened bare-earth raster DEMs was produced in ERDAS .IMG format. Ground Conditions: LiDAR was collected in spring of 2016, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, A total of 18 calibration control points in order to calibrate the LIDAR to known ground locations established throughout the project area. The accuracy of the data was checked with 20 NVA points and 5 VVA points (25 total QC checkpoints).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create Breaklines and Raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened Digital Elevation Model (DEM) with a 1-foot cell size. These raw lidar point cloud data were used to create classified lidar LAS files, 3D breaklines, and hydro-flattened DEMs as necessary.</idPurp><idStatus><ProgCd value="001"/></idStatus><idPoC><rpIndName>Chris Holder</rpIndName><rpOrgName>Quantum Spatial, Data Acquisition Department</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>cholder@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="011"/></maintFreq></resMaint><placeKeys><keyword>PA</keyword><keyword>Lehigh County</keyword><keyword>Allentown</keyword><keyword>US</keyword><keyword>United States</keyword><keyword>Pennsylvania</keyword></placeKeys><themeKeys><keyword>Lidar</keyword><keyword>Elevation data</keyword><keyword>Hydrology</keyword></themeKeys><searchKeys><keyword>PA</keyword><keyword>Lehigh County</keyword><keyword>Allentown</keyword><keyword>Lidar</keyword><keyword>Elevation data</keyword><keyword>US</keyword><keyword>Hydrology</keyword><keyword>United States</keyword><keyword>Pennsylvania</keyword></searchKeys><resConst><LegConsts><othConsts>No restrictions apply to this data.</othConsts></LegConsts></resConst><resConst><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><envirDesc>MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; ESRI ArcGIS 10.2; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System \\PSIHQ_NX3200\Projects\Projects\27136_Allentown_USGS 3.65 GB and \\matrix\matrix\LIDAR\27136_USGS_Allentown_LiDAR_from_RCA 138 GB</envirDesc><dataExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2016-08-23</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt><dataExt><geoEle><GeoBndBox><westBL>-75.557001119897</westBL><eastBL>-75.4113585764082</eastBL><southBL>40.5461340160323</southBL><northBL>40.6416381950144</northBL></GeoBndBox></geoEle></dataExt><suppInfo>USGS Contract: G16PC00016 Task Order Number: G16PD00442 CONTRACTOR: Quantum Spatial Quantum Spatial used LiDAR data acquired by Richard Crouse, and Associates with control collected by Herbert, Rowland, and Grubic, Inc. All follow-on processing was completed by the prime contractor.</suppInfo><tpCat><TopicCatCd value="006"/></tpCat></dataIdInfo><mdConst><SecConsts><class><ClasscationCd value="001"/></class><classSys>None.</classSys><handDesc>NONE</handDesc></SecConsts></mdConst><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQConcConsis"><measDesc>Data cover the entire area specified for this project.</measDesc></report><report type="DQCompOm"><measDesc>These raw LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.</measDesc></report><report type="DQAbsExtPosAcc" dimension="vertical"><measDesc>The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 20 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.</measDesc><evalMethDesc>The raw NVA was tested using 20 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.016 meters (0.051 feet) and AccuracyZ to be 0.030 meters (0.100 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</evalMethDesc><measResult><QuanResult><quanVal>0.03</quanVal></QuanResult></measResult></report><dataLineage><dataSource><srcDesc>This data source was used to populate the lidar point cloud data.</srcDesc><srcMedName><MedNameCd value="015"/></srcMedName><srcCitatn><resTitle>Lidar RAW Data for Delaware Valley 2015</resTitle><resAltTitle>PA_Allentown_2016_LiDAR_Data</resAltTitle><date><pubDate>2016-01-01</pubDate></date><citRespParty><rpOrgName>Richard Crouse and Associates</rpOrgName><rpCntInfo><cntAddress><delPoint>Frederick, MD</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty><rpOrgName>Richard Crouse and Associates</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><fgdcGeoform>Lidar point cloud</fgdcGeoform></presForm></srcCitatn><srcExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2016-03-26</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></srcExt></dataSource><dataSource><srcDesc>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srcDesc><srcMedName><MedNameCd value="015"/></srcMedName><srcCitatn><resTitle>Control Survey Report: Allentown, PA</resTitle><resAltTitle>PA_Allentown_2016_LiDAR_gnd_ctrl</resAltTitle><date><pubDate>2016-01-01</pubDate></date><citRespParty><rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName><rpCntInfo><cntAddress><delPoint>Harrisburg, PA</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty><rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><fgdcGeoform>Lidar point cloud</fgdcGeoform></presForm></srcCitatn><srcExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2016-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></srcExt></dataSource><dataSource><srcDesc>This data source was used to QC and vertically adjust the lidar point cloud data.</srcDesc><srcMedName><MedNameCd value="015"/></srcMedName><srcCitatn><resTitle>Control Survey Report: Allentown, PA</resTitle><resAltTitle>PA_Allentown_2016_LiDAR_qc_ctrl</resAltTitle><date><pubDate>2016-01-01</pubDate></date><citRespParty><rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName><role><RoleCd value="006"/></role></citRespParty><citRespParty><rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName><rpCntInfo><cntAddress><delPoint>Harrisburg, PA</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><presForm><fgdcGeoform>Lidar point cloud</fgdcGeoform></presForm></srcCitatn><srcExt><exDesc>ground condition</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2016-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></srcExt></dataSource><prcStep><stepDesc>Classified LAS Processing: The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points. After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization. All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10). All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed. All bridge decks were classified to Class 17. All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS. The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications. All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler. Global Mapper us used as a final check of the bare earth dataset. GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth. Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.</stepDesc><stepDateTm>2016-01-01</stepDateTm><stepProc><rpIndName>Ryan Griffin</rpIndName><rpOrgName>Quantum Spatial</rpOrgName><rpCntInfo><cntPhone><voiceNum>859-277-8700</voiceNum><faxNum>859-277-8901</faxNum></cntPhone><cntAddress addressType="both"><delPoint>523 Wellington Way</delPoint><city>Lexington</city><adminArea>KY</adminArea><postCode>40503</postCode><country>US</country><eMailAdd>rgriffin@quantumspatial.com</eMailAdd></cntAddress><cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours><cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepSrc type="used"><srcCitatn><resAltTitle>PA_Allentown_2016_LiDAR_Data</resAltTitle></srcCitatn></stepSrc><stepSrc type="used"><srcCitatn><resAltTitle>PA_Allentown_2016_LiDAR_ctrl</resAltTitle></srcCitatn></stepSrc><stepSrc type="produced"><srcCitatn><resAltTitle>Classified LAS</resAltTitle></srcCitatn></stepSrc></prcStep></dataLineage></dqInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="004"/></geoObjTyp></geometObjs></VectSpatRep></spatRepInfo><Esri><CreaDate>20170221</CreaDate><CreaTime>09362100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ModDate>20170221</ModDate><ModTime>9555300</ModTime><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>FGDC</ArcGISProfile></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="6a1973137fafc7bf16574d2eeaeef8d" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+				</procdesc>
+        <srcused>PA_Allentown_2016_LiDAR_ctrl</srcused>
+        <srcused>PA_Allentown_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Classified LAS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.93333333333333</stdparll>
+              <longcm>-77.75</longcm>
+              <latprjo>39.33333333333334</latprjo>
+              <feast>1968500.0</feast>
+              <fnorth>0.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.01</absres>
+            <ordres>0.01</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (2011)</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988 (Geoid 12B)</altdatum>
+        <altres>0.01</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <metainfo>
+    <metd>20160826</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial</cntorg>
+          <cntper>Sarah Zibart</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>szibart@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None.</metac>
+    <metuc>None.</metuc>
+    <metsi>
+      <metscs>None.</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>NONE</metshd>
+    </metsi>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Sarah Zibart</rpIndName>
+    <rpOrgName>Quantum Spatial</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>859-277-8700</voiceNum>
+        <faxNum>859-277-8901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>523 Wellington Way</delPoint>
+        <city>Lexington</city>
+        <adminArea>KY</adminArea>
+        <postCode>40503</postCode>
+        <country>US</country>
+        <eMailAdd>szibart@quantumspatial.com</eMailAdd>
+      </cntAddress>
+      <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+      <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20160826</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>USGS QL1 LiDAR for Allentown, PA 2016 - Classified LAS</resTitle>
+      <date>
+        <pubDate>2016-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Quantum Spatial</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Geographic Extent: Allentown, Pennsylvania, covering approximately 20 square miles in eastern Pennsylvania. Dataset Description: Allentown, Pennsylvania 2016 QL1 LiDAR project called for the planning, acquisition, processing, and production of products derivative of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.35 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet and vertical datum of NAVD1988 (GEOID 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 129 individual 2,500-foot X 2,500-foot tiles, 1-foot hydro-flattened bare-earth raster DEMs in ERDAS .IMG format and intensity images in GeoTIFF format, tiled to the same 2,500-foot X 2,500-foot tile schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. A mosaic of the hydro-flattened bare-earth raster DEMs was produced in ERDAS .IMG format. Ground Conditions: LiDAR was collected in spring of 2016, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, A total of 18 calibration control points in order to calibrate the LIDAR to known ground locations established throughout the project area. The accuracy of the data was checked with 20 NVA points and 5 VVA points (25 total QC checkpoints).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create Breaklines and Raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened Digital Elevation Model (DEM) with a 1-foot cell size. These raw lidar point cloud data were used to create classified lidar LAS files, 3D breaklines, and hydro-flattened DEMs as necessary.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Chris Holder</rpIndName>
+      <rpOrgName>Quantum Spatial, Data Acquisition Department</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>859-277-8700</voiceNum>
+          <faxNum>859-277-8901</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>523 Wellington Way</delPoint>
+          <city>Lexington</city>
+          <adminArea>KY</adminArea>
+          <postCode>40503</postCode>
+          <country>US</country>
+          <eMailAdd>cholder@quantumspatial.com</eMailAdd>
+        </cntAddress>
+        <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+        <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>PA</keyword>
+      <keyword>Lehigh County</keyword>
+      <keyword>Allentown</keyword>
+      <keyword>US</keyword>
+      <keyword>United States</keyword>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Lidar</keyword>
+      <keyword>Elevation data</keyword>
+      <keyword>Hydrology</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>PA</keyword>
+      <keyword>Lehigh County</keyword>
+      <keyword>Allentown</keyword>
+      <keyword>Lidar</keyword>
+      <keyword>Elevation data</keyword>
+      <keyword>US</keyword>
+      <keyword>Hydrology</keyword>
+      <keyword>United States</keyword>
+      <keyword>Pennsylvania</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <othConsts>No restrictions apply to this data.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; ESRI ArcGIS 10.2; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System \\PSIHQ_NX3200\Projects\Projects\27136_Allentown_USGS 3.65 GB and \\matrix\matrix\LIDAR\27136_USGS_Allentown_LiDAR_from_RCA 138 GB</envirDesc>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2016-08-23</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-75.557001119897</westBL>
+          <eastBL>-75.4113585764082</eastBL>
+          <southBL>40.5461340160323</southBL>
+          <northBL>40.6416381950144</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <suppInfo>USGS Contract: G16PC00016 Task Order Number: G16PD00442 CONTRACTOR: Quantum Spatial Quantum Spatial used LiDAR data acquired by Richard Crouse, and Associates with control collected by Herbert, Rowland, and Grubic, Inc. All follow-on processing was completed by the prime contractor.</suppInfo>
+    <tpCat>
+      <TopicCatCd value="006" />
+    </tpCat>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="001" />
+      </class>
+      <classSys>None.</classSys>
+      <handDesc>NONE</handDesc>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Data cover the entire area specified for this project.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>These raw LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="vertical">
+      <measDesc>The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 20 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.</measDesc>
+      <evalMethDesc>The raw NVA was tested using 20 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.016 meters (0.051 feet) and AccuracyZ to be 0.030 meters (0.100 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>0.03</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcDesc>This data source was used to populate the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Lidar RAW Data for Delaware Valley 2015</resTitle>
+          <resAltTitle>PA_Allentown_2016_LiDAR_Data</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Richard Crouse and Associates</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Frederick, MD</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Richard Crouse and Associates</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-03-26</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Control Survey Report: Allentown, PA</resTitle>
+          <resAltTitle>PA_Allentown_2016_LiDAR_gnd_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Harrisburg, PA</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used to QC and vertically adjust the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Control Survey Report: Allentown, PA</resTitle>
+          <resAltTitle>PA_Allentown_2016_LiDAR_qc_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Harrisburg, PA</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <prcStep>
+        <stepDesc>Classified LAS Processing: The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points. After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization. All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10). All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed. All bridge decks were classified to Class 17. All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS. The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications. All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler. Global Mapper us used as a final check of the bare earth dataset. GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth. Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_Allentown_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_Allentown_2016_LiDAR_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Classified LAS</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="004" />
+        </geoObjTyp>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170221</CreaDate>
+    <CreaTime>09362100</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ModDate>20170221</ModDate>
+    <ModTime>9555300</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="6a1973137fafc7bf16574d2eeaeef8d" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 UXVhbnR1bSBTcGF0aWFsPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTY8L3B1YmRhdGU+
 DQogICAgICAgIDx0aXRsZT4NCgkJCQkgICAgQWxsZW50b3duLCBQQSAyMDE2IFFMMSBMaURBUg0K
@@ -355,4 +1019,27 @@ IDxtZXRzdGR2PkZHREMtU1RELTAwMS0xOTk4PC9tZXRzdGR2Pg0KICAgIDxtZXRhYz5Ob25lLjwv
 bWV0YWM+DQogICAgPG1ldHVjPk5vbmUuPC9tZXR1Yz4NCiAgICA8bWV0c2k+DQogICAgICA8bWV0
 c2NzPk5vbmUuPC9tZXRzY3M+DQogICAgICA8bWV0c2M+VW5jbGFzc2lmaWVkPC9tZXRzYz4NCiAg
 ICAgIDxtZXRzaGQ+Tk9ORTwvbWV0c2hkPg0KICAgIDwvbWV0c2k+DQogIDwvbWV0YWluZm8+DQo8
-L21ldGFkYXRhPg==</Data></Enclosure></Binary><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo></metadata>
+L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

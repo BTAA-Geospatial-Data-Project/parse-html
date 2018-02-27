@@ -1,119 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<idinfo>
-		<citation>
-			<citeinfo>
-				<origin>U.S. Geologic Survey; Pennsylvania Bureau of Topographic and Geologic Survey</origin>
-				<pubdate>1993</pubdate>
-				<title>Digital Orthophoto (DOQQ - quarter-quadrangle) for Pennsylvania</title>
-				<pubinfo>
-					<pubplace>Reston, VA</pubplace>
-					<publish>U.S. Geological Survey</publish>
-				</pubinfo>
-				<onlink>http://www.pasda.psu.edu/</onlink>
-				<lworkcit>
-					<citeinfo>
-						<origin>US Department of Commerce</origin>
-						<pubdate>1993</pubdate>
-						<title>Pennsylvania Digital Orthophotos</title>
-						<pubinfo>
-							<pubplace>Washington D.C.</pubplace>
-							<publish>Bureau of the Census</publish>
-						</pubinfo>
-						<onlink>http://www.pasda.psu.edu/ftp/doqlist.cgi</onlink>
-					</citeinfo>
-				</lworkcit>
-			</citeinfo>
-		</citation>
-		<descript>
-			<abstract>
-Orthophotos combine the image characteristics of a
-photograph with the geometric qualities of a map. The
-primary digital orthophotoquad (DOQ) is a 1-meter ground
-resolution, quarter-quadrangle (3.75-minutes of latitude
-by 3.75-minutes of longitude) image cast on the Universal
-Transverse Mercator Projection (UTM) on the North
-American Datum of 1983 (NAD83).The geographic extent of
-the DOQ is equivalent to a quarter-quad plus The overedge
-ranges a minimum of 50 meters to a maximum of 300 meters
-beyond the extremes of the primary and secondary corner
-points. The overedge is included to facilitate tonal
-matching for mosaicking and for the placement of the NAD83
-and secondary datum corner ticks. The normal orientation
-of data is by lines (rows) and samples (columns). Each
-line contains a series of pixels ordered from west to
-east with the order of the lines from north to south.
-The standard, archived digital orthophoto is formatted as
-four ASCII header records, followed by a series of 8-bit
-binary image data records. The radiometric image
-brightness values are stored as 256 gray levels ranging
-from 0 to 255. The metadata embedded in the digital
-orthophoto contain a wide range of descriptive
-information including format source information,
-production instrumentation and dates, and data to assist
-with displaying and georeferencing the image. 
-DOQ images are acquired as a part of the USGS' National Aerial Photography Program (NAPP).
-Through NAPP imagery for each state is produced on a 7 year cycle.
- These images are the NAPP III cycle which will run from 1997-2001
-These DOQQ's are distributed through PASDA as GeoTIFF images as received from USGS.
-</abstract>
-			<purpose>
-DOQ's serve a variety of purposes, from interim maps to
-field references for earth science investigations and
-analysis. The DOQ is useful as a layer of a geographic
-information system and as a tool for revision of digital
-line graphs and topographic maps.
-</purpose>
-		</descript>
-		<timeperd>
-			<timeinfo>
-				<sngdate>
-					<caldate>1993</caldate>
-				</sngdate>
-			</timeinfo>
-			<current>ground condition</current>
-		</timeperd>
-		<status>
-			<progress>On-going</progress>
-			<update>Irregular</update>
-		</status>
-		<spdom>
-			<bounding>
-				<westbc>-77</westbc>
-				<eastbc>-76.875</eastbc>
-				<northbc>40</northbc>
-				<southbc>39.875</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Categories</themekt>
-				<themekey>DOQ</themekey>
-				<themekey>DOQQ</themekey>
-				<themekey>digital orthophoto</themekey>
-				<themekey>digital orthophotoquad</themekey>
-				<themekey>digital image map</themekey>
-				<themekey>aerial photograph</themekey>
-				<themekey>rectified photograph</themekey>
-				<themekey>rectified image</themekey>
-				<themekey>orthophoto</themekey>
-				<themekey>quarter-quadrangle orthophoto</themekey>
-				<themekey>1-meter orthophoto</themekey>
-				<themekey>3.75- x 3.75-minute orthophoto</themekey>
-				<themekey>7.5- x 7.5-minute orthophoto</themekey>
-				<themekey>National Aerial Photography Program</themekey>
-				<themekey>NAPP</themekey>
-				<themekey>imageryBaseMapsEarthCover</themekey></theme>
-			<place>
-				<placekt>none</placekt>
-				<placekey>Pennsylvania</placekey></place>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
-	</idinfo>
-	<dataqual>
-		<attracc>
-			<attraccr>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geologic Survey; Pennsylvania Bureau of Topographic and Geologic Survey</origin>
+        <pubdate>1993</pubdate>
+        <title>Digital Orthophoto (DOQQ - quarter-quadrangle) for Pennsylvania</title>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>US Department of Commerce</origin>
+            <pubdate>1993</pubdate>
+            <title>Pennsylvania Digital Orthophotos</title>
+            <pubinfo>
+              <pubplace>Washington D.C.</pubplace>
+              <publish>Bureau of the Census</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/ftp/doqlist.cgi</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1993</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>On-going</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77</westbc>
+        <eastbc>-76.875</eastbc>
+        <northbc>40</northbc>
+        <southbc>39.875</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>DOQ</themekey>
+        <themekey>DOQQ</themekey>
+        <themekey>digital orthophoto</themekey>
+        <themekey>digital orthophotoquad</themekey>
+        <themekey>digital image map</themekey>
+        <themekey>aerial photograph</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>orthophoto</themekey>
+        <themekey>quarter-quadrangle orthophoto</themekey>
+        <themekey>1-meter orthophoto</themekey>
+        <themekey>3.75- x 3.75-minute orthophoto</themekey>
+        <themekey>7.5- x 7.5-minute orthophoto</themekey>
+        <themekey>National Aerial Photography Program</themekey>
+        <themekey>NAPP</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
+    <descript>
+      <abstract>doq93_pa</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
 During photographic reproduction of the source photography,
 limited analog dodging is performed to improve image quality.
 Analog dodging consists of holding back light from certain
@@ -135,15 +100,15 @@ photography along flight lines. These differences can be
 observed in an image's general lightness or darkness when
 compared to adjacent DOQ file coverages.
 </attraccr>
-		</attracc>
-		<logic>
+    </attracc>
+    <logic>
 All DOQ header data and image file sizes are validated by the Tape
 Validation System (TVS) software prior to archiving in the National
 Digital Cartographic Data Base (NDCDB). This validation procedure assures
 correct physical format and field values for header record elements.
 Logical relationships between header record elements are tested.
 </logic>
-		<complete>
+    <complete>
 All DOQ imagery is visually inspected for completeness to ensure that no
 gaps, or image misplacement exist in the 3.75' image area or in overedge
 coverage. DOQ images may be derived by mosaicking multiple images, in order
@@ -156,9 +121,9 @@ image transformation from other planimetric systems to the universal transverse
 mercator (UTM). In the latter case, the void sliver areas are on the outside
 edges of the overedge area. The data set field content of each DOQ header record element is validated to assure completeness prior to archiving in the NDCDB.
 </complete>
-		<posacc>
-			<horizpa>
-				<horizpar>
+    <posacc>
+      <horizpa>
+        <horizpar>
 The DOQ horizontal positional accuracy and the assurance of that
 accuracy depend, in part, on the accuracy of the data inputs to the
 rectification process. These inputs consist of the digital elevation
@@ -174,134 +139,134 @@ Aerial cameras have current certification from the USGS, National
 Mapping Division, Optical Science Laboratory. Test calibration scans
 are performed on all source photography scanners.
 </horizpar>
-				<qhorizpa>
-					<horizpav>RMSE</horizpav>
-					<horizpae>
+        <qhorizpa>
+          <horizpav>RMSE</horizpav>
+          <horizpae>
 U.S.Bureau of the Budget, 1947, United States National Map
 Accuracy Standard.
 </horizpae>
-				</qhorizpa>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>U.S. Geological Survey</origin>
-						<pubdate>Unknown</pubdate>
-						<title>digital elevation model</title>
-						<geoform>map</geoform>
-						<pubinfo>
-							<pubplace>Reston, VA</pubplace>
-							<publish>U.S. Geological Survey</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>cartridge tape</typesrc>
-				<srctime>
-					<timeinfo>
-						<rngdates>
-							<begdate>19920329</begdate>
-							<enddate>19950406</enddate>
-						</rngdates>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>DEM1</srccitea>
-				<srccontr>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>digital elevation model</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>cartridge tape</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19920329</begdate>
+              <enddate>19950406</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM1</srccitea>
+        <srccontr>
 Elevation data in the form of an ortho-DEM regridded
 to user-specified intervals and bounds.
 </srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>U.S. Geological Survey</origin>
-						<pubdate>Unknown</pubdate>
-						<title>photo ID number</title>
-						<geoform>remote-sensing image</geoform>
-						<pubinfo>
-							<pubplace>Reston, VA</pubplace>
-							<publish>U.S. Geological Survey</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>40000</srcscale>
-				<typesrc>cartridge tape</typesrc>
-				<srctime>
-					<timeinfo>
-						<rngdates>
-							<begdate>Unknown</begdate>
-							<enddate>Unknown</enddate>
-						</rngdates>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>PHOTO1</srccitea>
-				<srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>photo ID number</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>40000</srcscale>
+        <typesrc>cartridge tape</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>Unknown</begdate>
+              <enddate>Unknown</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PHOTO1</srccitea>
+        <srccontr>
 Panchromatic black and white (or color infra-red)
 NAPP or NAPP-like photograph. NAPP photographs are
 centered on the DOQ coverage area.
 </srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>U.S. Geological Survey</origin>
-						<pubdate>Unknown</pubdate>
-						<title>project ground and photo control</title>
-						<geoform>remote-sensing image</geoform>
-						<pubinfo>
-							<pubplace>Reston, VA</pubplace>
-							<publish>U.S. Geological Survey</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>various media</typesrc>
-				<srctime>
-					<timeinfo>
-						<rngdates>
-							<begdate>Unknown</begdate>
-							<enddate>Unknown</enddate>
-						</rngdates>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>CONTROL_INPUT</srccitea>
-				<srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>project ground and photo control</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>various media</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>Unknown</begdate>
+              <enddate>Unknown</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CONTROL_INPUT</srccitea>
+        <srccontr>
 Horizontal and vertical control used
 to establish positions and elevations for reference and
 correlation purposes.
 </srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>U.S. Geological Survey</origin>
-						<pubdate>Unknown</pubdate>
-						<title>report of calibration</title>
-						<geoform>remote-sensing image</geoform>
-						<pubinfo>
-							<pubplace>Reston, VA</pubplace>
-							<publish>U.S. Geological Survey</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>disc, paper</typesrc>
-				<srctime>
-					<timeinfo>
-						<rngdates>
-							<begdate>Unknown</begdate>
-							<enddate>Unknown</enddate>
-						</rngdates>
-					</timeinfo>
-					<srccurr>Date of the camera calibration associated with the source photography</srccurr>
-				</srctime>
-				<srccitea>CAMERA_INPUT</srccitea>
-				<srccontr>camera calibration parameters</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>report of calibration</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc, paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>Unknown</begdate>
+              <enddate>Unknown</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Date of the camera calibration associated with the source photography</srccurr>
+        </srctime>
+        <srccitea>CAMERA_INPUT</srccitea>
+        <srccontr>camera calibration parameters</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
 The production procedures, instrumentation, hardware and software
 used in the collection of standard USGS DOQ's vary depending on systems
 used at the contract, cooperator or USGS production sites. The majority of
@@ -380,46 +345,46 @@ high quality, inspections  will be made to 10% of delivery lots
 (40 DOQs per lot). All DOQ's are visually inspected for
 gross positional  errors and tested for physical format standards.
 </procdesc>
-				<procdate>Unknown</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spref>
-		<horizsys>
-			<planar>
-				<gridsys>
-					<gridsysn>Universal Transverse Mercator</gridsysn>
-					<utm>
-						<utmzone>18</utmzone>
-						<transmer>
-							<sfctrmer>0.09996</sfctrmer>
-							<longcm>-123.00</longcm>
-							<latprjo>0.0</latprjo>
-							<feast>500000.0</feast>
-							<fnorth>0.0</fnorth>
-						</transmer>
-					</utm>
-				</gridsys>
-				<planci>
-					<plance>row and column</plance>
-					<coordrep>
-						<absres>1</absres>
-						<ordres>1</ordres>
-					</coordrep>
-					<plandu>meters</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137</semiaxis>
-				<denflat>298.257</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<overview>
-			<eaover>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.09996</sfctrmer>
+              <longcm>-123.00</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
 For DOQ's from panchromatic source each pixel contains an 8-bit gray-scale value
 between 0-255. A value of 0 represents the color black while a value of 255 
 represents the color white. All values between 0 and 255 are repesented as a 
@@ -431,7 +396,7 @@ Areas where the rectification process is incomplete due to incomplete data
 (i.e., lack of elevation data, gaps), are represented with the numeric value 
 of 0.
 </eaover>
-			<eadetcit>
+      <eadetcit>
 U.S. Department of the Interior,  U.S. Geological Survey, 1992, Standards for digital orthophotos: Reston, VA. 
 
 A hypertext version is available at:
@@ -444,86 +409,88 @@ URL: ftp://mapping.usgs.gov/pub/ti/DOQ/doqstnds/doq2_12-96.wp6
 Softcopy in Portable Document Format (PDF) is available at:
 URL: ftp://mapping.usgs.gov/pub/ti/DOQ/doqstnds/usgsdoq.pd
 </eadetcit>
-		</overview>
-	</eainfo>
-	<distinfo>
-		<distrib GROUP="'pasda'">
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>Land and Water Building</address>
-					<city>University Park</city>
-					<state>PA</state>
-					<postal>16802</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntemail>pasda@psu.edu</cntemail>
-				<cntvoice>(814) 865-8792</cntvoice></cntinfo>
-		</distrib>
-		<distliab GROUP="'pasda'">The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Imagery, GeoTIFF</formname>
-					<formcont>Each DOQQ distribution file is comprised of the image file, which has .TIF as the filename extension; and a header file, which has .hdr as the filename extension and includes further image specific metadata and a world file with .tfw as the filename extension.</formcont>
-					<filedec>zip</filedec>
-					<transize>35-45 MB</transize>
-				</digtinfo>
-				<digtopt>
-					<onlinopt>
-						<computer>
-							<networka>
-								<networkr>ftp://www.pasda.psu.edu/pub/pasda/doq99</networkr>
-							</networka>
-						</computer>
-					</onlinopt>
-				</digtopt>
-			</digform>
-		</stdorder>
-		<resdesc>downloadabledata</resdesc></distinfo>
-	<distinfo GROUP="'doq'">
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>Complete list of Earth Science Information Centers at: URL: http://mapping.usgs.gov/esic/esic_index.html</address>
-					<address>507 National Center</address>
-					<city>Reston</city>
-					<state>VA</state>
-					<postal>20192</postal>
-				</cntaddr>
-				<cntvoice>1 888 ASK USGS</cntvoice>
-				<hours>0800-1600</hours>
-				<cntinst>In addition to the address above there are other ESIC offices throughout the country.  A full list of these offices is at: URL: http://mapping.usgs.gov/esic/esic_index.html</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>Digital Orthophotoquad</resdesc>
-		<distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey no warranty expressed or implied is made by the USGS regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The USGS will warrant the delivery of this product in computer-readable format and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Requests for adjustments of credit must be made within 90 days from the date of this shipment from the ordering site.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>USGS_DOQ</formname>
-					<formcont>USGS uncompressed DOQ: The uncompressed USGS DOQ is a raw binary image file preceded by a metadata header record which consists of four 400-byte ACSII records, each blank padded to equal the length of a single line of image data.</formcont>
-					<transize>45</transize>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>8-mm helical-scan cartridge tape</offmedia>
-						<recfmt>Unlabelled, uncompressed Unix DD archive format. Standard block size: 30,270, but can be provided at 2,048 or multiples of 2,048.</recfmt>
-					</offoptn>
-					<offoptn>
-						<offmedia>3480 cartridge tape</offmedia>
-						<recfmt>Unlabelled, uncompressed Unix DD archive format. Blocksize = 6250 cpi.</recfmt>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<fees>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntvoice>(814) 865-8792</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab GROUP="'pasda'">The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Imagery, GeoTIFF</formname>
+          <formcont>Each DOQQ distribution file is comprised of the image file, which has .TIF as the filename extension; and a header file, which has .hdr as the filename extension and includes further image specific metadata and a world file with .tfw as the filename extension.</formcont>
+          <filedec>zip</filedec>
+          <transize>35-45 MB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://www.pasda.psu.edu/pub/pasda/doq99</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>downloadabledata</resdesc>
+  </distinfo>
+  <distinfo GROUP="'doq'">
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Complete list of Earth Science Information Centers at: URL: http://mapping.usgs.gov/esic/esic_index.html</address>
+          <address>507 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1 888 ASK USGS</cntvoice>
+        <hours>0800-1600</hours>
+        <cntinst>In addition to the address above there are other ESIC offices throughout the country.  A full list of these offices is at: URL: http://mapping.usgs.gov/esic/esic_index.html</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Digital Orthophotoquad</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey no warranty expressed or implied is made by the USGS regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The USGS will warrant the delivery of this product in computer-readable format and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Requests for adjustments of credit must be made within 90 days from the date of this shipment from the ordering site.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>USGS_DOQ</formname>
+          <formcont>USGS uncompressed DOQ: The uncompressed USGS DOQ is a raw binary image file preceded by a metadata header record which consists of four 400-byte ACSII records, each blank padded to equal the length of a single line of image data.</formcont>
+          <transize>45</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>8-mm helical-scan cartridge tape</offmedia>
+            <recfmt>Unlabelled, uncompressed Unix DD archive format. Standard block size: 30,270, but can be provided at 2,048 or multiples of 2,048.</recfmt>
+          </offoptn>
+          <offoptn>
+            <offmedia>3480 cartridge tape</offmedia>
+            <recfmt>Unlabelled, uncompressed Unix DD archive format. Blocksize = 6250 cpi.</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>
 The online copy of the data set (when available electronically) may be accessed without charge. For 8-mm and 3480 cartridges the costs are:
 1 digital product = $40
 2 digital products = $60
@@ -533,48 +500,53 @@ The online copy of the data set (when available electronically) may be accessed 
 6 or more = $90 plus $7 per each product over six
 A $3.50 handling charge is applied to all mail orders.
 </fees>
-		</stdorder>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Compressed USGS DOQ in JPEG format.</formname>
-					<formcont>The USGS compressed DOQ is an IJG JPEG-compressed file. JPEG is a lossy compression technique. Unlike uncompressed DOQ's the compressed DOQ does not contain an attached header record as data compression corrupts ASCII text. A separate metadata file accompanies the compressed image file. The compressed data are distributed on CD-ROM, generally by county. However, some CD's may contain regions or partial counties and some counties may require multiple CD-ROM's. The presence of a DOQ in the NDCDB does not necessarily indicate the file is available on a compressed, county based CD-ROM.</formcont>
-					<filedec>The algorithm employed by USGS for compressing DOQs is IJG JPEG, Version 4.0. This is a lossy compression using a standard Q or quality factor of 30.</filedec>
-					<transize>5</transize>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>CD-ROM</offmedia>
-						<recfmt>ISO 9660</recfmt>
-						<compat>This CD-ROM can be used with all computer operating systems that support CD-ROM as a logical storage device. All text files on this disc are in ASCII format. Data files are in ASCII or binary format.</compat>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<fees>The charge is $32 per CD-ROM.  A $3.50 handling charge is applied to all mail orders.</fees>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>2008</metd>
-		<metrd>20010501</metrd>
-		<metc GROUP="'pasda'">
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
-				</cntorgp>
-				<cntpos>Metadata Coordinator</cntpos>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>115 Land and Water Building</address>
-					<city>University Park</city>
-					<state>PA</state>
-					<postal>16802</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>814-865-8792</cntvoice>
-				<cntemail>pasda@psu.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-	</metainfo>
-	<Esri><ModDate>20080625</ModDate><ModTime>11511100</ModTime></Esri><mdDateSt Sync="TRUE">20080625</mdDateSt></metadata>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Compressed USGS DOQ in JPEG format.</formname>
+          <formcont>The USGS compressed DOQ is an IJG JPEG-compressed file. JPEG is a lossy compression technique. Unlike uncompressed DOQ's the compressed DOQ does not contain an attached header record as data compression corrupts ASCII text. A separate metadata file accompanies the compressed image file. The compressed data are distributed on CD-ROM, generally by county. However, some CD's may contain regions or partial counties and some counties may require multiple CD-ROM's. The presence of a DOQ in the NDCDB does not necessarily indicate the file is available on a compressed, county based CD-ROM.</formcont>
+          <filedec>The algorithm employed by USGS for compressing DOQs is IJG JPEG, Version 4.0. This is a lossy compression using a standard Q or quality factor of 30.</filedec>
+          <transize>5</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <recfmt>ISO 9660</recfmt>
+            <compat>This CD-ROM can be used with all computer operating systems that support CD-ROM as a logical storage device. All text files on this disc are in ASCII format. Data files are in ASCII or binary format.</compat>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>The charge is $32 per CD-ROM.  A $3.50 handling charge is applied to all mail orders.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2008</metd>
+    <metrd>20010501</metrd>
+    <metc GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080625</ModDate>
+    <ModTime>11511100</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080625</mdDateSt>
+</metadata>

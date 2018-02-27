@@ -7,16 +7,6 @@
         <onlink>file://\\Fpcaddc1\GIS Home\GIS_DATA\Cultural_Resources\Art_and_Sculpture\Sculpture_2010.shp</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>This is a point layer representing the location of art, sculpture, and monuments in Philadelphia Parks &amp; Recreation system. Editing is ongoing to reflect moved / new sculptures.DATA DEVELOPMENT:Join of artdataoct2000.shp, FPC_Sculpture.shp, fpcart.shp, and Park_Art_and_Sculpture_Ben.shp KEY ATTRIBUTE FIELDSADDRESS- Address of feature when availableGENERALLOC- Park or facility where the feature is locatedSPECIFICLO- A more detailed description of where the feature is locatedBRIEFDESCR- Description of the featureLASTNAME- Last name of the artist/creator of the featureFIRSTNAMEA- First name of the artist/creator of the featureLIFESPAN- Lifespan of the artist/creator of the featureINSTALLATI- Year of installation of the featureNAME: Name of the featureCOORDINATE SYSTEM:Lambert Conformal Conic, NAD83, PA South StatePlane coordinates, US FeetTHEMATIC MAPPINGUse the NAME field for thematic mapping and labelingOTHER INFORMATIONN/A</abstract>
-      <purpose>Provides location, description, and artist information for art, sculpture, and monuments in Philadelphia Parks &amp; Recreation system.
-
-Features Updated: 07/2010
-Attributes Updates: 07/27/2013
-Metadata Updated: 07/27/2013
-Update Frequency: as needed
-Public = Y</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.225994</westbc>
@@ -33,6 +23,9 @@ Nora Dougherty, Geospatial Analyst
 1515 Arch Street, 10th Floor, Philadelphia, PA 19102-1587
 </datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyFPC_PPR_Art_Monuments_point</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -167,5 +160,25 @@ Nora Dougherty, Geospatial Analyst
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

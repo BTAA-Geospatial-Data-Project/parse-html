@@ -7,15 +7,6 @@
         <onlink>file://\\Fpcaddc1\GIS Home\GIS_DATA\Cultural_Resources\Park_Fountains.shp</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>ABSTRACT:Points indicating the location of fountains that are owned or maintained by Philadelphia Parks &amp; RecreationDATA DEVELOPMENT:Point and attribute data were gathered in the feild by Fairmount Park staff using handheld gps units. Historic data were provided by park historians.KEY ATTRIBUTE FIELDS:MATERIALS: construction material of the fountainMATERIALS2: secondary construction material of the fountainFREESTND: Is the fountain freestanding? 0=no, 1=yesNAME: Name of the fountainPARK: Park where the fountain is locatedCOORDINATE SYSTEM:Lambert Conformal Conic. NAD83, PA South Stateplane coordinates, US FootTHEMATIC MAPPINGUse the NAME attribute field for thematic mapping and labelingOTHER INFORMATION:N/A</abstract>
-      <purpose>Location of fountains that are owned or maintained by Philadelphia Parks &amp; Recreation
-Features updated: 08/03/2000
-Attributes updated: 07/27/2013
-Metadata updated: 5/1/0215
-Update frequency: as needed
-Public = Y</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.223639</westbc>
@@ -31,6 +22,9 @@ Public = Y</purpose>
 Nora Dougherty, Geospatial Analyst
 1515 Arch Street, 10th Floor, Philadelphia, PA 19102-1587</datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyFPC_PPR_fountains</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -177,5 +171,25 @@ Nora Dougherty, Geospatial Analyst
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

@@ -1,4 +1,372 @@
-<metadata><idinfo><citation><citeinfo><title>Allegheny County Imagery 2015</title><geoform>remote-sensing image</geoform><origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin><pubdate>2015</pubdate><onlink>http://www.pasda.psu.edu</onlink></citeinfo></citation><spdom><bounding><westbc>-80.085650</westbc><eastbc>-80.048712</eastbc><northbc>40.600694</northbc><southbc>40.572534</southbc></bounding></spdom><accconst>Call for details.</accconst><useconst>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County is not responsible for any reliance upon said data.</useconst><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native><keywords><theme><themekey>imageryBaseMapsEarthCover</themekey><themekey>digital orthophoto</themekey><themekey>digital image map</themekey><themekey>aerial photograph</themekey><themekey>rectified photograph</themekey><themekey>rectified image</themekey><themekt>ISO 19115 Topic Categories</themekt><themekey>orthophoto</themekey></theme><place><placekey>Allegheny County</placekey><placekey>Pennsylvania</placekey><placekey>Pittsburgh</placekey></place></keywords><ptcontac><cntinfo><cntorgp><cntorg>Allegheny County Division of Computer Services Geographic Information Systems Group</cntorg></cntorgp><cntpos>GIS Manager</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>542 Forbes Avenue</address><city>Pittsburgh</city><state>Pennsylvania</state><postal>15219-2952</postal><country>United States</country></cntaddr><cntvoice>412 350-4774</cntvoice><cntfax>412 350-4754</cntfax></cntinfo></ptcontac><descript><abstract>Orthophotos of Allegheny County, Pennsylvania -  An orthoimage is remotely sensed image data that has been positionally corrected for camera lens distortion, vertical displacement and variations in aircraft altitude and orientation.  Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map.</abstract><purpose>Aerial survey of Allegheny County,Pennsylvania. Orthophotos serve a variety of purposes, from interim maps to field references for earth science investigations and analysis. The digital orthophoto is useful as a layer of a geographic information system and as a tool for revision of digital line graphs and topographic maps.</purpose><supplinf>These color orthoimages were produced at 1-foot pixel resolution. Each orthoimage provides imagery for a 10,000 x 10,000 ft. block on the ground. The projected coordinate system is Pennsylvania State Plane South with a NAD83 datum. There is no image overlap been adjacent files. The orthoimage filenames were derived from the northwest corner of each ortho tile using the first four digits of the northing and easting coordinates referenced to the Pennsylvania State Plane coordinate system, followed by the State designator "PA," and the State Plane zone designator "S."</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2015</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>As needed</update></status></idinfo><spdoinfo><direct>Raster</direct><rastinfo><rasttype>Pixel</rasttype><rowcount>20246</rowcount><colcount>20246</colcount></rastinfo></spdoinfo><spref><horizsys><planar><mapproj><mapprojn>Lambert Conformal Conic</mapprojn><lambertc><stdparll>39.93333333333333</stdparll><stdparll>40.96666666666667</stdparll><longcm>-77.75</longcm><latprjo>39.33333333333334</latprjo><feast>1968500.0</feast><fnorth>0.0</fnorth></lambertc></mapproj><planci><plance>coordinate pair</plance><coordrep><absres>0.000000026907964745248598</absres><ordres>0.000000026907964745248598</ordres></coordrep></planci></planar><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><metainfo><metd>2015</metd><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc><metc><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></metc></metainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo><Esri><CreaDate>20171208</CreaDate><CreaTime>10152300</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2015 (1)</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2015" dest="\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2015 (1)" date="20171208" time="10152300"/></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20150923</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont></distributor><distTranOps><onLineSrc><linkage>http://www.pasda.psu.edu</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>Allegheny County Imagery 2015</resTitle><date><pubDate>2015-01-01</pubDate></date><citRespParty><rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>remote-sensing image</fgdcGeoform></presForm></idCitation><idAbs>Orthophotos of Allegheny County, Pennsylvania - An orthoimage is remotely sensed image data that has been positionally corrected for camera lens distortion, vertical displacement and variations in aircraft altitude and orientation. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map.</idAbs><idPurp>Aerial survey of Allegheny County,Pennsylvania. Orthophotos serve a variety of purposes, from interim maps to field references for earth science investigations and analysis. The digital orthophoto is useful as a layer of a geographic information system and as a tool for revision of digital line graphs and topographic maps.</idPurp><idStatus><ProgCd value="001"/></idStatus><idPoC><rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName><rpPosName>GIS Manager</rpPosName><rpCntInfo><cntPhone><voiceNum>412 350-4774</voiceNum><faxNum>412 350-4754</faxNum></cntPhone><cntAddress addressType="both"><delPoint>542 Forbes Avenue</delPoint><city>Pittsburgh</city><adminArea>Pennsylvania</adminArea><postCode>15219-2952</postCode><country>US</country></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><placeKeys><keyword>Allegheny County</keyword><keyword>Pittsburgh</keyword><keyword>Pennsylvania</keyword></placeKeys><themeKeys><keyword>rectified photograph</keyword><keyword>rectified image</keyword><keyword>aerial photograph</keyword><keyword>digital image map</keyword><keyword>imageryBaseMapsEarthCover</keyword><keyword>digital orthophoto</keyword><keyword>orthophoto</keyword><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName></themeKeys><searchKeys><keyword>Allegheny County</keyword><keyword>rectified photograph</keyword><keyword>rectified image</keyword><keyword>aerial photograph</keyword><keyword>digital image map</keyword><keyword>imageryBaseMapsEarthCover</keyword><keyword>Pittsburgh</keyword><keyword>Pennsylvania</keyword><keyword>digital orthophoto</keyword><keyword>orthophoto</keyword></searchKeys><resConst><LegConsts><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit><othConsts>Call for details.</othConsts></LegConsts></resConst><resConst><Consts><useLimit>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County is not responsible for any reliance upon said data.</useLimit></Consts></resConst><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="010"/></tpCat><envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-80.08565</westBL><eastBL>-80.048712</eastBL><southBL>40.572534</southBL><northBL>40.600694</northBL></GeoBndBox></geoEle></dataExt><dataExt><exDesc>publication date</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2015-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt><suppInfo>These color orthoimages were produced at 1-foot pixel resolution. Each orthoimage provides imagery for a 10,000 x 10,000 ft. block on the ground. The projected coordinate system is Pennsylvania State Plane South with a NAD83 datum. There is no image overlap been adjacent files. The orthoimage filenames were derived from the northwest corner of each ortho tile using the first four digits of the northing and easting coordinates referenced to the Pennsylvania State Plane coordinate system, followed by the State designator "PA," and the State Plane zone designator "S."</suppInfo></dataIdInfo><spatRepInfo><Georect><numDims>2</numDims><axisDimension type="001"><dimSize>20246</dimSize></axisDimension><axisDimension type="002"><dimSize>20246</dimSize></axisDimension><cellGeo><CellGeoCd value="002"/></cellGeo></Georect></spatRepInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="7d8139e8d0119de9f157f6ced11d1459" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Allegheny County Imagery 2015</title>
+        <geoform>remote-sensing image</geoform>
+        <origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin>
+        <pubdate>2015</pubdate>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-80.085650</westbc>
+        <eastbc>-80.048712</eastbc>
+        <northbc>40.600694</northbc>
+        <southbc>40.572534</southbc>
+      </bounding>
+    </spdom>
+    <accconst>Call for details.</accconst>
+    <useconst>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County is not responsible for any reliance upon said data.</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <keywords>
+      <theme>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>digital orthophoto</themekey>
+        <themekey>digital image map</themekey>
+        <themekey>aerial photograph</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>orthophoto</themekey>
+      </theme>
+      <place>
+        <placekey>Allegheny County</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Pittsburgh</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Allegheny County Division of Computer Services Geographic Information Systems Group</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>542 Forbes Avenue</address>
+          <city>Pittsburgh</city>
+          <state>Pennsylvania</state>
+          <postal>15219-2952</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>412 350-4774</cntvoice>
+        <cntfax>412 350-4754</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2015</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <descript>
+      <abstract>AlleghenyCountyImagery2015</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>20246</rowcount>
+      <colcount>20246</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>2015</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <Esri>
+    <CreaDate>20171208</CreaDate>
+    <CreaTime>10152300</CreaTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2015 (1)</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2015" dest="\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2015 (1)" date="20171208" time="10152300" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(814) 865 - 8792</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>115 Land and Water building</delPoint>
+        <city>University Park</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>16802</postCode>
+        <country>US</country>
+        <eMailAdd>pasda@psu.edu</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20150923</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Allegheny County Imagery 2015</resTitle>
+      <date>
+        <pubDate>2015-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>remote-sensing image</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Orthophotos of Allegheny County, Pennsylvania - An orthoimage is remotely sensed image data that has been positionally corrected for camera lens distortion, vertical displacement and variations in aircraft altitude and orientation. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map.</idAbs>
+    <idPurp>Aerial survey of Allegheny County,Pennsylvania. Orthophotos serve a variety of purposes, from interim maps to field references for earth science investigations and analysis. The digital orthophoto is useful as a layer of a geographic information system and as a tool for revision of digital line graphs and topographic maps.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName>
+      <rpPosName>GIS Manager</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>412 350-4774</voiceNum>
+          <faxNum>412 350-4754</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>542 Forbes Avenue</delPoint>
+          <city>Pittsburgh</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>15219-2952</postCode>
+          <country>US</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Allegheny County</keyword>
+      <keyword>Pittsburgh</keyword>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>rectified photograph</keyword>
+      <keyword>rectified image</keyword>
+      <keyword>aerial photograph</keyword>
+      <keyword>digital image map</keyword>
+      <keyword>imageryBaseMapsEarthCover</keyword>
+      <keyword>digital orthophoto</keyword>
+      <keyword>orthophoto</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Allegheny County</keyword>
+      <keyword>rectified photograph</keyword>
+      <keyword>rectified image</keyword>
+      <keyword>aerial photograph</keyword>
+      <keyword>digital image map</keyword>
+      <keyword>imageryBaseMapsEarthCover</keyword>
+      <keyword>Pittsburgh</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>digital orthophoto</keyword>
+      <keyword>orthophoto</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+        <othConsts>Call for details.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County is not responsible for any reliance upon said data.</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="010" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.08565</westBL>
+          <eastBL>-80.048712</eastBL>
+          <southBL>40.572534</southBL>
+          <northBL>40.600694</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2015-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>These color orthoimages were produced at 1-foot pixel resolution. Each orthoimage provides imagery for a 10,000 x 10,000 ft. block on the ground. The projected coordinate system is Pennsylvania State Plane South with a NAD83 datum. There is no image overlap been adjacent files. The orthoimage filenames were derived from the northwest corner of each ortho tile using the first four digits of the northing and easting coordinates referenced to the Pennsylvania State Plane coordinate system, followed by the State designator "PA," and the State Plane zone designator "S."</suppInfo>
+  </dataIdInfo>
+  <spatRepInfo>
+    <Georect>
+      <numDims>2</numDims>
+      <axisDimension type="001">
+        <dimSize>20246</dimSize>
+      </axisDimension>
+      <axisDimension type="002">
+        <dimSize>20246</dimSize>
+      </axisDimension>
+      <cellGeo>
+        <CellGeoCd value="002" />
+      </cellGeo>
+    </Georect>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="7d8139e8d0119de9f157f6ced11d1459" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDx0aXRsZT5B
 bGxlZ2hlbnkgQ291bnR5IEltYWdlcnkgMjAxNTwvdGl0bGU+DQogICAgICAgIDxnZW9mb3JtPnJl
 bW90ZS1zZW5zaW5nIGltYWdlPC9nZW9mb3JtPg0KICAgICAgICA8b3JpZ2luPkFsbGVnaGVueSBD
@@ -140,4 +508,7 @@ cHkgc291cmNlPSJcXHBzaWVlZmlsZXIuZW1zLnBzdS5lZHVccHNpZWVjaWZzdm9sMVxBbGxlZ2hl
 bnlDb3VudHlJbWFnZXJ5MjAxNSIgZGVzdD0iXFxwc2llZWZpbGVyLmVtcy5wc3UuZWR1XHBzaWVl
 Y2lmc3ZvbDFcQWxsZWdoZW55Q291bnR5SW1hZ2VyeTIwMTUgKDEpIiBkYXRlPSIyMDE3MTIwOCIg
 dGltZT0iMTAxNTIzMDAiIC8+DQogICAgICA8L2NvcHlIaXN0b3J5Pg0KICAgIDwvRGF0YVByb3Bl
-cnRpZXM+DQogIDwvRXNyaT4NCjwvbWV0YWRhdGE+</Data></Enclosure></Binary></metadata>
+cnRpZXM+DQogIDwvRXNyaT4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

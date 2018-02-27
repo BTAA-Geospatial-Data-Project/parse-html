@@ -1,9 +1,579 @@
-<metadata><idinfo><citation><citeinfo><origin>Allegheny County Division of Computer Services Geographic Information Systems Group; Modified by GDR for the Allegheny County CAD project, October 2008.</origin><pubdate>201802</pubdate><title>Allegheny County Address Points 201802</title><geoform>vector digital data</geoform><serinfo><sername>911 Address Verification Project</sername></serinfo><onlink>http://www.pasda.psu.edu</onlink><ftname Sync="TRUE">Addr</ftname></citeinfo></citation><descript><abstract>This dataset contains Address Points in Allegheny County. The Address Points were created by GDR for the Allegheny County CAD project, October 2008. Data is updated by County staff as changes and corrections are found, on a continuous basis. Updates are sent to PASDA monthly.</abstract><purpose>Data was developed as part of the effort to establish large scale base data to support a Geographic Information System in Allegheny County</purpose><supplinf>Data users are welcome to e-mail corrections to this dataset.</supplinf><langdata Sync="TRUE">en</langdata></descript><timeperd><timeinfo><sngdate><caldate>201802</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>In work</progress><update>Continually</update></status><spdom><bounding><westbc>
--80.359053</westbc><eastbc>
--79.683539</eastbc><northbc>
-40.684323</northbc><southbc>
-40.186501</southbc></bounding><lboundng><leftbc Sync="TRUE">1244877.600080</leftbc><rightbc Sync="TRUE">1428432.700119</rightbc><bottombc Sync="TRUE">321410.400251</bottombc><topbc Sync="TRUE">498108.800107</topbc></lboundng></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>ADDRESSPOINTS</themekey><themekey>Address Points</themekey><themekey>planningCadastre</themekey></theme></keywords><useconst>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County Division of Computer Services Geographic Information Systems Group is not responsible for any reliance upon said data.</useconst><ptcontac><cntinfo><cntorgp><cntorg>Allegheny County Division of Computer Services Geographic Information Systems</cntorg></cntorgp><cntpos>GIS Manager</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>621 County Office Building</address><address>542 Forbes Ave.</address><city>Pittsburgh</city><state>PA</state><postal>15219</postal><country>United States</country></cntaddr><cntvoice>(412) 350-4774</cntvoice><cntfax>(412) 350-4754</cntfax><cntemail>GIShelp@alleghenycounty.us</cntemail></cntinfo></ptcontac><native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</native><natvform Sync="TRUE">Shapefile</natvform></idinfo><dataqual><attracc><attraccr>Modified by GDR for the Allegheny County CAD project, October 2008.
-Data was subject to visual check by County GIS Staff for attribute accuracy.</attraccr></attracc><logic>Modified by GDR for the Allegheny County CAD project, October 2008.</logic><complete>Modified by GDR for the Allegheny County CAD project, October 2008.</complete><lineage><srcinfo><srccite><citeinfo><origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin></citeinfo></srccite></srcinfo><procstep><procdesc>Metadata imported.</procdesc><srcused>\\Entfsh02\fsh02_dcs_user$\t094246\My Documents\Metadata\BEST\addresspointsInternal.xml</srcused><procdate>201802</procdate><proctime>12262400</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=sqlinst1; Service=sde:sqlserver:sqlinst1\sqlinst1; Database=ALCO_PUB; User=PUB_VIEWER; Version=dbo.DEFAULT</srcused><procdate Sync="TRUE">201802</procdate><proctime Sync="TRUE">11190500</proctime></procstep></lineage></dataqual><spdoinfo><direct>Point</direct><ptvctinf><sdtsterm Name="Addr"><sdtstype>Entity point</sdtstype><ptvctcnt>474492</ptvctcnt></sdtsterm><esriterm Name="Addr"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">521332</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><planar><planci><plance>coordinate pair</plance><coordrep><absres>0.000000</absres><ordres>0.000000</ordres></coordrep><plandu>survey feet</plandu></planci><mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">39.933333</stdparll><stdparll Sync="TRUE">40.966667</stdparll><longcm Sync="TRUE">-77.750000</longcm><latprjo Sync="TRUE">39.333333</latprjo><feast Sync="TRUE">1968500.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar><geodetic><horizdn>North American Datum of 1983</horizdn><ellips>Geodetic Reference System 80</ellips><semiaxis>6378137.000000</semiaxis><denflat>298.257222</denflat></geodetic><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn></cordsysn></horizsys><vertdef><altsys><altres>1.000000</altres><altenc>Explicit elevation coordinate included with horizontal coordinates</altenc></altsys></vertdef></spref><eainfo><detailed Name="Addr"><enttyp><enttypl>AlleghenyCounty_AddressPoints201802</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">521140</enttypc></enttyp><attr><attrlabl>ST_SUFFIX</attrlabl><attrdef>Street Suffix</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr><attr><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">ADDR_NUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl>ADDR_NUM</attrlabl><attrdef>Physical address of building</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">ZIP_CODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl>ZIP_CODE</attrlabl><attrdef>Zip Code</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">ST_PREFIX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ST_PREFIX</attrlabl><attrdef>Street Prefix</attrdef><attalias Sync="TRUE">ST_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr><attr><attrlabl>ST_NAME</attrlabl><attrdef>Street name</attrdef><attalias Sync="TRUE">ST_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">MUNICIPALI</attrlabl><attalias Sync="TRUE">MUNICIPALI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl>ST_TYPE</attrlabl><attrdef>Street Type</attrdef><attalias Sync="TRUE">ST_SUFFIX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">FULL_ADDRE</attrlabl><attalias Sync="TRUE">FULL_ADDRE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">128</attwidth></attr></detailed></eainfo><distinfo><stdorder><digform><digtinfo><transize>13.908</transize><dssize Sync="TRUE">13.916</dssize></digtinfo></digform></stdorder><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo><metainfo><metd>201802</metd><metc><cntinfo><cntorgp><cntorg>Allegheny County</cntorg></cntorgp><cntpos>Outreach Specialist</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>621 County Office Building</address><address>542 Forbes Ave.</address><city>Pittsburgh</city><state>PA</state><postal>15219</postal><country>USA</country></cntaddr><cntvoice>(412) 350-4774</cntvoice><cntfax>(412) 350-4754</cntfax><cntemail>GIShelp@alleghenycounty.us</cntemail></cntinfo></metc><metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc><metextns><onlink>http://www.esri.com/metadata/esriprof80.html</onlink><metprof>ESRI Metadata Profile</metprof></metextns><langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo><Esri><SyncDate>2013</SyncDate><SyncTime>11451900</SyncTime><ModDate>201802</ModDate><ModTime>11550900</ModTime><CreaDate>201802</CreaDate><CreaTime>12221600</CreaTime><SyncOnce>FALSE</SyncOnce><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\201802\AlleghenyCounty_AddressPoints201802</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\AlleghenyCounty_AddressPoints201802" dest="\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\201802\AlleghenyCounty_AddressPoints201802" date="20180224" time="09444800"/></copyHistory></DataProperties><ArcGISProfile>ISO19139</ArcGISProfile><ArcGISFormat>1.0</ArcGISFormat></Esri><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpOrgName>Allegheny County</rpOrgName><rpPosName>Outreach Specialist</rpPosName><rpCntInfo><cntPhone><voiceNum>(412) 350-4774</voiceNum><faxNum>(412) 350-4754</faxNum></cntPhone><cntAddress addressType="both"><delPoint>621 County Office Building</delPoint><delPoint>542 Forbes Ave.</delPoint><city>Pittsburgh</city><adminArea>PA</adminArea><postCode>15219</postCode><country>US</country><eMailAdd>GIShelp@alleghenycounty.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20180201</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont><distorOrdPrc/></distributor><distTranOps><onLineSrc><linkage>http://www.pasda.psu.edu</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>Allegheny County Address Points 201802</resTitle><date><pubDate>2017-11-01</pubDate></date><citRespParty><rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group; Modified by GDR for the Allegheny County CAD project, October 2008.</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm><datasetSeries><seriesName>911 Address Verification Project</seriesName></datasetSeries></idCitation><idAbs>This dataset contains Address Points in Allegheny County. The Address Points were created by GDR for the Allegheny County CAD project, October 2008. Data is updated by County staff as changes and corrections are found, on a continuous basis. Updates are sent to PASDA monthly.</idAbs><idPurp>Data was developed as part of the effort to establish large scale base data to support a Geographic Information System in Allegheny County</idPurp><idStatus><ProgCd value="007"/></idStatus><idPoC><rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems</rpOrgName><rpPosName>GIS Manager</rpPosName><rpCntInfo><cntPhone><voiceNum>(412) 350-4774</voiceNum><faxNum>(412) 350-4754</faxNum></cntPhone><cntAddress addressType="both"><delPoint>621 County Office Building</delPoint><delPoint>542 Forbes Ave.</delPoint><city>Pittsburgh</city><adminArea>PA</adminArea><postCode>15219</postCode><country>US</country><eMailAdd>GIShelp@alleghenycounty.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="001"/></maintFreq></resMaint><themeKeys><keyword>Address Points</keyword><keyword>planningCadastre</keyword><keyword>ADDRESSPOINTS</keyword><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName></themeKeys><searchKeys><keyword>Address Points</keyword><keyword>planningCadastre</keyword><keyword>ADDRESSPOINTS</keyword></searchKeys><resConst><LegConsts><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County Division of Computer Services Geographic Information Systems Group is not responsible for any reliance upon said data.</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="015"/></tpCat><envirDesc>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-80.359053</westBL><eastBL>-79.683539</eastBL><southBL>40.186501</southBL><northBL>40.684323</northBL></GeoBndBox></geoEle></dataExt><dataExt><exDesc>publication date</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2017-11-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt><suppInfo>Data users are welcome to e-mail corrections to this dataset.</suppInfo></dataIdInfo><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQConcConsis"><measDesc>Modified by GDR for the Allegheny County CAD project, October 2008.</measDesc></report><report type="DQCompOm"><measDesc>Modified by GDR for the Allegheny County CAD project, October 2008.</measDesc></report><report type="DQQuanAttAcc"><measDesc>Modified by GDR for the Allegheny County CAD project, October 2008. Data was subject to visual check by County GIS Staff for attribute accuracy.</measDesc></report><dataLineage><dataSource><srcCitatn><citRespParty><rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName><role><RoleCd value="006"/></role></citRespParty></srcCitatn></dataSource></dataLineage></dqInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="004"/></geoObjTyp><geoObjCnt>474492</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="868092a5da84894c841b59e5c5247afd" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Allegheny County Division of Computer Services Geographic Information Systems Group; Modified by GDR for the Allegheny County CAD project, October 2008.</origin>
+        <pubdate>201802</pubdate>
+        <title>Allegheny County Address Points 201802</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>911 Address Verification Project</sername>
+        </serinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <ftname Sync="TRUE">Addr</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201802</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.359053</westbc>
+        <eastbc>
+-79.683539</eastbc>
+        <northbc>
+40.684323</northbc>
+        <southbc>
+40.186501</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">1244877.600080</leftbc>
+        <rightbc Sync="TRUE">1428432.700119</rightbc>
+        <bottombc Sync="TRUE">321410.400251</bottombc>
+        <topbc Sync="TRUE">498108.800107</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>ADDRESSPOINTS</themekey>
+        <themekey>Address Points</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <useconst>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County Division of Computer Services Geographic Information Systems Group is not responsible for any reliance upon said data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Allegheny County Division of Computer Services Geographic Information Systems</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>621 County Office Building</address>
+          <address>542 Forbes Ave.</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15219</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(412) 350-4774</cntvoice>
+        <cntfax>(412) 350-4754</cntfax>
+        <cntemail>GIShelp@alleghenycounty.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>AlleghenyCounty_AddressPoints201802</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Modified by GDR for the Allegheny County CAD project, October 2008.
+Data was subject to visual check by County GIS Staff for attribute accuracy.</attraccr>
+    </attracc>
+    <logic>Modified by GDR for the Allegheny County CAD project, October 2008.</logic>
+    <complete>Modified by GDR for the Allegheny County CAD project, October 2008.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>\\Entfsh02\fsh02_dcs_user$\t094246\My Documents\Metadata\BEST\addresspointsInternal.xml</srcused>
+        <procdate>201802</procdate>
+        <proctime>12262400</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=sqlinst1; Service=sde:sqlserver:sqlinst1\sqlinst1; Database=ALCO_PUB; User=PUB_VIEWER; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">201802</procdate>
+        <proctime Sync="TRUE">11190500</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm Name="Addr">
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>474492</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="Addr">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">521332</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000</absres>
+            <ordres>0.000000</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="Addr">
+      <enttyp>
+        <enttypl>AlleghenyCounty_AddressPoints201802</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">521140</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>ST_SUFFIX</attrlabl>
+        <attrdef>Street Suffix</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ADDR_NUM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ADDR_NUM</attrlabl>
+        <attrdef>Physical address of building</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ZIP_CODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ZIP_CODE</attrlabl>
+        <attrdef>Zip Code</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ST_PREFIX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ST_PREFIX</attrlabl>
+        <attrdef>Street Prefix</attrdef>
+        <attalias Sync="TRUE">ST_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ST_NAME</attrlabl>
+        <attrdef>Street name</attrdef>
+        <attalias Sync="TRUE">ST_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MUNICIPALI</attrlabl>
+        <attalias Sync="TRUE">MUNICIPALI</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ST_TYPE</attrlabl>
+        <attrdef>Street Type</attrdef>
+        <attalias Sync="TRUE">ST_SUFFIX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FULL_ADDRE</attrlabl>
+        <attalias Sync="TRUE">FULL_ADDRE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">128</attwidth>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>13.908</transize>
+          <dssize Sync="TRUE">13.916</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>201802</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Allegheny County</cntorg>
+        </cntorgp>
+        <cntpos>Outreach Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>621 County Office Building</address>
+          <address>542 Forbes Ave.</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15219</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(412) 350-4774</cntvoice>
+        <cntfax>(412) 350-4754</cntfax>
+        <cntemail>GIShelp@alleghenycounty.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <SyncDate>2013</SyncDate>
+    <SyncTime>11451900</SyncTime>
+    <ModDate>201802</ModDate>
+    <ModTime>11550900</ModTime>
+    <CreaDate>201802</CreaDate>
+    <CreaTime>12221600</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\201802\AlleghenyCounty_AddressPoints201802</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\AlleghenyCounty_AddressPoints201802" dest="\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\201802\AlleghenyCounty_AddressPoints201802" date="20180224" time="09444800" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISProfile>ISO19139</ArcGISProfile>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>Allegheny County</rpOrgName>
+    <rpPosName>Outreach Specialist</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(412) 350-4774</voiceNum>
+        <faxNum>(412) 350-4754</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>621 County Office Building</delPoint>
+        <delPoint>542 Forbes Ave.</delPoint>
+        <city>Pittsburgh</city>
+        <adminArea>PA</adminArea>
+        <postCode>15219</postCode>
+        <country>US</country>
+        <eMailAdd>GIShelp@alleghenycounty.us</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20180201</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc />
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Allegheny County Address Points 201802</resTitle>
+      <date>
+        <pubDate>2017-11-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group; Modified by GDR for the Allegheny County CAD project, October 2008.</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+      <datasetSeries>
+        <seriesName>911 Address Verification Project</seriesName>
+      </datasetSeries>
+    </idCitation>
+    <idAbs>This dataset contains Address Points in Allegheny County. The Address Points were created by GDR for the Allegheny County CAD project, October 2008. Data is updated by County staff as changes and corrections are found, on a continuous basis. Updates are sent to PASDA monthly.</idAbs>
+    <idPurp>Data was developed as part of the effort to establish large scale base data to support a Geographic Information System in Allegheny County</idPurp>
+    <idStatus>
+      <ProgCd value="007" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems</rpOrgName>
+      <rpPosName>GIS Manager</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(412) 350-4774</voiceNum>
+          <faxNum>(412) 350-4754</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>621 County Office Building</delPoint>
+          <delPoint>542 Forbes Ave.</delPoint>
+          <city>Pittsburgh</city>
+          <adminArea>PA</adminArea>
+          <postCode>15219</postCode>
+          <country>US</country>
+          <eMailAdd>GIShelp@alleghenycounty.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="001" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>Address Points</keyword>
+      <keyword>planningCadastre</keyword>
+      <keyword>ADDRESSPOINTS</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Address Points</keyword>
+      <keyword>planningCadastre</keyword>
+      <keyword>ADDRESSPOINTS</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County Division of Computer Services Geographic Information Systems Group is not responsible for any reliance upon said data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="015" />
+    </tpCat>
+    <envirDesc>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.359053</westBL>
+          <eastBL>-79.683539</eastBL>
+          <southBL>40.186501</southBL>
+          <northBL>40.684323</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-11-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Data users are welcome to e-mail corrections to this dataset.</suppInfo>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Modified by GDR for the Allegheny County CAD project, October 2008.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Modified by GDR for the Allegheny County CAD project, October 2008.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Modified by GDR for the Allegheny County CAD project, October 2008. Data was subject to visual check by County GIS Staff for attribute accuracy.</measDesc>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcCitatn>
+          <citRespParty>
+            <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="004" />
+        </geoObjTyp>
+        <geoObjCnt>474492</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="868092a5da84894c841b59e5c5247afd" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 QWxsZWdoZW55IENvdW50eSBEaXZpc2lvbiBvZiBDb21wdXRlciBTZXJ2aWNlcyBHZW9ncmFwaGlj
 IEluZm9ybWF0aW9uIFN5c3RlbXMgR3JvdXA7IE1vZGlmaWVkIGJ5IEdEUiBmb3IgdGhlIEFsbGVn
@@ -249,4 +819,7 @@ ZGVzdD0iXFxjZWlmaWxlcjEuZW1zd2luLnBzdS5lZHVccHNpZWVjaWZzdm9sMVx0ZW1wXDIwMTcx
 MVxBbGxlZ2hlbnlDb3VudHlfQWRkcmVzc1BvaW50czIwMTcxMSIgZGF0ZT0iMjAxNzExMjQiIHRp
 bWU9IjA5NDQ0ODAwIiAvPg0KICAgICAgPC9jb3B5SGlzdG9yeT4NCiAgICA8L0RhdGFQcm9wZXJ0
 aWVzPg0KICAgIDxBcmNHSVNQcm9maWxlPklTTzE5MTM5PC9BcmNHSVNQcm9maWxlPg0KICA8L0Vz
-cmk+DQo8L21ldGFkYXRhPg==</Data></Enclosure></Binary></metadata>
+cmk+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

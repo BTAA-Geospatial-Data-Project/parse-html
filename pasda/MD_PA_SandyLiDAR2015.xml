@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata>
   <idinfo>
     <citation>
@@ -9,99 +9,6 @@
         <geoform>Lidar point cloud</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>MD/PA Sandy Supplemental Lidar Data Acquisition and Processing Production Task USGS 
-Contract No. G10PC00057 
-Task Order No. G14PD00397
-Woolpert Order No. 74333
-CONTRACTOR: Woolpert, Inc. 
-
-This task is for a high resolution data set of lidar covering approximately 1,845 square miles. The lidar data was acquired and processed under the requirements identified in this task order. Lidar data is a remotely sensed high resolution elevation data collected by an airborne platform. The lidar sensor uses a combination of laser range finding, GPS positioning, and inertial measurement technologies. The lidar systems collect data point clouds that are used to produce highly detailed Digital Elevation Models (DEMs) of the earth's terrain, man-made structures, and vegetation. The task required the LiDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. The final products include classified LAS, one (1) meter pixel raster DEMs of the bare-earth surface in ERDAS IMG Format, and 8-bit intensity images. Each LAS file contains lidar point information, which has been calibrated, controlled, and classified. Additional deliverables include hydrologic breakline data, control data, tile index, lidar processing and survey reports in PDF format, FGDC metadata files for each data deliverable in .xml format, and LAS swath data. Ground conditions: Water at normal levels; no unusual inundation; no snow; leaf off. Coastal tiles 18SVH065720 and 8SVH095690 contain no lidar points as they exist completely in water.  A DEM IMG was generated for these two tiles as the digitized hydro breakline assumed the data extent in the area.  As such only 2568 LAS and Intensity files will be delivered along with 2570 DEM IMG's.
-</abstract>
-      <lidar>
-        <ldrinfo>
-          <ldrspec>USGS NGP Base Specifications v1</ldrspec>
-          <ldrsens>Leica ALS70</ldrsens>
-          <ldrmaxnr>4</ldrmaxnr>
-          <ldrdens>2</ldrdens>
-          <ldranps>0.7</ldranps>
-          <ldradens>2</ldradens>
-          <ldrnps>0.7</ldrnps>
-          <ldrfltht>1981(Kent &amp; Talbot(MD)); 2,286 (Carroll &amp; Baltimore(MD), Chester(PA))</ldrfltht>
-          <ldrfltsp>150</ldrfltsp>
-          <ldrscana>40 - (Kent &amp; Talbot (MD)), 32 - (Carroll &amp; Baltimore (MD), Chester(PA))</ldrscana>
-          <ldrscanr>41.5 - (Kent &amp; Talbot (MD)), 40 - (Carroll &amp; Baltimore (MD), Chester(PA))</ldrscanr>
-          <ldrpulsr>272 - (Kent &amp; Talbot(MD)), 239 - (Carroll &amp; Baltimore (MD), Chester(PA)),</ldrpulsr>
-          <ldrpulsd>5</ldrpulsd>
-          <ldrpulsw>5</ldrpulsw>
-          <ldrwavel>1064</ldrwavel>
-          <ldrmpia>1</ldrmpia>
-          <ldrbmdiv>0.22</ldrbmdiv>
-          <ldrswatw>1442 - (Kent &amp; Talbot (MD)), 1311 - (Carroll &amp; Baltimore(MD), Chester(PA))</ldrswatw>
-          <ldrswato>25</ldrswato>
-          <ldrcrs>NAD 1983(2011) UTM Zone 18N Meters</ldrcrs>
-          <ldrgeoid>GEOID12A</ldrgeoid>
-        </ldrinfo>
-        <ldraccur>
-          <ldrchacc>0.360 - (Kent &amp; Talbot(MD)), 0.415 - (Carroll &amp; Baltimore (MD), Chester (PA))</ldrchacc>
-          <rawfva>0.168 </rawfva>
-          <clsfva>0.154 </clsfva>
-          <clscva>0.216 </clscva>
-          <clssvas>
-            <svalctyp>Urban</svalctyp>
-            <svavalue>0.072 </svavalue>
-          </clssvas>
-          <clssvas>
-            <svalctyp>Tall Weeds/Crops </svalctyp>
-            <svavalue>0.216 </svavalue>
-          </clssvas>
-          <clssvas>
-            <svalctyp>Brushlands/Trees</svalctyp>
-            <svavalue>0.265 </svavalue>
-          </clssvas>
-          <clssvas>
-            <svalctyp>Forested and Fully Grown </svalctyp>
-            <svavalue>0.146</svavalue>
-          </clssvas>
-        </ldraccur>
-        <lasinfo>
-          <lasver>1.2</lasver>
-          <lasprf>6</lasprf>
-          <laswheld>Geometrically unreliable points were identified using a combination of automated and manual techniques and subsequently classified as noise.</laswheld>
-          <lasolap>Swath overlap points were identified in these files by adding 16 to the standard classication values yielding overlap default and overlap ground, overlap water, and overlap ignored ground.</lasolap>
-          <lasintr>8</lasintr>
-          <lasclass>
-            <clascode>1</clascode>
-            <clasitem>default/unclassified</clasitem>
-          </lasclass>
-          <lasclass>
-            <clascode>2</clascode>
-            <clasitem>Bare-earth</clasitem>
-          </lasclass>
-          <lasclass>
-            <clascode>7</clascode>
-            <clasitem>Noise</clasitem>
-          </lasclass>
-          <lasclass>
-            <clascode>9</clascode>
-            <clasitem>Water</clasitem>
-          </lasclass>
-          <lasclass>
-            <clascode>10</clascode>
-            <clasitem>Ignored ground</clasitem>
-          </lasclass>
-          <lasclass>
-            <clascode>17</clascode>
-            <clasitem>Overlap Default</clasitem>
-          </lasclass>
-          <lasclass>
-            <clascode>18</clascode>
-            <clasitem>Overlap Ground</clasitem>
-          </lasclass>
-        </lasinfo>
-      </lidar>
-      <purpose>The purpose of this project is for lidar mapping services in support of the USGS for task name MD/PA Sandy Supplemental Lidar Task Order</purpose>
-    </descript>
     <timeperd>
       <timeinfo>
         <mdattim>
@@ -212,6 +119,9 @@ This task is for a high resolution data set of lidar covering approximately 1,84
       </cntinfo>
     </ptcontac>
     <native>Microsoft Windows 7 Version 6.1 (Build 7600); ArcMap 10.2; ArcCatalog 10.2; TerraScan ver. 15.001; TerraModeler ver. 15.001; Geocue 2014.1.21; LP360 2014.1. Approximate size of entire delivery dataset = 2.0TB</native>
+    <descript>
+      <abstract>MD_PA_SandyLiDAR2015</abstract>
+    </descript>
   </idinfo>
   <dataqual>
     <logic>All formatted data cover the entire area specified for this project and are validated using a combination of commercial lidar processing software, GIS software, and proprietary programs to ensure proper formatting and loading prior to delivery.</logic>
@@ -541,5 +451,24 @@ mode with each GPS session lasting 120 epochs to 180 epochs</procdesc>
       <metshd>Unclassified</metshd>
     </metsi>
   </metainfo>
-  <distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

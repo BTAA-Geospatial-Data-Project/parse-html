@@ -1,4 +1,330 @@
-<metadata><idinfo><citation><citeinfo><origin>USGS, PA Water Science Center</origin><title>Digital Elevation Model (DEM) derived first- and second-order catchments for HUCs 02040101, 02040102, 02040103, 02040104, 02040106, 02040203</title><edition>Version 1.0</edition><geoform>vector digital data</geoform><onlink>http://pa.water.usgs.gov</onlink></citeinfo></citation><descript><abstract>A breakthrough in water resources management occurred in 1961 when President Kennedy and the governors of Delaware, New Jersey, Pennsylvania, and New York for the first time signed concurrent compact legislation into law creating a regional body with the force of law to oversee a unified approach to managing a river system without regard to political boundaries. The members of this regional body - the Delaware River Basin Commission (DRBC) - include the four basin state governors and the Division Engineer, North Atlantic Division, U.S. Army Corps of Engineers, who serves as the federal representative. Commission programs include water quality protection, water supply allocation, regulatory review (permitting), water conservation initiatives, watershed planning, drought management, flood loss reduction, and recreation. Much of the new drilling interest taking place in northeastern Pennsylvania and southern New York is targeted at reaching the natural gas found in the Marcellus Shale formation, which underlies about 36 percent of the Delaware River Basin. Because the Marcellus Shale is considered a tight geologic formation, natural gas deposits were not previously thought to be practically and economically mineable using traditional techniques. New horizontal drilling and extraction methods, coupled with higher energy costs, have given energy companies reason to take a new interest in mining the natural gas deposits within the Marcellus Shale. In connection with natural gas drilling, the commission has identified three major areas of concern: 1.Gas drilling projects in the Marcellus Shale or other formations may have a substantial effect on the water resources of the basin by reducing the flow in streams and/or aquifers used to supply the significant amounts of fresh water needed in the natural gas mining process. 2.On-site drilling operations may potentially add, discharge or cause the release of pollutants into the ground water or surface water. 3.The recovered "frac water" must be treated and disposed of properly. DRBC is identifying methods, geospatial data, and other information to support decision making on how best to oversee the Marcellus Shale drilling in the Delaware River Basin (DRB).</abstract><purpose>To develop catchment areas for first- and second-order streams in the DRB for all 8-digit, Hydrologic Unit Code (HUC) catalog units that are underlain by the Marcellus Shale.</purpose><supplinf>Geospatial datasets attributed with detailed stream-order and catchment-area data form the foundation needed to identify High Value Water Resources (HVWR). Using the datasets, DRBC will be better informed as they develop protective natural gas regulations within the basin and identify HVWR areas. This scope of work is consistent with USGS federal goals of advancing the knowledge of regional hydrologic systems and processes, providing scientific technical support to regional basin commissions, and water-resources data and information for use by multiple parties for planning and operational purposes.</supplinf></descript><status><progress>Complete</progress><update>None planned</update></status><keywords><place><placekt>Geographic Names Information System (GNIS)</placekt><placekey>New Jersey</placekey><placekey>New York</placekey><placekey>Delware River Basin</placekey><placekey>Pennsylvania</placekey></place><theme><themekey>stream order</themekey><themekey>Strahler</themekey><themekey>catchment</themekey><themekt>ISO 19115 Topic Categories</themekt><themekey>InlandWaters</themekey></theme></keywords><accconst>No access constraints.</accconst><useconst>These data can be used by any GIS or Image Processing software.</useconst><ptcontac><cntinfo><cntorgp><cntorg>US Geological Survey, Pennsylvania Water Science Center</cntorg><cntper>Scott Hoffman</cntper></cntorgp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>215 Limekiln Road</address><city>New Cumberland</city><state>Pennsylvania</state><postal>17070</postal><country>US</country></cntaddr><cntvoice>(717) 730-6945</cntvoice><cntfax>(717) 730-6997</cntfax><cntemail>shoffman@usgs.gov</cntemail><hours>M - F 8:00 AM to 4:30 PM</hours></cntinfo></ptcontac><datacred>Scott Hoffman, GIS Specialist, US Geological Survey, Pennsylvania Water Science Center</datacred><secinfo><secclass>Unclassified</secclass></secinfo><native>ArcGIS 9.3.1</native></idinfo><dataqual><logic>Polygons intersecting the neatline are closed along the border. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. Line segments are a set of sequentially numbered coordinate pairs. No duplicate features exist nor duplicate points in a data string. All nodes are represented by a single coordinate pair which indicates the beginning or end of a line segment.</logic><complete>30-meter DEM, elevation data were used as the foundation to determine the first- and second-order catchments. Extraneous polygons were removed if they were determined to be artifacts from the GIS automated processing instead of true catchment areas related to the pour-point location.</complete><posacc><horizpa><horizpar>The horizontal accuracy standard follows the NSSDA-1998 standard. The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale>24</srcscale><typesrc>None</typesrc></srcinfo><procstep><procdesc>Metadata created.</procdesc></procstep><procstep><procdesc>Another step in command-line processing created nodes to act as the basin delineation points for first- and second-order streams. The concept of valance is used. Valance is defined as the count of how many arcs connect to a node. A danglling node has a valance of 1, a psuedo node has valance of 2. Nodes at stream confluences are converted to points and buffered by 200 meters to create intersections when overlain with the NHD stream dataset. These points on the NHD become the pour point used in the automated basin delineation using command-line programing.</procdesc></procstep><procstep><procdesc>Command-line automated processing was used to generate the catchments</procdesc></procstep><procstep><procdesc>National Hydrologic Dataset (NHD) centerline-flow data from PA StreamStats used as source for Strahler stream order processing. Command-line ArcInfo was needed to run Strahler.aml. Center-line flow data was edited for consistency to remove straggler lines from braided streams. Strahler processing reference: Fast algorithm for automatically computing Strahler stream order, 1990, Lanfear, Kenneth J. water Resources Bulletin, 26: 977-981.</procdesc></procstep><procstep><procdesc>Basin pour points were checked for location and Strahler order number. Pour point added and/or deleted based on position on the DEM generated stream dataset. In several cases, points were added as inputs to lakes/ponds and also as outflow points to lakes/ponds. Pour points were also deleted for braided streams in selected stream channels.</procdesc></procstep><procstep><procdesc>Catchment datasets group based on HUC12 names and added into a file geodatabase.</procdesc></procstep><procstep><procdesc>Supporting digital elevation used from the PA StreamStats GIS database: flow direction raster, flow accumulation raster; synthetic stream raster.</procdesc><srcused>http://streamstats.usgs.gov</srcused></procstep></lineage></dataqual><metainfo><metc><cntinfo><cntorgp><cntorg>USGS, PaWSC</cntorg><cntper>Scott Hoffman</cntper></cntorgp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>215 Limekiln Road</address><city>New Cumberland</city><state>Pennsylvania</state><postal>17070</postal><country>US</country></cntaddr><cntvoice>(717) 730-6945</cntvoice><cntfax>(717) 730-6997</cntfax><cntemail>shoffman@usgs.gov</cntemail></cntinfo></metc><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc></metainfo><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>Scott Hoffman</rpIndName><rpOrgName>USGS, PaWSC</rpOrgName><rpPosName>GIS Specialist</rpPosName><rpCntInfo><cntPhone><voiceNum>(717) 730-6945</voiceNum><faxNum>(717) 730-6997</faxNum></cntPhone><cntAddress addressType="both"><delPoint>215 Limekiln Road</delPoint><city>New Cumberland</city><adminArea>Pennsylvania</adminArea><postCode>17070</postCode><country>US</country><eMailAdd>shoffman@usgs.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distTranOps><onLineSrc><linkage>http://pa.water.usgs.gov</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>Digital Elevation Model (DEM) derived first- and second-order catchments for HUCs 02040101, 02040102, 02040103, 02040104, 02040106, 02040203</resTitle><resEd>Version 1.0</resEd><citRespParty><rpOrgName>USGS, PA Water Science Center</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;A breakthrough in water resources management occurred in 1961 when President Kennedy and the governors of Delaware, New Jersey, Pennsylvania, and New York for the first time signed concurrent compact legislation into law creating a regional body with the force of law to oversee a unified approach to managing a river system without regard to political boundaries. The members of this regional body - the Delaware River Basin Commission (DRBC) - include the four basin state governors and the Division Engineer, North Atlantic Division, U.S. Army Corps of Engineers, who serves as the federal representative. Commission programs include water quality protection, water supply allocation, regulatory review (permitting), water conservation initiatives, watershed planning, drought management, flood loss reduction, and recreation. Much of the new drilling interest taking place in northeastern Pennsylvania and southern New York is targeted at reaching the natural gas found in the Marcellus Shale formation, which underlies about 36 percent of the Delaware River Basin. Because the Marcellus Shale is considered a tight geologic formation, natural gas deposits were not previously thought to be practically and economically mineable using traditional techniques. New horizontal drilling and extraction methods, coupled with higher energy costs, have given energy companies reason to take a new interest in mining the natural gas deposits within the Marcellus Shale. In connection with natural gas drilling, the commission has identified three major areas of concern: 1.Gas drilling projects in the Marcellus Shale or other formations may have a substantial effect on the water resources of the basin by reducing the flow in streams and/or aquifers used to supply the significant amounts of fresh water needed in the natural gas mining process. 2.On-site drilling operations may potentially add, discharge or cause the release of pollutants into the ground water or surface water. 3.The recovered "frac water" must be treated and disposed of properly. DRBC is identifying methods, geospatial data, and other information to support decision making on how best to oversee the Marcellus Shale drilling in the Delaware River Basin (DRB).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>To develop catchment areas for first- and second-order streams in the DRB for all 8-digit, Hydrologic Unit Code (HUC) catalog units that are underlain by the Marcellus Shale.</idPurp><idCredit>Scott Hoffman, GIS Specialist, US Geological Survey, Pennsylvania Water Science Center</idCredit><idStatus><ProgCd value="001"/></idStatus><idPoC><rpIndName>Scott Hoffman</rpIndName><rpOrgName>US Geological Survey, Pennsylvania Water Science Center</rpOrgName><rpPosName>GIS Specialist</rpPosName><rpCntInfo><cntPhone><voiceNum>(717) 730-6945</voiceNum><faxNum>(717) 730-6997</faxNum></cntPhone><cntAddress addressType="both"><delPoint>215 Limekiln Road</delPoint><city>New Cumberland</city><adminArea>Pennsylvania</adminArea><postCode>17070</postCode><country>US</country><eMailAdd>shoffman@usgs.gov</eMailAdd></cntAddress><cntHours>M - F 8:00 AM to 4:30 PM</cntHours></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="011"/></maintFreq></resMaint><placeKeys><thesaName><resTitle>Geographic Names Information System (GNIS)</resTitle></thesaName><keyword>New York</keyword><keyword>Delware River Basin</keyword><keyword>Pennsylvania</keyword><keyword>New Jersey</keyword></placeKeys><themeKeys><keyword>stream order</keyword><keyword>Strahler</keyword><keyword>catchment</keyword></themeKeys><searchKeys><keyword>New York</keyword><keyword>Delware River Basin</keyword><keyword>stream order</keyword><keyword>Strahler</keyword><keyword>catchment</keyword><keyword>Pennsylvania</keyword><keyword>New Jersey</keyword></searchKeys><resConst><LegConsts><othConsts>No access constraints.</othConsts></LegConsts></resConst><resConst><SecConsts><class><ClasscationCd value="001"/></class></SecConsts></resConst><resConst><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;These data can be used by any GIS or Image Processing software.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><dataLang><languageCode value="eng"/></dataLang><envirDesc>ArcGIS 9.3.1</envirDesc><suppInfo>Geospatial datasets attributed with detailed stream-order and catchment-area data form the foundation needed to identify High Value Water Resources (HVWR). Using the datasets, DRBC will be better informed as they develop protective natural gas regulations within the basin and identify HVWR areas. This scope of work is consistent with USGS federal goals of advancing the knowledge of regional hydrologic systems and processes, providing scientific technical support to regional basin commissions, and water-resources data and information for use by multiple parties for planning and operational purposes.</suppInfo></dataIdInfo><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQConcConsis"><measDesc>Polygons intersecting the neatline are closed along the border. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. Line segments are a set of sequentially numbered coordinate pairs. No duplicate features exist nor duplicate points in a data string. All nodes are represented by a single coordinate pair which indicates the beginning or end of a line segment.</measDesc></report><report type="DQCompOm"><measDesc>30-meter DEM, elevation data were used as the foundation to determine the first- and second-order catchments. Extraneous polygons were removed if they were determined to be artifacts from the GIS automated processing instead of true catchment areas related to the pour-point location.</measDesc></report><report type="DQAbsExtPosAcc" dimension="horizontal"><measDesc>The horizontal accuracy standard follows the NSSDA-1998 standard. The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</measDesc></report><dataLineage><prcStep><stepDesc>Command-line automated processing was used to generate the catchments</stepDesc></prcStep><prcStep><stepDesc>National Hydrologic Dataset (NHD) centerline-flow data from PA StreamStats used as source for Strahler stream order processing. Command-line ArcInfo was needed to run Strahler.aml. Center-line flow data was edited for consistency to remove straggler lines from braided streams. Strahler processing reference: Fast algorithm for automatically computing Strahler stream order, 1990, Lanfear, Kenneth J. water Resources Bulletin, 26: 977-981.</stepDesc></prcStep><prcStep><stepDesc>Supporting digital elevation used from the PA StreamStats GIS database: flow direction raster, flow accumulation raster; synthetic stream raster.</stepDesc><stepSrc type="used"><srcCitatn><resAltTitle>http://streamstats.usgs.gov</resAltTitle></srcCitatn></stepSrc></prcStep><prcStep><stepDesc>Basin pour points were checked for location and Strahler order number. Pour point added and/or deleted based on position on the DEM generated stream dataset. In several cases, points were added as inputs to lakes/ponds and also as outflow points to lakes/ponds. Pour points were also deleted for braided streams in selected stream channels.</stepDesc></prcStep><prcStep><stepDesc>Catchment datasets group based on HUC12 names and added into a file geodatabase.</stepDesc></prcStep><prcStep><stepDesc>Metadata created.</stepDesc></prcStep><prcStep><stepDesc>Another step in command-line processing created nodes to act as the basin delineation points for first- and second-order streams. The concept of valance is used. Valance is defined as the count of how many arcs connect to a node. A danglling node has a valance of 1, a psuedo node has valance of 2. Nodes at stream confluences are converted to points and buffered by 200 meters to create intersections when overlain with the NHD stream dataset. These points on the NHD become the pour point used in the automated basin delineation using command-line programing.</stepDesc></prcStep><dataSource><srcScale><rfDenom>24</rfDenom></srcScale></dataSource></dataLineage></dqInfo><Esri><CreaDate>20180103</CreaDate><CreaTime>11374600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><scaleRange><minScale>50000</minScale><maxScale>5000</maxScale></scaleRange><ModDate>20180103</ModDate><ModTime>11393500</ModTime><ArcGISProfile>FGDC</ArcGISProfile></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b9534030226034b0a42e94db23ea8d2b" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USGS, PA Water Science Center</origin>
+        <title>Digital Elevation Model (DEM) derived first- and second-order catchments for HUCs 02040101, 02040102, 02040103, 02040104, 02040106, 02040203</title>
+        <edition>Version 1.0</edition>
+        <geoform>vector digital data</geoform>
+        <onlink>http://pa.water.usgs.gov</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <keywords>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>New Jersey</placekey>
+        <placekey>New York</placekey>
+        <placekey>Delware River Basin</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <theme>
+        <themekey>stream order</themekey>
+        <themekey>Strahler</themekey>
+        <themekey>catchment</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>InlandWaters</themekey>
+      </theme>
+    </keywords>
+    <accconst>No access constraints.</accconst>
+    <useconst>These data can be used by any GIS or Image Processing software.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>US Geological Survey, Pennsylvania Water Science Center</cntorg>
+          <cntper>Scott Hoffman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>215 Limekiln Road</address>
+          <city>New Cumberland</city>
+          <state>Pennsylvania</state>
+          <postal>17070</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(717) 730-6945</cntvoice>
+        <cntfax>(717) 730-6997</cntfax>
+        <cntemail>shoffman@usgs.gov</cntemail>
+        <hours>M - F 8:00 AM to 4:30 PM</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Scott Hoffman, GIS Specialist, US Geological Survey, Pennsylvania Water Science Center</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>ArcGIS 9.3.1</native>
+    <descript>
+      <abstract>DRB_Catchments</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Polygons intersecting the neatline are closed along the border. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. Line segments are a set of sequentially numbered coordinate pairs. No duplicate features exist nor duplicate points in a data string. All nodes are represented by a single coordinate pair which indicates the beginning or end of a line segment.</logic>
+    <complete>30-meter DEM, elevation data were used as the foundation to determine the first- and second-order catchments. Extraneous polygons were removed if they were determined to be artifacts from the GIS automated processing instead of true catchment areas related to the pour-point location.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal accuracy standard follows the NSSDA-1998 standard. The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>24</srcscale>
+        <typesrc>None</typesrc>
+      </srcinfo>
+      <procstep>
+        <procdesc>Metadata created.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Another step in command-line processing created nodes to act as the basin delineation points for first- and second-order streams. The concept of valance is used. Valance is defined as the count of how many arcs connect to a node. A danglling node has a valance of 1, a psuedo node has valance of 2. Nodes at stream confluences are converted to points and buffered by 200 meters to create intersections when overlain with the NHD stream dataset. These points on the NHD become the pour point used in the automated basin delineation using command-line programing.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Command-line automated processing was used to generate the catchments</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>National Hydrologic Dataset (NHD) centerline-flow data from PA StreamStats used as source for Strahler stream order processing. Command-line ArcInfo was needed to run Strahler.aml. Center-line flow data was edited for consistency to remove straggler lines from braided streams. Strahler processing reference: Fast algorithm for automatically computing Strahler stream order, 1990, Lanfear, Kenneth J. water Resources Bulletin, 26: 977-981.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Basin pour points were checked for location and Strahler order number. Pour point added and/or deleted based on position on the DEM generated stream dataset. In several cases, points were added as inputs to lakes/ponds and also as outflow points to lakes/ponds. Pour points were also deleted for braided streams in selected stream channels.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Catchment datasets group based on HUC12 names and added into a file geodatabase.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Supporting digital elevation used from the PA StreamStats GIS database: flow direction raster, flow accumulation raster; synthetic stream raster.</procdesc>
+        <srcused>http://streamstats.usgs.gov</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <metainfo>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS, PaWSC</cntorg>
+          <cntper>Scott Hoffman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>215 Limekiln Road</address>
+          <city>New Cumberland</city>
+          <state>Pennsylvania</state>
+          <postal>17070</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(717) 730-6945</cntvoice>
+        <cntfax>(717) 730-6997</cntfax>
+        <cntemail>shoffman@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Scott Hoffman</rpIndName>
+    <rpOrgName>USGS, PaWSC</rpOrgName>
+    <rpPosName>GIS Specialist</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(717) 730-6945</voiceNum>
+        <faxNum>(717) 730-6997</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>215 Limekiln Road</delPoint>
+        <city>New Cumberland</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17070</postCode>
+        <country>US</country>
+        <eMailAdd>shoffman@usgs.gov</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://pa.water.usgs.gov</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Digital Elevation Model (DEM) derived first- and second-order catchments for HUCs 02040101, 02040102, 02040103, 02040104, 02040106, 02040203</resTitle>
+      <resEd>Version 1.0</resEd>
+      <citRespParty>
+        <rpOrgName>USGS, PA Water Science Center</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;A breakthrough in water resources management occurred in 1961 when President Kennedy and the governors of Delaware, New Jersey, Pennsylvania, and New York for the first time signed concurrent compact legislation into law creating a regional body with the force of law to oversee a unified approach to managing a river system without regard to political boundaries. The members of this regional body - the Delaware River Basin Commission (DRBC) - include the four basin state governors and the Division Engineer, North Atlantic Division, U.S. Army Corps of Engineers, who serves as the federal representative. Commission programs include water quality protection, water supply allocation, regulatory review (permitting), water conservation initiatives, watershed planning, drought management, flood loss reduction, and recreation. Much of the new drilling interest taking place in northeastern Pennsylvania and southern New York is targeted at reaching the natural gas found in the Marcellus Shale formation, which underlies about 36 percent of the Delaware River Basin. Because the Marcellus Shale is considered a tight geologic formation, natural gas deposits were not previously thought to be practically and economically mineable using traditional techniques. New horizontal drilling and extraction methods, coupled with higher energy costs, have given energy companies reason to take a new interest in mining the natural gas deposits within the Marcellus Shale. In connection with natural gas drilling, the commission has identified three major areas of concern: 1.Gas drilling projects in the Marcellus Shale or other formations may have a substantial effect on the water resources of the basin by reducing the flow in streams and/or aquifers used to supply the significant amounts of fresh water needed in the natural gas mining process. 2.On-site drilling operations may potentially add, discharge or cause the release of pollutants into the ground water or surface water. 3.The recovered "frac water" must be treated and disposed of properly. DRBC is identifying methods, geospatial data, and other information to support decision making on how best to oversee the Marcellus Shale drilling in the Delaware River Basin (DRB).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>To develop catchment areas for first- and second-order streams in the DRB for all 8-digit, Hydrologic Unit Code (HUC) catalog units that are underlain by the Marcellus Shale.</idPurp>
+    <idCredit>Scott Hoffman, GIS Specialist, US Geological Survey, Pennsylvania Water Science Center</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Scott Hoffman</rpIndName>
+      <rpOrgName>US Geological Survey, Pennsylvania Water Science Center</rpOrgName>
+      <rpPosName>GIS Specialist</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(717) 730-6945</voiceNum>
+          <faxNum>(717) 730-6997</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>215 Limekiln Road</delPoint>
+          <city>New Cumberland</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17070</postCode>
+          <country>US</country>
+          <eMailAdd>shoffman@usgs.gov</eMailAdd>
+        </cntAddress>
+        <cntHours>M - F 8:00 AM to 4:30 PM</cntHours>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <thesaName>
+        <resTitle>Geographic Names Information System (GNIS)</resTitle>
+      </thesaName>
+      <keyword>New York</keyword>
+      <keyword>Delware River Basin</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>New Jersey</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>stream order</keyword>
+      <keyword>Strahler</keyword>
+      <keyword>catchment</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>New York</keyword>
+      <keyword>Delware River Basin</keyword>
+      <keyword>stream order</keyword>
+      <keyword>Strahler</keyword>
+      <keyword>catchment</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>New Jersey</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <othConsts>No access constraints.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <class>
+          <ClasscationCd value="001" />
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;These data can be used by any GIS or Image Processing software.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>ArcGIS 9.3.1</envirDesc>
+    <suppInfo>Geospatial datasets attributed with detailed stream-order and catchment-area data form the foundation needed to identify High Value Water Resources (HVWR). Using the datasets, DRBC will be better informed as they develop protective natural gas regulations within the basin and identify HVWR areas. This scope of work is consistent with USGS federal goals of advancing the knowledge of regional hydrologic systems and processes, providing scientific technical support to regional basin commissions, and water-resources data and information for use by multiple parties for planning and operational purposes.</suppInfo>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Polygons intersecting the neatline are closed along the border. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. Line segments are a set of sequentially numbered coordinate pairs. No duplicate features exist nor duplicate points in a data string. All nodes are represented by a single coordinate pair which indicates the beginning or end of a line segment.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>30-meter DEM, elevation data were used as the foundation to determine the first- and second-order catchments. Extraneous polygons were removed if they were determined to be artifacts from the GIS automated processing instead of true catchment areas related to the pour-point location.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>The horizontal accuracy standard follows the NSSDA-1998 standard. The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Command-line automated processing was used to generate the catchments</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>National Hydrologic Dataset (NHD) centerline-flow data from PA StreamStats used as source for Strahler stream order processing. Command-line ArcInfo was needed to run Strahler.aml. Center-line flow data was edited for consistency to remove straggler lines from braided streams. Strahler processing reference: Fast algorithm for automatically computing Strahler stream order, 1990, Lanfear, Kenneth J. water Resources Bulletin, 26: 977-981.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Supporting digital elevation used from the PA StreamStats GIS database: flow direction raster, flow accumulation raster; synthetic stream raster.</stepDesc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>http://streamstats.usgs.gov</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Basin pour points were checked for location and Strahler order number. Pour point added and/or deleted based on position on the DEM generated stream dataset. In several cases, points were added as inputs to lakes/ponds and also as outflow points to lakes/ponds. Pour points were also deleted for braided streams in selected stream channels.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Catchment datasets group based on HUC12 names and added into a file geodatabase.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Metadata created.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Another step in command-line processing created nodes to act as the basin delineation points for first- and second-order streams. The concept of valance is used. Valance is defined as the count of how many arcs connect to a node. A danglling node has a valance of 1, a psuedo node has valance of 2. Nodes at stream confluences are converted to points and buffered by 200 meters to create intersections when overlain with the NHD stream dataset. These points on the NHD become the pour point used in the automated basin delineation using command-line programing.</stepDesc>
+      </prcStep>
+      <dataSource>
+        <srcScale>
+          <rfDenom>24</rfDenom>
+        </srcScale>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <Esri>
+    <CreaDate>20180103</CreaDate>
+    <CreaTime>11374600</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>50000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ModDate>20180103</ModDate>
+    <ModTime>11393500</ModTime>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b9534030226034b0a42e94db23ea8d2b" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 VVNHUywgUEEgV2F0ZXIgU2NpZW5jZSBDZW50ZXI8L29yaWdpbj4NCiAgICAgICAgPHRpdGxlPkRp
 Z2l0YWwgRWxldmF0aW9uIE1vZGVsIChERU0pIGRlcml2ZWQgZmlyc3QtIGFuZCBzZWNvbmQtb3Jk
@@ -164,4 +490,27 @@ bnRlbWFpbD5zaG9mZm1hbkB1c2dzLmdvdjwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQog
 ICAgPC9tZXRjPg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZCBmb3IgRGlnaXRh
 bCBHZW9zcGF0aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAgIDxtZXRzdGR2PkZHREMtU1RELTAw
 MS0xOTk4PC9tZXRzdGR2Pg0KICAgIDxtZXR0Yz5sb2NhbCB0aW1lPC9tZXR0Yz4NCiAgPC9tZXRh
-aW5mbz4NCjwvbWV0YWRhdGE+</Data></Enclosure></Binary><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo></metadata>
+aW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

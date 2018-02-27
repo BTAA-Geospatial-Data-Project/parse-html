@@ -21,18 +21,6 @@
         </lworkcit>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Abstract:City of Philadelphia coverage of all the sanitation areas containing line, point, and polygon data used by the City.Data Development:Originally created in 1993 to assist in the organization of the city's trash removal operations. This layer contains 6 different sanitation areas. Key Attribute field names and descriptions:Attribute_Label: SANAREA Attribute_Definition: Sanitation Area ID Coordinate System:Lambert Conformal Conic, NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet Thematic mapping:The field SANAREA can be used for labels. Other information:N/A</abstract>
-      <purpose>Coverage of all the sanitation areas containing line, point, and polygon data used by the City of Philadelphia.
-
-- Features updated:  02/25/2011
-- Attributes updated: 02/25/2011
-- Metadata updated:  12/26/2014
-- Update Frequency:  As Needed
-- Public = Y
-
-NOTE:  This layer is used by a ULRS Service Area.  Do not remove without permission from OIT.</purpose>
-    </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
@@ -124,6 +112,9 @@ Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov
         </pubinfo>
       </citeinfo>
     </crossref>
+    <descript>
+      <abstract>PhillyStreets_Sanitation_Areas</abstract>
+    </descript>
   </idinfo>
   <dataqual>
     <logic>None performed</logic>
@@ -312,5 +303,25 @@ Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov
     <metsi>
       <metsc>Unclassified</metsc>
     </metsi>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

@@ -1,4 +1,346 @@
-<metadata><idinfo><citation><citeinfo><origin>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</origin><pubdate>201703</pubdate><title>Explore PA Trails - Water Trails</title><geoform>vector digital data</geoform><onlink>http://www.pasda.psu.edu/</onlink></citeinfo></citation><descript><abstract>Water trails are boat routes suitable for canoes, kayaks and small motorized watercraft. Like conventional trails, water trails are recreational corridors between specific locations. Water trails are comprised of access points, boat launches, day use sites, and -- in some cases -- overnight camping areas. Each water trail is unique, a reflection of Pennsylvania's diverse geology, ecology and communities. Visit http://www.fishandboat.com/Boat/WaterTrails/Pages/default.aspxfor more information.</abstract><purpose>Allows for mapping on a statewide or regional scale of water trail extents in Pennsylvania.</purpose></descript><timeperd><timeinfo><sngdate><caldate>201703</caldate></sngdate></timeinfo><current>Downloadable data</current></timeperd><status><progress>Complete</progress><update>Quarterly</update></status><spdom><bounding><westbc>-80.611184</westbc><eastbc>-74.689450</eastbc><northbc>42.007803</northbc><southbc>39.720850</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>Water Trail, Paddling, Canoe, Kayak, Boating, Access, Inland Waters</themekey></theme></keywords><accconst>None</accconst><useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst><ptcontac><cntinfo><cntorgp><cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg><cntper>GIS Specialist</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>400 Market Street, 5th Floor, P.O. Box 8475</address><city>Harrisburg</city><state>Pennsylvania</state><postal>17105-8475</postal><country>US</country></cntaddr><cntvoice>717-787-7672</cntvoice><cntfax>717-717-9577</cntfax><cntemail>RA-explorepatrails@pa.gov</cntemail></cntinfo></ptcontac><datacred>Pennsylvania Fish and Boat Commission</datacred><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>String</sdtstype><ptvctcnt>26</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><geograph><latres>8.9831528411952133e-009</latres><longres>8.9831528411952133e-009</longres><geogunit>Decimal Degrees</geogunit></geograph><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>ExplorePAtrails_WaterTrails201703</enttypl></enttyp><attr><attrlabl>Shape_Leng</attrlabl><attrdef>Length of feature in internal units.</attrdef><attrdefs>ESRI</attrdefs></attr><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>WT_Name</attrlabl><attrdef>Water Trail Name</attrdef><attrdefs>PFBC Bureau of Boating and Education</attrdefs></attr><attr><attrlabl>PFBC_ID</attrlabl><attrdef>Water Trail Unique Identifier (for mapping purposes)</attrdef><attrdefs>PFBC Bureau of Boating and Education</attrdefs></attr><attr><attrlabl>OBJECTID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>SHAPE_LEN</attrlabl></attr></detailed></eainfo><distinfo><distliab>See access and use constraints information.</distliab><stdorder><digform><digtinfo><formname>SDE Feature Class</formname><transize>0.776</transize></digtinfo><digtopt/></digform></stdorder></distinfo><metainfo><metd>201703</metd><metc><cntinfo><cntorgp><cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg><cntper>GIS Specialist</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>400 Market Street, 5th Floor, P.O. Box 8475</address><city>Harrisburg</city><state>Pennsylvania</state><postal>17105-8475</postal><country>US</country></cntaddr><cntvoice>717-787-7672</cntvoice><cntfax>717-717-9577</cntfax><cntemail>RA-explorepatrails@pa.gov</cntemail></cntinfo></metc><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc></metainfo><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>GIS Specialist</rpIndName><rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-787-7672</voiceNum><faxNum>717-717-9577</faxNum></cntPhone><cntAddress addressType="both"><delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint><city>Harrisburg</city><adminArea>Pennsylvania</adminArea><postCode>17105-8475</postCode><country>US</country><eMailAdd>RA-explorepatrails@pa.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20170306</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorOrdPrc/><distorFormat><formatName>SDE Feature Class</formatName></distorFormat></distributor></distInfo><dataIdInfo><idCitation><resTitle>Explore PA Trails - Water Trails</resTitle><date><pubDate>2017-02-07</pubDate></date><citRespParty><rpOrgName>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>Water trails are boat routes suitable for canoes, kayaks and small motorized watercraft. Like conventional trails, water trails are recreational corridors between specific locations. Water trails are comprised of access points, boat launches, day use sites, and -- in some cases -- overnight camping areas. Each water trail is unique, a reflection of Pennsylvania's diverse geology, ecology and communities. Visit http://www.fishandboat.com/Boat/WaterTrails/Pages/default.aspxfor more information.</idAbs><idPurp>Allows for mapping on a statewide or regional scale of water trail extents in Pennsylvania.</idPurp><idCredit>Pennsylvania Fish and Boat Commission</idCredit><idStatus><ProgCd value="001"/></idStatus><idPoC><rpIndName>GIS Specialist</rpIndName><rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-787-7672</voiceNum><faxNum>717-717-9577</faxNum></cntPhone><cntAddress addressType="both"><delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint><city>Harrisburg</city><adminArea>Pennsylvania</adminArea><postCode>17105-8475</postCode><country>US</country><eMailAdd>RA-explorepatrails@pa.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="006"/></maintFreq></resMaint><themeKeys><keyword>Water Trail</keyword><keyword>Paddling</keyword><keyword>Canoe</keyword><keyword>Kayak</keyword><keyword>Boating</keyword><keyword>Access</keyword><keyword>Inland Waters</keyword></themeKeys><searchKeys><keyword>Water Trail</keyword><keyword>Paddling</keyword><keyword>Canoe</keyword><keyword>Kayak</keyword><keyword>Boating</keyword><keyword>Access</keyword><keyword>Inland Waters</keyword></searchKeys><resConst><LegConsts><useLimit>See access and use constraints information.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-80.611184</westBL><eastBL>-74.68945</eastBL><southBL>39.72085</southBL><northBL>42.007803</northBL></GeoBndBox></geoEle></dataExt><dataExt><exDesc>Downloadable data</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2017-02-07</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt></dataIdInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="002"/></geoObjTyp><geoObjCnt>26</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Esri><CreaDate>20170307</CreaDate><CreaTime>08512800</CreaTime><ArcGISFormat>1.0</ArcGISFormat></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="ca296f53c3031b5ff535a24cf19e8b03" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</origin>
+        <pubdate>201703</pubdate>
+        <title>Explore PA Trails - Water Trails</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201703</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Downloadable data</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.611184</westbc>
+        <eastbc>-74.689450</eastbc>
+        <northbc>42.007803</northbc>
+        <southbc>39.720850</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Water Trail, Paddling, Canoe, Kayak, Boating, Access, Inland Waters</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Pennsylvania Fish and Boat Commission</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <descript>
+      <abstract>ExplorePAtrails_WaterTrails201703</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>26</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ExplorePAtrails_WaterTrails201703</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WT_Name</attrlabl>
+        <attrdef>Water Trail Name</attrdef>
+        <attrdefs>PFBC Bureau of Boating and Education</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PFBC_ID</attrlabl>
+        <attrdef>Water Trail Unique Identifier (for mapping purposes)</attrdef>
+        <attrdefs>PFBC Bureau of Boating and Education</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>0.776</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201703</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>GIS Specialist</rpIndName>
+    <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-787-7672</voiceNum>
+        <faxNum>717-717-9577</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17105-8475</postCode>
+        <country>US</country>
+        <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170306</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorOrdPrc />
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Explore PA Trails - Water Trails</resTitle>
+      <date>
+        <pubDate>2017-02-07</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Water trails are boat routes suitable for canoes, kayaks and small motorized watercraft. Like conventional trails, water trails are recreational corridors between specific locations. Water trails are comprised of access points, boat launches, day use sites, and -- in some cases -- overnight camping areas. Each water trail is unique, a reflection of Pennsylvania's diverse geology, ecology and communities. Visit http://www.fishandboat.com/Boat/WaterTrails/Pages/default.aspxfor more information.</idAbs>
+    <idPurp>Allows for mapping on a statewide or regional scale of water trail extents in Pennsylvania.</idPurp>
+    <idCredit>Pennsylvania Fish and Boat Commission</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>GIS Specialist</rpIndName>
+      <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-787-7672</voiceNum>
+          <faxNum>717-717-9577</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17105-8475</postCode>
+          <country>US</country>
+          <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="006" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>Water Trail</keyword>
+      <keyword>Paddling</keyword>
+      <keyword>Canoe</keyword>
+      <keyword>Kayak</keyword>
+      <keyword>Boating</keyword>
+      <keyword>Access</keyword>
+      <keyword>Inland Waters</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Water Trail</keyword>
+      <keyword>Paddling</keyword>
+      <keyword>Canoe</keyword>
+      <keyword>Kayak</keyword>
+      <keyword>Boating</keyword>
+      <keyword>Access</keyword>
+      <keyword>Inland Waters</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>See access and use constraints information.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.611184</westBL>
+          <eastBL>-74.68945</eastBL>
+          <southBL>39.72085</southBL>
+          <northBL>42.007803</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Downloadable data</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-02-07</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="002" />
+        </geoObjTyp>
+        <geoObjCnt>26</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170307</CreaDate>
+    <CreaTime>08512800</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="ca296f53c3031b5ff535a24cf19e8b03" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 R0lTIFNwZWNpYWxpc3QsIFBlbm5zeWx2YW5pYSBEZXBhcnRtZW50IG9mIENvbnNlcnZhdGlvbiBh
 bmQgTmF0dXJhbCBSZXNvdXJjZXM8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNzAyMDc8
@@ -112,4 +454,7 @@ ZXBhdHJhaWxzQHBhLmdvdjwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAgPC9tZXRj
 Pg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZCBmb3IgRGlnaXRhbCBHZW9zcGF0
 aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAgIDxtZXRzdGR2PkZHREMtU1RELTAwMS0xOTk4PC9t
 ZXRzdGR2Pg0KICAgIDxtZXR0Yz5sb2NhbCB0aW1lPC9tZXR0Yz4NCiAgPC9tZXRhaW5mbz4NCjwv
-bWV0YWRhdGE+</Data></Enclosure></Binary></metadata>
+bWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

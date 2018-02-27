@@ -7,20 +7,6 @@
         <onlink>Server=GEODB2.phila.gov; Service=esri_sde; User=gis_streets; Version=SDE.DEFAULT</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Arcs that make up the Leaf Collection Polygon borders for the City of PhiladelphiaData Development:The leaf collection areas feature class was created by the Streets Department, originally in 2002. This layer shows areas of the city that need special leaf collection due to higher tree density. Key attribute field names and descriptions:SEG_ID: The unique identifierSCHEDULE: Mechanical service and bag drop off scheduleBD_NAME: The street nameCoordinate system:Lambert Conformal Conic, NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet Thematic mapping:The field BD_NAME can be used for labels.</abstract>
-      <purpose>To define the boundaries for Leaf Collection within the City of Philadelphia
-
-The arc layer contains street name attributes for labeling the outside of the polygons.  Certain arcs in the arc layer contain data signifying information relating it to the polygon layer. It can tell you if both sides of the arc belong to one of the bounding polygons.  All the arcs, including those with no boundary info, have naming attributes for labeling the polygon borders.  Contact the Streets GIS unit for public consumption.  
-
-Features updated:  November 2014 
-Attributes updated: November 2014
-Metadata updated:  6/5/2015 
-Update Frequency:  Yearly  
-Public = Y 
-
-NOTE:  This layer is used by a ULRS Service Area.  Do not remove without permission from OIT.  </purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.268030</westbc>
@@ -44,6 +30,9 @@ Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov
 
 </datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyStreets_Leaf_Collection_Areas_Arc</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -134,5 +123,25 @@ Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

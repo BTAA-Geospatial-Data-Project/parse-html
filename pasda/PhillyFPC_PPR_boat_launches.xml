@@ -6,16 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Abstract:Created from the sources listed below this layer displays boat launches along the two major bodies of water, the Schuylkill River and the Delaware River. These boat launched have direct access into either one of these bodies of water. Some may be private or public but are noted either way.Data Development:Points were derived from existing files from PPR information and the Access points file retrieved from the PASDA websiteCreated new attribute fields for maximum mapping opportunitiesManual data entry occuredData sources include: Philadelphia Parks and Recreation, Access points from PASDA, and also several webmaps and sites listed below:http://www.jerseymarinas.com/DelawareBoatRampMap.htmlhttp://www.phillyriverinfo.org/WICLibrary/Boating%20Website.pdfhttps://maps.google.com/maps/ms?ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=102069143696990323692.00044ad6d5d41d2acee32http://fishandboat.com/watertrails/dela_tidal/tidal_dela_sec3.pdfhttp://www.jerseymarinas.com/ramp.htmhttp://www.jerseymarinas.com/ramp.htmhttp://www.paddling.net/launches/showLaunch.html?lid=7558http://www.philacanoe.org/locations/schuylkill-river-flat-rock-parkhttp://www.boathouserow.org/http://www.phila.gov/findrec/RecCenterDetails.aspx?ID=927Key Attributes:State: either NJ or PACounty: County in which boat launch relies inName: of the boat launchLocation: potential street name or locationPhone: phone numberType: Ramp, no ramp, etc.Fees: No Fee or Fee Notes: any notes directly related to that boat launch, may say private here or extra information regarding fees, type of boat launch, etc.Park_Prop: Y or N if Philadelphia Parks and Recreaiton property or notPark: PPR property or NWater_Body: Delaware or Schuylkill RiverFishing: Y or NDock: Y or NParking: Y or NMore_info: websiteCoordinate System:Lambert Conformal Conic, NAD83, PA South Stateplane coordinates, US Foot.Thematic Mapping:If necessary use the Name field for mapping and labelingOther Information:N/A</abstract>
-      <purpose>Boat launches are areas where boats such as kayaks, canoes, and or motorboats can be launched in either the Schuylkill River or Delaware River. This layer contains areas in New Jersey as well, only if they are along the Delaware River and around the City of Philadelphia's county lines. This layer can be used for programming and inventory purposes as well. Several launches lie within the Philadelphia Parks and Recreation property but this can be determined by the attribute table information.
-
--Features updated: 7/29/2013
--Attributes updated: 7/29/2013
--Metadata updated: 7/29/2013
--Update frequency: N/A
--Public = Y</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.260551</westbc>
@@ -38,6 +28,9 @@ Nora Dougherty at Philadelphia Parks and Recreation
 nora.dougherty@phila.gov
 215-683-0235</datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyFPC_PPR_boat_launches</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -154,5 +147,25 @@ nora.dougherty@phila.gov
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

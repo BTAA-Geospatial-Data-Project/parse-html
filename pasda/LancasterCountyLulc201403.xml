@@ -1,281 +1,292 @@
 <metadata>
-	<idinfo>
-		<citation>
-			<citeinfo>
-				<title>Land Use Land Cover</title>
-				<edition>Based on 2012 aerial photos</edition>
-				<geoform>vector digital data</geoform>
-				<origin>Lancaster County GIS Department</origin><pubdate>201403</pubdate><onlink>http://www.pasda.psu.edu</onlink></citeinfo>
-		</citation>
-		<descript>
-			<abstract>Polygon coverage representing the predominant land use or land cover, as interpreted from aerial photography. Note: GDI delineated the land use boundaries using aerial photographs dated March 1993 and using a minimum mapping unit of one-half acre. Based on acquired aerial photography, subsequent updates have been made in: 1998, 2002, 2005, 2008 and 2012. ADR compiled land use polygons for all surface water features. NWI wetlands areas were identified using boundaries from a Quad-based wetland coverage; the wetland boudaries were then delineated using the aerial photography. Land uses are categorized using the Modified Anderson Level II classification system. Quality control check plots were produced at 1"=250' scale the whole county. Planning Commission staff reviewed all of the check plots and forwarded comments and corrections to GDI. GDI made some of the corrections but did not make others, claiming that they were below the half-acre minimum mapping unit limit. Planning Commission staff has also made corrections where they have been found.</abstract>
-			<purpose>Data created for Lancaster County planning. Intended for illustration and demonstration purposes only.</purpose>
-		</descript>
-		<status>
-			<progress>Complete</progress>
-			<update>Irregular</update>
-		</status>
-		<spdom>
-			<bounding>
-				<westbc>-76.727962</westbc>
-				<eastbc>-75.864937</eastbc>
-				<northbc>40.323400</northbc>
-				<southbc>39.714860</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Categories</themekt>
-				<themekey>land use</themekey>
-				<themekey>land cover</themekey>
-				<themekey>cover type</themekey>
-				<themekey>PlanningCadastre</themekey></theme>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>County of Lancaster</cntorg>
-					<cntper>IT/GIS</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>150 N. Queen St., Suite 322</address>
-					<city>Lancaster</city>
-					<state>PA</state>
-					<postal>17603</postal>
-					<country>United States</country></cntaddr>
-				<cntvoice>717-391-7550</cntvoice>
-				<cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
-		<timeperd><timeinfo><sngdate><caldate>201403</caldate></sngdate></timeinfo></timeperd></idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>GT-polygon composed of chains</sdtstype>
-				<ptvctcnt>48192</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<mapproj>
-					<mapprojn>Lambert Conformal Conic</mapprojn>
-					<lambertc>
-						<stdparll>39.93333333333333</stdparll>
-						<stdparll>40.96666666666667</stdparll>
-						<longcm>-77.75</longcm>
-						<latprjo>39.33333333333334</latprjo>
-						<feast>1968500.0</feast>
-						<fnorth>0.0</fnorth>
-					</lambertc>
-				</mapproj>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000026907964745248598</absres>
-						<ordres>0.000000026907964745248598</ordres>
-					</coordrep>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>D North American 1983</horizdn>
-				<ellips>GRS 1980</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257222101</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>LancasterCountyLULC</enttypl>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ID</attrlabl>
-				<attrdef>Modified Anderson Level II Landuse Code 111 through 770. </attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>111</edomv>
-						<edomvd>Residential less than 2 units per acre</edomvd>
-					</edom>
-					<edom>
-						<edomv>112</edomv>
-						<edomvd>Residential 2.1 - 7 units per acre </edomvd>
-					</edom>
-					<edom>
-						<edomv>113</edomv>
-						<edomvd>Residential more than 7 units per acre </edomvd>
-					</edom>
-					<edom>
-						<edomv>114</edomv>
-						<edomvd>farmsteads with outbuildings </edomvd>
-					</edom>
-					<edom>
-						<edomv>120</edomv>
-						<edomvd>Commercial and services</edomvd>
-					</edom>
-					<edom>
-						<edomv>130</edomv>
-						<edomvd>Industrial </edomvd>
-					</edom>
-					<edom>
-						<edomv>140</edomv>
-						<edomvd>Transportation and utilities </edomvd>
-					</edom>
-					<edom>
-						<edomv>150</edomv>
-						<edomvd>Industrial and commercial complexes </edomvd>
-					</edom>
-					<edom>
-						<edomv>160</edomv>
-						<edomvd>Mixed urban or build up land (urban centers)</edomvd>
-					</edom>
-					<edom>
-						<edomv>170</edomv>
-						<edomvd>other (not fitting other category or cannot be interpreted) </edomvd>
-					</edom>
-					<edom>
-						<edomv>180</edomv>
-						<edomvd>Institutional (schools, hospitals, churches) </edomvd>
-					</edom>
-					<edom>
-						<edomv>190</edomv>
-						<edomvd>Recreational (park, campground) </edomvd>
-					</edom>
-					<edom>
-						<edomv>210</edomv>
-						<edomvd>Cropland and pasture </edomvd>
-					</edom>
-					<edom>
-						<edomv>211</edomv>
-						<edomvd>Cropland </edomvd>
-					</edom>
-					<edom>
-						<edomv>212</edomv>
-						<edomvd>Pasture</edomvd>
-					</edom>
-					<edom>
-						<edomv>220</edomv>
-						<edomvd>Orchards/groves/vinyards/nurseries</edomvd>
-					</edom>
-					<edom>
-						<edomv>230</edomv>
-						<edomvd>Large confined feeding operations </edomvd>
-					</edom>
-					<edom>
-						<edomv>240</edomv>
-						<edomvd>Other agriculture</edomvd>
-					</edom>
-					<edom>
-						<edomv>310</edomv>
-						<edomvd>Herbaceous (open grassy areas with few trees or shrubs) </edomvd>
-					</edom>
-					<edom>
-						<edomv>320</edomv>
-						<edomvd>Shrub/brush </edomvd>
-					</edom>
-					<edom>
-						<edomv>330</edomv>
-						<edomvd>mixed cover </edomvd>
-					</edom>
-					<edom>
-						<edomv>410</edomv>
-						<edomvd>Deciduous forest </edomvd>
-					</edom>
-					<edom>
-						<edomv>420</edomv>
-						<edomvd>Coniferous forest</edomvd>
-					</edom>
-					<edom>
-						<edomv>430</edomv>
-						<edomvd>Mixed forest </edomvd>
-					</edom>
-					<edom>
-						<edomv>500</edomv>
-						<edomvd>Open water </edomvd>
-					</edom>
-					<edom>
-						<edomv>610</edomv>
-						<edomvd>Forested wetlands </edomvd>
-					</edom>
-					<edom>
-						<edomv>620</edomv>
-						<edomvd>Non-forested wetlands</edomvd>
-					</edom>
-					<edom>
-						<edomv>730</edomv>
-						<edomvd>Sandy non-beach </edomvd>
-					</edom>
-					<edom>
-						<edomv>740</edomv>
-						<edomvd>Rock outcrops </edomvd>
-					</edom>
-					<edom>
-						<edomv>750</edomv>
-						<edomvd>Mines, quarries, pits, junk yards, landfills </edomvd>
-					</edom>
-					<edom>
-						<edomv>760</edomv>
-						<edomvd>Transitional (under construction)</edomvd>
-					</edom>
-					<edom>
-						<edomv>770</edomv>
-						<edomvd>Mixed barren and vegetated (basic disturbed class)</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NWI_CLASS</attrlabl>
-				<attrdef>National Wetlands Inventory Classification</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>FLAG</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>COMMENTS</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>SHAPE</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Editor</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>Edit_Date</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>SHAPE_area</attrlabl>
-				<attrdef>Area of feature in internal units squared.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Positive real numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SHAPE_len</attrlabl>
-			</attr>
-		</detailed>
-		<overview>
-			<eaover>DESCRIPTION OF LAND USE/LAND COVER INTERPRETATION CODES
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Land Use Land Cover</title>
+        <edition>Based on 2012 aerial photos</edition>
+        <geoform>vector digital data</geoform>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>201403</pubdate>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.727962</westbc>
+        <eastbc>-75.864937</eastbc>
+        <northbc>40.323400</northbc>
+        <southbc>39.714860</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>land use</themekey>
+        <themekey>land cover</themekey>
+        <themekey>cover type</themekey>
+        <themekey>PlanningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201403</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <descript>
+      <abstract>LancasterCountyLulc201403</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>48192</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LancasterCountyLULC</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Modified Anderson Level II Landuse Code 111 through 770. </attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>111</edomv>
+            <edomvd>Residential less than 2 units per acre</edomvd>
+          </edom>
+          <edom>
+            <edomv>112</edomv>
+            <edomvd>Residential 2.1 - 7 units per acre </edomvd>
+          </edom>
+          <edom>
+            <edomv>113</edomv>
+            <edomvd>Residential more than 7 units per acre </edomvd>
+          </edom>
+          <edom>
+            <edomv>114</edomv>
+            <edomvd>farmsteads with outbuildings </edomvd>
+          </edom>
+          <edom>
+            <edomv>120</edomv>
+            <edomvd>Commercial and services</edomvd>
+          </edom>
+          <edom>
+            <edomv>130</edomv>
+            <edomvd>Industrial </edomvd>
+          </edom>
+          <edom>
+            <edomv>140</edomv>
+            <edomvd>Transportation and utilities </edomvd>
+          </edom>
+          <edom>
+            <edomv>150</edomv>
+            <edomvd>Industrial and commercial complexes </edomvd>
+          </edom>
+          <edom>
+            <edomv>160</edomv>
+            <edomvd>Mixed urban or build up land (urban centers)</edomvd>
+          </edom>
+          <edom>
+            <edomv>170</edomv>
+            <edomvd>other (not fitting other category or cannot be interpreted) </edomvd>
+          </edom>
+          <edom>
+            <edomv>180</edomv>
+            <edomvd>Institutional (schools, hospitals, churches) </edomvd>
+          </edom>
+          <edom>
+            <edomv>190</edomv>
+            <edomvd>Recreational (park, campground) </edomvd>
+          </edom>
+          <edom>
+            <edomv>210</edomv>
+            <edomvd>Cropland and pasture </edomvd>
+          </edom>
+          <edom>
+            <edomv>211</edomv>
+            <edomvd>Cropland </edomvd>
+          </edom>
+          <edom>
+            <edomv>212</edomv>
+            <edomvd>Pasture</edomvd>
+          </edom>
+          <edom>
+            <edomv>220</edomv>
+            <edomvd>Orchards/groves/vinyards/nurseries</edomvd>
+          </edom>
+          <edom>
+            <edomv>230</edomv>
+            <edomvd>Large confined feeding operations </edomvd>
+          </edom>
+          <edom>
+            <edomv>240</edomv>
+            <edomvd>Other agriculture</edomvd>
+          </edom>
+          <edom>
+            <edomv>310</edomv>
+            <edomvd>Herbaceous (open grassy areas with few trees or shrubs) </edomvd>
+          </edom>
+          <edom>
+            <edomv>320</edomv>
+            <edomvd>Shrub/brush </edomvd>
+          </edom>
+          <edom>
+            <edomv>330</edomv>
+            <edomvd>mixed cover </edomvd>
+          </edom>
+          <edom>
+            <edomv>410</edomv>
+            <edomvd>Deciduous forest </edomvd>
+          </edom>
+          <edom>
+            <edomv>420</edomv>
+            <edomvd>Coniferous forest</edomvd>
+          </edom>
+          <edom>
+            <edomv>430</edomv>
+            <edomvd>Mixed forest </edomvd>
+          </edom>
+          <edom>
+            <edomv>500</edomv>
+            <edomvd>Open water </edomvd>
+          </edom>
+          <edom>
+            <edomv>610</edomv>
+            <edomvd>Forested wetlands </edomvd>
+          </edom>
+          <edom>
+            <edomv>620</edomv>
+            <edomvd>Non-forested wetlands</edomvd>
+          </edom>
+          <edom>
+            <edomv>730</edomv>
+            <edomvd>Sandy non-beach </edomvd>
+          </edom>
+          <edom>
+            <edomv>740</edomv>
+            <edomvd>Rock outcrops </edomvd>
+          </edom>
+          <edom>
+            <edomv>750</edomv>
+            <edomvd>Mines, quarries, pits, junk yards, landfills </edomvd>
+          </edom>
+          <edom>
+            <edomv>760</edomv>
+            <edomvd>Transitional (under construction)</edomvd>
+          </edom>
+          <edom>
+            <edomv>770</edomv>
+            <edomvd>Mixed barren and vegetated (basic disturbed class)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWI_CLASS</attrlabl>
+        <attrdef>National Wetlands Inventory Classification</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FLAG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Editor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Edit_Date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_len</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>DESCRIPTION OF LAND USE/LAND COVER INTERPRETATION CODES
 Land Use Codes:
 ID, 100 Level (Residential)
 ID, 200+ Levels (Other)
@@ -661,25 +672,62 @@ Source  1 = ADR
 3 = GDI
 4 = TNC 
 </eaover>
-			<eadetcit>Lancaster County GIS </eadetcit>
-		</overview>
-	</eainfo>
-	<distinfo>
-		<distliab>See access and use constraints information.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>SDE Feature Class</formname>
-				</digtinfo>
-				<digtopt/>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20140318</metd>
-		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metc><cntinfo><cntorgp><cntorg>County of Lancaster</cntorg><cntper>IT/GIS</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>150 N. Queen St., Suite 322</address><city>Lancaster</city><state>PA</state><postal>17603</postal><country>United States</country></cntaddr><cntvoice>717-391-7550</cntvoice><cntemail>ithelpdesk@co.lancaster.pa.us</cntemail></cntinfo></metc></metainfo>
-	<distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+      <eadetcit>Lancaster County GIS </eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140318</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

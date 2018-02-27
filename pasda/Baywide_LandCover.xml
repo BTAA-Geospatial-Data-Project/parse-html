@@ -1,4 +1,4 @@
-﻿<metadata>
+<metadata>
   <idinfo>
     <citation>
       <citeinfo>
@@ -6,10 +6,6 @@
         <geoform>raster digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>The Bay-wide Land Cover Dataset has 6 classes: 1 - Water: All areas of open water. This includes ponds, rivers, lakes and boats not attached to docks. 2 - Tree Canopy &amp;amp; Shrubland: Deciduous and evergreen woody vegetation of either natural succession or human planting. Stand-alone individuals, discrete clumps, and interlocking individuals are included. 3 - Herbaceous: Plant material less than approximately 2 meters in height. Includes wetlands, lawns, cropland, pasture, nursery plantings with or without tarp cover and natural ground cover. 4 - Barren: Areas void of vegetation consisting of natural earthen material regardless of how it has been cleared. This includes beaches, mud flats, and bare ground in construction sites. 5 - Impervious (other): Human-constructed surfaces through which water cannot penetrate, including structures, parking lots, and sidewalks. 6 - Impervious (roads): Impervious surfaces that are used and maintained for transportation. </abstract>
-      <purpose>This land cover dataset has been paid for by the Chesapeake Bay Program Partnership. University of Vermont Spatial Analysis Laboratory (https://www.uvm.edu/rsenr/sal/) mapped Pennsylvania and Delaware; Chesapeake Conservancy (http://chesapeakeconservancy.org/) mapped Maryland, New York, Washington D.C., and West Virginia; WorldView Solutions Inc. (http://worldviewsolutions.com/) mapped Virginia. Data represents a 2013-2014 snapshot of on-the-ground conditions as captured in USDA National Agricultural Inventory Program imagery. Original class definitions varied across the watershed; this dataset represents common classes among all contractors.</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-81.146584</westbc>
@@ -28,6 +24,9 @@
     <useconst>None</useconst>
     <datacred>Chesapeake Bay Program Partnership; University of Vermont Spatial Analysis Laboratory; Chesapeake Conservancy; WorldView Solutions Inc.; Land Cover</datacred>
     <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    <descript>
+      <abstract>Baywide_LandCover</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Raster</direct>

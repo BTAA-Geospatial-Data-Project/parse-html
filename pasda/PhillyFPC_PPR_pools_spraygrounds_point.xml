@@ -7,16 +7,6 @@
         <onlink>file://\\Fpcaddc1\GIS Home\GIS_DATA\Recreation\Amenities\Pools_2010.shp</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>Abstract:This point layer file contains pools and spray grounds owned and maintained by the Philadelphia Parks and Recreation deapartment. This layer includes indoor and outdoor pools. Spray grounds which are included are separate from spray pools. Spray grounds are considered a more elaborate feature from spray pools.Data Development:Merged PPR_Spray_Grounds and Pools_2010Cleaned up attributes and fields from the merge; added several fields to include a linkContained the spray ground locations from the departmentData sources include Parks and Recreation knowledge of areasKey Attributes:Facility: The park or recreation center which the spray ground or pool lies withinAddress: The address of the park or recreation center which the spray ground or pool lies withinZipcode: Zipcode which the facility lies withinLink: The web source link that connects to the particular facility webpage via the Parks and Recreation webpageCoordinate System:Lambert Conformal Conic, NAD83, PA South Stateplane coordinates, US Foot.Thematic Mapping:If necessary use the Facility field for mapping and labelingOther Information</abstract>
-      <purpose>This layer contains the installed pools and spray grounds that are owned or maintained by Phildelphia's park system. This layer was created to be used for the Philadelphia Parks and Recreation website. http://www.phila.gov/parksandrecreation/Pages/default.aspx
-
--Features updated: 12/19/2012
--Attributes updated: 12/18/2012
--Metadata updated: 5/1/2015
--Update frequency: N/A
--Public = Y</purpose>
-    </descript>
     <spdom>
       <bounding>
         <westbc>-75.240325</westbc>
@@ -39,6 +29,9 @@ Nora Dougherty at Philadelphia Parks and Recreation
 nora.dougherty@phila.gov
 215-683-0235</datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyFPC_PPR_pools_spraygrounds_point</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>
@@ -125,5 +118,25 @@ nora.dougherty@phila.gov
     <metd>20160524</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
-  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>

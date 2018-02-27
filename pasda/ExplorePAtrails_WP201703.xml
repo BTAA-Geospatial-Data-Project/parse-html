@@ -1,4 +1,444 @@
-<metadata><idinfo><citation><citeinfo><origin>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</origin><pubdate>201703</pubdate><title>Explore PA Trails - Trails WP</title><geoform>vector digital data</geoform><onlink>http://www.pasda.psu.edu/</onlink></citeinfo></citation><descript><abstract>This feature class contains points associated with the line feature class for trails in the state of Pennsylvania, as prepared by the PA DCNR, Rails-to-Trails Conservancy, PA Fish and Boat Commission, and Keystone Trails Association. The majority of the data was collected using GPS units and checked for quality and accuracy against high-resolution aerial imagery. See Method. Data was collected between November 2007 and October 2009. See Subtype Code for point type. Trail updates are submitted by users through explorepatrails.com and are evaluated and updated on a regular basis.</abstract><purpose>Developed for Pennsylvania Dept. of Conservation and Natural Resources and www.ExplorePAtrails.com.</purpose></descript><status><progress>In work</progress><update>Quarterly</update></status><spdom><bounding><westbc>-80.519124</westbc><eastbc>-74.699511</eastbc><northbc>42.163250</northbc><southbc>39.649424</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>location</themekey></theme><theme><themekt>None</themekt><themekey>rail-trails</themekey><themekey>hiking trails</themekey><themekey>water trails</themekey><themekey>bike trails</themekey><themekey>state park trails</themekey><themekey>state forest trails</themekey><themekey>multi-use paths</themekey></theme></keywords><accconst>None</accconst><useconst>For use by Pennsylvania Dept. of Conservation and Natural Resource.</useconst><ptcontac><cntinfo><cntorgp><cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg><cntper>GIS Specialist</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>400 Market Street, 5th Floor, P.O. Box 8475</address><city>Harrisburg</city><state>Pennsylvania</state><postal>17105-8475</postal><country>US</country></cntaddr><cntvoice>717-787-7672</cntvoice><cntfax>717-717-9577</cntfax><cntemail>RA-explorepatrails@pa.gov</cntemail></cntinfo></ptcontac><ptcontac><cntinfo><cntorgp><cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg><cntper>GIS Specialist</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>400 Market Street, 5th Floor, P.O. Box 8475</address><city>Harrisburg</city><state>Pennsylvania</state><postal>17105-8475</postal><country>US</country></cntaddr><cntvoice>717-787-7672</cntvoice><cntfax>717-717-9577</cntfax><cntemail>RA-explorepatrails@pa.gov</cntemail></cntinfo></ptcontac><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native><timeperd><timeinfo><sngdate><caldate>201703</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>Entity point</sdtstype><ptvctcnt>3030</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><geograph><latres>8.9831528411952133e-009</latres><longres>8.9831528411952133e-009</longres><geogunit>Decimal Degrees</geogunit></geograph><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>ExplorePAtrails_WP201703</enttypl></enttyp><attr><attrlabl>OBJECTID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>NAME01</attrlabl><attrdef>Trail Name</attrdef></attr><attr><attrlabl>NAME02</attrlabl></attr><attr><attrlabl>NAME03</attrlabl></attr><attr><attrlabl>COUNTY</attrlabl><attrdef>County</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>ADA_ACCESS</attrlabl><attrdef>Wheelchair access, 1= yes, 2 = no</attrdef><attrdomv><edom><edomv>1</edomv><edomvd>Yes</edomvd></edom><edom><edomv>2</edomv><edomvd>No</edomvd></edom></attrdomv></attr><attr><attrlabl>UPDATE_</attrlabl></attr><attr><attrlabl>COMMENTS</attrlabl></attr><attr><attrlabl>ACCT_ID</attrlabl></attr><attr><attrlabl>TRAILID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>Longitude</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>SUBTYPE_CO</attrlabl></attr><attr><attrlabl>Latitude</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr></detailed></eainfo><distinfo><distliab>See access and use constraints information.</distliab><stdorder><digform><digtinfo><formname>SDE Feature Class</formname></digtinfo><digtopt/></digform></stdorder></distinfo><metainfo><metd>201703</metd><metc><cntinfo><cntorgp><cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg><cntper>GIS Specialist</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>400 Market Street, 5th Floor, P.O. Box 8475</address><city>Harrisburg</city><state>Pennsylvania</state><postal>17105-8475</postal><country>US</country></cntaddr><cntvoice>717-787-7672</cntvoice><cntfax>717-717-9577</cntfax><cntemail>RA-explorepatrails@pa.gov</cntemail></cntinfo></metc><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc></metainfo><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>GIS Specialist</rpIndName><rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-787-7672</voiceNum><faxNum>717-717-9577</faxNum></cntPhone><cntAddress addressType="both"><delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint><city>Harrisburg</city><adminArea>Pennsylvania</adminArea><postCode>17105-8475</postCode><country>US</country><eMailAdd>RA-explorepatrails@pa.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20170306</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorOrdPrc/><distorFormat><formatName>SDE Feature Class</formatName></distorFormat></distributor></distInfo><dataIdInfo><idCitation><resTitle>Explore PA Trails - Trails WP</resTitle><date><pubDate>2017-02-27</pubDate></date><citRespParty><rpOrgName>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>This feature class contains points associated with the line feature class for trails in the state of Pennsylvania, as prepared by the PA DCNR, Rails-to-Trails Conservancy, PA Fish and Boat Commission, and Keystone Trails Association. The majority of the data was collected using GPS units and checked for quality and accuracy against high-resolution aerial imagery. See Method. Data was collected between November 2007 and October 2009. See Subtype Code for point type. Trail updates are submitted by users through explorepatrails.com and are evaluated and updated on a regular basis.</idAbs><idPurp>Developed for Pennsylvania Dept. of Conservation and Natural Resources and www.ExplorePAtrails.com.</idPurp><idStatus><ProgCd value="007"/></idStatus><idPoC><rpIndName>GIS Specialist</rpIndName><rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-787-7672</voiceNum><faxNum>717-717-9577</faxNum></cntPhone><cntAddress addressType="both"><delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint><city>Harrisburg</city><adminArea>Pennsylvania</adminArea><postCode>17105-8475</postCode><country>US</country><eMailAdd>RA-explorepatrails@pa.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><idPoC><rpIndName>GIS Specialist</rpIndName><rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-787-7672</voiceNum><faxNum>717-717-9577</faxNum></cntPhone><cntAddress addressType="both"><delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint><city>Harrisburg</city><adminArea>Pennsylvania</adminArea><postCode>17105-8475</postCode><country>US</country><eMailAdd>RA-explorepatrails@pa.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="006"/></maintFreq></resMaint><themeKeys><keyword>location</keyword><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName></themeKeys><themeKeys><keyword>bike trails</keyword><keyword>state forest trails</keyword><keyword>water trails</keyword><keyword>hiking trails</keyword><keyword>multi-use paths</keyword><keyword>rail-trails</keyword><keyword>state park trails</keyword></themeKeys><searchKeys><keyword>location</keyword><keyword>bike trails</keyword><keyword>state forest trails</keyword><keyword>water trails</keyword><keyword>hiking trails</keyword><keyword>multi-use paths</keyword><keyword>rail-trails</keyword><keyword>state park trails</keyword></searchKeys><resConst><LegConsts><useLimit>See access and use constraints information.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>For use by Pennsylvania Dept. of Conservation and Natural Resource.</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="018"/></tpCat><tpCat><TopicCatCd value="013"/></tpCat><envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-80.519124</westBL><eastBL>-74.699511</eastBL><southBL>39.649424</southBL><northBL>42.16325</northBL></GeoBndBox></geoEle></dataExt></dataIdInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="004"/></geoObjTyp><geoObjCnt>3030</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Esri><CreaDate>20170307</CreaDate><CreaTime>08521800</CreaTime><ArcGISFormat>1.0</ArcGISFormat></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="c47ab6e2113c690e94c502ac9aab78d8" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</origin>
+        <pubdate>201703</pubdate>
+        <title>Explore PA Trails - Trails WP</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <progress>In work</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.519124</westbc>
+        <eastbc>-74.699511</eastbc>
+        <northbc>42.163250</northbc>
+        <southbc>39.649424</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>location</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>rail-trails</themekey>
+        <themekey>hiking trails</themekey>
+        <themekey>water trails</themekey>
+        <themekey>bike trails</themekey>
+        <themekey>state park trails</themekey>
+        <themekey>state forest trails</themekey>
+        <themekey>multi-use paths</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>For use by Pennsylvania Dept. of Conservation and Natural Resource.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201703</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <descript>
+      <abstract>ExplorePAtrails_WP201703</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>3030</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ExplorePAtrails_WP201703</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME01</attrlabl>
+        <attrdef>Trail Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NAME02</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME03</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADA_ACCESS</attrlabl>
+        <attrdef>Wheelchair access, 1= yes, 2 = no</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UPDATE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACCT_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TRAILID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUBTYPE_CO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201703</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>GIS Specialist</rpIndName>
+    <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-787-7672</voiceNum>
+        <faxNum>717-717-9577</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17105-8475</postCode>
+        <country>US</country>
+        <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170306</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorOrdPrc />
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Explore PA Trails - Trails WP</resTitle>
+      <date>
+        <pubDate>2017-02-27</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>This feature class contains points associated with the line feature class for trails in the state of Pennsylvania, as prepared by the PA DCNR, Rails-to-Trails Conservancy, PA Fish and Boat Commission, and Keystone Trails Association. The majority of the data was collected using GPS units and checked for quality and accuracy against high-resolution aerial imagery. See Method. Data was collected between November 2007 and October 2009. See Subtype Code for point type. Trail updates are submitted by users through explorepatrails.com and are evaluated and updated on a regular basis.</idAbs>
+    <idPurp>Developed for Pennsylvania Dept. of Conservation and Natural Resources and www.ExplorePAtrails.com.</idPurp>
+    <idStatus>
+      <ProgCd value="007" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>GIS Specialist</rpIndName>
+      <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-787-7672</voiceNum>
+          <faxNum>717-717-9577</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17105-8475</postCode>
+          <country>US</country>
+          <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>GIS Specialist</rpIndName>
+      <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-787-7672</voiceNum>
+          <faxNum>717-717-9577</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17105-8475</postCode>
+          <country>US</country>
+          <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="006" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>location</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <themeKeys>
+      <keyword>bike trails</keyword>
+      <keyword>state forest trails</keyword>
+      <keyword>water trails</keyword>
+      <keyword>hiking trails</keyword>
+      <keyword>multi-use paths</keyword>
+      <keyword>rail-trails</keyword>
+      <keyword>state park trails</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>location</keyword>
+      <keyword>bike trails</keyword>
+      <keyword>state forest trails</keyword>
+      <keyword>water trails</keyword>
+      <keyword>hiking trails</keyword>
+      <keyword>multi-use paths</keyword>
+      <keyword>rail-trails</keyword>
+      <keyword>state park trails</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>See access and use constraints information.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>For use by Pennsylvania Dept. of Conservation and Natural Resource.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="018" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="013" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.519124</westBL>
+          <eastBL>-74.699511</eastBL>
+          <southBL>39.649424</southBL>
+          <northBL>42.16325</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="004" />
+        </geoObjTyp>
+        <geoObjCnt>3030</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170307</CreaDate>
+    <CreaTime>08521800</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="c47ab6e2113c690e94c502ac9aab78d8" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
 R0lTIFNwZWNpYWxpc3QsIFBlbm5zeWx2YW5pYSBEZXBhcnRtZW50IG9mIENvbnNlcnZhdGlvbiBh
 bmQgTmF0dXJhbCBSZXNvdXJjZXM8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNzAyMjc8
@@ -144,4 +584,7 @@ eHBsb3JlcGF0cmFpbHNAcGEuZ292PC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8
 L21ldGM+DQogICAgPG1ldHN0ZG4+RkdEQyBDb250ZW50IFN0YW5kYXJkIGZvciBEaWdpdGFsIEdl
 b3NwYXRpYWwgTWV0YWRhdGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5
 OTg8L21ldHN0ZHY+DQogICAgPG1ldHRjPmxvY2FsIHRpbWU8L21ldHRjPg0KICA8L21ldGFpbmZv
-Pg0KPC9tZXRhZGF0YT4=</Data></Enclosure></Binary></metadata>
+Pg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

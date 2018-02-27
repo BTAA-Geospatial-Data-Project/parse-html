@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <idinfo>
     <citation>
@@ -6,7 +6,7 @@
         <origin>Federal Emergency Management Agency</origin>
         <pubdate>20170614</pubdate>
         <title>National Flood Hazard Layer (NFHL)</title>
-	<edition>Version 1.1.1.0</edition>
+        <edition>Version 1.1.1.0</edition>
         <geoform>FEMA-NFHL</geoform>
         <pubinfo>
           <pubplace>Washington, D.C.</pubplace>
@@ -15,16 +15,6 @@
         <onlink>https://msc.fema.gov</onlink>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>The National Flood Hazard Layer (NFHL) data incorporates all Flood Insurance Rate Map (FIRM) databases published by the Federal Emergency Management Agency (FEMA), and any Letters of Map Revision (LOMRs) that have been issued against those databases since their publication date. It is updated on a monthly basis. The FIRM Database is the digital, geospatial version of the flood hazard information shown on the published paper FIRMs.  
-
-The FIRM Database depicts flood risk information and supporting data used to develop the risk data. The primary risk classifications used are the 1-percent-annual-chance flood event, the 0.2-percent-annual-chance flood event, and areas of minimal flood risk. The FIRM Database is derived from Flood Insurance Studies (FISs), previously published FIRMs, flood hazard analyses performed in support of the FISs and FIRMs, and new mapping data, where available. The FISs and FIRMs are published by FEMA.
-
-The NFHL is available as State or US Territory data sets.  Each State or Territory data set consists of all FIRM Databases and corresponding LOMRs available on the publication date of the data set. 
-
-The specification for the horizontal control of FIRM Databases is consistent with those required for mapping at a scale of 1:12,000. This file is georeferenced to the Earth's surface using the Geographic Coordinate System (GCS) and North American Datum of 1983.</abstract>
-      <purpose>The FIRM is the basis for floodplain management, mitigation, and insurance activities for the National Flood Insurance Program (NFIP). Insurance applications include enforcement of the mandatory purchase requirement of the Flood Disaster Protection Act, which "... requires the purchase of flood insurance by property owners who are being assisted by Federal programs or by Federally supervised, regulated or insured agencies or institutions in the acquisition or improvement of land facilities located or to be located in identified areas having special flood hazards, " Section 2 (b) (4) of the Flood Disaster Protection Act of 1973. In addition to the identification of Special Flood Hazard Areas (SFHAs), the risk zones shown on the FIRMs are the basis for the establishment of premium rates for flood coverage offered through the NFIP. The FIRM Database presents the flood risk information depicted on the FIRM in a digital format suitable for use in electronic mapping applications. The FIRM Database  serves to archive the information collected during the Flood Risk Project.</purpose>
-    </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
@@ -47,10 +37,10 @@ The specification for the horizontal control of FIRM Databases is consistent wit
     </spdom>
     <keywords>
       <theme>
-	<themekt>NGDA Portfolio Themes</themekt>
+        <themekt>NGDA Portfolio Themes</themekt>
         <themekey>NGDA</themekey>
-	<themekey>National Geospatial Data Asset</themekey>
-	<themekey>Elevation Theme</themekey>
+        <themekey>National Geospatial Data Asset</themekey>
+        <themekey>Elevation Theme</themekey>
       </theme>
       <theme>
         <themekt>ISO 19115 Topic Category</themekt>
@@ -161,6 +151,9 @@ The specification for the horizontal control of FIRM Databases is consistent wit
       </cntinfo>
     </ptcontac>
     <native>Original data development environment may vary.  Finishing of the data is done using Esri's ArcGIS software.  The geodatabase was created using ArcGIS version 10.1.</native>
+    <descript>
+      <abstract>FEMA_NFHL_36_NY_20170614</abstract>
+    </descript>
   </idinfo>
   <dataqual>
     <attracc>
@@ -183,7 +176,6 @@ The reliability of the floodplain boundary delineation is quantified by comparin
       </vertacc>
     </posacc>
     <lineage>
-
       <procstep>
         <procdesc>The NFHL dataset is a compilation of effective FIRM Databases (a collection of the digital data that are used in GIS systems for creating new Flood Insurance Rate Maps) and Letters of Map Change (Letters of Map Amendment and Letters of Map Revision only) that create a seamless GIS data layer for a State or Territory. It is updated on a monthly basis. 
 
@@ -539,6 +531,25 @@ The FIRM Databases are compiled in conjunction with the hardcopy FIRMs and the f
       <onlink>http://www.epsg.org</onlink>
       <metprof>FEMA NFIP Metadata Content and Format Standard</metprof>
     </metextns>
-  </metainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
 </metadata>
-

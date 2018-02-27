@@ -1,4 +1,654 @@
-<metadata><idinfo><citation><citeinfo><title>Lancaster County Municipal Boundaries</title><geoform>vector digital data</geoform><origin>Lancaster County GIS Department</origin><pubdate>201712</pubdate><onlink>http://www.pasda.psu.edu</onlink></citeinfo></citation><descript><abstract>Polygon layer representing the Lancaster County municipal boundaries</abstract><purpose>Data created for Lancaster County Information Technology/GIS. Intended for illustration and demonstration purposes only.</purpose></descript><status><update>As needed</update></status><spdom><bounding><westbc>-76.726688</westbc><eastbc>-75.867953</eastbc><northbc>40.322298</northbc><southbc>39.715983</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>Municipal boundaries</themekey><themekey>Township</themekey><themekey>Borough</themekey><themekey>Municipality</themekey><themekey>planningCadastre</themekey></theme></keywords><accconst>None</accconst><useconst>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst><ptcontac><cntinfo><cntorgp><cntorg>County of Lancaster</cntorg><cntper>IT/GIS</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>150 N. Queen St. </address><city>Lancaster</city><state>PA</state><postal>17603</postal><country>United States</country></cntaddr><cntvoice>717-391-7550</cntvoice><cntemail>ithelpdesk@co.lancaster.pa.us</cntemail></cntinfo></ptcontac><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native><timeperd><timeinfo><sngdate><caldate>201712</caldate></sngdate></timeinfo></timeperd></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>GT-polygon composed of chains</sdtstype><ptvctcnt>78</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><mapproj><mapprojn>Lambert Conformal Conic</mapprojn><lambertc><stdparll>39.93333333333333</stdparll><stdparll>40.96666666666667</stdparll><longcm>-77.75</longcm><latprjo>39.33333333333334</latprjo><feast>1968500.0</feast><fnorth>0.0</fnorth></lambertc></mapproj><planci><plance>coordinate pair</plance><coordrep><absres>0.000000026907964745248598</absres><ordres>0.000000026907964745248598</ordres></coordrep></planci></planar><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>Lancaster County Municipal Boundaries</enttypl><enttypd>Attribute table for Parcels</enttypd></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>MUNICIPALI</attrlabl></attr><attr><attrlabl>ABBREVIATI</attrlabl></attr><attr><attrlabl>SHAPE_LENG</attrlabl></attr><attr><attrlabl>DISTRICT</attrlabl><attrdef>Municipal district number </attrdef><attrdomv><edom><edomv>010</edomv><edomvd>Adamstown</edomvd></edom><edom><edomv>020</edomv><edomvd>Akron</edomvd></edom><edom><edomv>030</edomv><edomvd>Bart</edomvd></edom><edom><edomv>040</edomv><edomvd>Brecknock</edomvd></edom><edom><edomv>050</edomv><edomvd>Caernarvon</edomvd></edom><edom><edomv>060</edomv><edomvd>Christiana</edomvd></edom><edom><edomv>070</edomv><edomvd>Clay</edomvd></edom><edom><edomv>080</edomv><edomvd>East Cocalico</edomvd></edom><edom><edomv>090</edomv><edomvd>West Cocalico</edomvd></edom><edom><edomv>091</edomv><edomvd>West Cocalico</edomvd></edom><edom><edomv>100</edomv><edomvd>Colerain</edomvd></edom><edom><edomv>110</edomv><edomvd>Columbia</edomvd></edom><edom><edomv>120</edomv><edomvd>Conestoga</edomvd></edom><edom><edomv>130</edomv><edomvd>Conoy</edomvd></edom><edom><edomv>140</edomv><edomvd>Denver</edomvd></edom><edom><edomv>150</edomv><edomvd>East Donegal</edomvd></edom><edom><edomv>160</edomv><edomvd>West Donegal</edomvd></edom><edom><edomv>170</edomv><edomvd>Drumore</edomvd></edom><edom><edomv>180</edomv><edomvd>East Drumore</edomvd></edom><edom><edomv>190</edomv><edomvd>Earl</edomvd></edom><edom><edomv>200</edomv><edomvd>East Earl</edomvd></edom><edom><edomv>210</edomv><edomvd>West Earl</edomvd></edom><edom><edomv>220</edomv><edomvd>East Petersburg</edomvd></edom><edom><edomv>230</edomv><edomvd>Eden</edomvd></edom><edom><edomv>240</edomv><edomvd>Elizabeth</edomvd></edom><edom><edomv>250</edomv><edomvd>Elizabethtown</edomvd></edom><edom><edomv>260</edomv><edomvd>Ephrata Borough</edomvd></edom><edom><edomv>270</edomv><edomvd>Ephrata Township</edomvd></edom><edom><edomv>280</edomv><edomvd>Fulton</edomvd></edom><edom><edomv>290</edomv><edomvd>East Hempfield</edomvd></edom><edom><edomv>300</edomv><edomvd>West Hempfield</edomvd></edom><edom><edomv>310</edomv><edomvd>East Lampeter</edomvd></edom><edom><edomv>320</edomv><edomvd>West Lampeter</edomvd></edom><edom><edomv>330</edomv><edomvd>City of Lancaster</edomvd></edom><edom><edomv>340</edomv><edomvd>Lancaster Township</edomvd></edom><edom><edomv>350</edomv><edomvd>Leacock</edomvd></edom><edom><edomv>360</edomv><edomvd>Upper Leacock</edomvd></edom><edom><edomv>370</edomv><edomvd>Lititz</edomvd></edom><edom><edomv>380</edomv><edomvd>Little Britain</edomvd></edom><edom><edomv>390</edomv><edomvd>Manheim Towship</edomvd></edom><edom><edomv>400</edomv><edomvd>Manheim Borough</edomvd></edom><edom><edomv>410</edomv><edomvd>Manor</edomvd></edom><edom><edomv>420</edomv><edomvd>Marietta</edomvd></edom><edom><edomv>430</edomv><edomvd>Martic</edomvd></edom><edom><edomv>440</edomv><edomvd>Millersville</edomvd></edom><edom><edomv>450</edomv><edomvd>Mount Joy Borough</edomvd></edom><edom><edomv>460</edomv><edomvd>Mount Joy Township</edomvd></edom><edom><edomv>470</edomv><edomvd>Mountville</edomvd></edom><edom><edomv>480</edomv><edomvd>New Holland</edomvd></edom><edom><edomv>490</edomv><edomvd>Paradise</edomvd></edom><edom><edomv>500</edomv><edomvd>Penn</edomvd></edom><edom><edomv>510</edomv><edomvd>Pequea</edomvd></edom><edom><edomv>520</edomv><edomvd>Providence</edomvd></edom><edom><edomv>530</edomv><edomvd>Quarryville</edomvd></edom><edom><edomv>540</edomv><edomvd>Rapho</edomvd></edom><edom><edomv>550</edomv><edomvd>Sadsbury</edomvd></edom><edom><edomv>560</edomv><edomvd>Salisbury</edomvd></edom><edom><edomv>570</edomv><edomvd>Strasburg Borough</edomvd></edom><edom><edomv>580</edomv><edomvd>Strasburg Township</edomvd></edom><edom><edomv>590</edomv><edomvd>Terre Hill</edomvd></edom><edom><edomv>600</edomv><edomvd>Warwick</edomvd></edom></attrdomv></attr><attr><attrlabl>SHAPE_area</attrlabl><attrdef>Area of feature in internal units squared.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>SHAPE_len</attrlabl></attr></detailed><detailed><enttyp><enttypl>lc_land.GISADMIN.Act537Muni_Rel</enttypl></enttyp></detailed></eainfo><distinfo><distliab>See access and use constraints information.</distliab><stdorder><digform><digtinfo><formname>SDE Feature Class</formname></digtinfo><digtopt/></digform></stdorder></distinfo><metainfo><metd>201712</metd><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc><metc><cntinfo><cntorgp><cntorg>County of Lancaster</cntorg><cntper>IT/GIS</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>150 N. Queen St., Suite 322</address><city>Lancaster</city><state>PA</state><postal>17603</postal><country>United States</country></cntaddr><cntvoice>717-391-7550</cntvoice><cntemail>ithelpdesk@co.lancaster.pa.us</cntemail></cntinfo></metc></metainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 - 8792</cntvoice><cntemail>pasda@psu.edu</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo><mdLang><languageCode value="eng"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>IT/GIS</rpIndName><rpOrgName>County of Lancaster</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-391-7550</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>150 N. Queen St., Suite 322</delPoint><city>Lancaster</city><adminArea>PA</adminArea><postCode>17603</postCode><country>US</country><eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdDateSt>20171201</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName><rpCntInfo><cntPhone><voiceNum>(814) 865 - 8792</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>115 Land and Water building</delPoint><city>University Park</city><adminArea>Pennsylvania</adminArea><postCode>16802</postCode><country>US</country><eMailAdd>pasda@psu.edu</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont></distributor><distributor><distorOrdPrc/><distorFormat><formatName>SDE Feature Class</formatName></distorFormat></distributor><distTranOps><onLineSrc><linkage>http://www.pasda.psu.edu</linkage></onLineSrc></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>Lancaster County Municipal Boundaries</resTitle><date><pubDate>2017-03</pubDate></date><citRespParty><rpOrgName>Lancaster County GIS Department</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>Polygon layer representing the Lancaster County municipal boundaries</idAbs><idPurp>Data created for Lancaster County Information Technology/GIS. Intended for illustration and demonstration purposes only.</idPurp><idPoC><rpIndName>IT/GIS</rpIndName><rpOrgName>County of Lancaster</rpOrgName><rpCntInfo><cntPhone><voiceNum>717-391-7550</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>150 N. Queen St.</delPoint><city>Lancaster</city><adminArea>PA</adminArea><postCode>17603</postCode><country>US</country><eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><themeKeys><keyword>planningCadastre</keyword><keyword>Municipality</keyword><keyword>Borough</keyword><keyword>Township</keyword><keyword>Municipal boundaries</keyword><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName></themeKeys><searchKeys><keyword>planningCadastre</keyword><keyword>Municipality</keyword><keyword>Borough</keyword><keyword>Township</keyword><keyword>Municipal boundaries</keyword></searchKeys><resConst><LegConsts><useLimit>See access and use constraints information.</useLimit><useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/></dataLang><tpCat><TopicCatCd value="015"/></tpCat><tpCat><TopicCatCd value="003"/></tpCat><envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-76.726688</westBL><eastBL>-75.867953</eastBL><southBL>39.715983</southBL><northBL>40.322298</northBL></GeoBndBox></geoEle></dataExt><dataExt><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2017-03</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt></dataIdInfo><spatRepInfo><VectSpatRep><geometObjs><geoObjTyp><GeoObjTypCd value="001"/></geoObjTyp><geoObjCnt>78</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Esri><CreaDate>20171223</CreaDate><CreaTime>10445000</CreaTime><ArcGISFormat>1.0</ArcGISFormat></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="9ffae7bb6066e7633609738ea21af33c" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Lancaster County Municipal Boundaries</title>
+        <geoform>vector digital data</geoform>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>201712</pubdate>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.726688</westbc>
+        <eastbc>-75.867953</eastbc>
+        <northbc>40.322298</northbc>
+        <southbc>39.715983</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Municipal boundaries</themekey>
+        <themekey>Township</themekey>
+        <themekey>Borough</themekey>
+        <themekey>Municipality</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St. </address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201712</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <descript>
+      <abstract>LancasterCountyMunicipalBoundaries201712</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>78</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Lancaster County Municipal Boundaries</enttypl>
+        <enttypd>Attribute table for Parcels</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPALI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ABBREVIATI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LENG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT</attrlabl>
+        <attrdef>Municipal district number </attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>010</edomv>
+            <edomvd>Adamstown</edomvd>
+          </edom>
+          <edom>
+            <edomv>020</edomv>
+            <edomvd>Akron</edomvd>
+          </edom>
+          <edom>
+            <edomv>030</edomv>
+            <edomvd>Bart</edomvd>
+          </edom>
+          <edom>
+            <edomv>040</edomv>
+            <edomvd>Brecknock</edomvd>
+          </edom>
+          <edom>
+            <edomv>050</edomv>
+            <edomvd>Caernarvon</edomvd>
+          </edom>
+          <edom>
+            <edomv>060</edomv>
+            <edomvd>Christiana</edomvd>
+          </edom>
+          <edom>
+            <edomv>070</edomv>
+            <edomvd>Clay</edomvd>
+          </edom>
+          <edom>
+            <edomv>080</edomv>
+            <edomvd>East Cocalico</edomvd>
+          </edom>
+          <edom>
+            <edomv>090</edomv>
+            <edomvd>West Cocalico</edomvd>
+          </edom>
+          <edom>
+            <edomv>091</edomv>
+            <edomvd>West Cocalico</edomvd>
+          </edom>
+          <edom>
+            <edomv>100</edomv>
+            <edomvd>Colerain</edomvd>
+          </edom>
+          <edom>
+            <edomv>110</edomv>
+            <edomvd>Columbia</edomvd>
+          </edom>
+          <edom>
+            <edomv>120</edomv>
+            <edomvd>Conestoga</edomvd>
+          </edom>
+          <edom>
+            <edomv>130</edomv>
+            <edomvd>Conoy</edomvd>
+          </edom>
+          <edom>
+            <edomv>140</edomv>
+            <edomvd>Denver</edomvd>
+          </edom>
+          <edom>
+            <edomv>150</edomv>
+            <edomvd>East Donegal</edomvd>
+          </edom>
+          <edom>
+            <edomv>160</edomv>
+            <edomvd>West Donegal</edomvd>
+          </edom>
+          <edom>
+            <edomv>170</edomv>
+            <edomvd>Drumore</edomvd>
+          </edom>
+          <edom>
+            <edomv>180</edomv>
+            <edomvd>East Drumore</edomvd>
+          </edom>
+          <edom>
+            <edomv>190</edomv>
+            <edomvd>Earl</edomvd>
+          </edom>
+          <edom>
+            <edomv>200</edomv>
+            <edomvd>East Earl</edomvd>
+          </edom>
+          <edom>
+            <edomv>210</edomv>
+            <edomvd>West Earl</edomvd>
+          </edom>
+          <edom>
+            <edomv>220</edomv>
+            <edomvd>East Petersburg</edomvd>
+          </edom>
+          <edom>
+            <edomv>230</edomv>
+            <edomvd>Eden</edomvd>
+          </edom>
+          <edom>
+            <edomv>240</edomv>
+            <edomvd>Elizabeth</edomvd>
+          </edom>
+          <edom>
+            <edomv>250</edomv>
+            <edomvd>Elizabethtown</edomvd>
+          </edom>
+          <edom>
+            <edomv>260</edomv>
+            <edomvd>Ephrata Borough</edomvd>
+          </edom>
+          <edom>
+            <edomv>270</edomv>
+            <edomvd>Ephrata Township</edomvd>
+          </edom>
+          <edom>
+            <edomv>280</edomv>
+            <edomvd>Fulton</edomvd>
+          </edom>
+          <edom>
+            <edomv>290</edomv>
+            <edomvd>East Hempfield</edomvd>
+          </edom>
+          <edom>
+            <edomv>300</edomv>
+            <edomvd>West Hempfield</edomvd>
+          </edom>
+          <edom>
+            <edomv>310</edomv>
+            <edomvd>East Lampeter</edomvd>
+          </edom>
+          <edom>
+            <edomv>320</edomv>
+            <edomvd>West Lampeter</edomvd>
+          </edom>
+          <edom>
+            <edomv>330</edomv>
+            <edomvd>City of Lancaster</edomvd>
+          </edom>
+          <edom>
+            <edomv>340</edomv>
+            <edomvd>Lancaster Township</edomvd>
+          </edom>
+          <edom>
+            <edomv>350</edomv>
+            <edomvd>Leacock</edomvd>
+          </edom>
+          <edom>
+            <edomv>360</edomv>
+            <edomvd>Upper Leacock</edomvd>
+          </edom>
+          <edom>
+            <edomv>370</edomv>
+            <edomvd>Lititz</edomvd>
+          </edom>
+          <edom>
+            <edomv>380</edomv>
+            <edomvd>Little Britain</edomvd>
+          </edom>
+          <edom>
+            <edomv>390</edomv>
+            <edomvd>Manheim Towship</edomvd>
+          </edom>
+          <edom>
+            <edomv>400</edomv>
+            <edomvd>Manheim Borough</edomvd>
+          </edom>
+          <edom>
+            <edomv>410</edomv>
+            <edomvd>Manor</edomvd>
+          </edom>
+          <edom>
+            <edomv>420</edomv>
+            <edomvd>Marietta</edomvd>
+          </edom>
+          <edom>
+            <edomv>430</edomv>
+            <edomvd>Martic</edomvd>
+          </edom>
+          <edom>
+            <edomv>440</edomv>
+            <edomvd>Millersville</edomvd>
+          </edom>
+          <edom>
+            <edomv>450</edomv>
+            <edomvd>Mount Joy Borough</edomvd>
+          </edom>
+          <edom>
+            <edomv>460</edomv>
+            <edomvd>Mount Joy Township</edomvd>
+          </edom>
+          <edom>
+            <edomv>470</edomv>
+            <edomvd>Mountville</edomvd>
+          </edom>
+          <edom>
+            <edomv>480</edomv>
+            <edomvd>New Holland</edomvd>
+          </edom>
+          <edom>
+            <edomv>490</edomv>
+            <edomvd>Paradise</edomvd>
+          </edom>
+          <edom>
+            <edomv>500</edomv>
+            <edomvd>Penn</edomvd>
+          </edom>
+          <edom>
+            <edomv>510</edomv>
+            <edomvd>Pequea</edomvd>
+          </edom>
+          <edom>
+            <edomv>520</edomv>
+            <edomvd>Providence</edomvd>
+          </edom>
+          <edom>
+            <edomv>530</edomv>
+            <edomvd>Quarryville</edomvd>
+          </edom>
+          <edom>
+            <edomv>540</edomv>
+            <edomvd>Rapho</edomvd>
+          </edom>
+          <edom>
+            <edomv>550</edomv>
+            <edomvd>Sadsbury</edomvd>
+          </edom>
+          <edom>
+            <edomv>560</edomv>
+            <edomvd>Salisbury</edomvd>
+          </edom>
+          <edom>
+            <edomv>570</edomv>
+            <edomvd>Strasburg Borough</edomvd>
+          </edom>
+          <edom>
+            <edomv>580</edomv>
+            <edomvd>Strasburg Township</edomvd>
+          </edom>
+          <edom>
+            <edomv>590</edomv>
+            <edomvd>Terre Hill</edomvd>
+          </edom>
+          <edom>
+            <edomv>600</edomv>
+            <edomvd>Warwick</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_len</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>lc_land.GISADMIN.Act537Muni_Rel</enttypl>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201712</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>IT/GIS</rpIndName>
+    <rpOrgName>County of Lancaster</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-391-7550</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>150 N. Queen St., Suite 322</delPoint>
+        <city>Lancaster</city>
+        <adminArea>PA</adminArea>
+        <postCode>17603</postCode>
+        <country>US</country>
+        <eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20171201</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distributor>
+      <distorOrdPrc />
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Lancaster County Municipal Boundaries</resTitle>
+      <date>
+        <pubDate>2017-03</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Lancaster County GIS Department</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Polygon layer representing the Lancaster County municipal boundaries</idAbs>
+    <idPurp>Data created for Lancaster County Information Technology/GIS. Intended for illustration and demonstration purposes only.</idPurp>
+    <idPoC>
+      <rpIndName>IT/GIS</rpIndName>
+      <rpOrgName>County of Lancaster</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-391-7550</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>150 N. Queen St.</delPoint>
+          <city>Lancaster</city>
+          <adminArea>PA</adminArea>
+          <postCode>17603</postCode>
+          <country>US</country>
+          <eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>planningCadastre</keyword>
+      <keyword>Municipality</keyword>
+      <keyword>Borough</keyword>
+      <keyword>Township</keyword>
+      <keyword>Municipal boundaries</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>planningCadastre</keyword>
+      <keyword>Municipality</keyword>
+      <keyword>Borough</keyword>
+      <keyword>Township</keyword>
+      <keyword>Municipal boundaries</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>See access and use constraints information.</useLimit>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="015" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="003" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-76.726688</westBL>
+          <eastBL>-75.867953</eastBL>
+          <southBL>39.715983</southBL>
+          <northBL>40.322298</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-03</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="001" />
+        </geoObjTyp>
+        <geoObjCnt>78</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20171223</CreaDate>
+    <CreaTime>10445000</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="9ffae7bb6066e7633609738ea21af33c" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
 aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDx0aXRsZT5M
 YW5jYXN0ZXIgQ291bnR5IE11bmljaXBhbCBCb3VuZGFyaWVzPC90aXRsZT4NCiAgICAgICAgPGdl
 b2Zvcm0+dmVjdG9yIGRpZ2l0YWwgZGF0YTwvZ2VvZm9ybT4NCiAgICAgICAgPG9yaWdpbj5MYW5j
@@ -265,4 +915,7 @@ YXJ0aWVzIGludm9sdmVkIHdpdGggdGhlIGRldmVsb3BtZW50IGFuZCBkaXN0cmlidXRpb24gb2Yg
 dGhpcyBkYXRhIHdpbGwgbm90IGJlIGxpYWJsZSBmb3IgYW55IGRpcmVjdCwgaW5kaXJlY3QsIHNw
 ZWNpYWwsIGluY2lkZW50YWwsIG9yIGNvbnNlcXVlbnRpYWwgZGFtYWdlcyBhcmlzaW5nIG91dCBv
 ZiB0aGUgdXNlIG9yIGluYWJpbGl0eSB0byB1c2UgdGhlIEZJTEVTIG9yIGFueSBhY2NvbXBhbnlp
-bmcgZG9jdW1lbnRhdGlvbi48L2Rpc3RsaWFiPg0KICA8L2Rpc3RpbmZvPg0KPC9tZXRhZGF0YT4=</Data></Enclosure></Binary></metadata>
+bmcgZG9jdW1lbnRhdGlvbi48L2Rpc3RsaWFiPg0KICA8L2Rpc3RpbmZvPg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

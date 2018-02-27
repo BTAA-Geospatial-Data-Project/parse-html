@@ -1,4 +1,4 @@
-﻿<metadata>
+<metadata>
   <idinfo>
     <citation>
       <citeinfo>
@@ -6,22 +6,6 @@
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
-    <descript>
-      <abstract>AbstractZip code boundaries expressed as a polygon feature class for the City of Philadelphia.Data DevelopmentSeveral data sets and sources were used to create the most accurate representation of the zip code boundaries. Starting with a previous iteration of zip code border data, existing borders were compared to data from the US Census Bureau (Zip Code Tabulation Areas). This data was then reconciled with current Zip code information from the United States Postal Service (the authority on zip codes) to get the most current data possible. Several borders were modified to account for changes or cartographic considerations.Key Attribute Field Names and DescriptionsCODE: Zip code for each polygon.Coordinate SystemLambert Conformal Conic, NAD83, PA South Stateplane coordinates, US Foot.Thematic MappingUse the CODE field for thematic mapping and labeling.Other InformationZip Code Tabulation Areas were developed by the US Census Bureau to overcome difficulties in precisely defining the land area covered by each Zip Code. The ZCTAs are generalized area representation of the USPS Zip code service areas, but are not the same as Zip codes. There is no correlation between ZIP codes and Census Bureau geography. In addition, the USPS frequently realigns, merges or splits ZIP codes to meet changing needs. ZCTAs are constructed by aggregating the Census 2000 blocks whose addresses use a given ZIP code. The census bureau took the ZIP code used by the majority of addresses in each census unit at the time the data was compiled. As a result, some addresses end up with a ZCTA code that is different from their ZIP code.</abstract>
-      <purpose>The purpose of this dataset is to represent the Zip Code areas for the City of Philadelphia.  The edges of Zip Codes are slightly modified for logical and cartographic purposes.
-
-This polygon layer has an accompanying arc layer. Certain arcs in the arc layer contain data signifying information relating it to the polygon layer. It can tell you if both sides of the arc belong to one of the bounding polygons.  All the arcs, including those with no boundary info, have naming attributes for labeling the polygon borders.  Contact the Streets GIS unit for public consumption of the corresponding arc layer.  
-
-Features updated: 10/5/2012
-Attributes updated: 10/5/2012
-Metadata updated: 6/5/2015
-Update Frequency:  As needed
-Public = Y
-
-
-NOTE:  This layer is used by a ULRS Service Area.  Do not remove without permission from OIT.  
-</purpose>
-    </descript>
     <status>
       <update>Annually</update>
     </status>
@@ -53,6 +37,9 @@ Philadelphia, PA 19102
 Contact:  Max Steinbrenner 215-686-5093, max.steinbrenner@phila.gov
 </datacred>
     <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyStreets_Zipcodes_Poly</abstract>
+    </descript>
   </idinfo>
   <spdoinfo>
     <direct>Vector</direct>

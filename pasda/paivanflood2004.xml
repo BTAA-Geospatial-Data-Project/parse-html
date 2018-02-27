@@ -1,98 +1,86 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <metadata>
-	<idinfo>
-		<citation>
-			<citeinfo>
-				<origin>EarthData International, LLC</origin>
-				<pubdate>20040927</pubdate>
-				<pubtime>Unknown</pubtime>
-				<title>Digital Orthophoto Production for Flood Assessment of the Juniata and Susquehanna Rivers in Pennsylvania</title>
-				<edition>1st Edition</edition>
-				<geoform>remote-sensing image</geoform>
-				<pubinfo>
-					<pubplace>Frederick, Maryland, U.S.A.</pubplace>
-					<publish>EarthData International, LLC</publish>
-				</pubinfo>
-				<onlink>http://www.pasda.psu.edu/</onlink></citeinfo>
-		</citation>
-		<descript>
-			<abstract>
-This metadata record describes the production of
-natural color digital orthophotography for the first priority
-area of the September 2004 Pennsylvania flood
-assessment project.  Priority 1 consists of the production of
-digital orthophotography over a section of the Juniata River
-from the Raystown Dam to the main body of the
-Susquehanna River in the state of Pennsylvania. All
-imagery was acquired during September of 2004.
-</abstract>
-			<purpose>
-This data set was produced by EarthData International,
-LLC, and supplied to the State of
-Pennsylvania, Office for Information Technology
-</purpose>
-		</descript>
-		<timeperd>
-			<timeinfo>
-				<sngdate>
-					<caldate>20040919</caldate>
-				</sngdate>
-			</timeinfo>
-			<current>ground condition</current>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>None planned</update>
-		</status>
-		<spdom>
-			<bounding>
-				<westbc>-078.285524</westbc>
-				<eastbc>-076.993583</eastbc>
-				<northbc>+40.636944</northbc>
-				<southbc>+40.207967</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Categories</themekt>
-				<themekey>Digital Orthophotography</themekey>
-				<themekey>Aerotriangulation</themekey>
-				<themekey>DTM</themekey>
-				<themekey>Imagery/Base Maps/Earth Cover</themekey></theme>
-			<place>
-				<placekt>None</placekt>
-				<placekey>United States of America (USA)</placekey>
-				<placekey>State of Pennsylvania</placekey>
-				<placekey>Juniata River</placekey>
-				<placekey>Susquehanna River</placekey>
-			</place>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>None</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>EarthData International, LLC</cntorg>
-					<cntper>Scott Lane</cntper>
-				</cntorgp>
-				<cntpos>Project Manager</cntpos>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>7320 Executive Way</address>
-					<city>Frederick</city>
-					<state>Maryland</state>
-					<postal>21704</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>301-948-8550</cntvoice>
-				<cntfax>301-963-2064</cntfax>
-				<cntemail>metadata@earthdata.com</cntemail>
-				<hours>9:00-5:00 M-F</hours>
-			</cntinfo>
-		</ptcontac>
-	</idinfo>
-	<dataqual>
-		<logic>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>EarthData International, LLC</origin>
+        <pubdate>20040927</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>Digital Orthophoto Production for Flood Assessment of the Juniata and Susquehanna Rivers in Pennsylvania</title>
+        <edition>1st Edition</edition>
+        <geoform>remote-sensing image</geoform>
+        <pubinfo>
+          <pubplace>Frederick, Maryland, U.S.A.</pubplace>
+          <publish>EarthData International, LLC</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20040919</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-078.285524</westbc>
+        <eastbc>-076.993583</eastbc>
+        <northbc>+40.636944</northbc>
+        <southbc>+40.207967</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Digital Orthophotography</themekey>
+        <themekey>Aerotriangulation</themekey>
+        <themekey>DTM</themekey>
+        <themekey>Imagery/Base Maps/Earth Cover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States of America (USA)</placekey>
+        <placekey>State of Pennsylvania</placekey>
+        <placekey>Juniata River</placekey>
+        <placekey>Susquehanna River</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>EarthData International, LLC</cntorg>
+          <cntper>Scott Lane</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>7320 Executive Way</address>
+          <city>Frederick</city>
+          <state>Maryland</state>
+          <postal>21704</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>301-948-8550</cntvoice>
+        <cntfax>301-963-2064</cntfax>
+        <cntemail>metadata@earthdata.com</cntemail>
+        <hours>9:00-5:00 M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>paivanflood2004</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>
 EarthData adhered to a plus or minus 5 to 10 meter
 horizontal accuracy by the following.
 1. Utilized USGS DOQQs and DEM to develop photo
@@ -103,7 +91,7 @@ of photography.
 processes to confirm that the entire project area is
 covered.
 </logic>
-		<complete>
+    <complete>
 Digital orthophotography  consists of 91 12000 X 12000
 foot ortho tiles in tiff/tfw format.  MrSID mosaic files
 were also produced and delivered with this dataset.  The
@@ -111,71 +99,71 @@ project area covers a portion of the Juniata River from the
 Raystown Dam to the main stream of the Susquehanna
 River.
 </complete>
-		<posacc>
-			<horizpa>
-				<horizpar>
+    <posacc>
+      <horizpa>
+        <horizpar>
 The horizontal accuracy for the digital orthophotography
 met accuracy levels of plus or minus 5 to 10 meters or
 better.
 </horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>EarthData International, LLC</origin>
-						<pubdate>20040922</pubdate>
-						<title>Photo Control for the Pennsylvania Flood Assessment, Digital Orthophotography of the Juniata River, PA</title>
-						<edition>1st</edition>
-						<geoform>model</geoform>
-						<pubinfo>
-							<pubplace>Frederick, MD, USA</pubplace>
-							<publish>EarthData International, LLC</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>4800</srcscale>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>20040922</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Photo Control</srccitea>
-				<srccontr>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>EarthData International, LLC</origin>
+            <pubdate>20040922</pubdate>
+            <title>Photo Control for the Pennsylvania Flood Assessment, Digital Orthophotography of the Juniata River, PA</title>
+            <edition>1st</edition>
+            <geoform>model</geoform>
+            <pubinfo>
+              <pubplace>Frederick, MD, USA</pubplace>
+              <publish>EarthData International, LLC</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>4800</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20040922</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Photo Control</srccitea>
+        <srccontr>
 EarthData International, LLC established photo control
 using USGS DOQQs and DEMs.  A total of 36 control
 points were established across the project area.  Control
 referenced the Pennsylvania State Plane Coordinate
 System, South Zone, NAD83, NAVD88, US survey feet.
 </srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>EarthData Aviation</origin>
-						<pubdate>20040919</pubdate>
-						<pubtime>Unknown</pubtime>
-						<title>Aerial Photography of the Juniata River</title>
-						<geoform>profile</geoform>
-					</citeinfo>
-				</srccite>
-				<srcscale>28800</srcscale>
-				<typesrc>filmstrip</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>20040919</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>Ground Condition</srccurr>
-				</srctime>
-				<srccitea>Aerial photography</srccitea>
-				<srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>EarthData Aviation</origin>
+            <pubdate>20040919</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>Aerial Photography of the Juniata River</title>
+            <geoform>profile</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>28800</srcscale>
+        <typesrc>filmstrip</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20040919</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>Aerial photography</srccitea>
+        <srccontr>
 The aerial photographic mission was composed of a total
 of 172 exposures in 11 flight lines following the Juniata
 River from the Raystown Dam to the main body of the
@@ -191,9 +179,9 @@ exposed on film type X-100, emulsion number
 67663414.  All aerial photography was acquired during
 September of 2004.
 </srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>
+      </srcinfo>
+      <procstep>
+        <procdesc>
 The ground control and airborne GPS data was integrated
 into a rigid network through the completion of a fully
 analytical bundle aerotriangulation adjustment.
@@ -280,33 +268,33 @@ Imaging Bundle Block Adjustment software several times.
 running the final adjustment, placing no constraints on any
 quality control points.
 </procdesc>
-				<srcused>Aerotriangulation</srcused>
-				<procdate>20040923</procdate>
-				<srcprod>Analytical Aerotriangulation</srcprod>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>EarthData International, LLC</cntorg>
-							<cntper>Scott Lane</cntper>
-						</cntorgp>
-						<cntpos>Project Manager</cntpos>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>7320 Executive Way</address>
-							<city>Frederick</city>
-							<state>Maryland</state>
-							<postal>21704</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>301-948-8550</cntvoice>
-						<cntfax>301-963-2064</cntfax>
-						<cntemail>metadata@earthdata.com</cntemail>
-						<hours>9 AM - 5 PM Mon. - Fri.</hours>
-					</cntinfo>
-				</proccont>
-			</procstep>
-			<procstep>
-				<procdesc>
+        <srcused>Aerotriangulation</srcused>
+        <procdate>20040923</procdate>
+        <srcprod>Analytical Aerotriangulation</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>EarthData International, LLC</cntorg>
+              <cntper>Scott Lane</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>Maryland</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+            <cntfax>301-963-2064</cntfax>
+            <cntemail>metadata@earthdata.com</cntemail>
+            <hours>9 AM - 5 PM Mon. - Fri.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 EarthData International, LLC utilized USGS downloaded
 DEMs as its surface model for a small portion of the
 orthophotography under this priority of the job.  However,
@@ -345,33 +333,33 @@ orthophoto.
 3. Acceptable DTM data was used for digital orthophoto
 production.
 </procdesc>
-				<srcused>DTM Mapping</srcused>
-				<procdate>20040922</procdate>
-				<srcprod>DTM</srcprod>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>EarthData International, LLC</cntorg>
-							<cntper>Scott Lane</cntper>
-						</cntorgp>
-						<cntpos>Project Manager</cntpos>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>7320 Executive Way</address>
-							<city>Frederick</city>
-							<state>Maryland</state>
-							<postal>21704</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>301-948-8550</cntvoice>
-						<cntfax>301-963-2064</cntfax>
-						<cntemail>metadata@earthdata.com</cntemail>
-						<hours>9 AM - 5 PM Mon. - Fri.</hours>
-					</cntinfo>
-				</proccont>
-			</procstep>
-			<procstep>
-				<procdesc>
+        <srcused>DTM Mapping</srcused>
+        <procdate>20040922</procdate>
+        <srcprod>DTM</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>EarthData International, LLC</cntorg>
+              <cntper>Scott Lane</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>Maryland</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+            <cntfax>301-963-2064</cntfax>
+            <cntemail>metadata@earthdata.com</cntemail>
+            <hours>9 AM - 5 PM Mon. - Fri.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
 The digital orthophotography was produced in 24-bit
 natural color at a ratio of 1 in 4,800 with a 2 foot pixel
 resolution.  A step-by-step breakdown of the digital
@@ -473,123 +461,128 @@ ESRI platforms.  Three MrSID files were also created for
 the project.  The MrSID files were mosaiced from groups of
 individual TIFFs.
 </procdesc>
-				<srcused>Digital Orthophotography</srcused>
-				<procdate>20040925</procdate>
-				<srcprod>Digital Orthophotography</srcprod>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>EarthData International, LLC</cntorg>
-							<cntper>Scott Lane</cntper>
-						</cntorgp>
-						<cntpos>Project Manager</cntpos>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>7320 Executive Way</address>
-							<city>Frederick</city>
-							<state>Maryland</state>
-							<postal>21704</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>301-948-8550</cntvoice>
-						<cntfax>301-963-2064</cntfax>
-						<cntemail>metadata@earthdata.com</cntemail>
-						<hours>9 AM - 5 PM Mon. - Fri.</hours>
-					</cntinfo>
-				</proccont>
-			</procstep>
-		</lineage>
-		<cloud>0</cloud>
-	</dataqual>
-	<spdoinfo>
-		<direct>Point</direct>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<gridsys>
-					<gridsysn>State Plane Coordinate System</gridsysn>
-					<spcs>
-						<spcszone>Pennsylvania S. (3702)</spcszone>
-						<transmer>
-							<sfctrmer>0.999995</sfctrmer>
-							<longcm>-077.750000</longcm>
-							<latprjo>+39.333333</latprjo>
-							<feast>600000.00</feast>
-							<fnorth>0.0000</fnorth>
-						</transmer>
-					</spcs>
-				</gridsys>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>2</absres>
-						<ordres>2</ordres>
-					</coordrep>
-					<plandu>Survey Feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000</semiaxis>
-				<denflat>1/298.2572221010</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntperp>
-					<cntper>Jim Knudson</cntper>
-					<cntorg>State of Pennsylvania, Office for Information Technology</cntorg>
-				</cntperp>
-				<cntpos>Director of Geospatial Technologies</cntpos>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>
+        <srcused>Digital Orthophotography</srcused>
+        <procdate>20040925</procdate>
+        <srcprod>Digital Orthophotography</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>EarthData International, LLC</cntorg>
+              <cntper>Scott Lane</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>Maryland</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+            <cntfax>301-963-2064</cntfax>
+            <cntemail>metadata@earthdata.com</cntemail>
+            <hours>9 AM - 5 PM Mon. - Fri.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>Pennsylvania S. (3702)</spcszone>
+            <transmer>
+              <sfctrmer>0.999995</sfctrmer>
+              <longcm>-077.750000</longcm>
+              <latprjo>+39.333333</latprjo>
+              <feast>600000.00</feast>
+              <fnorth>0.0000</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>2</absres>
+            <ordres>2</ordres>
+          </coordrep>
+          <plandu>Survey Feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000</semiaxis>
+        <denflat>1/298.2572221010</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jim Knudson</cntper>
+          <cntorg>State of Pennsylvania, Office for Information Technology</cntorg>
+        </cntperp>
+        <cntpos>Director of Geospatial Technologies</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>
 State of Pennsylvania
 Office for Information Technology
 Governor's Office of Administration
 210 Finance Building
 </address>
-					<city>Harrisburg</city>
-					<state>Pennsylvania</state>
-					<postal>17120</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>717-346-1538</cntvoice>
-				<cntfax>717-787-4523</cntfax>
-				<cntemail>jknudson@state.pa.us</cntemail>
-				<hours>M-F 9am to 5pm</hours>
-			</cntinfo>
-		</distrib>
-		<distliab>None</distliab>
-	</distinfo>
-	<metainfo>
-		<metd>20041004</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>EarthData International, LLC</cntorg>
-					<cntper>Scott Lane</cntper>
-				</cntorgp>
-				<cntpos>Project Manager</cntpos>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>7320 Executive Way</address>
-					<city>Frederick</city>
-					<state>Maryland</state>
-					<postal>21704</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>301-948-8550</cntvoice>
-				<cntfax>301-963-2064</cntfax>
-				<cntemail>metadata@earthdata.com</cntemail>
-				<hours>9:00 AM - 5:00 PM (ET) M-F</hours>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-	</metainfo>
-	<Esri><ModDate>20080612</ModDate><ModTime>10550900</ModTime></Esri><mdDateSt Sync="TRUE">20080612</mdDateSt></metadata>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17120</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-346-1538</cntvoice>
+        <cntfax>717-787-4523</cntfax>
+        <cntemail>jknudson@state.pa.us</cntemail>
+        <hours>M-F 9am to 5pm</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>None</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20041004</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>EarthData International, LLC</cntorg>
+          <cntper>Scott Lane</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>7320 Executive Way</address>
+          <city>Frederick</city>
+          <state>Maryland</state>
+          <postal>21704</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>301-948-8550</cntvoice>
+        <cntfax>301-963-2064</cntfax>
+        <cntemail>metadata@earthdata.com</cntemail>
+        <hours>9:00 AM - 5:00 PM (ET) M-F</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10550900</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>
