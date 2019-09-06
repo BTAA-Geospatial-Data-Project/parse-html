@@ -11,10 +11,10 @@ from bs4 import BeautifulSoup
 
 contents = []
 
-f = csv.writer(open('output.csv', 'w'))
+f = csv.writer(open('output_20190905.csv', 'w'))
 f.writerow(['Title','Date','Publisher','Description','Metadata'])
 
-with open('pas.csv','r') as csvf: # Open file in read mode
+with open('pasdaURLs.csv','r') as csvf: # Open file in read mode
     urls = csv.reader(csvf)
     for url in urls:
         contents.append(url) # Add each url to list contents

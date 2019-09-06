@@ -11,7 +11,7 @@ portalMetadata = []
 f = csv.writer(open('pas2.csv', 'w'))
 f.writerow(['Title','Date','Publisher','Description','Metadata'])
 
-with open('list.csv','r') as harvest:
+with open('archivedlinks.csv','r') as harvest:
     urls = csv.reader(harvest)
     for url in urls:
         portalMetadata.append(url)
@@ -25,6 +25,7 @@ for url in contents:
 	publisherField = soup.find(attrs={'id': 'Label3'})
 	descriptionField = soup.find(attrs={'id': 'Label14'})
 	metadataLink = soup.find('a', href=True, text='Metadata')
+	downloadLink = soup.find('a', href=True, text='Download historic versions of this dataset')
 
 
 	title = titleField.text.strip(),
@@ -32,6 +33,7 @@ for url in contents:
 	publisher = publisherField.text.strip(),
 	description = descriptionField.text.strip(),
 	metadata = metadataLink['href'],
+	download = downloadLink['href'],
 
 
 	f.writerow([title,date,publisher,description,metadata])
